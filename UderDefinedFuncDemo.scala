@@ -19,7 +19,6 @@ object UderDefinedFuncDemo {
   }
 
   def add_func( x:Int, y:Int) = {
-
     var z=x+y 
     println(z)
   }

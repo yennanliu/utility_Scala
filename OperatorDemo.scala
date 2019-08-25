@@ -16,7 +16,6 @@ object OperatorDemo {
       println("a < b = " + (a < b) );
       println("b >= a = " + (b >= a) );
       println("b <= a = " + (b <= a) );
-      
       var f = true
       var g = false 
       println("f && g = " + (f && g) );
