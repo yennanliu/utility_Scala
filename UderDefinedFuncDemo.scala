@@ -5,21 +5,21 @@ object UderDefinedFuncDemo {
     var result2 = myfunc2()
     println(result1)
     println(result2)
-    add_func(10,20)
+    add_func(10, 20)
   }
 
   def myfunc1() = {
     var a = 10
-    a 
-  }
-  
-  def myfunc2() = {
-    var b = 20
-    b  
+    a
   }
 
-  def add_func( x:Int, y:Int) = {
-    var z=x+y 
+  def myfunc2() = {
+    var b = 20
+    b
+  }
+
+  def add_func(x: Int, y: Int) = {
+    var z = x + y
     println(z)
   }
 }
