@@ -27,4 +27,7 @@ $ spark-submit \
 - Build Scala Spark project with sbt 
 	- http://xd-deng.com/render_html/step_by_step_to_package_spark_app_scala.html
 
+- sbt manual 
+	- https://www.scala-sbt.org/1.x/docs/index.html
+
 
