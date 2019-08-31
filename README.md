@@ -56,8 +56,7 @@ Enter number: 11
 ## Development 
 
 - Trouble shooting 
-	- if there are errors like `Origin location must be absolute error in building a SBT project`, try to clean the sbt cache :
-	`rm -fr ~/.ivy2` (remove entire .ivy2 file, and run `sbt package` to build to project again) 
+	- if facing `Origin location must be absolute error in building a SBT project` like [errors](https://github.com/yennanliu/utility_Scala/blob/master/doc/origin_location_must_be_absolute_error.txt) when sbt build (`sbt package`), try to clean the sbt cache : `rm -fr ~/.ivy2` (remove entire .ivy2 file then build the project again) 
 	- https://www.scala-sbt.org/1.x/docs/Dependency-Management-Flow.html
 
 ## Ref 
