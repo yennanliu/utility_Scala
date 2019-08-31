@@ -3,18 +3,53 @@
 ## Quick start
 
 ```bash
-# run scala hello world 
+# METHOD 1) run scala hello world 
 $ git clone https://github.com/yennanliu/utility_Scala.git
 $ cd utility_Scala
 $ scala HelloWorld.scala 
 $ Hello World
 
-# run scala spark hello world
-$ sbt package
+# METHOD 2) run scala spark hello world
+$ cd utility_Scala
 $ spark-submit \
   --class "SimpleApp" \
   --master local[4] \
   target/scala-2.11/simple-project_2.11-1.0.jar
+
+
+# METHOD 3) run scala spark hello world via sbt 
+$ cd utility_Scala
+$ sbt package
+$ sbt
+# inside sbt console
+sbt:Simple Project> run 
+# [warn] Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+
+# Multiple main classes detected, select one to run:
+
+#  [1] AnonymousFuncDemo
+#  [2] ClassDemo
+#  [3] FileIODemo
+#  [4] ForLoopDemo
+#  [5] FunctionChangeableParameterDemo
+#  [6] FunctionCompositionDemo
+#  [7] HelloWorld
+#  [8] IfElseDemo
+#  [9] OperatorDemo
+#  [10] PatterMatchDemo
+#  [11] SimpleApp
+#  [12] Test
+#  [13] UderDefinedDefaultParamFuncDemo
+#  [14] UderDefinedFuncDemo
+
+Enter number: 11
+
+# [info] Running SimpleApp 
+# ...
+#  >>>>>>>>>>>>>> OUTPUT
+# Lines with a: 21, Lines with b: 9
+#  >>>>>>>>>>>>>> OUTPUT
+# ...
 
 ```
 
@@ -29,5 +64,3 @@ $ spark-submit \
 
 - sbt manual 
 	- https://www.scala-sbt.org/1.x/docs/index.html
-
-
