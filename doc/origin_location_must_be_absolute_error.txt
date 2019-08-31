@@ -1,0 +1,271 @@
+
+yennanliu@yennanliu-MBP:~/utility_Scala(master⚡) » sbt package 
+[info] Updated file /Users/yennanliu/utility_Scala/project/build.properties: set sbt.version to 1.2.8
+[info] Loading project definition from /Users/yennanliu/utility_Scala/project
+[info] Updating ProjectRef(uri("file:/Users/yennanliu/utility_Scala/project/"), "utility_scala-build")...
+[info] Done updating.
+[info] Loading settings for project utility_scala from build.sbt ...
+[info] Set current project to Simple Project (in build file:/Users/yennanliu/utility_Scala/)
+[info] Updating ...
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::          UNRESOLVED DEPENDENCIES         ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: org.codehaus.jackson#jackson-core-asl;1.9.13: org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom
+[warn] 	:: org.codehaus.jackson#jackson-mapper-asl;1.9.13: org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom
+[warn] 	:: com.thoughtworks.paranamer#paranamer;2.3: com.thoughtworks.paranamer#paranamer;2.3!paranamer.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.pom
+[warn] 	:: org.apache.commons#commons-compress;1.4.1: org.apache.commons#commons-compress;1.4.1!commons-compress.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom
+[warn] 	:: com.esotericsoftware#kryo-shaded;3.0.3: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[warn] 	:: com.google.guava#guava;11.0.2: com.google.guava#guava;11.0.2!guava.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/com/google/guava/guava/11.0.2/guava-11.0.2.pom
+[warn] 	:: commons-cli#commons-cli;1.2: commons-cli#commons-cli;1.2!commons-cli.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+[warn] 	:: commons-collections#commons-collections;3.2.2: commons-collections#commons-collections;3.2.2!commons-collections.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom
+[warn] 	:: commons-lang#commons-lang;2.6: commons-lang#commons-lang;2.6!commons-lang.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[warn] 	:: commons-digester#commons-digester;1.8: commons-digester#commons-digester;1.8!commons-digester.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.pom
+[warn] 	:: com.google.protobuf#protobuf-java;2.5.0: com.google.protobuf#protobuf-java;2.5.0!protobuf-java.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom
+[warn] 	:: org.htrace#htrace-core;3.0.4: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[warn] 	:: net.java.dev.jets3t#jets3t;0.9.4: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[warn] 	:: com.ning#compress-lzf;1.0.3: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[warn] 	:: commons-net#commons-net;2.2: org.apache.commons#commons-parent;17!commons-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[warn] 	:: com.clearspring.analytics#stream;2.7.0: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[warn] 	:: net.sf.py4j#py4j;0.10.6: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[warn] 	:: com.google.code.findbugs#jsr305;3.0.2: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[warn] 	:: jline#jline;2.12.1: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
+[warn] 		com.esotericsoftware:kryo-shaded:3.0.3
+[warn] 		  +- com.twitter:chill-java:0.8.4
+[warn] 		  +- com.twitter:chill_2.11:0.8.4
+[warn] 		  +- org.apache.spark:spark-unsafe_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		com.ning:compress-lzf:1.0.3
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		commons-cli:commons-cli:1.2
+[warn] 		  +- org.apache.hadoop:hadoop-yarn-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-core:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-shuffle:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-app:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-client:2.6.5
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		commons-collections:commons-collections:3.2.2
+[warn] 		  +- org.apache.hadoop:hadoop-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-client:2.6.5
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		com.google.guava:guava:11.0.2
+[warn] 		  +- org.apache.hadoop:hadoop-yarn-api:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-yarn-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-core:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-shuffle:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-app:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-client:2.6.5
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		commons-net:commons-net:2.2
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		com.clearspring.analytics:stream:2.7.0
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		org.codehaus.jackson:jackson-mapper-asl:1.9.13
+[warn] 		  +- org.codehaus.jackson:jackson-xc:1.9.13
+[warn] 		  +- org.apache.hadoop:hadoop-yarn-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-core:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-shuffle:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-app:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-client:2.6.5
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		net.sf.py4j:py4j:0.10.6
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		com.google.protobuf:protobuf-java:2.5.0
+[warn] 		  +- org.apache.hadoop:hadoop-yarn-api:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-yarn-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-core:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-shuffle:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-app:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-client:2.6.5
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		jline:jline:2.12.1
+[warn] 		  +- org.scala-lang:scala-compiler:2.11.8
+[warn] 		  +- org.scala-lang:scalap:2.11.8
+[warn] 		  +- org.json4s:json4s-core_2.11:3.2.11
+[warn] 		  +- org.json4s:json4s-jackson_2.11:3.2.11
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		commons-lang:commons-lang:2.6
+[warn] 		  +- org.apache.hadoop:hadoop-yarn-api:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-yarn-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-core:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-shuffle:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-app:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-client:2.6.5
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		net.java.dev.jets3t:jets3t:0.9.4
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		commons-digester:commons-digester:1.8
+[warn] 		  +- commons-configuration:commons-configuration:1.6
+[warn] 		  +- org.apache.hadoop:hadoop-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-client:2.6.5
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		org.htrace:htrace-core:3.0.4
+[warn] 		  +- org.apache.hadoop:hadoop-hdfs:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-client:2.6.5
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		org.codehaus.jackson:jackson-core-asl:1.9.13
+[warn] 		  +- org.codehaus.jackson:jackson-jaxrs:1.9.13
+[warn] 		  +- org.apache.hadoop:hadoop-yarn-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-core:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-shuffle:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-app:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-client:2.6.5
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		org.apache.commons:commons-compress:1.4.1
+[warn] 		  +- org.apache.hadoop:hadoop-yarn-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-core:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-common:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-shuffle:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-mapreduce-client-app:2.6.5
+[warn] 		  +- org.apache.hadoop:hadoop-client:2.6.5
+[warn] 		  +- org.apache.spark:spark-core_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-catalyst_2.11:2.3.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[warn] 		com.google.code.findbugs:jsr305:3.0.2
+[warn] 		  +- org.apache.arrow:arrow-memory:0.8.0
+[warn] 		  +- org.apache.arrow:arrow-vector:0.8.0
+[warn] 		  +- org.apache.spark:spark-sql_2.11:2.3.0 (/Users/yennanliu/utility_Scala/build.sbt#L15-16)
+[warn] 		  +- simple-project:simple-project_2.11:1.0
+[error] sbt.librarymanagement.ResolveException: unresolved dependency: org.codehaus.jackson#jackson-core-asl;1.9.13: org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom
+[error] unresolved dependency: org.codehaus.jackson#jackson-mapper-asl;1.9.13: org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom
+[error] unresolved dependency: com.thoughtworks.paranamer#paranamer;2.3: com.thoughtworks.paranamer#paranamer;2.3!paranamer.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.pom
+[error] unresolved dependency: org.apache.commons#commons-compress;1.4.1: org.apache.commons#commons-compress;1.4.1!commons-compress.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom
+[error] unresolved dependency: com.esotericsoftware#kryo-shaded;3.0.3: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: com.google.guava#guava;11.0.2: com.google.guava#guava;11.0.2!guava.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/com/google/guava/guava/11.0.2/guava-11.0.2.pom
+[error] unresolved dependency: commons-cli#commons-cli;1.2: commons-cli#commons-cli;1.2!commons-cli.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+[error] unresolved dependency: commons-collections#commons-collections;3.2.2: commons-collections#commons-collections;3.2.2!commons-collections.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom
+[error] unresolved dependency: commons-lang#commons-lang;2.6: commons-lang#commons-lang;2.6!commons-lang.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[error] unresolved dependency: commons-digester#commons-digester;1.8: commons-digester#commons-digester;1.8!commons-digester.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.pom
+[error] unresolved dependency: com.google.protobuf#protobuf-java;2.5.0: com.google.protobuf#protobuf-java;2.5.0!protobuf-java.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom
+[error] unresolved dependency: org.htrace#htrace-core;3.0.4: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: net.java.dev.jets3t#jets3t;0.9.4: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: com.ning#compress-lzf;1.0.3: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: commons-net#commons-net;2.2: org.apache.commons#commons-parent;17!commons-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[error] unresolved dependency: com.clearspring.analytics#stream;2.7.0: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: net.sf.py4j#py4j;0.10.6: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: com.google.code.findbugs#jsr305;3.0.2: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: jline#jline;2.12.1: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] 	at sbt.internal.librarymanagement.IvyActions$.resolveAndRetrieve(IvyActions.scala:332)
+[error] 	at sbt.internal.librarymanagement.IvyActions$.$anonfun$updateEither$1(IvyActions.scala:208)
+[error] 	at sbt.internal.librarymanagement.IvySbt$Module.$anonfun$withModule$1(Ivy.scala:239)
+[error] 	at sbt.internal.librarymanagement.IvySbt.$anonfun$withIvy$1(Ivy.scala:204)
+[error] 	at sbt.internal.librarymanagement.IvySbt.sbt$internal$librarymanagement$IvySbt$$action$1(Ivy.scala:70)
+[error] 	at sbt.internal.librarymanagement.IvySbt$$anon$3.call(Ivy.scala:77)
+[error] 	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:95)
+[error] 	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:80)
+[error] 	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:99)
+[error] 	at xsbt.boot.Using$.withResource(Using.scala:10)
+[error] 	at xsbt.boot.Using$.apply(Using.scala:9)
+[error] 	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:60)
+[error] 	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:50)
+[error] 	at xsbt.boot.Locks$.apply0(Locks.scala:31)
+[error] 	at xsbt.boot.Locks$.apply(Locks.scala:28)
+[error] 	at sbt.internal.librarymanagement.IvySbt.withDefaultLogger(Ivy.scala:77)
+[error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:199)
+[error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:196)
+[error] 	at sbt.internal.librarymanagement.IvySbt$Module.withModule(Ivy.scala:238)
+[error] 	at sbt.internal.librarymanagement.IvyActions$.updateEither(IvyActions.scala:193)
+[error] 	at sbt.librarymanagement.ivy.IvyDependencyResolution.update(IvyDependencyResolution.scala:20)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:56)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:45)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:93)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:68)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$19(LibraryManagement.scala:106)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:224)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:106)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:89)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:149)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:120)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask$5(Defaults.scala:2561)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:44)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)
+[error] 	at sbt.std.Transform$$anon$4.work(System.scala:67)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+[error] 	at sbt.Execute.work(Execute.scala:278)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[error] 	at java.lang.Thread.run(Thread.java:745)
+[error] (update) sbt.librarymanagement.ResolveException: unresolved dependency: org.codehaus.jackson#jackson-core-asl;1.9.13: org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom
+[error] unresolved dependency: org.codehaus.jackson#jackson-mapper-asl;1.9.13: org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom
+[error] unresolved dependency: com.thoughtworks.paranamer#paranamer;2.3: com.thoughtworks.paranamer#paranamer;2.3!paranamer.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.pom
+[error] unresolved dependency: org.apache.commons#commons-compress;1.4.1: org.apache.commons#commons-compress;1.4.1!commons-compress.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom
+[error] unresolved dependency: com.esotericsoftware#kryo-shaded;3.0.3: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: com.google.guava#guava;11.0.2: com.google.guava#guava;11.0.2!guava.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/com/google/guava/guava/11.0.2/guava-11.0.2.pom
+[error] unresolved dependency: commons-cli#commons-cli;1.2: commons-cli#commons-cli;1.2!commons-cli.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+[error] unresolved dependency: commons-collections#commons-collections;3.2.2: commons-collections#commons-collections;3.2.2!commons-collections.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom
+[error] unresolved dependency: commons-lang#commons-lang;2.6: commons-lang#commons-lang;2.6!commons-lang.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[error] unresolved dependency: commons-digester#commons-digester;1.8: commons-digester#commons-digester;1.8!commons-digester.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.pom
+[error] unresolved dependency: com.google.protobuf#protobuf-java;2.5.0: com.google.protobuf#protobuf-java;2.5.0!protobuf-java.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom
+[error] unresolved dependency: org.htrace#htrace-core;3.0.4: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: net.java.dev.jets3t#jets3t;0.9.4: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: com.ning#compress-lzf;1.0.3: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: commons-net#commons-net;2.2: org.apache.commons#commons-parent;17!commons-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[error] unresolved dependency: com.clearspring.analytics#stream;2.7.0: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: net.sf.py4j#py4j;0.10.6: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: com.google.code.findbugs#jsr305;3.0.2: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] unresolved dependency: jline#jline;2.12.1: org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) origin location must be absolute: file:/Users/yennanliu/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[error] Total time: 30 s, completed Aug 31, 2019 11:08:07 PM
