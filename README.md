@@ -53,6 +53,14 @@ Enter number: 11
 
 ```
 
+## Development 
+
+- Trouble shooting 
+```bash 
+rm -fr ~/.ivy2
+```
+	- https://www.scala-sbt.org/1.x/docs/Dependency-Management-Flow.html
+
 ## Ref 
 - Scala Tutorial  
 	- https://www.javatpoint.com/scala-tutorial
