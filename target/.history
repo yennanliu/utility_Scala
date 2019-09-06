@@ -1,3 +1,16 @@
 run 
-run
+1
+2
+scala
+run 
 test
+ls
+run 
+rdd = sc.textFile("/Users/jerryliu/NYC_Taxi_Pipeline/data/yellow_tripdata_sample.csv") \
+        .map( lambda line : line.split(","))
+header = rdd.first()
+rdd_ = rdd.filter(lambda x : x != header)
+rdd_.collect()
+run 
+sbt package 
+run 
