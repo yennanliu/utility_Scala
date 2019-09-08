@@ -15,11 +15,11 @@ object ReduceByKeyDemo {
     //val sc = spark.sparkContext
 
     // load a txt file 
-    val lines = spark.sparkContext.textFile("/Users/jerryliu/utility_Scala/README.md")
+    val lines = spark.sparkContext.textFile("/Users/yennanliu/utility_Scala/README.md")
     val pairs = lines.map(s => (s, 1))
     val counts = pairs.reduceByKey((a, b) => a + b)
     println(">>>> OUTPUT ")
-    pairs.collect()
+    pairs.collect().foreach(println)
     println(">>>> OUTPUT ")
 
     // create pair RDD 
@@ -29,7 +29,7 @@ object ReduceByKeyDemo {
                   ("b", 1), ("b", 1)), 3)
 
     println(">>>> OUTPUT ")
-    x.collect()
+    x.collect().foreach(println)
     println(">>>> OUTPUT ")
     // x: org.apache.spark.rdd.RDD[(String, Int)] = 
     // ParallelCollectionRDD[1] at parallelize at <console>:21    
@@ -39,7 +39,7 @@ object ReduceByKeyDemo {
     //  ShuffledRDD[2] at reduceByKey at <console>:23
      
     println(">>>> OUTPUT ")
-    y.collect()
+    y.collect().foreach(println)
     println(">>>> OUTPUT ")
     // res0: Array[(String, Int)] = Array((a,3), (b,5))
      
@@ -49,7 +49,7 @@ object ReduceByKeyDemo {
     //  ShuffledRDD[3] at reduceByKey at <console>:23
    
     println(">>>> OUTPUT ")
-    z.collect()
+    z.collect().foreach(println)
     println(">>>> OUTPUT ")
     // res1: Array[(String, Int)] = Array((a,3), (b,5))
      
@@ -61,7 +61,7 @@ object ReduceByKeyDemo {
     //  ShuffledRDD[4] at reduceByKey at <console>:25
     
     println(">>>> OUTPUT ")
-    u.collect()
+    u.collect().foreach(println)
     println(">>>> OUTPUT ")
     // res2: Array[(String, Int)] = Array((a,3), (b,5))
     spark.stop()
