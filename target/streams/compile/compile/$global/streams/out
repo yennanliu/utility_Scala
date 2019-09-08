@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/jerryliu/utility_Scala/src/main/scala/ReduceByKeyDemo.scala:18:17: not found: value sc[0m
-[0m[[0m[31merror[0m] [0m[0m    val lines = sc.textFile("/Users/jerryliu/utility_Scala/README.md")[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
