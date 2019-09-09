@@ -70,3 +70,6 @@ Enter number: 11
 
 - sbt manual 
 	- https://www.scala-sbt.org/1.x/docs/index.html
+
+- scala test 
+	- http://www.scalatest.org/user_guide/using_scalatest_with_sbt
