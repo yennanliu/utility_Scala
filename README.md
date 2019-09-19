@@ -73,3 +73,9 @@ Enter number: 11
 
 - scala test 
 	- http://www.scalatest.org/user_guide/using_scalatest_with_sbt
+
+- Scala spark source code tutorial  
+	 - https://github.com/lw-lin/CoolplaySpark
+
+- Kafka with scala spark demo 
+	- https://github.com/spirom/spark-streaming-with-kafka
