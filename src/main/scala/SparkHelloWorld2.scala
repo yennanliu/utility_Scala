@@ -1,7 +1,8 @@
 package yen.scalautility
 
 import org.apache.spark.sql.SparkSession
-
+import org.apache.spark.SparkConf
+ 
 object SparkHelloWorld2 {
 
   def sparkJob(){
