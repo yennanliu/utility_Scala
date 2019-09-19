@@ -60,6 +60,10 @@ Enter number: 11
 	- https://www.scala-sbt.org/1.x/docs/Dependency-Management-Flow.html
 
 ## Ref 
+
+<details>
+<summary>Ref</summary>
+
 - Scala Tutorial  
 	- https://www.javatpoint.com/scala-tutorial
 	- https://www.tutorialspoint.com/scala/
@@ -79,3 +83,8 @@ Enter number: 11
 
 - Kafka with scala spark demo 
 	- https://github.com/spirom/spark-streaming-with-kafka
+
+- Spark scala test 
+	- http://mkuthan.github.io/blog/2015/03/01/spark-unit-testing/
+
+</details>
