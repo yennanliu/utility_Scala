@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/jerryliu/utility_Scala/src/main/scala/SparkSQLDemo.scala:13:18: stable identifier required, but spark.implicits found.[0m
-[0m[[0m[31merror[0m] [0m[0m    import spark.implicits._[0m
-[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jerryliu/utility_Scala/src/main/scala/SparkHelloWorld2.scala:8:5: not found: value printl[0m
+[0m[[0m[31merror[0m] [0m[0m    printl("this is a monk spark job")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
