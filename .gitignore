@@ -10,3 +10,4 @@ spark-warehouse
 project/*
 target/*
 *.xsl
+*.xml

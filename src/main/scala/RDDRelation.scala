@@ -79,4 +79,3 @@ object RDDRelation {
     spark.stop()
   }
 }
-// scalastyle:on println
