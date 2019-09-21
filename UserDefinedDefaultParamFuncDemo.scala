@@ -1,4 +1,4 @@
-object UderDefinedDefaultParamFuncDemo {
+object UserDefinedDefaultParamFuncDemo {
   def main(args: Array[String]) {
     println("Below is output of udf :")
     var result1 = myfunc1()

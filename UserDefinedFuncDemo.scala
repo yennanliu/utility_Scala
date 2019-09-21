@@ -1,4 +1,4 @@
-object UderDefinedFuncDemo {
+object UserDefinedFuncDemo {
   def main(args: Array[String]) {
     println("Below is output of udf :")
     var result1 = myfunc1()
