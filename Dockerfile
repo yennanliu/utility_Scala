@@ -1,20 +1,18 @@
-FROM openjdk:8
-RUN apt-get update
-RUN apt-get install -y netcat
-RUN apt-get install -y jq
-RUN apt-get install -y telnet
+#------------------------
+# SPARK 2.1.0  SCALA
+#------------------------
 
-ENV SCALA_VERSION 2.12.2
-ENV SBT_VERSION 1.1.6
+# https://github.com/SRDC-Docker/spark/blob/master/2.1.0/Dockerfile
 
-RUN \
-  curl -L -o sbt-$SBT_VERSION.deb http://dl.bintray.com/sbt/debian/sbt-$SBT_VERSION.deb && \
-  dpkg -i sbt-$SBT_VERSION.deb && \
-  rm sbt-$SBT_VERSION.deb && \
-  apt-get update && \
-  apt-get install sbt && \
-  sbt sbtVersion
+FROM srdc/scala:2.11.7
+MAINTAINER yennj12 
 
-WORKDIR /myworkdir
-ADD . /myworkdir
-RUN sbt assembly
+ENV SPARK_VERSION 2.1.0
+
+RUN curl http://ftp.itu.edu.tr/Mirror/Apache/spark/spark-$SPARK_VERSION/spark-$SPARK_VERSION-bin-hadoop2.7.tgz | tar -xz -C /opt
+RUN cd /opt && ln -s ./spark-$SPARK_VERSION-bin-hadoop2.7 spark
+
+ENV SPARK_HOME /opt/spark
+ENV PATH $SPARK_HOME/bin:$PATH
+
+CMD ["bash"]
