@@ -43,6 +43,5 @@ target=/spark-word-count \
 # inside docker env 
 root@79c0100f5cf6:~# cd ../spark-word-count
 root@79c0100f5cf6:~# sbt assembly
-root@79c0100f5cf6:~# spark-submit --class "rdd.WordCount" target/ \
-scala-2.11/spark-word-count-assembly-1.0.jar
+root@79c0100f5cf6:~# spark-submit --class "rdd.WordCount"  target/scala-2.11/spark-word-count-assembly-1.0.jar
 ```
