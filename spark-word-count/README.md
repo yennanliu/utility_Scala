@@ -23,10 +23,8 @@ $ sbt run
 - spark-submit run scala spark word count demo 
 ```bash
 $ sbt assembly
-$ cd /root/spark-word-count/target/scala-2.11
-$ spark-submit --class "rdd.WordCount" \
-  --master mesos://127.0.0.1:50 \
-  spark-on-mesos-assembly-1.0.jar
+$ cd spark-word-count/target/scala-2.11
+$ spark-submit --class "rdd.WordCount"  spark-word-count-assembly-1.0.jar
 
 ```
 
@@ -39,7 +37,7 @@ $ docker build . -t spark_scala_env
 # docker run 
 $ docker run  --mount \
 type=bind,\
-source="$(pwd)"/.,\
+source="$(pwd)"/spark-word-count,\
 target=/spark-word-count \
 -i -t spark_scala_env \
 /bin/bash 
