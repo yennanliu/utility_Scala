@@ -11,7 +11,7 @@ object WordCount extends App{
   val config = ConfigFactory.load()
   // load file via scala relative path 
   // https://stackoverflow.com/questions/42484965/unable-to-access-file-in-relative-path-in-scala-for-test-resource
-  val filePath = "sample.txt"
+  val filePath = "main/resources/sample.txt"
   //val filePath = config.getString("file_path")
   val sparkMaster = config.getString("SPARK_MASTER")
   val sparkAppName = config.getString("SPARK_APPNAME")

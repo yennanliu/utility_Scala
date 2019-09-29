@@ -23,9 +23,8 @@ $ sbt run
 - spark-submit run scala spark word count demo 
 ```bash
 $ sbt assembly
-$ cd spark-word-count/target/scala-2.11
-$ spark-submit --class "rdd.WordCount"  spark-word-count-assembly-1.0.jar
-
+$ spark-submit --class "rdd.WordCount" target/ \
+scala-2.11/spark-word-count-assembly-1.0.jar
 ```
 
 ### Quick start via Docker 
