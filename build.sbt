@@ -18,3 +18,12 @@ libraryDependencies ++= Seq(
     "org.apache.spark" %% "spark-sql" % "2.3.0",
     "org.apache.spark" %% "spark-mllib" % "2.2.0"
     )
+
+conflictManager := ConflictManager.latestRevision
+
+mainClass := Some("com.yen.utility_java")
+
+assemblyMergeStrategy in assembly := {
+  case PathList("META-INF", xs @ _*) => MergeStrategy.discard
+  case x => MergeStrategy.first
+}
