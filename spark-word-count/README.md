@@ -3,24 +3,24 @@
 
 ### Quick start 
 
-- Prerequest
+- Step 0) Prerequest
 ```bash 
 $ git clone https://github.com/yennanliu/utility_Scala.git
 $ cd utility_Scala
 $ cd spark-word-count
 ``` 
 
-- sbt build 
+- Step 1) sbt build 
 ```bash 
 $ sbt clean compile
 $ sbt assembly
 ```
-- sbt run 
+- Step 1') sbt run 
 ```bash 
 $ sbt run
 ```
 
-- spark-submit run scala spark word count demo 
+- - Step 2) spark-submit run scala spark word count demo 
 ```bash
 $ sbt assembly
 $ spark-submit --class "rdd.WordCount" target/ \
@@ -40,4 +40,9 @@ source="$(pwd)"/spark-word-count,\
 target=/spark-word-count \
 -i -t spark_scala_env \
 /bin/bash 
+# inside docker env 
+root@79c0100f5cf6:~# cd ../spark-word-count
+root@79c0100f5cf6:~# sbt assembly
+root@79c0100f5cf6:~# spark-submit --class "rdd.WordCount" target/ \
+scala-2.11/spark-word-count-assembly-1.0.jar
 ```

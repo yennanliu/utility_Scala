@@ -1,4 +1,3 @@
-
 name := "spark-word-count"
 
 version := "1.0"
