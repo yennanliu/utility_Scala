@@ -11,3 +11,5 @@ project/*
 target/*
 *.xsl
 *.xml
+*.DS_Store
+*.class
