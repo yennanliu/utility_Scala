@@ -8,21 +8,15 @@
 ## Quick start
 
 ```bash
-# METHOD 1) run scala hello world 
+
+# DEMO 1) run scala hello world 
 $ git clone https://github.com/yennanliu/utility_Scala.git
 $ cd utility_Scala
 $ scala src/main/scala/UtilityScala/HelloWorld.scala 
-$ Hello World
-
-# METHOD 2) run scala spark hello world
-$ cd utility_Scala
-$ spark-submit \
-  --class "SimpleApp" \
-  --master local[4] \
-  target/scala-2.11/simple-project_2.11-1.0.jar
+#$ Hello World
 
 
-# METHOD 3) run scala spark hello world via sbt 
+# DEMO 2) run scala spark hello world via sbt 
 $ cd utility_Scala
 $ sbt package
 $ sbt
@@ -55,6 +49,14 @@ Enter number: 11
 # Lines with a: 21, Lines with b: 9
 #  >>>>>>>>>>>>>> OUTPUT
 # ...
+
+# DEMO 3) run scala spark hello world
+$ cd utility_Scala
+$ sbt clean compile && sbt assembly 
+$ spark-submit \
+  --class "SimpleApp" \
+  --master local[4] \
+  target/scala-2.11/simple-project_2.11-1.0.jar
 
 ```
 
