@@ -1,12 +1,17 @@
 # utility_Scala
 
+## Main files
+
+1. [Utility Scala](https://github.com/yennanliu/utility_Scala/tree/master/src/main/scala/UtilityScala)
+2. [Spark Scala Demo](https://github.com/yennanliu/utility_Scala/tree/master/src/main/scala/SparkDemo)
+
 ## Quick start
 
 ```bash
 # METHOD 1) run scala hello world 
 $ git clone https://github.com/yennanliu/utility_Scala.git
 $ cd utility_Scala
-$ scala HelloWorld.scala 
+$ scala src/main/scala/UtilityScala/HelloWorld.scala 
 $ Hello World
 
 # METHOD 2) run scala spark hello world
