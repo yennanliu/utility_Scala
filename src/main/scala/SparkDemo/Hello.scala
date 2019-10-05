@@ -1,4 +1,4 @@
-package yen.scalautility
+package SparkDemo
 
 object Hello extends App {
   val p = Person("JIM")

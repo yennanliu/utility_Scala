@@ -18,6 +18,8 @@
 // scalastyle:off println
 //package org.apache.spark.examples.sql
 
+package SparkDemo
+
 import org.apache.spark.sql.SaveMode
 // $example on:init_session$
 import org.apache.spark.sql.SparkSession

@@ -1,3 +1,5 @@
+package SparkDemo
+
 import org.apache.spark.sql.SaveMode
 // $example on:init_session$
 import org.apache.spark.sql.SparkSession

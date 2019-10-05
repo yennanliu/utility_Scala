@@ -1,4 +1,4 @@
-package yen.scalautility
+package SparkDemo
 
 // import required spark classes
 import org.apache.spark.SparkConf
