@@ -72,6 +72,7 @@ $ spark-submit \
 <summary>Ref</summary>
 
 - Scala Tutorial  
+	- https://docs.scala-lang.org/tour/basics.html
 	- https://www.javatpoint.com/scala-tutorial
 	- https://www.tutorialspoint.com/scala/
 	- http://www.runoob.com/scala/scala-basic-syntax.html
