@@ -1,4 +1,5 @@
-name := "Simple Project"
+  
+name := "Utility-Scala"
 
 version := "1.0"
 
@@ -6,22 +7,29 @@ scalaVersion := "2.11.8"
 
 val sparkVersion = "2.3.0"
 
-resolvers += "Local Maven Repository" at "http://download.java.net/maven/2/"
-resolvers += Resolver.bintrayIvyRepo("com.eed3si9n", "sbt-plugins")
-resolvers += "Artima Maven Repository" at "http://repo.artima.com/releases"
-
-//addSbtPlugin("com.artima.supersafe" % "sbtplugin" % "1.1.3")
-
 libraryDependencies ++= Seq(
-    "org.scalactic" %% "scalactic" % "3.0.8",
-    "org.scalatest" %% "scalatest" % "3.0.8" % "test",
-    "org.apache.spark" %% "spark-sql" % "2.3.0",
-    "org.apache.spark" %% "spark-mllib" % "2.2.0"
-    )
+  // config
+  "com.typesafe" % "config" % "1.2.1", 
+  // spark  
+  "org.apache.spark" %% "spark-core" % "2.3.0",
+  "org.scalactic" %% "scalactic" % "3.0.8",
+  "org.scalatest" %% "scalatest" % "3.0.8" % "test",
+  "org.apache.spark" %% "spark-sql" % "2.3.0",
+  "org.apache.spark" %% "spark-mllib" % "2.2.0",
+  // spark stream 
+  "org.apache.spark" %% "spark-streaming" % "2.3.1",
+  "org.apache.spark" % "spark-sql-kafka-0-10_2.11" % "2.2.1",
+  "org.apache.spark" % "spark-streaming-kafka-0-8_2.11" % "2.2.1",
+  "org.apache.spark" %% "spark-streaming-kinesis-asl" % "2.2.1",
+  "org.apache.bahir" %% "spark-streaming-twitter" % "2.3.1",
+  "com.github.catalystcode" %% "streaming-reddit" % "0.0.1",
+  "org.apache.spark" %% "spark-hive" % "2.3.0" % "provided"
+
+)
 
 conflictManager := ConflictManager.latestRevision
 
-mainClass := Some("com.yen.utility_java")
+//mainClass := Some("rdd.WordCount")
 
 assemblyMergeStrategy in assembly := {
   case PathList("META-INF", xs @ _*) => MergeStrategy.discard
