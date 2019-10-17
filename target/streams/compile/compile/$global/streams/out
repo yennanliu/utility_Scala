@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/SparkForeachDemo.scala:17:18: not found: type SparkContext[0m
-[0m[[0m[31merror[0m] [0m[0m    val sc = new SparkContext(sparkConf)[0m
-[0m[[0m[31merror[0m] [0m[0m                 ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
