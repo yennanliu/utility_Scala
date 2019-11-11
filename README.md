@@ -76,6 +76,7 @@ $ spark-submit \
 	- https://www.javatpoint.com/scala-tutorial
 	- https://www.tutorialspoint.com/scala/
 	- http://www.runoob.com/scala/scala-basic-syntax.html
+	- https://ithelp.ithome.com.tw/users/20107343/ironman/1301?page=1
 
 - Build Scala Spark project with sbt 
 	- http://xd-deng.com/render_html/step_by_step_to_package_spark_app_scala.html
