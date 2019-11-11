@@ -23,7 +23,9 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-streaming-kinesis-asl" % "2.2.1",
   "org.apache.bahir" %% "spark-streaming-twitter" % "2.3.1",
   "com.github.catalystcode" %% "streaming-reddit" % "0.0.1",
-  "org.apache.spark" %% "spark-hive" % "2.3.0" % "provided"
+  "org.apache.spark" %% "spark-hive" % "2.3.0" % "provided",
+  "mysql" % "mysql-connector-java" % "8.0.17"
+
 
 )
 
