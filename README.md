@@ -96,4 +96,7 @@ $ spark-submit \
 - Spark scala test 
 	- http://mkuthan.github.io/blog/2015/03/01/spark-unit-testing/
 
+- Spark scala tutorial 
+	- http://allaboutscala.com/big-data/spark/
+
 </details>
