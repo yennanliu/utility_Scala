@@ -1,11 +1,11 @@
-package yen.scalautility
+// package yen.scalautility
 
-import org.scalatest.FunSuite
+// import org.scalatest.FunSuite
 
-class TeskSparkHelloWorld extends FunSuite {
-	test("TEST ON SparkHelloWorld2") {
+// class TeskSparkHelloWorld extends FunSuite {
+// 	test("TEST ON SparkHelloWorld2") {
 
-    SparkHelloWorld2.main(Array("1"));
+//     SparkHelloWorld2.main(Array("1"));
 
-	}
-}
+// 	}
+// }
