@@ -1,4 +1,3 @@
-
 package ScalaBasic
 
 object scala_basic_demo_1{
