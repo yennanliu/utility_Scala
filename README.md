@@ -6,6 +6,7 @@
 2. [Spark Scala Demo](https://github.com/yennanliu/utility_Scala/tree/master/src/main/scala/SparkDemo)
 3. Scala basic
 	- [scala_basic_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/scala_basic_demo_1.scala)
+	- [scala_basic_demo_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/scala_basic_demo_2.scala)
 
 ## Quick start
 

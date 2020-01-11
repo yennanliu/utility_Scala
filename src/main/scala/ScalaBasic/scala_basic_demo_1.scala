@@ -4,7 +4,7 @@ object scala_basic_demo_1{
 
     def main(args: Array[String]){
 
-        // `1) if-else
+        // 1) if-else
         if (1 > 3) println("Impossible!") else println("The world makes sense.") 
 
         if (1 > 3) { 
@@ -32,7 +32,7 @@ object scala_basic_demo_1{
         do { println(z); z += 1} while (z <= 10)
 
 
-        //4)  "Returns" the final value in a block automatically
+        // 4)  "Returns" the final value in a block automatically
         {var u = 10; u + 20}
         println({val u = 10; u + 20})  
 
