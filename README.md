@@ -1,5 +1,10 @@
 # utility_Scala
 
+## Scala Projects 
+[spark_emr_dev](https://github.com/yennanliu/spark_emr_dev) - Demo of submitting Hadoop ecosystem jobs to AWS EMR
+[spark-etl-pipeline](https://github.com/yennanliu/spark-etl-pipeline) - Demo of various Spark ETL processes
+[utility_Scala](https://github.com/yennanliu/utility_Scala) - Scala/Spark programming basic demo 
+
 ## Main files
 
 1. [Utility Scala](https://github.com/yennanliu/utility_Scala/tree/master/src/main/scala/UtilityScala)
@@ -8,6 +13,9 @@
 	- [scala_basic_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/scala_basic_demo_1.scala)
 	- [scala_basic_demo_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/scala_basic_demo_2.scala)
 	- [scala_basic_demo_3](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/scala_basic_demo_3.scala)
+
+4. Spark basic
+	- [scala_basic_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_1.scala)
 
 ## Quick start
 
