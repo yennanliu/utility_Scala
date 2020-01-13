@@ -9,7 +9,7 @@ object spark_basic_demo_1{
     def main(args: Array[String]){
 
         val conf = new SparkConf().setAppName("spark_basic_demo_1").setMaster("local[*]")
-        var sc = new SparkContext(conf)
+        val sc = new SparkContext(conf)
 
         // 0) define a rdd 
         val rdd = sc.parallelize(List(1,2,3,4))
@@ -25,6 +25,12 @@ object spark_basic_demo_1{
             return x * x}
 
         rdd.map(squareIt).collect()
+
+        def StringIt( x : Int): String = {
+            return x.toString() + " -- "
+        }
+
+        rdd.map(StringIt).collect()
 
         // 4) reduce as a action to the RDD
         //rdd.map(squareIt).map( x => (x,1)).reduceByKey {case (x, y) => x + y }
