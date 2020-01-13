@@ -32,6 +32,9 @@ object spark_basic_demo_1{
 
         rdd.map(StringIt).collect()
 
+        // 4) count by values 
+        val r = rdd.countByValue()
+
         // 4) reduce as a action to the RDD
         //rdd.map(squareIt).map( x => (x,1)).reduceByKey {case (x, y) => x + y }
 
