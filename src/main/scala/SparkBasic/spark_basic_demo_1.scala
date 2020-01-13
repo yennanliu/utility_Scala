@@ -1,8 +1,15 @@
 package SparkBasic
 
+import org.apache.spark.SparkConf
+import org.apache.spark.SparkContext
+import org.apache.spark.sql.SparkSession
+
 object spark_basic_demo_1{
 
     def main(args: Array[String]){
+
+        val conf = new SparkConf().setAppName("spark_basic_demo_1").setMaster("local[*]")
+        var sc = new SparkContext(conf)
 
         // 0) define a rdd 
         val rdd = sc.parallelize(List(1,2,3,4))
