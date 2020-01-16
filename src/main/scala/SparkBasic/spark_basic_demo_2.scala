@@ -10,6 +10,7 @@ object spark_basic_demo_2{
 
         val conf = new SparkConf().setAppName("spark_basic_demo_2").setMaster("local[*]")
         val sc = new SparkContext(conf)
+        //val sc = new SparkContext(local[*]", "spark_basic_demo_2")
 
         println("CALCULATE AVG friends BY AGE")
 

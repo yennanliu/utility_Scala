@@ -10,6 +10,7 @@ object spark_basic_demo_1{
 
         val conf = new SparkConf().setAppName("spark_basic_demo_1").setMaster("local[*]")
         val sc = new SparkContext(conf)
+        //val sc = new SparkContext(local[*]", "spark_basic_demo_1")
 
         // 0) define a rdd 
         val rdd = sc.parallelize(List(1,2,3,4))

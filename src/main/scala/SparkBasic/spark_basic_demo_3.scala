@@ -12,6 +12,7 @@ object spark_basic_demo_3{
 
         val conf = new SparkConf().setAppName("spark_basic_demo_3").setMaster("local[*]")
         val sc = new SparkContext(conf)
+        //val sc = new SparkContext(local[*]", "spark_basic_demo_3")
 
         println("CALCULATE MIN temo BY location")
 
