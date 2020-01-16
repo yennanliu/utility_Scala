@@ -16,7 +16,8 @@
 
 4. Spark basic
 	- [Spark_basic_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_1.scala) - scala spark function basic demo
-	- [Spark_basic_demo_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2.scala) - demo load/parse csv via scala spark function
+	- [Spark_basic_demo_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2.scala) - count avg friends by age (rdd basic op demo)
+		- [Spark_basic_demo_3](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_3.scala) - extra : count avg friend by first name
 
 ## Quick start
 

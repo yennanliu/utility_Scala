@@ -11,6 +11,8 @@ object spark_basic_demo_2{
         val conf = new SparkConf().setAppName("spark_basic_demo_2").setMaster("local[*]")
         val sc = new SparkContext(conf)
 
+        println("CALCULATE AVG friends BY AGE")
+
         def parseLine(line : String) = {
 
             val fields = line.split(",")
@@ -35,6 +37,7 @@ object spark_basic_demo_2{
 
         val result = averageByAge.collect()
 
+        // print out the result for loop
         result.sorted.foreach(println)
 
     }
