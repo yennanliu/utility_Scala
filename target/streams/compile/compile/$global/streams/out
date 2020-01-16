@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/jerryliu/utility_Scala/src/main/scala/SparkBasic/spark_basic_demo_2.scala:26:9: identifier expected but 'val' found.[0m
-[0m[[0m[31merror[0m] [0m[0m        val averageByAge = totalsByAge.reduceByKey( x => x._1/x._2 )[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jerryliu/utility_Scala/src/main/scala/SparkBasic/spark_basic_demo_2.scala:27:22: not found: value averageByAge[0m
+[0m[[0m[31merror[0m] [0m[0m        val result = averageByAge.collect()[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
