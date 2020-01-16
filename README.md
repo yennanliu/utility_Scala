@@ -18,6 +18,7 @@
 	- [Spark_basic_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_1.scala) - scala spark function basic demo
 	- [Spark_basic_demo_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2.scala) - scala spark RDD basic op demo : count avg friends by age
 		- [Spark_basic_demo_2 extra](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2_extra.scala) - extra : count avg friend by first name
+	- [Spark_basic_demo_3](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_3.scala) - scala spark RDD filter demo : min temp on each station (weather data)
 
 ## Quick start
 
