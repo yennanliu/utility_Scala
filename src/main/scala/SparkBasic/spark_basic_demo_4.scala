@@ -9,6 +9,8 @@ object spark_basic_demo_4{
 
     def main(args: Array[String]){
 
+        Logger.getLogger("org").setLevel(Level.ERROR)
+
         val sc = new SparkContext("local[*]", "spark_basic_demo_4")
 
         println("CALCULATE word count")
