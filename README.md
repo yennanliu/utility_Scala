@@ -19,8 +19,12 @@
 	- [Spark_basic_demo_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2.scala) - scala spark RDD basic op demo : count avg friends by age
 		- [Spark_basic_demo_2 extra](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2_extra.scala) - extra : count avg friend by first name
 	- [Spark_basic_demo_3](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_3.scala) - scala spark RDD filter demo : min temp on each station (weather data)
+	- [Spark_basic_demo_4](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_4.scala) - scala spark RDD flatMap demo : word count (book data)
 
 ## Quick start
+
+<details>
+<summary> Quick start manually</summary>
 
 ```bash
 
@@ -74,6 +78,10 @@ $ spark-submit \
   target/scala-2.11/simple-project_2.11-1.0.jar
 
 ```
+</details>
+
+<details>
+<summary> Quick start via Docker</summary>
 
 ```bash
 $ git clone https://github.com/yennanliu/utility_Scala.git
@@ -84,7 +92,7 @@ type=bind,\
 source="$(pwd)"/.,\
 target=/utility_Scala \
 -i -t spark_env \
-/bin/bash 
+/bin/bash -c "cd ../utility_Scala"
 
 ```
 
@@ -93,6 +101,8 @@ target=/utility_Scala \
 - Trouble shooting 
 	- if facing `Origin location must be absolute error in building a SBT project` like [errors](https://github.com/yennanliu/utility_Scala/blob/master/doc/origin_location_must_be_absolute_error.txt) when sbt build (`sbt package`), try to clean the sbt cache via `rm -fr ~/.ivy2` (remove entire .ivy2 file), then build the project again
 	- https://www.scala-sbt.org/1.x/docs/Dependency-Management-Flow.html
+
+</details>
 
 ## Ref 
 
