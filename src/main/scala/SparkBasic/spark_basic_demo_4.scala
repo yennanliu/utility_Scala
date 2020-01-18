@@ -18,8 +18,10 @@ object spark_basic_demo_4{
         val words = input.flatMap( x => x.split(" "))
 
         val wordcounts = words.countByValue()
+        // val wordcounts = words.map( x => (x,1)).reduceByKey( (x, y) => x+y)
 
         for (wordcount <- wordcounts){ println(wordcount) } 
+        // wordcounts.foreach(println)
 
 
     }

@@ -92,17 +92,16 @@ type=bind,\
 source="$(pwd)"/.,\
 target=/utility_Scala \
 -i -t spark_env \
-/bin/bash -c "cd ../utility_Scala"
+/bin/bash
 
 ```
+</details>
 
 ## Development 
 
 - Trouble shooting 
 	- if facing `Origin location must be absolute error in building a SBT project` like [errors](https://github.com/yennanliu/utility_Scala/blob/master/doc/origin_location_must_be_absolute_error.txt) when sbt build (`sbt package`), try to clean the sbt cache via `rm -fr ~/.ivy2` (remove entire .ivy2 file), then build the project again
 	- https://www.scala-sbt.org/1.x/docs/Dependency-Management-Flow.html
-
-</details>
 
 ## Ref 
 
