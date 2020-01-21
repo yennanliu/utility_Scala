@@ -14,7 +14,7 @@ object PopularMoviesNicer {
   def loadMovieNames() : Map[Int, String] = {
     
     // Handle character encoding issues:
-    implicit val codec = Codec("UTF-8")
+    implicit val codec = Codec("UTF-8") // deal with the UTF-8 character (movie name mostly)
     codec.onMalformedInput(CodingErrorAction.REPLACE)
     codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
 
@@ -42,9 +42,11 @@ object PopularMoviesNicer {
      // Create a SparkContext using every core of the local machine
     val sc = new SparkContext("local[*]", "PopularMoviesNicer")  
     
+    /****
     // Create a broadcast variable of our ID -> movie name map
+    ****/
     var nameDict = sc.broadcast(loadMovieNames)
-    // can check the nameDict.value via command below
+    // can access the nameDict.value via command below
     // nameDict.value.map( x => x._2 )
     // nameDict.value.map( x => x._1 )
     
@@ -67,7 +69,7 @@ object PopularMoviesNicer {
     /*****
     // Fold in the movie names from the broadcast variable 
     *****/
-    val sortedMoviesWithNames = sortedMovies.map( x  => (nameDict.value(x._2), x._1) )
+    val sortedMoviesWithNames = sortedMovies.map( x  => (nameDict.value(x._2), x._1) ) // nameDict.value(x._2) : get the 2nd value from the nameDict (broadcast var)
     
     // Collect and print results
     val results = sortedMoviesWithNames.collect()
@@ -76,4 +78,3 @@ object PopularMoviesNicer {
   }
   
 }
-
