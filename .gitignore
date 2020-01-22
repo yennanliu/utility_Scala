@@ -14,3 +14,5 @@ target/*
 *.DS_Store
 *.class
 .DS_Store
+project/target/streams/*
+target/streams/*
