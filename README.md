@@ -22,6 +22,7 @@
 	- [Spark_basic_demo_4](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_4.scala) - scala spark RDD flatMap demo : word count (book data)
 		- [Spark_basic_demo_4 extra](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_4_extra.scala) - extra : word count with regular expression preprocess
 	- [PopularMoviesNicer](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/PopularMoviesNicer.scala) - scala spark `broadcast` demo :  movie-lens data (ml-100k)
+	- [MostPopularSuperhero](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/MostPopularSuperhero.scala)
 
 ## Quick start
 
