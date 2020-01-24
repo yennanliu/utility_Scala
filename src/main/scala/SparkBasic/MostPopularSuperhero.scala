@@ -14,6 +14,7 @@ object MostPopularSuperhero {
   }
   
   // Function to extract hero ID -> hero name tuples (or None in case of failure)
+  // Option : Scala syntax, can accept value or None return
   def parseNames(line: String) : Option[(Int, String)] = {
     var fields = line.split('\"')
     if (fields.length > 1) {
@@ -35,7 +36,7 @@ object MostPopularSuperhero {
     // Build up a hero ID -> name RDD
     val names = sc.textFile("data/marvel-names.txt")
     val namesRdd = names.flatMap(parseNames)
-    
+
     // Load up the superhero co-apperarance data
     val lines = sc.textFile("data/marvel-graph.txt")
     
