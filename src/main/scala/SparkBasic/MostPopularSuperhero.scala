@@ -9,7 +9,7 @@ object MostPopularSuperhero {
   
   // Function to extract the hero ID and number of connections from each line
   def countCoOccurences(line: String) = {
-    var elements = line.split("\\s+")
+    var elements = line.split("\\s+") // split whatever space via regurlar expression ( "//s+" : matches one or many whitespaces)
     ( elements(0).toInt, elements.length - 1 )
   }
   
@@ -41,6 +41,8 @@ object MostPopularSuperhero {
     
     // Convert to (heroID, number of connections) RDD
     val pairings = lines.map(countCoOccurences)
+    // or can via below 
+    // val pairings = lines.map( x => x.split("\\s+")).map( x => (x(0), x.length - 1))
     
     // Combine entries that span more than one line
     val totalFriendsByCharacter = pairings.reduceByKey( (x,y) => x + y )
