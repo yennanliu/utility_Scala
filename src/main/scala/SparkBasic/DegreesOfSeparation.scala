@@ -35,6 +35,7 @@ object DegreesOfSeparation {
     val heroID = fields(0).toInt
     
     // Extract subsequent hero ID's into the connections array
+    // use "var" here, since we need to keep adding value on this variable within loop (a dynamic variable)
     var connections: ArrayBuffer[Int] = ArrayBuffer()
     for ( connection <- 1 to (fields.length - 1)) {
       connections += fields(connection).toInt
@@ -42,7 +43,7 @@ object DegreesOfSeparation {
     
     // Default distance and color is 9999 and white
     var color:String = "WHITE"
-    var distance:Int = 9999
+    var distance:Int = 9999 // 9999 is the idea for "infinite" value
     
     // Unless this is the character we're starting from
     if (heroID == startCharacterID) {
