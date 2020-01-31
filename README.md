@@ -102,6 +102,35 @@ target=/utility_Scala \
 ```
 </details>
 
+<details>
+<summary> Quick start via `Spark-submit`</summary>
+
+```bash
+# package the scala saprk scripts
+$ sbt package
+# list the current classes
+$ ls target/scala-2.11/classes
+# run ForLoopDemo
+$ spark-submit \
+  --class ForLoopDemo \
+  target/scala-2.11/utilityscala_2.11-1.0.jar 
+# run LambdaFuncDemo
+$ spark-submit \
+  --class LambdaFuncDemo \
+  target/scala-2.11/utilityscala_2.11-1.0.jar 
+# run spark_basic_demo_4
+$ spark-submit \
+  --class SparkBasic.spark_basic_demo_4 \
+  target/scala-2.11/utilityscala_2.11-1.0.jar
+# run MovieSimilarities
+$ spark-submit \
+  --class SparkBasic.MovieSimilarities \
+  target/scala-2.11/utilityscala_2.11-1.0.jar 50 
+
+```
+
+</details>
+
 ## Development 
 
 - Trouble shooting 
