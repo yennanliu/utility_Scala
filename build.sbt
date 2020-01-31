@@ -1,5 +1,4 @@
-  
-name := "Utility-Scala"
+name := "UtilityScala"
 
 version := "1.0"
 
@@ -25,7 +24,6 @@ libraryDependencies ++= Seq(
   "com.github.catalystcode" %% "streaming-reddit" % "0.0.1",
   "org.apache.spark" %% "spark-hive" % "2.3.0" % "provided",
   "mysql" % "mysql-connector-java" % "8.0.17"
-
 
 )
 

@@ -9,7 +9,7 @@
 		extra-sbtVersion="1.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20200131222054"/>
+		date="20200131235407"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="1.2.8" status="release" pubdate="20181229142743" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
@@ -1281,14 +1281,17 @@
 			</revision>
 		</module>
 		<module organisation="com.eed3si9n" name="sbt-assembly">
-			<revision name="0.14.6" status="release" pubdate="20171114125801" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="0.14.6" status="release" pubdate="20171114125801" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="default(compile)" position="0">
 				<license name="MIT License" url="https://github.com/sbt/sbt-assembly/blob/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="1761" time="0" location="/Users/yennanliu/.ivy2/cache/scala_2.12/sbt_1.0/com.eed3si9n/sbt-assembly/ivy-0.14.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.12/sbt_1.0/0.14.6/ivys/ivy.xml"/>
 				<caller organisation="default" name="utility_scala-build" conf="test, compile, provided, test-internal, runtime, optional" rev="0.14.6" rev-constraint-default="0.14.6" rev-constraint-dynamic="0.14.6" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="sbt-assembly" type="jar" ext="jar" status="no" details="" size="123307" time="0" location="/Users/yennanliu/.ivy2/cache/scala_2.12/sbt_1.0/com.eed3si9n/sbt-assembly/jars/sbt-assembly-0.14.6.jar">
-						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.12/sbt_1.0/0.14.6/jars/sbt-assembly.jar"/>
-					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.14.3" evicted="latest-revision" evicted-reason="" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" conf="compile, default(compile)" position="-1">
+				<evicted-by rev="0.14.6"/>
+				<caller organisation="default" name="utility_scala-build" conf="test, compile, provided, test-internal, runtime, optional" rev="0.14.3" rev-constraint-default="0.14.3" rev-constraint-dynamic="0.14.3" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
