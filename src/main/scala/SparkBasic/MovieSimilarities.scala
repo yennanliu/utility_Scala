@@ -25,7 +25,7 @@ object MovieSimilarities {
      for (line <- lines) {
        var fields = line.split('|')
        if (fields.length > 1) {
-        movieNames += (fields(0).toInt -> fields(1))
+        movieNames += (fields(0).toInt -> fields(1)) // fields(0).toInt : movie ID,  fields(1) : name 
        }
      }
     
@@ -59,6 +59,7 @@ object MovieSimilarities {
   type RatingPair = (Double, Double)
   type RatingPairs = Iterable[RatingPair]
   
+  // the function compuer the similarity, there are more different ways in DS to get the similarity, here we just use the CosineSimilarity way
   def computeCosineSimilarity(ratingPairs:RatingPairs): (Double, Int) = {
     var numPairs:Int = 0
     var sum_xx:Double = 0.0
@@ -93,6 +94,7 @@ object MovieSimilarities {
     Logger.getLogger("org").setLevel(Level.ERROR)
     
      // Create a SparkContext using every core of the local machine
+     // will replace whole configuration when use "local[*]", so rememeber to remove this when run the script on the prod cluster
     val sc = new SparkContext("local[*]", "MovieSimilarities")
     
     println("\nLoading movie names...")
@@ -101,15 +103,17 @@ object MovieSimilarities {
     val data = sc.textFile("data/ml-100k/u.data")
 
     // Map ratings to key / value pairs: user ID => movie ID, rating
+    // i.e. output form : (user_id, (movie_id, rating))
     val ratings = data.map(l => l.split("\t")).map(l => (l(0).toInt, (l(1).toInt, l(2).toDouble)))
     
     // Emit every movie rated together by the same user.
     // Self-join to find every combination.
+    // i.e. get the permutation combination like : (user_1 (movie_a, 1), (movie_b, 2)), (user_1 (movie_b, 2), (movie_a, 1))
     val joinedRatings = ratings.join(ratings)   
     
     // At this point our RDD consists of userID => ((movieID, rating), (movieID, rating))
 
-    // Filter out duplicate pairs
+    // Filter out duplicate pairs (filter out the duplicates because of the above permutation combination)
     val uniqueJoinedRatings = joinedRatings.filter(filterDuplicates)
 
     // Now key by (movie1, movie2) pairs.
@@ -130,13 +134,17 @@ object MovieSimilarities {
     // Extract similarities for the movie we care about that are "good".
     
     if (args.length > 0) {
-      val scoreThreshold = 0.97
-      val coOccurenceThreshold = 50.0
+      val scoreThreshold = 0.97       // only consider the movie with at least 0.97 score
+      val coOccurenceThreshold = 50.0 // movies watched at least 50 times are considered as training data
       
+      /*****
+      // get the movieID via CLI (args(0))
+      *****/
       val movieID:Int = args(0).toInt
       
       // Filter for movies with this sim that are "good" as defined by
-      // our quality thresholds above     
+      // our quality thresholds above  
+      // i.e. filter out the movieID  not equal input CLI (args(0)), and filter out the movie < scoreThreshold and < coOccurenceThreshold
       
       val filteredResults = moviePairSimilarities.filter( x =>
         {
