@@ -1,4 +1,5 @@
 # utility_Scala
+> Introduction of `Scala programming language` as well as the `Spark Scala` via couples of basic scripts in common use cases.
 
 ## Scala Projects 
 * [spark_emr_dev](https://github.com/yennanliu/spark_emr_dev) - Demo of submitting Hadoop ecosystem jobs to AWS EMR
@@ -6,7 +7,6 @@
 * [utility_Scala](https://github.com/yennanliu/utility_Scala) - Scala/Spark programming basic demo 
 
 ## Main files
-
 1. [Utility Scala](https://github.com/yennanliu/utility_Scala/tree/master/src/main/scala/UtilityScala)
 2. [Spark Scala Demo](https://github.com/yennanliu/utility_Scala/tree/master/src/main/scala/SparkDemo)
 3. Scala basic
@@ -23,8 +23,8 @@
 		- [Spark_basic_demo_4 extra](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_4_extra.scala) - extra : word count with regular expression preprocess
 	- [PopularMoviesNicer](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/PopularMoviesNicer.scala) - scala spark `broadcast` demo :  movie-lens data (ml-100k)
 	- [MostPopularSuperhero](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/MostPopularSuperhero.scala) - lookup values from RDD and map them to another RDD, and options method in Spark
-	- [DegreesOfSeparation](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/DegreesOfSeparation.scala) - Code `BFS (Breadth-first search)`from scratch via spaek 
-	- [MovieSimilarities](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/MovieSimilarities.scala) - Code the `Collaborative filtering (CF)` (item based) from scratch via spaek 
+	- [DegreesOfSeparation](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/DegreesOfSeparation.scala) - Code `BFS (Breadth-first search)`from scratch via spark 
+	- [MovieSimilarities](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/MovieSimilarities.scala) - Code the `Collaborative filtering (CF)` (item based) from scratch via spark 
 
 ## Quick start
 
