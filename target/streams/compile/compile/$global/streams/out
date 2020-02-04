@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/SparkBasic/spark_basic_demo_4.scala:12:48: value error is not a member of object org.apache.log4j.Level[0m
-[0m[[0m[31merror[0m] [0m[0m        Logger.getLogger("org").setLevel(Level.error)[0m
-[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/SparkBasic/spark_basic_demo_4_extra.scala:12:48: value error is not a member of object org.apache.log4j.Level[0m
-[0m[[0m[31merror[0m] [0m[0m        Logger.getLogger("org").setLevel(Level.error)[0m
-[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
