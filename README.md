@@ -25,6 +25,7 @@
 	- [MostPopularSuperhero](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/MostPopularSuperhero.scala) - lookup values from RDD and map them to another RDD, and options method in Spark
 	- [DegreesOfSeparation](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/DegreesOfSeparation.scala) - Code `BFS (Breadth-first search)`from scratch via spark 
 	- [MovieSimilarities](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/MovieSimilarities.scala) - Code the `Collaborative filtering (CF)` (item based) from scratch via spark 
+	- [SparkSQL](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/SparkSQL.scala) - Spark SQL basic
 
 ## Quick Start
 
