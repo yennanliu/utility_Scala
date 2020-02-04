@@ -8,6 +8,10 @@ object scala_basic_demo_2{
         def squareIt(x:Int) : Int = {
             x * x 
         }
+        // this form works OK as well
+        // def squareIt(x:Int) = {
+        //     x * x 
+        // }
 
         def cubeIt(x:Int) : Int = {
             x * x * x
