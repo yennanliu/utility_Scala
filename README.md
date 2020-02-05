@@ -27,6 +27,7 @@
 	- [DegreesOfSeparation](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/DegreesOfSeparation.scala) - Code `BFS (Breadth-first search)`from scratch via spark 
 	- [MovieSimilarities](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/MovieSimilarities.scala) - Code the `Collaborative filtering (CF)` (item based) from scratch via spark 
 	- [SparkSQL](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/SparkSQL.scala) - Spark SQL basic
+	- [DataFrames](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/DataFrames.scala) - Spark `Dataset` basic. The Dataset is a very important feature when in Spark 2.0 and also within SparkMlib and Spark-stream
 
 ## Quick Start
 
