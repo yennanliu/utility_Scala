@@ -13,3 +13,7 @@ spark-warehouse
 .DS_Store
 target/streams/*
 *.properties
+project/project/*
+project/target/*
+project/target/streams/*
+target/streams/*
