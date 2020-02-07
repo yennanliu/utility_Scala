@@ -14,22 +14,22 @@
 	- [Scala_basic_demo_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/scala_basic_demo_2.scala) - Scala `function, lambda` basic
 	- [Scala_basic_demo_3](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/scala_basic_demo_3.scala) - Scala basic data structrue : `array, list, tuple`, apply `function, lambda` with them basic. And `map, exception` demo
 	- [ScalaFileIODemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaFileIODemo.scala) - Scala file IO basic
-	- [PopularMoviesDataSets](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/PopularMoviesDataSets.scala) - Do the popular movie computation again via the `Spark datasets` 
-		-[PopularMovies](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/PopularMovies.scala) - Original popular movie approach via Spark RDD
 
 4. Spark basic
-	- [Spark_basic_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_1.scala) - scala spark function basic demo
-	- [Spark_basic_demo_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2.scala) - scala spark RDD basic op demo : count avg friends by age
-		- [Spark_basic_demo_2 extra](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2_extra.scala) - extra : count avg friend by first name
-	- [Spark_basic_demo_3](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_3.scala) - scala spark RDD filter demo : min temp on each station (weather data)
-	- [Spark_basic_demo_4](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_4.scala) - scala spark RDD flatMap demo : word count (book data)
-		- [Spark_basic_demo_4 extra](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_4_extra.scala) - extra : word count with regular expression preprocess
-	- [PopularMoviesNicer](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/PopularMoviesNicer.scala) - scala spark `broadcast` demo :  movie-lens data (ml-100k)
-	- [MostPopularSuperhero](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/MostPopularSuperhero.scala) - lookup values from RDD and map them to another RDD, and options method in Spark
+	- [Spark_basic_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_1.scala) - Spark `function `basic demo
+	- [Spark_basic_demo_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2.scala) - Spark `RDD basic op` demo : count avg friends by age
+		- [Spark_basic_demo_2 extra](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2_extra.scala) - Extra : count avg friend by first name
+	- [Spark_basic_demo_3](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_3.scala) - Spark `RDD filter` demo : min temp on each station (weather data)
+	- [Spark_basic_demo_4](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_4.scala) - Spark `RDD flatMap` demo : word count (book data)
+		- [Spark_basic_demo_4 extra](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_4_extra.scala) - Extra : word count with `regular expression` preprocess
+	- [PopularMoviesNicer](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/PopularMoviesNicer.scala) - Spark `broadcast` demo :  movie-lens data (ml-100k)
+	- [MostPopularSuperhero](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/MostPopularSuperhero.scala) - `Lookup` values from `RDD` and `map them to another RDD`, and options method in Spark
 	- [DegreesOfSeparation](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/DegreesOfSeparation.scala) - Code `BFS (Breadth-first search)`from scratch via spark 
-	- [MovieSimilarities](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/MovieSimilarities.scala) - Code the `Collaborative filtering (CF)` (item based) from scratch via spark 
+	- [MovieSimilarities](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/MovieSimilarities.scala) - Code the `Collaborative filtering (CF)` (item based) from scratch via Spark 
 	- [SparkSQL](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/SparkSQL.scala) - Spark SQL basic
-	- [DataFrames](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/DataFrames.scala) - Spark `Dataset` basic. The Dataset is a very important feature when in Spark 2.0 and also within SparkMlib and Spark-stream
+	- [DataFrames](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/DataFrames.scala) - Spark `Dataset`, a important feature when in Spark-2.0/SparkMlib/Spark-stream
+	- [PopularMoviesDataSets](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/PopularMoviesDataSets.scala) - Do the popular movie computation again via the `Spark datasets` 
+		- [PopularMovies](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/PopularMovies.scala) - Original popular movie approach via Spark RDD
 
 ## Quick Start
 
