@@ -28,7 +28,7 @@
 	- [MovieSimilarities](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/MovieSimilarities.scala) - Code the `Collaborative filtering (CF)` (item based) from scratch via Spark 
 	- [SparkSQL](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/SparkSQL.scala) - Spark SQL basic
 	- [DataFrames](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/DataFrames.scala) - Spark `Dataset`, a important feature when in Spark-2.0/SparkMlib/Spark-stream
-	- [PopularMoviesDataSets](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/PopularMoviesDataSets.scala) - Do the popular movie computation again via the `Spark datasets` 
+	- [PopularMoviesDataSets](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/PopularMoviesDataSets.scala) - Do the popular movie computation again via the `Spark datasets` 
 		- [PopularMovies](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/PopularMovies.scala) - Original popular movie approach via Spark RDD
 
 ## Quick Start
