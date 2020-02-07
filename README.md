@@ -30,6 +30,7 @@
 	- [DataFrames](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/DataFrames.scala) - Spark `Dataset`, a important feature when in Spark-2.0/SparkMlib/Spark-stream
 	- [PopularMoviesDataSets](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/PopularMoviesDataSets.scala) - Do the popular movie computation again via the `Spark datasets` 
 		- [PopularMovies](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/PopularMovies.scala) - Original popular movie approach via Spark RDD
+	- [GraphX](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/GraphX.scala) - Spark `GraphX` demo : compute the social network degree for the marvel heros
 
 ## Quick Start
 

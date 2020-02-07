@@ -18,3 +18,4 @@ project/target/*
 project/target/streams/*
 target/streams/*
 project/target/scala-2.12/*
+project/project/target/*
