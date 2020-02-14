@@ -27,9 +27,9 @@ object BattleDigest{
         // filter out battle log 
         val battleLogDF = gameLogDF.filter($"battle_id".isNotNull)
 
-        battleLogDF.groupBy("outcome").count().orderBy(desc("count")).show()
+        battleLogDF.groupBy("outcome").count().orderBy(("count")).show()
 
-        battleLogDF.groupBy("battle_id").count().orderBy(desc("count")).show()
+        battleLogDF.groupBy("battle_id").count().orderBy(("count")).show()
 
         // get battle count 
         val battle_count = battleLogDF.groupBy("user_id").count().withColumnRenamed("count", "battle_count")
