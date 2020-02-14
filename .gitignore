@@ -20,3 +20,4 @@ target/streams/*
 project/target/scala-2.12/*
 project/project/target/*
 target/streams/compile/compile/*
+data/war_data.json
