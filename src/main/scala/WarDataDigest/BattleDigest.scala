@@ -40,11 +40,18 @@ object BattleDigest{
         // merge df
         val battle_joined_df = battle_count.join(battle_result, Seq("user_id"), "inner")
 
-        // // filter out the session log 
-        // val sessionLogDF = gameLogDF.filter($"session_id".isNotNull)
-        // sessionLogDF.groupBy("session_id").count().orderBy(desc("count")).show()
+        // calculate the average user game time interval
+        battleLogDF.createOrReplaceTempView("battle")
+        val battle_interval = spark.sql("""
+              WITH sub AS
+              (SELECT user_id,
+               event_timestamp,
+               lag(event_timestamp) OVER (PARTITION BY user_id ORDER BY user_id, event_timestamp) AS event_timestamp_lag
+               FROM battle
+               ORDER BY user_id, event_timestamp)
+            SELECT * FROM sub """)
+        battle_interval.show()
 
     }
-
 
 }
