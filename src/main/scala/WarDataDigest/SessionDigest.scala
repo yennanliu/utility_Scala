@@ -42,7 +42,7 @@ object SessionDigest{
                ORDER BY user_id, event_timestamp)
             SELECT * FROM sub """)
 
-        val session_diff = session_interval.withColumn("time_diff_sec", coalesce(unix_timestamp($"event_timestamp_lag")) - coalesce(unix_timestamp($"event_timestamp"), lit(0)))
+        val session_diff = session_interval.withColumn("time_diff_sec", coalesce(unix_timestamp($"event_timestamp")) - coalesce(unix_timestamp($"event_timestamp_lag"), lit(0)))
         session_diff.show()
 
 
