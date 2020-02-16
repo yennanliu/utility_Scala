@@ -36,14 +36,12 @@ object HouseDataOverview{
 
         }
 
-        import spark.implicits._
-
         val lines = sc.textFile("data/boston_V2.csv")
 
         val header = lines.first()
 
         val bostonRDD = lines.map(parseLine)
-
+        
         bostonRDD.take(10)
 
     }
