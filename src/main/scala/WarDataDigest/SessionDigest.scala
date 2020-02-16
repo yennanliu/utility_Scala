@@ -4,7 +4,7 @@ import org.apache.spark._
 import org.apache.spark.SparkContext._
 import org.apache.spark.sql.SparkSession
 import org.apache.log4j._
-import org.apache.spark.sql.functions.col
+import org.apache.spark.sql.functions._
 
 object SessionDigest{
 
@@ -42,7 +42,7 @@ object SessionDigest{
                ORDER BY user_id, event_timestamp)
             SELECT * FROM sub """)
 
-        val session_diff = session_interval.withColumn("time_diff_sec", abs(coalesce(unix_timestamp($"event_timestamp_lag")) - coalesce(unix_timestamp($"event_timestamp"), lit(0))))
+        val session_diff = session_interval.withColumn("time_diff_sec", coalesce(unix_timestamp($"event_timestamp_lag")) - coalesce(unix_timestamp($"event_timestamp"), lit(0)))
         session_diff.show()
 
 

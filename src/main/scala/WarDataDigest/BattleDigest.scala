@@ -4,7 +4,7 @@ import org.apache.spark._
 import org.apache.spark.SparkContext._
 import org.apache.spark.sql.SparkSession
 import org.apache.log4j._
-import org.apache.spark.sql.functions.col
+import org.apache.spark.sql.functions._
 
 object BattleDigest{
 
@@ -51,7 +51,7 @@ object BattleDigest{
                ORDER BY user_id, event_timestamp)
             SELECT * FROM sub """)
 
-        val battle_interval_diff = battle_interval.withColumn("time_diff_sec", abs(coalesce(unix_timestamp($"event_timestamp_lag")) - coalesce(unix_timestamp($"event_timestamp"), lit(0))))
+        val battle_interval_diff = battle_interval.withColumn("time_diff_sec", coalesce(unix_timestamp($"event_timestamp_lag")) - coalesce(unix_timestamp($"event_timestamp"), lit(0)))
         battle_interval_diff.show()
 
     }
