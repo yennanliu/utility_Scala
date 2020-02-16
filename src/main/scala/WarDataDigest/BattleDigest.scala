@@ -50,7 +50,9 @@ object BattleDigest{
                FROM battle
                ORDER BY user_id, event_timestamp)
             SELECT * FROM sub """)
-        battle_interval.show()
+
+        val battle_interval_diff = battle_interval.withColumn("time_diff_sec", abs(coalesce(unix_timestamp($"event_timestamp_lag")) - coalesce(unix_timestamp($"event_timestamp"), lit(0))))
+        battle_interval_diff.show()
 
     }
 
