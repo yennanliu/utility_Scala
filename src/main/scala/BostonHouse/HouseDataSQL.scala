@@ -2,6 +2,8 @@ package BostonHouse
 
 import org.apache.spark._
 import org.apache.spark.SparkContext._
+import org.apache.spark.sql.{Dataset, SparkSession, Row}
+import org.apache.spark.sql.types.{DoubleType, StringType, StructField, StructType}
 import org.apache.log4j._
 import org.apache.spark.sql.functions._
 
@@ -24,7 +26,7 @@ object HouseDataSQL{
 
         val sc = new SparkContext("local[*]", "HouseDataSQL")
 
-        val spark = SparkSesession
+        val spark = SparkSession
                     .builder
                     .appName("HouseDataSQL")
                     .master("local[*]")
@@ -38,17 +40,17 @@ object HouseDataSQL{
 
         import spark.implicits._
 
-        val bostonDF = bostonRDD.toDS
+        // val bostonDF = bostonRDD.toDF
 
-        bostonDF.printSchema()
+        // bostonDF.printSchema()
 
-        bostonDF.createOrReplaceTempView("boston")
+        // bostonDF.createOrReplaceTempView("boston")
 
-        val price = spark.sql("SELECT price FROM boston").collect()
+        // val price = spark.sql("SELECT price FROM boston").collect()
 
-        price.foreach(println)
+        // price.foreach(println)
 
-        spark.stop()
+        // spark.stop()
 
 
     }
