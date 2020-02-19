@@ -49,9 +49,11 @@ object HouseDataAggre{
         
         bostonRDD.take(10)
 
-        //val ageCount = bostonRDD.map( x => (x._7 , 1 ) ).map( x => (x._1.to_Int, x._2)).reduceByKey( (x,y) =>  x + y  )
+        // Method 1 :  Float -> Int via lambda function (.map( x => x.toInt ))
+        val ageCount = bostonRDD.map( x => x._7 ).map( x => x.toInt ).map( x => (x, 1) ).reduceByKey( (x,y) => x + y )
 
-        val ageCount = bostonRDD.map( x => x._7) .map( x => x.toInt ).map( x => (x, 1) ).reduceByKey( (x,y) => x + y )
+        // Method 2 :  Float -> Int via UDF (float2int)
+        //val ageCount = bostonRDD.map( x => x._7) .map( x => float2int(x) ).map( x => (x, 1) ).reduceByKey( (x,y) => x + y )
 
         ageCount.take(10)
 
@@ -59,9 +61,9 @@ object HouseDataAggre{
 
         for ( result <- ageCountSorted ){
             val count = result._1
-            val ZN = result._2
+            val price = result._2
 
-            println (s"ZN : $ZN | count : $count")
+            println (s"price : $price | count : $count")
        
             }
 
