@@ -30,10 +30,15 @@ object HouseDataAggre{
             val PTRATIO = fields(10).toFloat
             val B = fields(11).toFloat
             val LSTAT = fields(12).toFloat
-            val price = fields(13).toFloat
+            val price = fields(13)
 
             (CRIM,ZN,INDUS,CHAS,NOX,RM,AGE,DIS,RAD,TAX,PTRATIO,B,LSTAT,price)
 
+        }
+
+        def float2int(line : Float) =  {
+
+            line.toInt
         }
 
         val lines = sc.textFile("data/boston_V2.csv")
@@ -44,7 +49,9 @@ object HouseDataAggre{
         
         bostonRDD.take(10)
 
-        val ageCount = bostonRDD.map( x => (x._7 , 1 ) ).reduceByKey( (x,y) =>  x + y  )
+        //val ageCount = bostonRDD.map( x => (x._7 , 1 ) ).map( x => (x._1.to_Int, x._2)).reduceByKey( (x,y) =>  x + y  )
+
+        val ageCount = bostonRDD.map( x => x._7) .map( x => x.toInt ).map( x => (x, 1) ).reduceByKey( (x,y) => x + y )
 
         ageCount.take(10)
 
@@ -54,7 +61,6 @@ object HouseDataAggre{
             val count = result._1
             val ZN = result._2
 
-            //println (s" $ZN : $count")
             println (s"ZN : $ZN | count : $count")
        
             }
