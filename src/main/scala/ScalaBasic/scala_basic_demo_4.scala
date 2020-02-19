@@ -10,6 +10,17 @@ object scala_basic_demo_4{
       val y = 234
       try {
         x > y 
+        println("x > y")
+      } 
+      catch{
+        case e:Exception=>
+      }
+    }
+
+    // scala try - exception demo with func has input 
+    def my_func_2(x:Int, y:Int) {
+      try {
+        x > y 
       } 
       catch{
         case e:Exception=>
@@ -18,6 +29,7 @@ object scala_basic_demo_4{
     }
 
     my_func()
+    my_func_2(10, 2)
 
     }
 }
