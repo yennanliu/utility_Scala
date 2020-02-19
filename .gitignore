@@ -23,3 +23,37 @@ target/streams/compile/compile/*
 data/war_data.json
 derby.log
 metastore_db/
+
+# https://alvinalexander.com/source-code/scala/sample-gitignore-file-scala-sbt-intellij-eclipse
+# sbt
+# (may want to keep parts of 'project')
+bin/
+project/
+target/
+build/
+
+# eclipse
+build
+.classpath
+.project
+.settings
+.worksheet
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
+.DS_Store
+
+# other?
+.history
+.scala_dependencies
+.cache
+.cache-main
+
+#general
+*.class
