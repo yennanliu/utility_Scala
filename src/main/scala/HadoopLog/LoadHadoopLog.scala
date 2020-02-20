@@ -19,6 +19,22 @@ object LoadHadoopLog{
         
         lines.take(10)
 
+        // timestamp
+        val timestamp = lines.map( x => x.split(",") ).map( x => x(0) )
+        timestamp.take(10) 
+        timestamp.map( x => (x,1) ).reduceByKey( (x, y) => x + y ).take(10)
+
+
+        // log info
+        val logInfo = lines.map( x => x.split(",") ).map( x => x(1) )
+        logInfo.take(10) 
+        logInfo.map( x => (x,1) ).reduceByKey( (x, y) => x + y ).take(10)
+
+        // log msg 
+        val logMsg = lines.map( x => x.split(",") ).map( x => x(1) ).map( x  => x.split(": ") ).map( x => x(1) )
+        logMsg.take(10)
+        logMsg.map( x => (x,1) ).reduceByKey( (x, y) => x + y ).take(10)
+
     }
 
 }
