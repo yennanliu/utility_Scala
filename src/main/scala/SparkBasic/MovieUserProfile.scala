@@ -71,6 +71,10 @@ object MovieUserProfile{
 
         import spark.implicits._
 
+        /* 
+        please un-comment below code when running. Here I just comment them due to my local sbt/spark dependency issues
+        */
+
         // val userDS = userRDD.toDS
 
         // userDS.show()
@@ -79,6 +83,14 @@ object MovieUserProfile{
 
         // movieDS.show()
 
+        // // spark sql
+        // userDS.createOrReplaceTempView("user")
+        // movieDS.createOrReplaceTempView("movie")
+
+        // // merge tables 
+        // val user_movie = spark.sql("SELECT u.*, count(itemID) as rating_count, avg(rating) as avg_rating from user  u  inner join movie m on u.userID = m.userID group by u.userID, u.userAge, u.userSex, u.userJob, u.userPostcode limit 100")
+
+        // user_movie.show()
 
 
     }
