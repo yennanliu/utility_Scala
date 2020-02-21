@@ -16,18 +16,22 @@ object MovieUserProfile{
                     .master("local[*]")
                     .getOrCreate()
 
-        def parseLineUser(line : String) = {
+        case class User(userID:Int, userAge:Int, userSex:String, userJob:String, userPostcode:String)
+
+        def parseLineUser(line : String): User = {
 
             // explicitly make "|" as string, but not any speical expression. For split the data in the right manner
             val fields = line.split("\\|")
 
-            val userID = fields(0)
-            val userAge = fields(1)
+            val userID = fields(0).toInt
+            val userAge = fields(1).toInt
             val userSex = fields(2)
             val userJob = fields(3)
             val userPostcode = fields(4)
 
-            (userID,userAge, userSex, userJob, userPostcode)
+            val user:User = User(userID,userAge, userSex, userJob, userPostcode)
+
+            return user 
         }
 
         val lines_user = sc.textFile("data/ml-100k/u.user")
@@ -42,6 +46,14 @@ object MovieUserProfile{
         val userRDD = lines_user.map(parseLineUser)
 
         userRDD.take(10)
+
+        import spark.implicits._
+
+        // val userDS = userRDD.toDS
+
+        // userDS.show()
+
+
 
     }
 }
