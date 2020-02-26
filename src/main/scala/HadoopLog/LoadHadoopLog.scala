@@ -30,10 +30,17 @@ object LoadHadoopLog{
         logInfo.take(10) 
         logInfo.map( x => (x,1) ).reduceByKey( (x, y) => x + y ).take(10)
 
-        // log msg 
-        val logMsg = lines.map( x => x.split(",") ).map( x => x(1) ).map( x  => x.split(": ") ).map( x => x(1) )
-        logMsg.take(10)
+        // // log msg 
+        // val logMsg = lines.map( x => x.split(",") ).map( x => x(1) ).map( x  => x.split(": ") ).map( x => x(1) )
+        // logMsg.take(10)
+        // logMsg.map( x => (x,1) ).reduceByKey( (x, y) => x + y ).take(10)
+
+        // regular expression
+        val logMsg = lines.map( x => x.split("\t") ).map( x => x(0)  ).map( x => x.split("\\A") ).map( x => x(0) ).map( x => x.split(",")).map( x => x(1) ) 
+        logMsg.take(20) 
         logMsg.map( x => (x,1) ).reduceByKey( (x, y) => x + y ).take(10)
+
+
 
     }
 
