@@ -1,3 +1,6 @@
+"""
+py script demo how to extract/digest from web access log 
+"""
 import re
 
 parts = [
@@ -11,6 +14,7 @@ parts = [
     r'"(?P<referer>.*)"',               # referer "%{Referer}i"
     r'"(?P<agent>.*)"',                 # user agent "%{User-agent}i"
 ]
+
 pattern = re.compile(r'\s+'.join(parts)+r'\s*\Z')
 
 def extractURLRequest(line):
@@ -22,20 +26,39 @@ def extractURLRequest(line):
            if (len(requestFields) > 1):
                 return requestFields[1]
 
-# to fix : fix regular expression part, to extract the exact string
-def load_web_log():
-    pattern_host = re.compile(r'(?P<host>\S+)')
-    pattern_user = re.compile(r'(?P<user>\S+)')
-    pattern_request = re.compile(r'(?P<Get>\S+)')
+def extractRequest(line):
+    exp = pattern.match(line)
+    if exp:
+        status = exp.groupdict()["request"]
+        if status:
+            return status
+
+def extractTime(line):
+    exp = pattern.match(line)
+    if exp:
+        t = exp.groupdict()["time"]
+        if t:
+            return t
+
+def extractStatus(line):
+    exp = pattern.match(line)
+    if exp:
+        s = exp.groupdict()["status"]
+        if s:
+            return s
+
+def digest_web_log():
     with open("data/access_log_small.txt") as f:
         for log in f:
             #print (log)
-            host = pattern_host.match(log)
-            user = pattern_user.match(log)
-            request = pattern_request.match(log)
-            print (host, time, request)
-            print (user)
-
+            request = extractRequest(log)
+            time = extractTime(log)
+            status = extractStatus(log)
+            print ("""
+                   time : {},  
+                   request : {},
+                   status  : {}
+                   """.format(time, request, status))
 
 if __name__ == "__main__":
-    load_web_log()
+    digest_web_log()
