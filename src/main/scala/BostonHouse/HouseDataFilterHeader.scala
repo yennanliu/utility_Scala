@@ -46,6 +46,9 @@ object HouseDataFilterHeader{
             }
         }
 
+        // another way to filter csv header : 
+        // https://indatalabs.com/blog/convert-spark-rdd-to-dataframe-dataset
+        
         val lines = sc.textFile("data/boston.csv")
 
         val header = lines.first()
