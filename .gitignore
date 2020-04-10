@@ -23,6 +23,7 @@ target/streams/compile/compile/*
 data/war_data.json
 derby.log
 metastore_db/
+target/streams/*
 
 # https://alvinalexander.com/source-code/scala/sample-gitignore-file-scala-sbt-intellij-eclipse
 # sbt
