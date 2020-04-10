@@ -1,7 +1,7 @@
 # Utility_Scala
 > Introduction of `Scala programming language` as well as `Spark Scala` via couples of basic scripts in common use cases. Please check the [Main files](https://github.com/yennanliu/utility_Scala#main-files) for more information.
 
-<p align="center"><img src ="https://github.com/yennanliu/utility_Scala/blob/master/doc/pic/scala_data_type.svg" width="800" height="500"></p>
+<p align="center"><img src ="https://github.com/yennanliu/utility_Scala/blob/master/doc/pic/scala_data_type.svg" width="1000" height="500"></p>
 
 
 ## Scala Projects 
