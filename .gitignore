@@ -58,3 +58,9 @@ build
 
 #general
 *.class
+
+# others 
+target/scala-2.11/utilityscala_2.11-1.0.jar
+target/streams/$global/update/$global/streams/out
+target/streams/$global/update/$global/streams/update_cache_2.11/output
+target/*
