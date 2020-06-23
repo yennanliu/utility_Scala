@@ -8,7 +8,6 @@ object LazyDemo extends App {
     // will not come up with error till it's called
     lazy val wordsNotExist = scala.io.Source.fromFile("xxx.md").mkString
 
-
     // get the values with declare it
     val wordsRegular = scala.io.Source.fromFile("README.md").mkString
 
@@ -18,5 +17,5 @@ object LazyDemo extends App {
     println(words)
     println(wordsRegular)
     println(wordsDef)
-
+    
 }

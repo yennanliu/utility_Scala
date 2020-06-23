@@ -18,6 +18,8 @@
 	- [Scala_basic_demo_3](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/scala_basic_demo_3.scala) - Scala basic data structrue : `array, list, tuple`, apply `function, lambda` with them basic. And `map, exception` demo
 	- [Scala_basic_demo_4](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/scala_basic_demo_4.scala) - Scala `try, exception`, `error handling` demo
 	- [ScalaFileIODemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaFileIODemo.scala) - Scala file IO basic
+	- [ScalaLazyDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/LazyDemo.scala) - Scala lazy value demo
+	- [ScalaUnitDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/UnitDemo.scala) - Scala function with `no return value` called as `procedure`, with return type `Unit`
 
 4. Spark basic
 	- [Spark_basic_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_1.scala) - Spark `function `basic demo
