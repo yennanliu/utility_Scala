@@ -1,6 +1,6 @@
 package ScalaBasic
 
-object scala_basic_demo_1{
+object ScalaIfElseMatchForloop{
 
     def main(args: Array[String]){
 

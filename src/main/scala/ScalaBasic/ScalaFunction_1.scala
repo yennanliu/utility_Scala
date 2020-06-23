@@ -1,6 +1,6 @@
 package ScalaBasic
 
-object scala_basic_demo_2{
+object ScalaFunction_1{
 
     def main(args: Array[String]){
 
