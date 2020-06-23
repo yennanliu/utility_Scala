@@ -64,3 +64,5 @@ target/scala-2.11/utilityscala_2.11-1.0.jar
 target/streams/$global/update/$global/streams/out
 target/streams/$global/update/$global/streams/update_cache_2.11/output
 target/*
+project/target/*
+project/target/scala-2.12/sbt-1.0/*
