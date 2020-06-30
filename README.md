@@ -21,6 +21,7 @@
 	- [ScalaFileIODemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaFileIODemo.scala) - Scala file IO basic
 	- [ScalaLazyDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/LazyDemo.scala) - Scala lazy value demo
 	- [ScalaUnitDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/UnitDemo.scala) - Scala function with `no return value` called as `procedure`, with return type `Unit`
+	- [ScalaArrayDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaArrayDemo.scala) - Scala `Array` basic op, properties
 
 4. Spark basic
 	- [Spark_basic_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_1.scala) - Spark `function `basic demo
