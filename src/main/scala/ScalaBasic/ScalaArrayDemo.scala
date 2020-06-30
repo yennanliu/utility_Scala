@@ -49,9 +49,9 @@ object ScalaArrayDemo{
         b.remove(2,3)
 
         // transform to array 
-        val x = b.toArray
+        val z = b.toArray
         println(b)
-        println(x)
+        println(z)
 
         // go through array 
         val a = "helloworld"
@@ -84,15 +84,15 @@ object ScalaArrayDemo{
         println(d.sum)
 
         val dSorted = d.sorted
-        println(dSorted
+        println(dSorted)
 
         val dDescending = d.sortWith(_ > _)
         println(dDescending)
 
         // toString 
-        val a = Array(1,7,2,9)
-        a.mkString(" and ")
-        a.mkString("<", ",", ">")
+        val x = Array(1,7,2,9)
+        x.mkString(" and ")
+        x.mkString("<", ",", ">")
 
         // multi dimension array
         val matrix = Array.ofDim[Double](3,4)
