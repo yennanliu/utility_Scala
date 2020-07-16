@@ -3,6 +3,8 @@
 
 <p align="center"><img src ="https://github.com/yennanliu/utility_Scala/blob/master/doc/pic/scala_data_type.svg" width="1000" height="500"></p>
 
+<p align="center"><img src ="https://github.com/yennanliu/utility_Scala/blob/master/doc/pic/scala_class_hierarchy.jpg"></p>
+
 
 ## Scala Projects 
 * [spark_emr_dev](https://github.com/yennanliu/spark_emr_dev) - Demo of submitting Hadoop ecosystem jobs to AWS EMR
@@ -164,6 +166,8 @@ $ spark-submit \
 
 - Scala Tutorial  
 	- https://docs.scala-lang.org/tour/basics.html
+	- https://www.handsonscala.com/index.html
+	- https://github.com/handsonscala/handsonscala
 	- https://www.javatpoint.com/scala-tutorial
 	- https://www.tutorialspoint.com/scala/
 	- http://www.runoob.com/scala/scala-basic-syntax.html
