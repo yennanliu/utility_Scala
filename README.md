@@ -28,6 +28,7 @@
 	- [ScalaClassDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
 	- [OverrideDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/OverrideDemo.scala) - Scala `Override` basic op, properties
 	- [AbstractDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/AbstractDemo.scala) - Scala `Abstract` basic op, properties
+	- [AbstractClass](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/AbstractClass.scala) - Scala `AbstractClass` basic op, properties
 	- [TraitDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TraitDemo.scala) - Scala `TraitDemo` basic op, properties
 	- [HigherOrderfuncDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/HigherOrderfuncDemo.scala) - Scala `higher order func` basic op, properties
 	- [RecursionDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties

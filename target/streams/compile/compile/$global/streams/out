@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/ScalaBasic/RecursionDemo.scala:8:43: not found: value sum[0m
-[0m[[0m[31merror[0m] [0m[0m        if (lst == Nil) 0 else lst.head + sum(lst.tail)[0m
-[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/ScalaBasic/AbstractClass.scala:8:72: not found: type item[0m
+[0m[[0m[31merror[0m] [0m[0m        case class Bundle(description: String, discount: Double, item: item*) extends Item[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                       ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
