@@ -33,6 +33,7 @@
 	- [HigherOrderfuncDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/HigherOrderfuncDemo.scala) - Scala `higher order func` basic op, properties
 	- [RecursionDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties
 	- [ConstructorDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ConstructorDemo.scala) - Scala `Constructor` basic op, properties
+	- [PatternmatchDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/PatternmatchDemo.scala) - Scala `Pattern match` basic op, properties
 
 4. Spark basic
 	- [Spark_basic_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_1.scala) - Spark `function `basic demo
