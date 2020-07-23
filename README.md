@@ -1,6 +1,10 @@
 # Utility_Scala
 > Introduction of `Scala programming language` as well as `Spark Scala` via couples of basic scripts in common use cases. Please check the [Main files](https://github.com/yennanliu/utility_Scala#main-files) for more information.
 
+- [Scala cheatsheets](https://docs.scala-lang.org/cheatsheets/)
+- [Scala learn material](https://github.com/yennanliu/utility_Scala/#scala-learn-material)
+- [Scala/Spark Ref](https://github.com/yennanliu/utility_Scala/#Ref)
+
 <p align="center"><img src ="https://github.com/yennanliu/utility_Scala/blob/master/doc/pic/scala_data_type.svg" width="1000" height="500"></p>
 
 <p align="center"><img src ="https://github.com/yennanliu/utility_Scala/blob/master/doc/pic/scala_class_hierarchy.jpg"></p>
@@ -163,10 +167,10 @@ $ spark-submit \
 	- if facing `Origin location must be absolute error in building a SBT project` like [errors](https://github.com/yennanliu/utility_Scala/blob/master/doc/origin_location_must_be_absolute_error.txt) when sbt build (`sbt package`), try to clean the sbt cache via `rm -fr ~/.ivy2` (remove entire .ivy2 file), then build the project again
 	- https://www.scala-sbt.org/1.x/docs/Dependency-Management-Flow.html
 
-## Ref 
+## Scala Learning material
 
 <details>
-<summary>Ref</summary>
+<summary>scala-learn-material</summary>
 
 - Scala Tutorial  
 	- https://docs.scala-lang.org/tour/basics.html
@@ -176,6 +180,28 @@ $ spark-submit \
 	- https://www.tutorialspoint.com/scala/
 	- http://www.runoob.com/scala/scala-basic-syntax.html
 	- https://ithelp.ithome.com.tw/users/20107343/ironman/1301?page=1
+
+- Tour on Scala
+	- https://docs.scala-lang.org/tour/tour-of-scala.html
+
+- Scala Stadard Library API
+	- https://www.scala-lang.org/api/current/
+
+- Scala on stackoverflow
+	- https://stackoverflow.com/tags/scala/info
+
+- Scala Quick Ref
+	- https://courseware.epfl.ch/courses/course-v1:EPFL+progfun2+2018_T1/6c4ec266ee24467c9745009ba131f3da/
+
+- Scala books
+	- https://github.com/yennanliu/data_science_repo/tree/master/book/scala
+
+</details>
+
+## Ref 
+
+<details>
+<summary>Ref</summary>
 
 - Scala `Regular Expression`
 	- https://www.tutorialspoint.com/scala/scala_regular_expressions.htm
