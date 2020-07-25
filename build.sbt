@@ -27,7 +27,10 @@ libraryDependencies ++= Seq(
 
   // click (DB library)
   "com.typesafe.slick" %% "slick" % "3.0.0",
-  "org.slf4j" % "slf4j-nop" % "1.6.4"
+  "org.slf4j" % "slf4j-nop" % "1.6.4",
+
+  // sqlite jdbc
+  "org.xerial" % "sqlite-jdbc" % "3.7.2"
 
 )
 
