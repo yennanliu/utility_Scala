@@ -113,6 +113,31 @@ $ spark-submit \
   target/scala-2.11/simple-project_2.11-1.0.jar
 
 ```
+
+```bash
+# REPL via sbt console
+$ sbt
+console
+scala> 
+
+# ✘ yennanliu@MacBook-Pro  ~/utility_Scala   master ●  
+# ✘ yennanliu@MacBook-Pro  ~/utility_Scala   master ●  sbt  
+# [info] Loading settings for project utility_scala-build from plugins.sbt ...
+# [info] Loading project definition from /Users/yennanliu/utility_Scala/project
+# [info] Loading settings for project utility_scala from build.sbt ...
+# [info] Set current project to UtilityScala (in build file:/Users/yennanliu/utility_Scala/)
+# [info] sbt server started at local:///Users/yennanliu/.sbt/1.0/server/ff2f518f2235c5fb0743/sock
+# sbt:UtilityScala> console
+# [info] Starting scala interpreter...
+# Welcome to Scala 2.11.8 (OpenJDK 64-Bit Server VM, Java 1.8.0_252).
+# Type in expressions for evaluation. Or try :help.
+
+# scala> import slick.driver.H2Driver.api._
+# import slick.driver.H2Driver.api._
+
+# scala> 
+
+```
 </details>
 
 <details>
@@ -227,5 +252,9 @@ $ spark-submit \
 
 - Spark scala tutorial 
 	- http://allaboutscala.com/big-data/spark/
+
+- Scala DB client API
+	- http://scala-slick.org/doc/3.0.0/introduction.html
+	- https://www.playframework.com/documentation/2.7.x/ScalaDatabase
 
 </details>

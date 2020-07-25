@@ -31,3 +31,9 @@ run
 test
 run
 exit
+import slick.driver.H2Driver.api._
+run
+sbt scala
+sbt 
+1
+console

@@ -23,7 +23,11 @@ libraryDependencies ++= Seq(
   "org.apache.bahir" %% "spark-streaming-twitter" % "2.3.1",
   "com.github.catalystcode" %% "streaming-reddit" % "0.0.1",
   "org.apache.spark" %% "spark-hive" % "2.3.0" % "provided",
-  "mysql" % "mysql-connector-java" % "8.0.17"
+  "mysql" % "mysql-connector-java" % "8.0.17",
+
+  // click (DB library)
+  "com.typesafe.slick" %% "slick" % "3.0.0",
+  "org.slf4j" % "slf4j-nop" % "1.6.4"
 
 )
 
