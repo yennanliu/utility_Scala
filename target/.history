@@ -37,3 +37,4 @@ sbt scala
 sbt 
 1
 console
+run
