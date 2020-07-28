@@ -31,6 +31,7 @@ object SqliteSlickExample extends App {
     db.stream(q1.result).foreach(println)
     val insert = DBIO.seq(
       movies += ("tt1234567", "Foo", "1970", "Bar", "Meh, Hmm", "Hmmmmmmm")
+      //movies += ("ty1234568", "goo", "1978", "Bar", "mmm, hhh", "ccccccc")
     )
     val insertFuture = db.run(insert)
     insertFuture.onComplete( _ => db.stream(q1.result).foreach(println))

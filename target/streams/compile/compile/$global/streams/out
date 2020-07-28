@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/ScalaBasic/AbstractClass.scala:8:72: not found: type item[0m
-[0m[[0m[31merror[0m] [0m[0m        case class Bundle(description: String, discount: Double, item: item*) extends Item[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/ScalaDB/SqliteSlickExample2.scala:31:46: not found: value Suppliers[0m
+[0m[[0m[31merror[0m] [0m[0m  def supplier = foreignKey("SUP_FK", supID, Suppliers)(_.id)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
