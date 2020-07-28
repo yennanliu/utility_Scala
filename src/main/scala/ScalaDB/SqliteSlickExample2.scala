@@ -38,8 +38,6 @@ object SqliteSlickExample2 extends App {
 
   val suppliers = TableQuery[Suppliers]
 
-  val db = Database.forConfig("coffees")
-
   val setup = DBIO.seq(
     // Create the tables, including primary and foreign keys
     (suppliers.schema ++ coffees.schema).create,
@@ -63,6 +61,10 @@ object SqliteSlickExample2 extends App {
     // insert into COFFEES(COF_NAME, SUP_ID, PRICE, SALES, TOTAL) values (?,?,?,?,?)
   )
 
-  val setupFuture = db.run(setup)
-
+  println("*** run DB setup ddl ***")
+  val db = Database.forConfig("coffees")
+  try{
+     db.run(setup)
+  } finally db.close
+  println("*** run DB setup ddl ***")
 }
