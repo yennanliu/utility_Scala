@@ -4,6 +4,10 @@ package ScalaBasic
 
 object OverrideDemo extends App {
 
+    /*
+     *  Override  
+     */
+
     // example 1
     class Person(val name: String){
         override def toString = getClass.getName + "[name=" + name + "]"
@@ -20,8 +24,26 @@ object OverrideDemo extends App {
     val secretUser = new SecretAgent("tom")
     println(secretUser.name)
     println(secretUser.toString)
-    
+
     // example 2
+    class User(){
+        //override def toString = getClass.getName + "[name=" + name + "[id=" + id + "]"
+        // def printName = println(name)
+        // def printId = println(id)
+        def msg() = println("this is user")
+    }
+
+    class VipUser extends User{
+         // def printName2() = println(name)
+         // def printId2() = println("secret")
+         override def msg() = println("this is VipUser")
+    }
+    
+    /*
+     *  Final
+     */
+
+    // example 1
     final class Car(val name: String){
     println("this is final class, so can't be overridden")
 
@@ -32,7 +54,7 @@ object OverrideDemo extends App {
     //     println(codeanme)
     // }
 
-    // example 3 : final variable 
+    // example 2 : final variable 
     // Scala program of using final variable 
     class Shapes 
     { 
@@ -59,7 +81,7 @@ object OverrideDemo extends App {
     //     } 
     // } 
 
-    // example 4 : final class
+    // example 3 : final class
     // Scala program of using final class 
     final class Shapes2
     { 
