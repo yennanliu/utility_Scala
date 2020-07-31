@@ -44,6 +44,19 @@ object OverrideDemo extends App {
 
 
     // example 3
+    abstract class Person3(val name: String){
+        def id: Int
+        //def name: String
+    }
+
+    class Employee(name: String) extends Person3(name){
+        def id = name.hashCode
+    }
+
+    val tim = new Employee("tim")
+    println(tim.id)
+     
+    // example 4
     class User(){
         //override def toString = getClass.getName + "[name=" + name + "[id=" + id + "]"
         // def printName = println(name)
