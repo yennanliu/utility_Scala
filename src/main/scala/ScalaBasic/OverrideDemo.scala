@@ -28,16 +28,19 @@ object OverrideDemo extends App {
     // example 2
     abstract class Person2(){
         def id: Int
+        def name: String
     }
      
-    class Student(override val id: Int) extends Person2 {
-        println ("this is Student class")
+    class Student(override val id: Int, override val name: String) extends Person2 {
+        println ("this is Student class extended from Person2")
         println ("id = " + id)
+        println ("name = " + name)
 
     }
 
-    val jim = new Student(1234)
+    val jim = new Student(1234, "jim")
     println(jim.id)
+    println(jim.name)
 
 
     // example 3
