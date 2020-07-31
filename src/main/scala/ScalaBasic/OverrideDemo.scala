@@ -26,6 +26,21 @@ object OverrideDemo extends App {
     println(secretUser.toString)
 
     // example 2
+    abstract class Person2(){
+        def id: Int
+    }
+     
+    class Student(override val id: Int) extends Person2 {
+        println ("this is Student class")
+        println ("id = " + id)
+
+    }
+
+    val jim = new Student(1234)
+    println(jim.id)
+
+
+    // example 3
     class User(){
         //override def toString = getClass.getName + "[name=" + name + "[id=" + id + "]"
         // def printName = println(name)
