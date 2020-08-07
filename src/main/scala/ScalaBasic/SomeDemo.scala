@@ -1,6 +1,7 @@
 package ScalaBasic
 
 // https://www.tutorialspoint.com/scala/scala_options.htm
+// https://alvinalexander.com/scala/using-scala-option-some-none-idiom-function-java-null/
 
 object SomeDemo extends App {
 
@@ -19,7 +20,7 @@ object SomeDemo extends App {
     println("show(capitals.get( \"Japan\")) : " + show(capitals.get( "Japan")) )
     println("show(capitals.get( \"India\")) : " + show(capitals.get( "India")) )
 
-    // example 1
+    // example 3
     def name(o: Option[String]) = o match {
     case Some(r) => r
     case None    => "empty"
@@ -35,7 +36,7 @@ object SomeDemo extends App {
         println(result)
     }
 
-    // example 2
+    // example 4
     def doSomeUpper(x: String) = {  // return type : Option[String]
     if(x == "some") Some(x.toUpperCase) else None
     }
@@ -43,10 +44,9 @@ object SomeDemo extends App {
     println(doSomeUpper("idontknow"))     // None
     println(doSomeUpper("some"))          // Some(SOME)
 
-    // example 3 
+    // example 5
     val mymap = Map("jim" -> 99, "ken" -> 101, "jay" -> 55)
     println(Some(mymap.get("jim")))    // Some(Some(55))
     println(Some(mymap.get("xxxx")))   // Some(None) 
-
 
 }
