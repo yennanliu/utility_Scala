@@ -41,8 +41,10 @@
 	- [PatternmatchDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/PatternmatchDemo.scala) - Scala `Pattern match` basic op, properties
 	- [thisDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/thisDemo.scala) - Scala `this` basic op, properties
 	- [SomeDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/SomeDemo.scala) - Scala `Some` basic op, properties
+4. Scala Script example
+	- [DecoratorDesignPattern](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
 
-4. Spark basic
+5. Spark basic
 	- [Spark_basic_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_1.scala) - Spark `function `basic demo
 	- [Spark_basic_demo_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2.scala) - Spark `RDD basic op` demo : count avg friends by age
 		- [Spark_basic_demo_2 extra](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2_extra.scala) - Extra : count avg friend by first name
