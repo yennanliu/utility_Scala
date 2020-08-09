@@ -41,46 +41,44 @@ class OnionTopping(override val topping : Topping) extends ToppingDecorator(topp
     }
 }
 
-
 class Pizza{
-	var topping : Topping = new BasePizza
+    var topping : Topping = new BasePizza
 
-	def getPrice(): Double = {
-		topping.getPrice()
-	}
+    def getPrice(): Double = {
+        topping.getPrice()
+    }
 
-	def getName(): String = {
-		topping.getName()
-	}
+    def getName(): String = {
+        topping.getName()
+    }
 
-	def addNewTopping(toppingName: String): Boolean = {
-		toppingName match
-		{
-			case "Onion" =>
-				{
-					this.topping = new OnionTopping(topping)
-					true
-				}
+    def addNewTopping(toppingName: String): Boolean = {
+        toppingName match
+        {
+            case "Onion" =>
+                {
+                    this.topping = new OnionTopping(topping)
+                    true
+                }
 
-			case "Cheese" =>
-				{
-					this.topping = new CheeseTopping(topping)
-					true
-				}
+            case "Cheese" =>
+                {
+                    this.topping = new CheeseTopping(topping)
+                    true
+                }
 
-			case _ =>
-				println("can not do topping, plz try again!")
-				false
-		}
-	}
-
+            case _ =>
+                println("can not do topping, plz try again!")
+                false
+        }
+    }
 }
 
 object DecoratorDesignPattern extends App {
-	val pizza = new Pizza
-	pizza.addNewTopping("Cheese")
-	pizza.addNewTopping("Onion")
-	pizza.addNewTopping("xxx")
-	println(s"You have ordered ${pizza.getName}")
+    val pizza = new Pizza
+    pizza.addNewTopping("Cheese")
+    pizza.addNewTopping("Onion")
+    pizza.addNewTopping("xxx")
+    println(s"You have ordered ${pizza.getName}")
     println(s"You have to pay Rupees ${pizza.getPrice}")
 }
