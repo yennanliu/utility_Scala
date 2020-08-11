@@ -43,6 +43,7 @@
 	- [SomeDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/SomeDemo.scala) - Scala `Some` basic op, properties
 4. Scala Script example
 	- [DecoratorDesignPattern](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
+	- [DirectoryOP](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
 
 5. Spark basic
 	- [Spark_basic_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_1.scala) - Spark `function `basic demo
