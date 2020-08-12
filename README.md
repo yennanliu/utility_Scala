@@ -41,6 +41,8 @@
 	- [PatternmatchDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/PatternmatchDemo.scala) - Scala `Pattern match` basic op, properties
 	- [thisDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/thisDemo.scala) - Scala `this` basic op, properties
 	- [SomeDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/SomeDemo.scala) - Scala `Some` basic op, properties
+	- [CaseHeadTailNil](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/CaseHeadTailNil.scala) - Scala `Case on List Head Tail Nil` basic op, properties
+
 4. Scala Script example
 	- [DecoratorDesignPattern](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
 	- [DirectoryOP](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example

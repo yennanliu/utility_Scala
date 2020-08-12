@@ -1,6 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/ScalaBasic/ScalaDirectoryOP.scala:13:23: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : String(".")[0m
-[0m[[0m[31merror[0m] [0m[0m required: java.io.File[0m
-[0m[[0m[31merror[0m] [0m[0m    for (d <- subdirs("."))[0m
-[0m[[0m[31merror[0m] [0m[0m                      ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/ScalaBasic/CaseHeadTailNil.scala:5:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef flatten(ls: List[_]): List[Int] = ls match{[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/ScalaBasic/CaseHeadTailNil.scala:12:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef len (l:List[Int]):Int = [0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
