@@ -5,13 +5,6 @@ package ScalaBasic
 
 object CaseHeadTailNil extends App{
 
-    def flatten(ls: List[_]): List[Int] = ls match{
-        case  Nil => Nil
-        case  (a:  Int) :: tail => a :: flatten(tail)
-        case  (a : List[_]) :: tail => flatten(a) ::: flatten(tail)
-        case _ :: tail => flatten(tail)
-    }
-
     def len(l: List[Int]): Int = 
       l match {
         case Nil    => 0           // return 0 if the list is null 
@@ -28,7 +21,51 @@ object CaseHeadTailNil extends App{
           }
       }
 
-    // *** important properties  *** //
+    def concat(l: List[Int], m: List[Int]): List[Int] = 
+        l match {
+            case Nil => m
+            case h :: t =>  h :: concat(t, m) 
+        }
+
+    def reverse(l: List[Int]): List[Int] = 
+        l match {
+            case Nil => l
+            case h :: t  => {
+                val rt = reverse(t)
+                val lh = List(h)
+                concat(rt, lh)
+            } 
+        }
+
+    def reverseV2(l:List[Int]):List[Int] =
+          l match {
+            case Nil  => l
+            case h :: t => concat(reverse(t), List(h))
+          }
+
+    def reverseV3 (x:List[Int]):List[Int] = {
+
+          def rev (l:List[Int], rl:List[Int]):List[Int] = 
+          l match {
+            // when l has a head h and a tail t, put h in front of rl
+            // and continue with t and h::rl
+            case h :: t => rev(t, h :: rl)
+            // when l is Nil, rl contains by construction the reverse
+            // of the original list
+            case Nil => rl
+          }
+
+          rev(x, Nil)
+        }
+
+    def flatten(ls: List[_]): List[Int] = ls match{
+        case  Nil => Nil
+        case  (a:  Int) :: tail => a :: flatten(tail)
+        case  (a : List[_]) :: tail => flatten(a) ::: flatten(tail)
+        case _ :: tail => flatten(tail)
+    }
+
+    // *** important concepts  *** //
     val x = List(1,2,3)
     println(x.head)     // 1
     println(x.tail)     // List(2, 3)
@@ -44,6 +81,9 @@ object CaseHeadTailNil extends App{
     val s = 3 :: 4 :: Nil
     println(s)   // List(3,4)
 
+    // the effect of concat is achieved with the predefined overloaded operator ++
+    List(1,2) ++ List(3,4,5)  // List(1,2,3,4,5  )
+
     // test 1 
     println(flatten(List(List("one",9,8),3,"str",4,List(true,77,3.2)))) // List(9, 8, 3, 4, 77)
     println(flatten(List()))
@@ -58,5 +98,14 @@ object CaseHeadTailNil extends App{
     println(min(List(1,2,3)))
     println(min(List(10,9,8)))
 
+    // test 4
+    println(concat(List(1,2,3), List(4,5,6)))
+    println(concat(List(1,2,3), List(1,2,3)))
+
+
+    // test 3
+    println(reverse(List()))   
+    println(reverse(List(1,2,3)))
+    println(reverse(List(10,9,8)))
 
 }
