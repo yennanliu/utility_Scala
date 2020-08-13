@@ -42,6 +42,8 @@
 	- [thisDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/thisDemo.scala) - Scala `this` basic op, properties
 	- [SomeDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/SomeDemo.scala) - Scala `Some` basic op, properties
 	- [CaseHeadTailNil](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/CaseHeadTailNil.scala) - Scala `Case on List Head Tail Nil` basic op, properties
+	- [GenericTypeParam](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/GenericTypeParam.scala) - Scala `Generic Type` basic op, properties,
+	e.g. : ``` def exec[T](f: () => T): T = {f()}```
 
 4. Scala Script example
 	- [DecoratorDesignPattern](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
@@ -245,6 +247,9 @@ $ spark-submit \
 
 - sbt manual 
 	- https://www.scala-sbt.org/1.x/docs/index.html
+
+- Write test for Scala
+	- https://www.scalatest.org/
 
 - scala test 
 	- http://www.scalatest.org/user_guide/using_scalatest_with_sbt
