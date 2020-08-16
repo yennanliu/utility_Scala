@@ -231,6 +231,9 @@ $ spark-submit \
 - Scala books
 	- https://github.com/yennanliu/data_science_repo/tree/master/book/scala
 
+- Scala trait intro
+	- https://docs.scala-lang.org/overviews/scala-book/traits-intro.html
+
 </details>
 
 ## Ref 

@@ -1,4 +1,5 @@
 // https://docs.scala-lang.org/tour/tour-of-scala.html
+// https://docs.scala-lang.org/overviews/scala-book/traits-intro.html
 
 /*
 Traits are used to share interfaces and fields between classes. 
@@ -10,7 +11,7 @@ package ScalaBasic
 
 object TraitDemo2 extends App{
 
-    // define trait
+    // PART 1 : define trait
 
     trait HairColor // trait has no parameters
 
@@ -40,5 +41,48 @@ object TraitDemo2 extends App{
     println(iterator.next())  // returns 0
     println(iterator.next())  // returns 1
     println(iterator.next())  // returns 2
+
+    // PART 2 Subtyping
+
+    import scala.collection.mutable.ArrayBuffer
+
+    trait Pet {
+        val name: String
+    }
+
+    class Cat(val name: String) extends Pet
+    class Dog(val name: String) extends Pet
+
+    val dog = new Dog("poppy")
+    val cat = new Cat("tom")
+
+    val animals = ArrayBuffer.empty[Pet]
+    animals.append(dog)
+    animals.append(cat)
+    animals.foreach(pet => println(pet.name))
+
+    // PART 3 MY PRACTICE
+
+    trait CarSize
+    trait CarColor
+
+    trait CarClass{
+        def getAge: Int
+        def getName: String
+        def getPrice: Int
+    }
+
+    class GetCarProfile(age: Int, name: String, price: Int) extends CarClass{
+        override def getAge: Int = age
+        override def getName: String = name
+        override def getPrice: Int = price
+        def ifexpensive: Boolean = price > 99999
+    }
+
+    val benz = new GetCarProfile(3, "BENZ", 1000)
+    println(benz.getAge)
+    println(benz.getName)
+    println(benz.getPrice)
+    println(benz.ifexpensive)
 
 }
