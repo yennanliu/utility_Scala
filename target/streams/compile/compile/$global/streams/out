@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/ScalaBasic/TraitDemo2.scala:80:45: not found: value price[0m
-[0m[[0m[31merror[0m] [0m[0m    val benz = new GetCarProfile(3, "BENZ", price)[0m
-[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/ScalaBasic/TraitAsInterface.scala:28:11: class Dog2 needs to be abstract, since method speak in trait Speaker of type ()String is not defined[0m
+[0m[[0m[31merror[0m] [0m[0m    class Dog2 extends Speaker with TailWagger with Runner{[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
