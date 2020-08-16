@@ -16,9 +16,9 @@
 * [utility_Scala](https://github.com/yennanliu/utility_Scala) - Scala/Spark programming basic demo 
 
 ## Main Files
-1. [Utility Scala](https://github.com/yennanliu/utility_Scala/tree/master/src/main/scala/UtilityScala)
-2. [Spark Scala Demo](https://github.com/yennanliu/utility_Scala/tree/master/src/main/scala/SparkDemo)
-3. Scala basic
+1. [Utility Scala](https://github.com/yennanliu/utility_Scala/tree/master/src/main/scala/UtilityScala) - Scala scripts for utility
+2. [Spark Scala Demo](https://github.com/yennanliu/utility_Scala/tree/master/src/main/scala/SparkDemo)  - Scala spark basic demo
+3. Scala basic  -  Scala basic demo
 	- [ScalaIfElseMatchForloop](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaIfElseMatchForloop.scala) - Scala `if, else, while, match` basic 
 	- [ScalaFunction_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaFunction_1.scala) - Scala `function, lambda` basic
 	- [ScalaFunction_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaFunction_2.scala) - Scala `function with dynamic var length` 
@@ -32,7 +32,6 @@
 	- [EnumerationDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/EnumerationDemo.scala) - Scala `Enumeration` basic op, properties
 	- [ScalaClassDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
 	- [OverrideDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/OverrideDemo.scala) - Scala `Override` basic op, properties
-
 	- [HigherOrderfuncDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/HigherOrderfuncDemo.scala) - Scala `higher order func` basic op, properties
 	- [RecursionDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties
 	- [ConstructorDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ConstructorDemo.scala) - Scala `Constructor` basic op, properties
@@ -49,7 +48,7 @@
 	- [Abstract Class](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/AbstractClass.scala), [AbstractDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/AbstractDemo.scala) - Scala also has a concept of an abstract class that is similar to Java’s abstract class. But because traits are so powerful, you rarely need to use an abstract class. In fact, you only need to use an abstract class when:
 		- You want to create a base class that requires constructor arguments
 	    - Your Scala code will be called from Java code
-	    
+
 5. Scala Script example
 	- [DecoratorDesignPattern](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
 	- [DirectoryOP](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
