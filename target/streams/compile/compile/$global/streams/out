@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/ScalaBasic/GenericTypeParam.scala:63:17: not found: type doubleDivide[0m
-[0m[[0m[31merror[0m] [0m[0m    val r = new doubleDivide().divide(21.0, 5.0) [0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/utility_Scala/src/main/scala/ScalaBasic/TraitDemo2.scala:33:11: ';' expected but 'else' found.[0m
+[0m[[0m[31merror[0m] [0m[0m        } else 0[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
