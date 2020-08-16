@@ -32,9 +32,7 @@
 	- [EnumerationDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/EnumerationDemo.scala) - Scala `Enumeration` basic op, properties
 	- [ScalaClassDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
 	- [OverrideDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/OverrideDemo.scala) - Scala `Override` basic op, properties
-	- [AbstractDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/AbstractDemo.scala) - Scala `Abstract` basic op, properties
-	- [AbstractClass](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/AbstractClass.scala) - Scala `AbstractClass` basic op, properties
-	- [TraitDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TraitDemo.scala), [TraitAbstract](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TraitAbstract.scala), [TraitDemo2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TraitDemo2.scala), [TraitAsInterface](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TraitAsInterface.scala) - Scala `TraitDemo`, `Trait Abstract` basic op, properties
+
 	- [HigherOrderfuncDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/HigherOrderfuncDemo.scala) - Scala `higher order func` basic op, properties
 	- [RecursionDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties
 	- [ConstructorDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ConstructorDemo.scala) - Scala `Constructor` basic op, properties
@@ -45,11 +43,18 @@
 	- [GenericTypeParam](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/GenericTypeParam.scala) - Scala `Generic Type` basic op, properties,
 	e.g. : ``` def exec[T](f: () => T): T = {f()}```
 
-4. Scala Script example
+4. Scala class, trait, abstract class..
+
+	- [Trait](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TraitDemo.scala), [TraitAbstract](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TraitAbstract.scala), [TraitDemo2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TraitDemo2.scala), [TraitAsInterface](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TraitAsInterface.scala) - Scala `TraitDemo`, `Trait Abstract` basic op, properties. *NOTICE* : `Scala traits don’t allow constructor parameters` (so that's why we use abstract class)
+	- [Abstract Class](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/AbstractClass.scala), [AbstractDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/AbstractDemo.scala) - Scala also has a concept of an abstract class that is similar to Java’s abstract class. But because traits are so powerful, you rarely need to use an abstract class. In fact, you only need to use an abstract class when:
+		- You want to create a base class that requires constructor arguments
+	    - Your Scala code will be called from Java code
+	    
+5. Scala Script example
 	- [DecoratorDesignPattern](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
 	- [DirectoryOP](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
 
-5. Spark basic
+6. Spark basic
 	- [Spark_basic_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_1.scala) - Spark `function `basic demo
 	- [Spark_basic_demo_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2.scala) - Spark `RDD basic op` demo : count avg friends by age
 		- [Spark_basic_demo_2 extra](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/SparkBasic/spark_basic_demo_2_extra.scala) - Extra : count avg friend by first name
