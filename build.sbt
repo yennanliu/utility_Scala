@@ -11,8 +11,6 @@ libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.2.1", 
   // spark  
   "org.apache.spark" %% "spark-core" % "2.3.0",
-  "org.scalactic" %% "scalactic" % "3.0.8",
-  "org.scalatest" %% "scalatest" % "3.0.8" % "test",
   "org.apache.spark" %% "spark-sql" % "2.3.0",
   "org.apache.spark" %% "spark-mllib" % "2.2.0",
   // spark stream 
@@ -30,7 +28,11 @@ libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-nop" % "1.6.4",
 
   // sqlite jdbc
-  "org.xerial" % "sqlite-jdbc" % "3.7.2"
+  "org.xerial" % "sqlite-jdbc" % "3.7.2",
+
+  // scalatest
+  "org.scalactic" %% "scalactic" % "3.0.8",
+  "org.scalatest" %% "scalatest" % "3.0.8" % "test"
 
 )
 
