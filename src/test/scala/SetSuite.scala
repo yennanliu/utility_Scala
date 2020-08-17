@@ -1,5 +1,7 @@
 import org.scalatest.funsuite.AnyFunSuite
 
+// https://www.scalatest.org/user_guide/selecting_a_style
+
 class SetSuite extends AnyFunSuite {
 
   test("An empty Set should have size 0") {
