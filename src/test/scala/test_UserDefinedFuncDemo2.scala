@@ -1,12 +1,12 @@
 import collection.mutable.Stack
 import org.scalatest._
-import org.scalatest.FlatSpec
+import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.tagobjects.Slow
 
 //UDF 
 import mydevclass.my_help_func
 
-class test_my_help_func extends FlatSpec {
+class test_my_help_func extends AnyFlatSpec {
 
     "A add func" should "add input values x and y " in {
     var x = 1 

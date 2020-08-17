@@ -1,4 +1,4 @@
-package ScalaBasic
+package ScalaDev
 
 class YenLib {
 

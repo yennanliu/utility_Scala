@@ -31,8 +31,9 @@ libraryDependencies ++= Seq(
   "org.xerial" % "sqlite-jdbc" % "3.7.2",
 
   // scalatest
-  "org.scalactic" %% "scalactic" % "3.0.8",
-  "org.scalatest" %% "scalatest" % "3.0.8" % "test"
+  "org.scalactic" %% "scalactic" % "3.2.0",
+  "org.scalatest" %% "scalatest" % "3.2.0" % "test",
+  "org.scalatest" %% "scalatest-funsuite" % "3.2.0" % "test"
 
 )
 

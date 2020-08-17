@@ -1,4 +1,4 @@
-package ScalaBasic
+package ScalaDev
 
 import java.io.{BufferedWriter, File, FileWriter}
 
@@ -6,8 +6,8 @@ import org.slf4j.LoggerFactory
 
 import scala.io.Source
 import scala.util.Try
-import ScalaBasic.YenLib
-import ScalaBasic.common
+import ScalaDev.YenLib
+import ScalaDev.common
 
 object intellj_script extends App{
   val Logger = LoggerFactory.getLogger(this.getClass)

@@ -1,13 +1,13 @@
 import collection.mutable.Stack
 import org.scalatest._
-import org.scalatest.FlatSpec
+import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.tagobjects.Slow
 
 // http://www.scalatest.org/user_guide/tagging_your_tests
 
 object DbTest extends Tag("com.mycompany.tags.DbTest")
 
-class StackSpec_Test2 extends FlatSpec {
+class StackSpec_Test2 extends AnyFlatSpec {
 
   "A Stack" should "this is assert test" in {
     var x =  1

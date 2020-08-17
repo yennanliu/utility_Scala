@@ -1,4 +1,4 @@
-package ScalaBasic
+package ScalaDev
 
 import org.joda.time.format.{DateTimeFormat, DateTimeFormatter, ISODateTimeFormat}
 import org.joda.time.{DateTime, DateTimeZone, Hours, Years}
