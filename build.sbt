@@ -33,7 +33,8 @@ libraryDependencies ++= Seq(
   // scalatest
   "org.scalactic" %% "scalactic" % "3.2.0",
   "org.scalatest" %% "scalatest" % "3.2.0" % "test",
-  "org.scalatest" %% "scalatest-funsuite" % "3.2.0" % "test"
+  "org.scalatest" %% "scalatest-funsuite" % "3.2.0" % "test",
+  "org.scalatest" %% "scalatest-propspec" % "3.2.0" % "test"
 
 )
 
