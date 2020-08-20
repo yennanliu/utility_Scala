@@ -18,7 +18,7 @@ object CaseClass extends App{
     val message1 = Message("guillaume@quebec.ca", "jorge@catalonia.es", "Ça va ?")
 
     println(message1.sender)  // prints guillaume@quebec.ca
-    message1.sender = "travis@washington.us"  // this line does not compile
+    //message1.sender = "travis@washington.us"  // this line does not compile
 
     // example 3 : Comparison
     //case class Message(sender: String, recipient: String, body: String)
