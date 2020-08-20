@@ -30,7 +30,8 @@
 	- [ScalaArrayDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaArrayDemo.scala) - Scala `Array` basic op, properties
 	- [ScalaHashMap](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaHashMap.scala) - Scala `Hash Map` basic op, properties
 	- [EnumerationDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/EnumerationDemo.scala) - Scala `Enumeration` basic op, properties
-	- [ScalaClassDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
+	- [Class](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
+	- [Case Class](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/CaseClassDemo.scala) - Scala `class` basic op, properties
 	- [OverrideDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/OverrideDemo.scala) - Scala `Override` basic op, properties
 	- [HigherOrderfuncDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/HigherOrderfuncDemo.scala) - Scala `higher order func` basic op, properties
 	- [RecursionDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties
