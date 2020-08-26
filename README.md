@@ -24,7 +24,7 @@
 	- [ScalaFunction_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaFunction_2.scala) - Scala `function with dynamic var length` 
 	- [Scala_basic_demo_3](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/scala_basic_demo_3.scala) - Scala basic data structrue : `array, list, tuple`, apply `function, lambda` with them basic. And `map, exception` demo
 	- [Scala_basic_demo_4](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/scala_basic_demo_4.scala) - Scala `try, exception`, `error handling` demo
-	- [ScalaFileIODemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaFileIODemo.scala), [ScalaFileIODemo2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaFileIODemo2.scala) - Scala file IO basic
+	- [ScalaFileIODemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaFileIODemo.scala), [ScalaFileIODemo2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaFileIODemo2.scala),  [ScalaFileIODemo3](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaFileIODemo3.scala) - Scala file IO basic
 	- [ScalaLazyDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/LazyDemo.scala) - Scala lazy value demo
 	- [ScalaUnitDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/UnitDemo.scala) - Scala function with `no return value` called as `procedure`, with return type `Unit`
 	- [ScalaArrayDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaArrayDemo.scala) - Scala `Array` basic op, properties

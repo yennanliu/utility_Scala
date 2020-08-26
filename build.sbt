@@ -9,6 +9,7 @@ val sparkVersion = "2.3.0"
 libraryDependencies ++= Seq(
   // config
   "com.typesafe" % "config" % "1.2.1", 
+  // TODO : need to fix spark verison when set scala == 2.13.0
   // spark  
   "org.apache.spark" %% "spark-core" % "2.3.0",
   "org.apache.spark" %% "spark-sql" % "2.3.0",
