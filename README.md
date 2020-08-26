@@ -42,7 +42,7 @@
 	- [CaseHeadTailNil](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/CaseHeadTailNil.scala) - Scala `Case on List Head Tail Nil` basic op, properties
 	- [GenericTypeParam](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/GenericTypeParam.scala) - Scala `Generic Type` basic op, properties,
 	e.g. : ``` def exec[T](f: () => T): T = {f()}```
-	- [TryGetOrElse](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TryGetOrElse.scala) - Scala `try GetOrElse(else)` example
+	- [TryGetOrElse](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TryGetOrElse.scala), TryGetOrElse2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TryGetOrElse2.scala) - Scala `try GetOrElse(else)` example
 
 4. Scala class, trait, abstract class..
 
