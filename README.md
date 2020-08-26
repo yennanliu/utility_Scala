@@ -44,6 +44,7 @@
 	e.g. : ``` def exec[T](f: () => T): T = {f()}```
 	- [TryGetOrElse](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TryGetOrElse.scala), TryGetOrElse2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TryGetOrElse2.scala) - Scala `try GetOrElse(else)` example
 	- [UpperCass](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/UpperCass.scala) - Scala `UpperCass ( <: )` basic op, properties
+	- [Find](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Find.scala) - Scala `Find`, `exists`,  `contains`, and `isDefined` examples
 
 4. Scala class, trait, abstract class..
 
