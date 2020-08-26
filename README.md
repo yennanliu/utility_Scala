@@ -43,6 +43,7 @@
 	- [GenericTypeParam](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/GenericTypeParam.scala) - Scala `Generic Type` basic op, properties,
 	e.g. : ``` def exec[T](f: () => T): T = {f()}```
 	- [TryGetOrElse](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TryGetOrElse.scala), TryGetOrElse2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TryGetOrElse2.scala) - Scala `try GetOrElse(else)` example
+	- [UpperCass](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/UpperCass.scala) - Scala `UpperCass ( <: )` basic op, properties
 
 4. Scala class, trait, abstract class..
 
