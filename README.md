@@ -33,7 +33,7 @@
 	- [ScalaLazyDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/LazyDemo.scala) - Scala lazy value demo
 	- [ScalaUnitDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/UnitDemo.scala) - Scala function with `no return value` called as `procedure`, with return type `Unit`
 	- [Class](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
-	- [Case Class](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/CaseClass.scala) - Scala `class` basic op, properties
+	- [Case Class](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/CaseClass.scala), [Case Class2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/CaseClass2.scala) - Scala `class` basic op, properties
 	- [OverrideDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/OverrideDemo.scala) - Scala `Override` basic op, properties
 	- [HigherOrderfuncDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/HigherOrderfuncDemo.scala) - Scala `higher order func` basic op, properties
 	- [RecursionDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties
