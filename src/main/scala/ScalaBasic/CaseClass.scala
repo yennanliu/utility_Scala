@@ -3,6 +3,9 @@ package ScalaBasic
 // https://docs.scala-lang.org/tour/case-classes.html
 // https://www.scala-exercises.org/scala_tutorial/classes_vs_case_classes 
 
+// case class is also one kinds of class, the difference is 
+// case class is matching input parameter type at beginning
+
 object CaseClass extends App{
 
     // example 1 : Defining a case class
