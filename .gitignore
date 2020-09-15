@@ -67,3 +67,5 @@ target/*
 project/target/*
 project/target/scala-2.12/sbt-1.0/*
 project/*
+project/target/scala-2.12/*
+project/target/scala-2.12/
