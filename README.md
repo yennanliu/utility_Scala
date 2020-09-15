@@ -38,7 +38,7 @@
 	- [HigherOrderfuncDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/HigherOrderfuncDemo.scala) - Scala `higher order func` basic op, properties
 	- [RecursionDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties
 	- [ConstructorDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ConstructorDemo.scala) - Scala `Constructor` basic op, properties
-	- [PatternmatchDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/PatternmatchDemo.scala) - Scala `Pattern match` basic op, properties
+	- [PatternmatchDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/PatternmatchDemo.scala), [PatternmatchDemo2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/PatternmatchDemo2.scala) - Scala `Pattern match` basic op, properties
 	- [thisDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/thisDemo.scala) - Scala `this` basic op, properties
 	- [SomeDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/SomeDemo.scala) - Scala `Some` basic op, properties
 	- [CaseHeadTailNil](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/CaseHeadTailNil.scala) - Scala `Case on List Head Tail Nil` basic op, properties
