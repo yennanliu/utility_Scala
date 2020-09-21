@@ -14,7 +14,7 @@ object Scala_yield_to_List extends App{
             yield (i)
        ).toList
 
-    println(my_2nd_value)
+    println(my_odd_value)
 
     val my_even_value:List[Int] = (
             for { i <- 1 to 20 if i % 2 == 0 }
@@ -22,4 +22,5 @@ object Scala_yield_to_List extends App{
        ).toList
 
     println(my_even_value)
+
 }
