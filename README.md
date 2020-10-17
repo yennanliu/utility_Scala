@@ -55,6 +55,7 @@
 	- [Abstract Class](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/AbstractClass.scala), [AbstractDemo](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/AbstractDemo.scala) - Scala also has a concept of an abstract class that is similar to Java’s abstract class. But because traits are so powerful, you rarely need to use an abstract class. In fact, you only need to use an abstract class when:
 		- You want to create a base class that requires constructor arguments
 	    - Your Scala code will be called from Java code
+	- [Class VS Object 1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Class_VS_Object_1.scala), [Class VS Object 2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Class_VS_Object_2.scala) - Compare Class, object difference, feature in Scala
 
 6. Scala Script example
 	- [DecoratorDesignPattern](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
