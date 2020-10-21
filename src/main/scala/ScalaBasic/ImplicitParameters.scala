@@ -10,11 +10,13 @@ object ImplicitParameters {
     def log(msg: String)(implicit name: String): Unit = println(s"[$name] $msg")
 
     def process(): Unit = {
+        // update implicit value
         implicit val name: String = "process"
         log("doing something")
     }
 
     def main(args: Array[String]): Unit = {
+        // update implicit value
         implicit val name: String = "main"
         log("start")
         process()

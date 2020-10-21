@@ -48,7 +48,7 @@
 	- [TryGetOrElse](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TryGetOrElse.scala), [TryGetOrElse2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TryGetOrElse2.scala) - Scala `try GetOrElse(else)` example
 	- [UpperCass](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/UpperCass.scala) - Scala `UpperCass ( <: )` basic op, properties
 	- [Find](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Find.scala) - Scala `Find`, `exists`,  `contains`, and `isDefined` examples
-	- [ImplicitParameters](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ImplicitParameters.scala) - Scala `implicit` in Parameters, func, class 
+	- [ImplicitParameters](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ImplicitParameters.scala), [ImplicitFunc](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ImplicitFunc.scala), [ImplicitClass](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ImplicitClass.scala) - Scala `implicit` in Parameters, func, class 
 
 5. Scala class, trait, abstract class..
 
