@@ -12,7 +12,7 @@ spark-warehouse
 *.class
 .DS_Store
 target/streams/*
-*.properties
+#*.properties
 project/project/*
 project/target/*
 project/target/streams/*
@@ -29,7 +29,7 @@ target/streams/*
 # sbt
 # (may want to keep parts of 'project')
 bin/
-project/
+#project/
 target/
 build/
 
@@ -66,7 +66,7 @@ target/streams/$global/update/$global/streams/update_cache_2.11/output
 target/*
 project/target/*
 project/target/scala-2.12/sbt-1.0/*
-project/*
+#project/*
 project/target/scala-2.12/*
 project/target/scala-2.12/
 project/target/scala-2.12/sbt-1.0/resolution-cache/reports/*
