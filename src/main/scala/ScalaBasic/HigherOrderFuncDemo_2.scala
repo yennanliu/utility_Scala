@@ -1,6 +1,7 @@
 package ScalaBasic
 
 // https://www.scala-exercises.org/std_lib/higher_order_functions
+// Higher Order Functions: Higher Order Functions are functions that take functions as arguments and/or return functions.
 
 object HigherOrderFuncDemo_2 extends App{
     def lambda = { x: Int => x + 1 }
@@ -33,4 +34,8 @@ object HigherOrderFuncDemo_2 extends App{
     println(result_2)
     println(result1andhalf_2)
 
+    println(result2)
+    println(result3)
+    println(result4)
+    println(result5)
 }
