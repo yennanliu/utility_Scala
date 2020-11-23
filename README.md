@@ -21,7 +21,8 @@
 3. Scala basic  -  variable, data structure
 	- [Scala_basic_demo_3](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/scala_basic_demo_3.scala) - Scala basic data structrue : `array, list, tuple`, apply `function, lambda` with them basic. And `map, exception` demo
 	- [Array](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaArrayDemo.scala) - Scala `Array` basic op, properties
-	- [ListDemo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ListDemo_1.scala), [Scala_yield_to_List](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Scala_yield_to_List.scala) - Scala Lists are quite similar to arrays, which means all the elements of a list have the same type - but there are two important differences. 		- First, lists are immutable, which means elements of a list cannot be changed by assignment. 
+	- [ListDemo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ListDemo_1.scala), [Scala_yield_to_List](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Scala_yield_to_List.scala) - Scala Lists are quite similar to arrays, which means all the elements of a list have the same type - but there are two important differences.
+		- First, lists are immutable, which means elements of a list cannot be changed by assignment. 
 		- Second, lists represent a `linked list` whereas arrays are flat. The `type of a list` that has elements of `type T` is written as List[T].
 	- [HashMap](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaHashMap.scala) - Scala `Hash Map` basic op, properties
 	- [Enumeration](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/EnumerationDemo.scala) - Scala `Enumeration` basic op, properties
