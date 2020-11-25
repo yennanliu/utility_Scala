@@ -25,6 +25,7 @@
 		- First, lists are immutable, which means elements of a list cannot be changed by assignment. 
 		- Second, lists represent a `linked list` whereas arrays are flat. The `type of a list` that has elements of `type T` is written as List[T].
 	- [HashMap](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaHashMap.scala) - Scala `Hash Map` basic op, properties
+	- [MapDemo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/MapDemo_1.scala) - Scala `Map` basic op, properties
 	- [Enumeration](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/EnumerationDemo.scala) - Scala `Enumeration` basic op, properties
 
 4. Scala basic  -  function, class, case class, constructor...
