@@ -6,7 +6,7 @@ package ScalaBasic
 object PatternmatchDemo3 extends App{
 
     /*
-     *   PART 1
+     *   PART 1  : basic pattern match
      */
 
     // example 1 
@@ -106,8 +106,60 @@ object PatternmatchDemo3 extends App{
 
 
     /*
-     *   PART 2
+     *   PART 2  : pattern match with list
      */
 
+    // https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/CaseHeadTailNil.scala
 
+    // extends 8
+    // To pattern match against a List, the list can be split into parts, in this case the head x and the tail xs. Since the case doesn't terminate in Nil, xs is interpreted as the rest of the list:
+
+    val secondElement = List(1, 2, 3) match {
+      case x :: xs => xs.head
+      case _ => 0
+    }
+
+    println(secondElement) // 2 
+
+    // example 9
+    val secondElement2 = List(1, 2, 3) match {
+      case x :: y :: xs => y
+      case _ => 0
+    }
+
+    println (secondElement2)
+
+    // example 10 
+    val secondElement3 = List(1) match {
+      case x :: y :: xs => y // only matches a list with two or more items
+      case _ => 0
+    }
+
+     println (secondElement3)
+
+
+     // example 11 
+     val r = List(1, 2, 3) match {
+      case x :: y :: Nil => y // only matches a list with exactly two items
+      case _ => 0
+    }
+
+    println(r)
+
+
+     // example 12
+     val r2 = List(1, 2, 3) match {
+      case x :: y :: z => z 
+      case _ => 0
+    }
+
+    println(r2)
+
+    // example 13
+    val r3 = List(1, 2, 3) match {
+      case x :: y :: z :: tail => tail
+      case _ => 0
+    }
+
+    println(r3)
 }
