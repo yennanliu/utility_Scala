@@ -5,13 +5,12 @@ package ScalaBasic
 object ListDemo_1 extends App{
 
     // eq tests identity (same object)
+    // == tests equality (same content)
     val a = List(1, 2, 3)
     val b = List(1, 2, 3)
-    println ((a eq b)) // false
-
-
-    // == tests equality (same content)
-    println(println ((a eq b))) // true
+    
+    println ((a eq b)) // false 
+    println(println ((a == b))) // true
 
     // Nil lists are identical, even of different types
     val a_2: List[String] = Nil
