@@ -61,6 +61,7 @@
 		- You want to create a base class that requires constructor arguments
 	    - Your Scala code will be called from Java code
 	- [Class VS Object 1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Class_VS_Object_1.scala), [Class VS Object 2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Class_VS_Object_2.scala) - Compare Class, object difference, feature in Scala
+	- [Type Parameterlization Demo1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TypeParameterlizationDemo_1.scala) - Type Parameterlization in Scala
 
 6. Scala Script example
 	- [DecoratorDesignPattern](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
