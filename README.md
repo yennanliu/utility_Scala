@@ -66,7 +66,7 @@
 
 
 5. Scala implicit
-	- [implicit_transformation_demo_1]((https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/implicit_transformation_demo_1.scala), [implicit_transformation_demo_2]((https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/implicit_transformation_demo_2.scala) - implicit transformation can automatically transform "high accuracy" val to "low accuracy". e.g. : Byte -> Short, Short -> Int, Int -> Long, Long -> Float, Char -> Int ..
+	- [implicit_transformation_demo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/implicit_transformation_demo_1.scala), [implicit_transformation_demo_2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/implicit_transformation_demo_2.scala) - implicit transformation can automatically transform "high accuracy" val to "low accuracy". e.g. : Byte -> Short, Short -> Int, Int -> Long, Long -> Float, Char -> Int ..
 	- [ImplicitParameters](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ImplicitParameters.scala), [ImplicitFunc](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ImplicitFunc.scala), [ImplicitClass](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ImplicitClass.scala) - Scala `implicit` in Parameters, func, class 
 
 6. Scala Script example
