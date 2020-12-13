@@ -52,7 +52,6 @@
 	- [TryGetOrElse](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TryGetOrElse.scala), [TryGetOrElse2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TryGetOrElse2.scala) - Scala `try GetOrElse(else)` example
 	- [UpperCass](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/UpperCass.scala) - Scala `UpperCass ( <: )` basic op, properties
 	- [Find](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Find.scala) - Scala `Find`, `exists`,  `contains`, and `isDefined` examples
-	- [ImplicitParameters](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ImplicitParameters.scala), [ImplicitFunc](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ImplicitFunc.scala), [ImplicitClass](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ImplicitClass.scala) - Scala `implicit` in Parameters, func, class 
 	- [CompanionDemo1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/CompanionDemo1.scala), [CompanionDemo2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/CompanionDemo2.scala)  - Scala Companion demo (An object that has the same name as a class is called a companion object of the class, and it is often used to contain factory methods for the class that it complements)
 	- [Partial applied functions demo 1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/PartialAppliedFuncDemo_1.scala) - Scala Partial applied functions examples
 
@@ -64,6 +63,11 @@
 	    - Your Scala code will be called from Java code
 	- [Class VS Object 1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Class_VS_Object_1.scala), [Class VS Object 2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Class_VS_Object_2.scala) - Compare Class, object difference, feature in Scala
 	- [Type Parameterlization Demo1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TypeParameterlizationDemo_1.scala) - Type Parameterlization in Scala
+
+
+5. Scala implicit
+	- [implicit_transformation_demo_1]((https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/implicit_transformation_demo_1.scala), [implicit_transformation_demo_2]((https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/implicit_transformation_demo_2.scala) - implicit transformation can automatically transform "high accuracy" val to "low accuracy". e.g. : Byte -> Short, Short -> Int, Int -> Long, Long -> Float, Char -> Int ..
+	- [ImplicitParameters](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ImplicitParameters.scala), [ImplicitFunc](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ImplicitFunc.scala), [ImplicitClass](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ImplicitClass.scala) - Scala `implicit` in Parameters, func, class 
 
 6. Scala Script example
 	- [DecoratorDesignPattern](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
