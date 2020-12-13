@@ -27,6 +27,7 @@
 	- [HashMap](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaHashMap.scala) - Scala `Hash Map` basic op, properties
 	- [MapDemo_1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/MapDemo_1.scala) - Scala `Map` basic op, properties
 	- [Enumeration](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/EnumerationDemo.scala) - Scala `Enumeration` basic op, properties
+	- [Nothing_demo1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Nothing_demo1.scala) - `Nothing` can still pass information when the program failed
 
 4. Scala basic  -  function, class, case class, constructor...
 	- [ScalaIfElseMatchForloop](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaIfElseMatchForloop.scala) - Scala `if, else, while, match` basic 
