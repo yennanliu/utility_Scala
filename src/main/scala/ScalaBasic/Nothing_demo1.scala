@@ -4,13 +4,19 @@ package ScalaBasic
 
 object Nothing_demo1 extends App {
 
-
     val t = null
     println(t)
 
     println(test())
 
+    println(test2())
+
     def test():Nothing = {
+        // throw an exception
+        throw new Exception()
+    }
+
+    def test2():Any = {
         // throw an exception
         throw new Exception()
     }
