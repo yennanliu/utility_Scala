@@ -14,7 +14,6 @@ object PartialAppliedFuncDemo_1 extends App {
     println (sum(1,3,5))
 
     // example 2
-
     def sum2(a: Int, b: Int, c: Int) = a + b + c
     val sum2C = sum(1, 10, _: Int)
     val sum2D = sum(1, _: Int, _: Int)
@@ -23,10 +22,8 @@ object PartialAppliedFuncDemo_1 extends App {
     println (sum2(4,5,6))
     println (sum2D(5,6))
 
-
     // example 3
     // Currying is a technique to transform a function with multiple parameters into multiple functions which each take one parameter:
-
     def multiply(x: Int, y: Int) = x * y
     println ((multiply _).isInstanceOf[Function2[_, _, _]])
 
