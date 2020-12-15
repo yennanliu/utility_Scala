@@ -54,6 +54,7 @@
 	- [Find](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Find.scala) - Scala `Find`, `exists`,  `contains`, and `isDefined` examples
 	- [CompanionDemo1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/CompanionDemo1.scala), [CompanionDemo2](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/CompanionDemo2.scala)  - Scala Companion demo (An object that has the same name as a class is called a companion object of the class, and it is often used to contain factory methods for the class that it complements)
 	- [Partial applied functions demo 1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/PartialAppliedFuncDemo_1.scala) - Scala Partial applied functions examples
+	- [Partial functions demo 1](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/partial_functions_demo_1.scala) - Scala Partial functions examples
 
 5. Scala class, trait, abstract class..
 
