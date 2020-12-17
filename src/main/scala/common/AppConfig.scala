@@ -17,4 +17,6 @@ object AppConfig {
   var env: String = GetEnv(cfg.toString)
 
   val main = ConfigFactory.load(GetEnv(env))
+
 }
+
