@@ -52,7 +52,6 @@
 	- [TryGetOrElse](./src/main/scala/ScalaBasic/TryGetOrElse.scala), [TryGetOrElse2](./src/main/scala/ScalaBasic/TryGetOrElse2.scala) - Scala `try GetOrElse(else)` example
 	- [UpperCass](./src/main/scala/ScalaBasic/UpperCass.scala) - Scala `UpperCass ( <: )` basic op, properties
 	- [Find](./src/main/scala/ScalaBasic/Find.scala) - Scala `Find`, `exists`,  `contains`, and `isDefined` examples
-	- [CompanionDemo1](./src/main/scala/ScalaBasic/CompanionDemo1.scala), [CompanionDemo2](./src/main/scala/ScalaBasic/CompanionDemo2.scala)  - Scala Companion demo (An object that has the same name as a class is called a companion object of the class, and it is often used to contain factory methods for the class that it complements)
 	- [Partial applied functions demo 1](./src/main/scala/ScalaBasic/PartialAppliedFuncDemo_1.scala) - Scala Partial applied functions examples
 	- [Partial functions demo 1](./src/main/scala/ScalaBasic/partial_functions_demo_1.scala) - Scala Partial functions examples
 
@@ -64,6 +63,7 @@
 	    - Your Scala code will be called from Java code
 	- [Class VS Object 1](./src/main/scala/ScalaBasic/Class_VS_Object_1.scala), [Class VS Object 2](./src/main/scala/ScalaBasic/Class_VS_Object_2.scala) - Compare Class, object difference, feature in Scala
 	- [Type Parameterlization Demo1](./src/main/scala/ScalaBasic/TypeParameterlizationDemo_1.scala) - Type Parameterlization in Scala
+	- [CompanionDemo1](./src/main/scala/ScalaBasic/CompanionDemo1.scala), [CompanionDemo2](./src/main/scala/ScalaBasic/CompanionDemo2.scala)  - Scala Companion demo (An object that has the same name as a class is called a companion object of the class, and it is often used to contain factory methods for the class that it complements)
 	- [Apply method demo 1](./src/main/scala/ScalaBasic/ApplyMethodDemo1.scala), [Apply method demo 2](./src/main/scala/ScalaBasic/ApplyMethodDemo2.scala),  [Apply method demo 3](./src/main/scala/ScalaBasic/ApplyMethodDemo3.scala) - if we have 1 object : `Object(param1, param2...)` then we will get the `Companion class` object return via the `Apply` method
 
 
