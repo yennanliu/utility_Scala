@@ -38,6 +38,7 @@ object User{
   def doubleCredit(u: User): Double = { u.credit * 2 }
 
   def checkCreditGroup(u: User): String = u.credit match {
+    // https://gist.github.com/colindean/ef062db69915b49d44b9#file-compare-scala-L51
     case _ if (u.credit <= 50 ) => "group 1"
     case _ if (u.credit > 50 && u.credit <= 100 ) => "group 2"
     case _ => "group 3"
