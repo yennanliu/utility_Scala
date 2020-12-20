@@ -16,7 +16,9 @@ class Account private(val id: Int, intialBalance: Double){
   var balance = intialBalance
 }
 
-object Account { // Companion
+object Account {
+  // Companion
+  // Companion class and its class can visit the private object each other
   def apply(intialBalance: Double) ={
     new Account(123, intialBalance)
   }
