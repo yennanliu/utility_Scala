@@ -75,6 +75,7 @@
 6. Scala Script example
 	- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
+	- [Show run time elapse](./src/main/scala/ScalaBasic/runTimeElapse_demo1.scala) - show how long the code running in Scala
 
 7. Others
 	-[Scala get args demo1](./src/main/scala/ScalaBasic/ScalaGetArgDemo_1.scala)
