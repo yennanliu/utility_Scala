@@ -32,6 +32,7 @@ object Implicit_Demo4 extends App{
     def printImplictMyStyle() (implicit toPrint:MyStyle): Unit = {
         println("printImplictMyStyle run ...")
         println(toPrint)
+        println(toPrint.content)
     }
 
     // run
