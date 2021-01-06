@@ -79,6 +79,8 @@
 	- [Show run time elapse](./src/main/scala/ScalaBasic/runTimeElapse_demo1.scala) - show how long the code running in Scala
 	- [ScalaReadCLIArgs_Demo1](./src/main/scala/ScalaBasic/ScalaReadCLIArgs_Demo1.scala) - Scala load arguments from CLI
 
+7. Scala exception, error handling
+	- [ExceptionDemo1](./src/main/scala/ScalaBasic/ExceptionDemo1.scala) - there is no `compile exception` in Scala (only java has), all exceptions in Scala happen in the `runtime` 
 7. Others
 	-[Scala get args demo1](./src/main/scala/ScalaBasic/ScalaGetArgDemo_1.scala)
 
