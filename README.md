@@ -80,7 +80,8 @@
 	- [ScalaReadCLIArgs_Demo1](./src/main/scala/ScalaBasic/ScalaReadCLIArgs_Demo1.scala) - Scala load arguments from CLI
 
 7. Scala exception, error handling
-	- [ExceptionDemo1](./src/main/scala/ScalaBasic/ExceptionDemo1.scala) - there is no `compile exception` in Scala (only java has), all exceptions in Scala happen in the `runtime` 
+	- [ExceptionDemo1](./src/main/scala/ScalaBasic/ExceptionDemo1.scala) - there is NO `compile exception` in Scala (only java has), all exceptions in Scala happen during `runtime`. All exceptions inherit from the "throwable" class, which is the class with "nothing" type that is acceptable to `all class/method...`
+	- [ExceptionDemo2](./src/main/scala/ScalaBasic/ExceptionDemo2.scala) - format : `try - catch - finally`
 7. Others
 	-[Scala get args demo1](./src/main/scala/ScalaBasic/ScalaGetArgDemo_1.scala)
 
