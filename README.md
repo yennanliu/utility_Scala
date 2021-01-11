@@ -62,7 +62,7 @@
 		}
 		```
 		- [java ref](https://github.com/yennanliu/JavaHelloWorld)
-		- [ConstructorDemo1](./src/main/scala/ScalaBasic/ConstructorDemo1.scala), [ConstructorDemo2](./src/main/scala/ScalaBasic/ConstructorDemo2.scala), [ConstructorDemo3](./src/main/scala/ScalaBasic/ConstructorDemo3.scala)		
+		- [ConstructorDemo1](./src/main/scala/ScalaBasic/ConstructorDemo1.scala), [ConstructorDemo2](./src/main/scala/ScalaBasic/ConstructorDemo2.scala), [ConstructorDemo3](./src/main/scala/ScalaBasic/ConstructorDemo3.scala), [ConstructorDemo4](./src/main/scala/ScalaBasic/ConstructorDemo4.scala)		
 	- [PatternmatchDemo](./src/main/scala/ScalaBasic/PatternmatchDemo.scala), [PatternmatchDemo2](./src/main/scala/ScalaBasic/PatternmatchDemo2.scala), [PatternmatchDemo3](./src/main/scala/ScalaBasic/PatternmatchDemo3.scala), [PatternmatchValueCompare](./src/main/scala/ScalaBasic/PatternmatchValueCompare.scala) - Scala `Pattern match` basic op, properties
 	- [thisDemo](./src/main/scala/ScalaBasic/thisDemo.scala), - [thisDemo2](./src/main/scala/ScalaBasic/thisDemo2.scala) - Scala `this` basic op, properties
 	- [SomeDemo](./src/main/scala/ScalaBasic/SomeDemo.scala) - Scala `Some` basic op, properties
