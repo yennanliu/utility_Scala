@@ -1,6 +1,6 @@
 package ScalaBasic
 
-object ConstructorDemo extends App {
+object ConstructorDemo1 extends App {
 
 // example 1 
 class Person(val name: String, val age: Int) {

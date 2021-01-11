@@ -46,7 +46,23 @@
 	- [OverrideDemo](./src/main/scala/ScalaBasic/OverrideDemo.scala) - Scala `Override` basic op, properties
 	- [HigherOrderfuncDemo](./src/main/scala/ScalaBasic/HigherOrderfuncDemo.scala), [HigherOrderFuncDemo_2](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_2.scala), [HigherOrderFuncDemo_3](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_3.scala), [HigherOrderFuncDemo_4](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_4.scala), [HigherOrderFuncDemo_5](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_5.scala)- `Higher Order Functions` are functions that take functions as arguments and/or return functions.
 	- [RecursionDemo](./src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties
-	- [ConstructorDemo](./src/main/scala/ScalaBasic/ConstructorDemo.scala) - Scala `Constructor` basic op, properties
+	- Constructor
+		- Constructor can define value to its attribution when create the object
+		- can has as many as posssible constructor methods in scala
+		- "main constructor", "support constructor"
+		- scala constructor format
+		```scala
+		class ClassName{parameters}{ // main constructor
+			// code
+			//
+			def this(parameters){//support constructor
+			}
+			def this(parameters){// can have multiple support constructors ...
+			}
+		}
+		```
+		- [java ref](https://github.com/yennanliu/JavaHelloWorld)
+		- [ConstructorDemo1](./src/main/scala/ScalaBasic/ConstructorDemo1.scala)
 	- [PatternmatchDemo](./src/main/scala/ScalaBasic/PatternmatchDemo.scala), [PatternmatchDemo2](./src/main/scala/ScalaBasic/PatternmatchDemo2.scala), [PatternmatchDemo3](./src/main/scala/ScalaBasic/PatternmatchDemo3.scala), [PatternmatchValueCompare](./src/main/scala/ScalaBasic/PatternmatchValueCompare.scala) - Scala `Pattern match` basic op, properties
 	- [thisDemo](./src/main/scala/ScalaBasic/thisDemo.scala), - [thisDemo2](./src/main/scala/ScalaBasic/thisDemo2.scala) - Scala `this` basic op, properties
 	- [SomeDemo](./src/main/scala/ScalaBasic/SomeDemo.scala) - Scala `Some` basic op, properties
