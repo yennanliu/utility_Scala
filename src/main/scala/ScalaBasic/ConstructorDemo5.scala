@@ -27,6 +27,6 @@ class Cat2(val inName: String){
   var name: String = inName
 }
 
-class Cat3(var inName: String){  // use "var" for variable, will have "getter", and "setter" like method as java
+class Cat3(var inName: String){
   var name: String = inName
 }
