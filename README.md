@@ -15,6 +15,9 @@
 * [spark-etl-pipeline](https://github.com/yennanliu/spark-etl-pipeline) - Demo of various Spark ETL processes
 * [utility_Scala](https://github.com/yennanliu/utility_Scala) - Scala/Spark programming basic demo 
 
+## Note
+* [Scala Note](https://github.com/yennanliu/utility_Scala/tree/master/doc/scala_note.md) - Scala learning note
+
 ## Main Files
 1. [Utility Scala](https://github.com/yennanliu/utility_Scala/tree/master/src/main/scala/UtilityScala) - Scala scripts for utility
 

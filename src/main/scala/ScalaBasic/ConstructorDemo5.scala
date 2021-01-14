@@ -27,6 +27,7 @@ class Cat2(val inName: String){
   var name: String = inName
 }
 
+// plz also ref : https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/BeanPropertyDemo1.scala
 class Cat3(var inName: String){
   var name: String = inName
 }
