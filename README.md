@@ -93,6 +93,7 @@
 	- [pkgObject](./src/main/scala/ScalaBasic/pkgObject.scala) - `package` can have class, object, and trait... but it CAN'T HAVE `function`, `var`... In order to solve it, scala offers the `package object` concept
 	- [SingletonDemo1](./src/main/scala/ScalaBasic/SingletonDemo1.scala) - Scala Singleton Demo 
 	- [CompanionDemo1](./src/main/scala/ScalaBasic/CompanionDemo1.scala), [CompanionDemo2](./src/main/scala/ScalaBasic/CompanionDemo2.scala),  [CompanionDemo3](./src/main/scala/ScalaBasic/CompanionDemo3.scala)  - Scala Companion demo (An object that has the same name as a class is called a companion object of the class, and it is often used to contain factory methods for the class that it complements)
+	- [VisibilityDemo1](./src/main/scala/ScalaBasic/VisibilityDemo1.scala) - extend package visibility. e.g. : `private[ScalaBasic] val name = "jackkkk"`
 
 5. Scala implicit
 	- implicit is the way that you dont need to pass parameters explicitly in functions in Scala, but Scala will be able to find them from the implitict scope once you defined them. Use implicit can make your function more general and easy to import/deal with different cases per pattern
