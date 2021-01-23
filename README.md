@@ -78,7 +78,6 @@
 	- [Partial applied functions demo 1](./src/main/scala/ScalaBasic/PartialAppliedFuncDemo_1.scala) - Scala Partial applied functions examples
 	- [Partial functions demo 1](./src/main/scala/ScalaBasic/partial_functions_demo_1.scala) - Scala Partial functions examples
 	- [Bean Property](./src/main/scala/ScalaBasic/BeanPropertyDemo1.scala) - `@BeanProperty` example
-	- [LoadPackageDemo1](./src/main/scala/ScalaBasic/LoadPackageDemo1.scala), [LoadPackageDemo2](./src/main/scala/ScalaBasic/LoadPackageDemo2.scala), [LoadPackageDemo3](./src/main/scala/ScalaBasic/LoadPackageDemo3.scala), [LoadPackageDemo4](./src/main/scala/ScalaBasic/LoadPackageDemo4.scala) - Scala load package examples
 
 5. Scala class, trait, abstract class..
 	- [Trait](./src/main/scala/ScalaBasic/TraitDemo.scala), [TraitAbstract](./src/main/scala/ScalaBasic/TraitAbstract.scala), [TraitDemo2](./src/main/scala/ScalaBasic/TraitDemo2.scala), [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala) - Scala `TraitDemo`, `Trait Abstract` basic op, properties. *NOTICE* : `Scala traits don’t allow constructor parameters` (so that's why we use abstract class)
@@ -89,6 +88,10 @@
 	- [Type Parameterlization Demo1](./src/main/scala/ScalaBasic/TypeParameterlizationDemo_1.scala) - Type Parameterlization in Scala
 	- [CompanionDemo1](./src/main/scala/ScalaBasic/CompanionDemo1.scala), [CompanionDemo2](./src/main/scala/ScalaBasic/CompanionDemo2.scala)  - Scala Companion demo (An object that has the same name as a class is called a companion object of the class, and it is often used to contain factory methods for the class that it complements)
 	- [Apply method demo 1](./src/main/scala/ScalaBasic/ApplyMethodDemo1.scala), [Apply method demo 2](./src/main/scala/ScalaBasic/ApplyMethodDemo2.scala),  [Apply method demo 3](./src/main/scala/ScalaBasic/ApplyMethodDemo3.scala) - if we have 1 object : `Object(param1, param2...)` then we will get the `Companion class` object return via the `Apply` method
+
+6. Scala object
+	- [LoadPackageDemo1](./src/main/scala/ScalaBasic/LoadPackageDemo1.scala), [LoadPackageDemo2](./src/main/scala/ScalaBasic/LoadPackageDemo2.scala), [LoadPackageDemo3](./src/main/scala/ScalaBasic/LoadPackageDemo3.scala), [LoadPackageDemo4](./src/main/scala/ScalaBasic/LoadPackageDemo4.scala) - Scala load package examples
+	- [pkgObject](./src/main/scala/ScalaBasic/pkgObject.scala) - Scala package object examples
 
 5. Scala implicit
 	- implicit is the way that you dont need to pass parameters explicitly in functions in Scala, but Scala will be able to find them from the implitict scope once you defined them. Use implicit can make your function more general and easy to import/deal with different cases per pattern
