@@ -18,7 +18,7 @@ object LoadPackageDemo2 extends App{
 
   //run 1
   val a01 = new ScalaBasic.A01
-  val a01_ = new A01  // "child" object call use "parent" class directly, no need to import
+  val a01_ = new A01  // "child" object can use "parent" class directly, no need to import
   println("ScalaBasic.A01 = " + a01)
   println("ScalaBasic.LoadPackageDemo2.A01 = " + a01_)
 
