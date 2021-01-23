@@ -78,7 +78,7 @@
 	- [Partial applied functions demo 1](./src/main/scala/ScalaBasic/PartialAppliedFuncDemo_1.scala) - Scala Partial applied functions examples
 	- [Partial functions demo 1](./src/main/scala/ScalaBasic/partial_functions_demo_1.scala) - Scala Partial functions examples
 	- [Bean Property](./src/main/scala/ScalaBasic/BeanPropertyDemo1.scala) - `@BeanProperty` example
-	- [LoadPackageDemo1](./src/main/scala/ScalaBasic/LoadPackageDemo1.scala), [LoadPackageDemo2](./src/main/scala/ScalaBasic/LoadPackageDemo2.scala) - Scala load package examples
+	- [LoadPackageDemo1](./src/main/scala/ScalaBasic/LoadPackageDemo1.scala), [LoadPackageDemo2](./src/main/scala/ScalaBasic/LoadPackageDemo2.scala), [LoadPackageDemo3](./src/main/scala/ScalaBasic/LoadPackageDemo3.scala) - Scala load package examples
 
 5. Scala class, trait, abstract class..
 	- [Trait](./src/main/scala/ScalaBasic/TraitDemo.scala), [TraitAbstract](./src/main/scala/ScalaBasic/TraitAbstract.scala), [TraitDemo2](./src/main/scala/ScalaBasic/TraitDemo2.scala), [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala) - Scala `TraitDemo`, `Trait Abstract` basic op, properties. *NOTICE* : `Scala traits don’t allow constructor parameters` (so that's why we use abstract class)

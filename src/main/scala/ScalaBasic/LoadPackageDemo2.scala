@@ -19,10 +19,10 @@ object LoadPackageDemo2 extends App{
   //run 1
   val a01 = new ScalaBasic.A01
   val a01_ = new A01  // "child" object call use "parent" class directly, no need to import
-  println("A01 = " + a01)
-  println("A01 = " + a01_)
+  println("ScalaBasic.A01 = " + a01)
+  println("ScalaBasic.LoadPackageDemo2.A01 = " + a01_)
 
   // run 2
   val bat01 = new Bat
-  println("Bat = " + bat01) // if there no "full path" import, scala will use the "nearest" class.
+  println("ScalaBasic.LoadPackageDemo2.Bat = " + bat01) // if there no "full path" import, scala will use the "nearest" class.
 }
