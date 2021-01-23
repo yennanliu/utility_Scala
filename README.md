@@ -91,8 +91,7 @@
 
 6. Scala object
 	- [LoadPackageDemo1](./src/main/scala/ScalaBasic/LoadPackageDemo1.scala), [LoadPackageDemo2](./src/main/scala/ScalaBasic/LoadPackageDemo2.scala), [LoadPackageDemo3](./src/main/scala/ScalaBasic/LoadPackageDemo3.scala), [LoadPackageDemo4](./src/main/scala/ScalaBasic/LoadPackageDemo4.scala) - Scala load package examples
-	- [pkgObject](./src/main/scala/ScalaBasic/pkgObject.scala) - Scala package object examples
-
+	- [pkgObject](./src/main/scala/ScalaBasic/pkgObject.scala) - `package` can have class, object, and trait... but it CAN'T HAVE `function`, `var`... In order to solve it, scala offers the `package object` concept
 5. Scala implicit
 	- implicit is the way that you dont need to pass parameters explicitly in functions in Scala, but Scala will be able to find them from the implitict scope once you defined them. Use implicit can make your function more general and easy to import/deal with different cases per pattern
 	- [Implicit_Demo1](./src/main/scala/ScalaBasic/Implicit_Demo1.scala), [Implicit_Demo2](./src/main/scala/ScalaBasic/Implicit_Demo2.scala), [Implicit_Demo3](./src/main/scala/ScalaBasic/Implicit_Demo3.scala), [Implicit_Demo4](./src/main/scala/ScalaBasic/Implicit_Demo4.scala),  [Implicit_Demo5](./src/main/scala/ScalaBasic/Implicit_Demo5.scala), [Implicit_Demo6](./src/main/scala/ScalaBasic/Implicit_Demo6.scala), [Implicit_Demo7](./src/main/scala/ScalaBasic/Implicit_Demo7.scala), [Implicit_Demo8](./src/main/scala/ScalaBasic/Implicit_Demo8.scala), [Implicit_Demo9](./src/main/scala/ScalaBasic/Implicit_Demo9.scala) - Some implict examples
