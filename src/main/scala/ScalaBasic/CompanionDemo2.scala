@@ -10,6 +10,8 @@ class Person(
   private val superheroName: String) //The superhero name is private!
 
 object Person {
+  // NOTICE !!! in order to use companion class's method, we need to pass it to object first
+  // e.g. showMeInnerSecret(x: Person)
   def showMeInnerSecret(x: Person) = x.superheroName
 }
 
