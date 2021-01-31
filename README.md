@@ -100,21 +100,24 @@
 	- implicit is the way that you dont need to pass parameters explicitly in functions in Scala, but Scala will be able to find them from the implitict scope once you defined them. Use implicit can make your function more general and easy to import/deal with different cases per pattern
 	- [Implicit_Demo1](./src/main/scala/ScalaBasic/Implicit_Demo1.scala), [Implicit_Demo2](./src/main/scala/ScalaBasic/Implicit_Demo2.scala), [Implicit_Demo3](./src/main/scala/ScalaBasic/Implicit_Demo3.scala), [Implicit_Demo4](./src/main/scala/ScalaBasic/Implicit_Demo4.scala),  [Implicit_Demo5](./src/main/scala/ScalaBasic/Implicit_Demo5.scala), [Implicit_Demo6](./src/main/scala/ScalaBasic/Implicit_Demo6.scala), [Implicit_Demo7](./src/main/scala/ScalaBasic/Implicit_Demo7.scala), [Implicit_Demo8](./src/main/scala/ScalaBasic/Implicit_Demo8.scala), [Implicit_Demo9](./src/main/scala/ScalaBasic/Implicit_Demo9.scala) - Some implict examples
 	- [implicit_transformation_demo_1](./src/main/scala/ScalaBasic/implicit_transformation_demo_1.scala), [implicit_transformation_demo_2](./src/main/scala/ScalaBasic/implicit_transformation_demo_2.scala) - implicit transformation can automatically transform "high accuracy" val to "low accuracy". e.g. : Byte -> Short, Short -> Int, Int -> Long, Long -> Float, Char -> Int ..
-	- [ImplicitParameters](./src/main/scala/ScalaBasic/ImplicitParameters.scala), [ImplicitFunc](./src/main/scala/ScalaBasic/ImplicitFunc.scala), [ImplicitClass](./src/main/scala/ScalaBasic/ImplicitClass.scala) - Scala `implicit` in Parameters, func, class 
+	- [ImplicitParameters](./src/main/scala/ScalaBasic/ImplicitParameters.scala), [ImplicitFunc](./src/main/scala/ScalaBasic/ImplicitFunc.scala), [ImplicitClass](./src/main/scala/ScalaBasic/ImplicitClass.scala) - Scala `implicit` in Parameters, func, class
 
-6. Scala Script example
+6. Scala OOP demo
+	- [AbstractDemo1](./src/main/scala/ScalaBasic/AbstractDemo1.scala)
+
+7. Scala Script example
 	- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
 	- [Show run time elapse](./src/main/scala/ScalaBasic/runTimeElapse_demo1.scala) - show how long the code running in Scala
 	- [ScalaReadCLIArgs_Demo1](./src/main/scala/ScalaBasic/ScalaReadCLIArgs_Demo1.scala) - Scala load arguments from CLI
 
-7. Scala exception, error handling
+8. Scala exception, error handling
 	- [ExceptionDemo1](./src/main/scala/ScalaBasic/ExceptionDemo1.scala) - there is NO `compile exception` in Scala (only java has), all exceptions in Scala happen during `runtime`. All exceptions inherit from the "throwable" class, which is the class with "nothing" type that is acceptable to `all class/method...`
 	- [ExceptionDemo2](./src/main/scala/ScalaBasic/ExceptionDemo2.scala) - format : `try - catch - finally`
-7. Others
+9. Others
 	-[Scala get args demo1](./src/main/scala/ScalaBasic/ScalaGetArgDemo_1.scala)
 
-8. Spark basic
+10. Spark basic
 	- [Spark_basic_demo_1](./src/main/scala/SparkBasic/spark_basic_demo_1.scala) - Spark `function `basic demo
 	- [Spark_basic_demo_2](./src/main/scala/SparkBasic/spark_basic_demo_2.scala) - Spark `RDD basic op` demo : count avg friends by age
 		- [Spark_basic_demo_2 extra](./src/main/scala/SparkBasic/spark_basic_demo_2_extra.scala) - Extra : count avg friend by first name
