@@ -102,8 +102,16 @@
 	- [implicit_transformation_demo_1](./src/main/scala/ScalaBasic/implicit_transformation_demo_1.scala), [implicit_transformation_demo_2](./src/main/scala/ScalaBasic/implicit_transformation_demo_2.scala) - implicit transformation can automatically transform "high accuracy" val to "low accuracy". e.g. : Byte -> Short, Short -> Int, Int -> Long, Long -> Float, Char -> Int ..
 	- [ImplicitParameters](./src/main/scala/ScalaBasic/ImplicitParameters.scala), [ImplicitFunc](./src/main/scala/ScalaBasic/ImplicitFunc.scala), [ImplicitClass](./src/main/scala/ScalaBasic/ImplicitClass.scala) - Scala `implicit` in Parameters, func, class
 
-6. Scala OOP demo
+6. Scala OOP
 	- [AbstractDemo1](./src/main/scala/ScalaBasic/AbstractDemo1.scala)
+	- [encapsulationDemo1](./src/main/scala/ScalaBasic/encapsulationDemo1.scala)
+		- encapsulation is one of the features in OOP, abstract the data and methods and encapsulate them, so only the "defined" method can be implimented to the data
+		- Pros on encapsulation
+			- hive the implementation details
+			- validate the data, make it safe and feat the business needs
+		- Steps do encapsulation:
+			- step1) "private" the method/attributions 
+			- step2) offer "public" methods (e.g. : `getter`, `setter` or `@BeanProperty`...) (getter : set attribution value, getter : get attribution value)
 
 7. Scala Script example
 	- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
