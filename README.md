@@ -106,7 +106,7 @@
 	- Features : `Encapsulation`, `Inheritance`, `Polymorphism`
 		- [ref](https://medium.com/@totoroLiu/%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91-object-oriented-programming-%E6%A6%82%E5%BF%B5-5f205d437fd6)
 	- [AbstractDemo1](./src/main/scala/ScalaBasic/AbstractDemo1.scala)
-	- [encapsulationDemo1](./src/main/scala/ScalaBasic/encapsulationDemo1.scala)
+	- [encapsulationDemo1](./src/main/scala/ScalaBasic/encapsulationDemo1.scala), [encapsulationDemo2](./src/main/scala/ScalaBasic/encapsulationDemo2.scala)
 		- encapsulation is one of the features in OOP, abstract the data and methods and encapsulate them, so only the "defined" method can be implimented to the data
 		- Pros on encapsulation
 			- hide the implementation details

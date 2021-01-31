@@ -6,7 +6,7 @@ object encapsulationDemo1 extends App{
   val p1 = new Person_new
   p1.setAge(20)
   println("p1.age = " + p1.getAge())
-  
+
   p1.setAge(140)
 }
 
