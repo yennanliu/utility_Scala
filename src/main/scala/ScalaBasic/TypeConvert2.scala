@@ -5,6 +5,7 @@ package ScalaBasic
 object TypeConvert2 extends App {
 
   // a method test Polymorphism
+  // it's necessary that input instance is Person_04 class
   def test(p: Person_04): Unit = {
     // if the input class is Student_04, then run sayOK
     if ( p.isInstanceOf[Student_04] ){
