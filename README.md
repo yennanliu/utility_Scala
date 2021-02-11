@@ -78,7 +78,7 @@
 	- [Partial applied functions demo 1](./src/main/scala/ScalaBasic/PartialAppliedFuncDemo_1.scala) - Scala Partial applied functions examples
 	- [Partial functions demo 1](./src/main/scala/ScalaBasic/partial_functions_demo_1.scala) - Scala Partial functions examples
 	- [Bean Property](./src/main/scala/ScalaBasic/BeanPropertyDemo1.scala) - `@BeanProperty` example
-	- [TypeConvert1](./src/main/scala/ScalaBasic/TypeConvert1.scala) - Scala type convert : `upper transform, lower transform` : asInstanceOf
+	- [TypeConvert1](./src/main/scala/ScalaBasic/TypeConvert1.scala), [TypeConvert2](./src/main/scala/ScalaBasic/TypeConvert2.scala)- Scala type convert : `upper transform, lower transform` : asInstanceOf, check if object's class type : classOf, getClass.getName
 	- example
 	```scala
 	 // *** declare a Employer_03 instance, but transform it to Person_03 class
