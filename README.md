@@ -78,7 +78,14 @@
 	- [Partial applied functions demo 1](./src/main/scala/ScalaBasic/PartialAppliedFuncDemo_1.scala) - Scala Partial applied functions examples
 	- [Partial functions demo 1](./src/main/scala/ScalaBasic/partial_functions_demo_1.scala) - Scala Partial functions examples
 	- [Bean Property](./src/main/scala/ScalaBasic/BeanPropertyDemo1.scala) - `@BeanProperty` example
-
+	- [TypeConvert1](./src/main/scala/ScalaBasic/TypeConvert1.scala) - Scala type convert : `upper transform, lower transform` : asInstanceOf
+	- example
+	```scala
+	 // *** declare a Employer_03 instance, but transform it to Person_03 class
+	 val emp:Person_03 = new Employer_03
+     // *** transform emp to Employer_03 class (asInstanceOf)
+     emp.asInstanceOf[Employer_03].sayHello() // downward transform
+	```
 5. Scala class, trait, abstract class..
 	- [Trait](./src/main/scala/ScalaBasic/TraitDemo.scala), [TraitAbstract](./src/main/scala/ScalaBasic/TraitAbstract.scala), [TraitDemo2](./src/main/scala/ScalaBasic/TraitDemo2.scala), [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala) - Scala `TraitDemo`, `Trait Abstract` basic op, properties. *NOTICE* : `Scala traits don’t allow constructor parameters` (so that's why we use abstract class)
 	- [Abstract Class](./src/main/scala/ScalaBasic/AbstractClass.scala), [AbstractDemo](./src/main/scala/ScalaBasic/AbstractDemo.scala) - Scala also has a concept of an abstract class that is similar to Java’s abstract class. But because traits are so powerful, you rarely need to use an abstract class. In fact, you only need to use an abstract class when:
