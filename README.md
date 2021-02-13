@@ -86,7 +86,7 @@
      // *** transform emp to Employer_03 class (asInstanceOf)
      emp.asInstanceOf[Employer_03].sayHello() // downward transform
 	```
-	- [SuperConstruct scala](./src/main/scala/ScalaBasic/SuperConstruct.scala), [SuperConstruct1 java](./src/main/scala/ScalaBasic/SuperConstruct1_java.java) - Scala/Java Super constructor examples
+	- [SuperConstruct scala](./src/main/scala/ScalaBasic/SuperConstruct.scala), [SuperConstruct1 java](./src/main/scala/ScalaBasic/SuperConstruct1_java.java), [SuperConstruct2 scala](./src/main/scala/ScalaBasic/SuperConstruct2.scala)- Scala/Java Super constructor examples
 
 5. Scala class, trait, abstract class..
 	- [Trait](./src/main/scala/ScalaBasic/TraitDemo.scala), [TraitAbstract](./src/main/scala/ScalaBasic/TraitAbstract.scala), [TraitDemo2](./src/main/scala/ScalaBasic/TraitDemo2.scala), [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala) - Scala `TraitDemo`, `Trait Abstract` basic op, properties. *NOTICE* : `Scala traits don’t allow constructor parameters` (so that's why we use abstract class)
