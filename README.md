@@ -125,6 +125,8 @@
 			- step1) "private" the method/attributions 
 			- step2) offer "public" methods (e.g. : `getter`, `setter` or `@BeanProperty`...) (getter : set attribution value, getter : get attribution value)
 
+	- [OOP hw 1](./src/main/scala/ScalaHomework) 
+
 7. Scala Script example
 	- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
