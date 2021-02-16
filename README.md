@@ -46,7 +46,7 @@
 	- [ScalaFileIODemo](./src/main/scala/ScalaBasic/ScalaFileIODemo.scala), [ScalaFileIODemo2](./src/main/scala/ScalaBasic/ScalaFileIODemo2.scala),  [ScalaFileIODemo3](./src/main/scala/ScalaBasic/ScalaFileIODemo3.scala) - Scala file IO basic
 	- [ScalaLazyDemo](./src/main/scala/ScalaBasic/LazyDemo.scala) - Scala lazy value demo
 	- [ScalaUnitDemo](./src/main/scala/ScalaBasic/UnitDemo.scala) - Scala function with `no return value` called as `procedure`, with return type `Unit`
-	- [OverrideDemo](./src/main/scala/ScalaBasic/OverrideDemo.scala), [OverrideDemo2](./src/main/scala/ScalaBasic/OverrideDemo2.scala), [OverrideDemo3](./src/main/scala/ScalaBasic/OverrideDemo3.scala) - Scala `Override` basic op, properties
+	- [OverrideDemo](./src/main/scala/ScalaBasic/OverrideDemo.scala), [OverrideDemo2](./src/main/scala/ScalaBasic/OverrideDemo2.scala), [OverrideDemo3](./src/main/scala/ScalaBasic/OverrideDemo3.scala), [OverrideDemo4](./src/main/scala/ScalaBasic/OverrideDemo4.scala) - Scala `Override` basic op, properties
 	- [HigherOrderfuncDemo](./src/main/scala/ScalaBasic/HigherOrderfuncDemo.scala), [HigherOrderFuncDemo_2](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_2.scala), [HigherOrderFuncDemo_3](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_3.scala), [HigherOrderFuncDemo_4](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_4.scala), [HigherOrderFuncDemo_5](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_5.scala)- `Higher Order Functions` are functions that take functions as arguments and/or return functions.
 	- [RecursionDemo](./src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties
 	- Constructor
