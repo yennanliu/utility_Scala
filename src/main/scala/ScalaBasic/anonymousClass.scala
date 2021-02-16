@@ -6,14 +6,18 @@ object anonymousClass extends App {
 
   // run
   val monster = new Monster {
+
     override var name: String = _
 
-    override def cry(): Unit = ???
-
-
+    // implement the abstract method
+    override def cry(): Unit = {
+      println("cry cry cry")
+    }
   }
 
   println("anonymousClass ...")
+  println(monster.name)
+  monster.cry()
 }
 
 // abstract class
