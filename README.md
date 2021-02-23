@@ -103,7 +103,12 @@
 	- [LoadPackageDemo1](./src/main/scala/ScalaBasic/LoadPackageDemo1.scala), [LoadPackageDemo2](./src/main/scala/ScalaBasic/LoadPackageDemo2.scala), [LoadPackageDemo3](./src/main/scala/ScalaBasic/LoadPackageDemo3.scala), [LoadPackageDemo4](./src/main/scala/ScalaBasic/LoadPackageDemo4.scala) - Scala load package examples
 	- [pkgObject](./src/main/scala/ScalaBasic/pkgObject.scala) - `package` can have class, object, and trait... but it CAN'T HAVE `function`, `var`... In order to solve it, scala offers the `package object` concept
 	- [SingletonDemo1](./src/main/scala/ScalaBasic/SingletonDemo1.scala) - Scala Singleton Demo 
-	- [CompanionDemo1](./src/main/scala/ScalaBasic/CompanionDemo1.scala), [CompanionDemo2](./src/main/scala/ScalaBasic/CompanionDemo2.scala),  [CompanionDemo3](./src/main/scala/ScalaBasic/CompanionDemo3.scala)  - Scala Companion demo (An object that has the same name as a class is called a companion object of the class, and it is often used to contain factory methods for the class that it complements)
+	-  Companion
+		- [CompanionDemo1](./src/main/scala/ScalaBasic/CompanionDemo1.scala)
+		- [CompanionDemo2](./src/main/scala/ScalaBasic/CompanionDemo2.scala)
+		- [CompanionDemo3](./src/main/scala/ScalaBasic/CompanionDemo3.scala)  
+		- Scala Companion demo (An object that has the same name as a class is called a companion object of the class, and it is often used to contain factory methods for the class that it complements)
+		- Since there is no `static` class/method.. in Scala, so Scala offers the Companion for similIar functionality
 	- [VisibilityDemo1](./src/main/scala/ScalaBasic/VisibilityDemo1.scala) - extend package visibility. e.g. : `private[ScalaBasic] val name = "jackkkk"`
 	- [ImportPackage1](./src/main/scala/ScalaBasic/ImportPackage1.scala) - Scala import package demo
 
