@@ -109,6 +109,8 @@
 		- [CompanionDemo3](./src/main/scala/ScalaBasic/CompanionDemo3.scala)  
 		- Scala Companion demo (An object that has the same name as a class is called a companion object of the class, and it is often used to contain factory methods for the class that it complements)
 		- Since there is no `static` class/method.. in Scala, so Scala offers the Companion for similIar functionality
+<img src ="./doc/pic/scala_companion.svg"></p>
+
 	- [VisibilityDemo1](./src/main/scala/ScalaBasic/VisibilityDemo1.scala) - extend package visibility. e.g. : `private[ScalaBasic] val name = "jackkkk"`
 	- [ImportPackage1](./src/main/scala/ScalaBasic/ImportPackage1.scala) - Scala import package demo
 
