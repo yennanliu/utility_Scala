@@ -7,6 +7,7 @@ object CompanionDemo4 extends App {
   println("CompanionDemo4 ...")
   // run 1
   // basic attribution, method
+  // can use Companion object's method/value.. directly, no need to 'new"
   println("ScalaPerson.sex = " + ScalaPerson.sex) // ScalaPerson$.Module$.sex() under the hood
 }
 
