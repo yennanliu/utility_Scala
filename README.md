@@ -102,7 +102,10 @@
 6. Scala object
 	- [LoadPackageDemo1](./src/main/scala/ScalaBasic/LoadPackageDemo1.scala), [LoadPackageDemo2](./src/main/scala/ScalaBasic/LoadPackageDemo2.scala), [LoadPackageDemo3](./src/main/scala/ScalaBasic/LoadPackageDemo3.scala), [LoadPackageDemo4](./src/main/scala/ScalaBasic/LoadPackageDemo4.scala) - Scala load package examples
 	- [pkgObject](./src/main/scala/ScalaBasic/pkgObject.scala) - `package` can have class, object, and trait... but it CAN'T HAVE `function`, `var`... In order to solve it, scala offers the `package object` concept
-	- [SingletonDemo1](./src/main/scala/ScalaBasic/SingletonDemo1.scala) - Scala Singleton Demo 
+	- Singleton pattern
+		- Only allow some classes be existing in some specific class instances
+			-> can save resources 
+		- [SingletonDemo1](./src/main/scala/ScalaBasic/SingletonDemo1.scala)
 	-  Companion
 		- [CompanionDemo1](./src/main/scala/ScalaBasic/CompanionDemo1.scala)
 		- [CompanionDemo2](./src/main/scala/ScalaBasic/CompanionDemo2.scala)
