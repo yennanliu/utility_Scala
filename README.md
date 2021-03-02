@@ -104,7 +104,10 @@
 	- [pkgObject](./src/main/scala/ScalaBasic/pkgObject.scala) - `package` can have class, object, and trait... but it CAN'T HAVE `function`, `var`... In order to solve it, scala offers the `package object` concept
 	- Singleton pattern
 		- Only allow some classes be existing in some specific class instances
-			-> can save resources 
+			- -> pros : can save resources
+			- -> cons : Thread safety concern 
+			- [ref Java1](https://github.com/yennanliu/JavaHelloWorld)
+			- [SingletonDemo1](./src/main/java/Basics/SingletonDemo1.java)
 		- [SingletonDemo1](./src/main/scala/ScalaBasic/SingletonDemo1.scala)
 	-  Companion
 		- [CompanionDemo1](./src/main/scala/ScalaBasic/CompanionDemo1.scala)
