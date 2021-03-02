@@ -105,10 +105,12 @@
 	- Singleton pattern
 		- Only allow some classes be existing in some specific class instances
 			- -> pros : can save resources
-			- -> cons : Thread safety concern 
+			- -> cons : Thread safety concern
+			- example : `Runtime class` in java
 			- [ref Java1](https://github.com/yennanliu/JavaHelloWorld)
 			- [SingletonDemo java](https://github.com/yennanliu/JavaHelloWorld/blob/main/src/main/java/Basics/SingletonDemo1.java)
 		- [SingletonDemo1](./src/main/scala/ScalaBasic/SingletonDemo1.scala)
+		- [SingletonDemo2](./src/main/scala/ScalaBasic/SingletonDemo2.scala)
 	-  Companion
 		- [CompanionDemo1](./src/main/scala/ScalaBasic/CompanionDemo1.scala)
 		- [CompanionDemo2](./src/main/scala/ScalaBasic/CompanionDemo2.scala)
