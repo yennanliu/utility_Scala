@@ -107,7 +107,7 @@
 			- -> pros : can save resources
 			- -> cons : Thread safety concern 
 			- [ref Java1](https://github.com/yennanliu/JavaHelloWorld)
-			- [SingletonDemo1](./src/main/java/Basics/SingletonDemo1.java)
+			- [SingletonDemo java](https://github.com/yennanliu/JavaHelloWorld/blob/main/src/main/java/Basics/SingletonDemo1.java)
 		- [SingletonDemo1](./src/main/scala/ScalaBasic/SingletonDemo1.scala)
 	-  Companion
 		- [CompanionDemo1](./src/main/scala/ScalaBasic/CompanionDemo1.scala)
