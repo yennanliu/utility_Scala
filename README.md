@@ -95,6 +95,7 @@
 		- [TraitAbstract](./src/main/scala/ScalaBasic/TraitAbstract.scala)
 		- [TraitDemo2](./src/main/scala/ScalaBasic/TraitDemo2.scala)
 		- [TraitDemo3](./src/main/scala/ScalaBasic/TraitDemo3.scala)
+		- [TraitDemo4](./src/main/scala/ScalaBasic/TraitDemo4.scala)
 		- [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala)
 		- Scala trait : a "supplement" of scala Inheritance (scala only allows "single Inheritance", e.g. a class can only have `one parent class`), so trait offers more flexibility
 		- Scala trait can do sth like "java interface"
