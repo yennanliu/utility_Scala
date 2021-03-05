@@ -90,8 +90,24 @@
 	- [SuperConstruct](./src/main/scala/ScalaBasic/SuperConstruct.scala), [SuperConstruct1 java](./src/main/scala/ScalaBasic/SuperConstruct1_java.java), [SuperConstruct2](./src/main/scala/ScalaBasic/SuperConstruct_2.scala), [SuperConstruct3](./src/main/scala/ScalaBasic/SuperConstruct_3.scala)- Scala/Java Super constructor examples
 
 5. Scala class, trait, abstract class..
-	- [Trait](./src/main/scala/ScalaBasic/TraitDemo.scala), [TraitAbstract](./src/main/scala/ScalaBasic/TraitAbstract.scala), [TraitDemo2](./src/main/scala/ScalaBasic/TraitDemo2.scala), [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala) - Scala `TraitDemo`, `Trait Abstract` basic op, properties. *NOTICE* : `Scala traits don’t allow constructor parameters` (so that's why we use abstract class)
-	- [Abstract Class](./src/main/scala/ScalaBasic/AbstractClass.scala), [AbstractDemo](./src/main/scala/ScalaBasic/AbstractDemo.scala) - Scala also has a concept of an abstract class that is similar to Java’s abstract class. But because traits are so powerful, you rarely need to use an abstract class. In fact, you only need to use an abstract class when:
+	- Trait
+		- [Trait](./src/main/scala/ScalaBasic/TraitDemo.scala)
+		- [TraitAbstract](./src/main/scala/ScalaBasic/TraitAbstract.scala)
+		- [TraitDemo2](./src/main/scala/ScalaBasic/TraitDemo2.scala)
+		- [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala) 
+		- Scala `TraitDemo`, `Trait Abstract` basic op, properties. *NOTICE* : `Scala traits don’t allow constructor parameters` (so that's why we use abstract class)
+```scala
+// if no parent class
+class className extends trait1 with trait2 with trait3 ...
+
+// if there is parent class
+class className extends parentclassName with trait1 with trait2 with trait3 ...
+```
+
+	- Abstract Class
+		- [Abstract Class](./src/main/scala/ScalaBasic/AbstractClass.scala)
+		- [AbstractDemo](./src/main/scala/ScalaBasic/AbstractDemo.scala) 
+		- Scala also has a concept of an abstract class that is similar to Java’s abstract class. But because traits are so powerful, you rarely need to use an abstract class. In fact, you only need to use an abstract class when:
 		- You want to create a base class that requires constructor arguments
 	    - Your Scala code will be called from Java code
 	- [Class VS Object 1](./src/main/scala/ScalaBasic/Class_VS_Object_1.scala), [Class VS Object 2](./src/main/scala/ScalaBasic/Class_VS_Object_2.scala) - Compare Class, object difference, feature in Scala
