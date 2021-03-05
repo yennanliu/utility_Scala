@@ -103,7 +103,6 @@ class className extends trait1 with trait2 with trait3 ...
 // if there is parent class
 class className extends parentclassName with trait1 with trait2 with trait3 ...
 ```
-
 	- Abstract Class
 		- [Abstract Class](./src/main/scala/ScalaBasic/AbstractClass.scala)
 		- [AbstractDemo](./src/main/scala/ScalaBasic/AbstractDemo.scala) 
