@@ -96,13 +96,14 @@
 		- [TraitDemo2](./src/main/scala/ScalaBasic/TraitDemo2.scala)
 		- [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala) 
 		- Scala `TraitDemo`, `Trait Abstract` basic op, properties. *NOTICE* : `Scala traits don’t allow constructor parameters` (so that's why we use abstract class)
-```scala
-// if no parent class
-class className extends trait1 with trait2 with trait3 ...
-
-// if there is parent class
-class className extends parentclassName with trait1 with trait2 with trait3 ...
-```
+		- pattern
+		```scala
+		// if no parent class
+		class className extends trait1 with trait2 with trait3 ...
+        //
+		// if there is parent class
+		class className extends parentclassName with trait1 with trait2 with trait3 ...
+		```
 	- Abstract Class
 		- [Abstract Class](./src/main/scala/ScalaBasic/AbstractClass.scala)
 		- [AbstractDemo](./src/main/scala/ScalaBasic/AbstractDemo.scala) 
