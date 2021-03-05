@@ -97,7 +97,9 @@
 		- [TraitDemo3](./src/main/scala/ScalaBasic/TraitDemo3.scala)
 		- [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala)
 		- Scala trait : a "supplement" of scala Inheritance (scala only allows "single Inheritance", e.g. a class can only have `one parent class`), so trait offers more flexibility
-		- Scala trait can do sth like "java interface" 
+		- Scala trait can do sth like "java interface"
+		- trait can have both `abstract method and regular method` (a method that `Not implemented` in trait is the "abstract" method)
+		- ALL `Java interface` can be used in scala as `Scala trait`
 		- Scala `TraitDemo`, `Trait Abstract` basic op, properties. *NOTICE* : `Scala traits don’t allow constructor parameters` (so that's why we use abstract class)
 		- pattern
 		```scala

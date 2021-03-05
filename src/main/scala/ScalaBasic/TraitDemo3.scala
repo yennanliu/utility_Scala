@@ -9,7 +9,6 @@ object TraitDemo3 extends App {
 
   val f = new F
   f.getConnect("admin", "000")
-
 }
 
 // trait
@@ -18,7 +17,6 @@ trait trait03_1{
   // abstract method
   def getConnect(user:String, pwd:String):Unit
 }
-
 
 // class
 class A_a {}
