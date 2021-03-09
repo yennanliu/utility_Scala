@@ -98,8 +98,6 @@
 		- [TraitDemo4](./src/main/scala/ScalaBasic/TraitDemo4.scala)
 		- [TraitDemo5](./src/main/scala/ScalaBasic/TraitDemo5.scala)
 		- [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala)
-		- [TraitMixin1](./src/main/scala/ScalaBasic/TraitMixin1.scala)
-		- [TraitMixin2](./src/main/scala/ScalaBasic/TraitMixin2.scala)
 		- Scala trait : a "supplement" of scala Inheritance (scala only allows "single Inheritance", e.g. a class can only have `one parent class`), so trait offers more flexibility
 		- Scala trait can do sth like "java interface"
 		- trait can have both `abstract method and regular method` (a method that `Not implemented` in trait is the "abstract" method)
@@ -113,6 +111,9 @@
 		// if there is parent class
 		class className extends parentclassName with trait1 with trait2 with trait3 ...
 		```
+		- [TraitMixin1](./src/main/scala/ScalaBasic/TraitMixin1.scala)
+		- [TraitMixin2](./src/main/scala/ScalaBasic/TraitMixin2.scala)
+		- [TraitMixin3](./src/main/scala/ScalaBasic/TraitMixin3.scala)
 	- Abstract Class
 		- [Abstract Class](./src/main/scala/ScalaBasic/AbstractClass.scala)
 		- [AbstractDemo](./src/main/scala/ScalaBasic/AbstractDemo.scala) 

@@ -7,6 +7,8 @@ object TraitMixin1 extends App {
   // this is the "Mixin" (new OracleDB with Operator3)
   val oracleDB = new OracleDB with Operator3
   oracleDB.insert(777)
+
+  println(oracleDB.isInstanceOf[OracleDB]) // true ( since the type is "OracleDB with Operator3")
 }
 
 
