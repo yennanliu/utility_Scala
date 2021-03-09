@@ -114,6 +114,11 @@
 		- [TraitMixin1](./src/main/scala/ScalaBasic/TraitMixin1.scala)
 		- [TraitMixin2](./src/main/scala/ScalaBasic/TraitMixin2.scala)
 		- [TraitMixin3](./src/main/scala/ScalaBasic/TraitMixin3.scala)
+		- TraitMixin:
+			- Can `mixin` trait `when construct the object` (class) => to extend functionality
+			- also can implement on abstract class
+			-  TraitMixin only works in Scala (not Java)
+			- Can do the extension but not change inheritance status
 	- Abstract Class
 		- [Abstract Class](./src/main/scala/ScalaBasic/AbstractClass.scala)
 		- [AbstractDemo](./src/main/scala/ScalaBasic/AbstractDemo.scala) 
