@@ -34,6 +34,11 @@
 	- [MapDemo_1](./src/main/scala/ScalaBasic/MapDemo_1.scala) - Scala `Map` basic op, properties
 	- [Enumeration](./src/main/scala/ScalaBasic/EnumerationDemo.scala) - Scala `Enumeration` basic op, properties
 	- [Nothing_demo1](./src/main/scala/ScalaBasic/Nothing_demo1.scala), [Nothing_demo2](./src/main/scala/ScalaBasic/Nothing_demo2.scala) - `Nothing` can still pass information when the program failed. null can be passed to AnyRef, but NOT AnyValue (AnyValue : Int, Float, Char, Boolean, Long, Double, Byte, short...)
+	- Either, Left, Right
+		- [EitherLeftRight1](./src/main/scala/ScalaBasic/EitherLeftRight1.scala)
+		- [EitherLeftRight2](./src/main/scala/ScalaBasic/EitherLeftRight2.scala)
+		- [EitherLeftRight3](./src/main/scala/ScalaBasic/EitherLeftRight3.scala)
+		- [EitherLeftRight4](./src/main/scala/ScalaBasic/EitherLeftRight4.scala)
 
 4. Scala basic  -  function, class, case class, constructor...
 	- [Class](./src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
