@@ -97,10 +97,10 @@
 5. Scala class, trait, abstract class..
 	- Class
 		- Method create `class instance` in Scala
-			- 1. `new className`
-			- 2. `apply`
-			- 3. dynamic mixing
-			- 4. "anonymous sub class" 
+			- `New className`
+			- `Apply` : [example](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ApplyMethodDemo1.scala)
+			- Dynamic mixing : [example](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TraitDemo6.scala)
+			- `Anonymous sub class` 
 	- Trait
 		- [Trait](./src/main/scala/ScalaBasic/TraitDemo.scala)
 		- [TraitAbstract](./src/main/scala/ScalaBasic/TraitAbstract.scala)
