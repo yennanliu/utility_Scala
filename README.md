@@ -144,6 +144,7 @@
 		- [Apply method demo 2](./src/main/scala/ScalaBasic/ApplyMethodDemo2.scala)
 		- [Apply method demo 3](./src/main/scala/ScalaBasic/ApplyMethodDemo3.scala) 
 		- [Apply method demo 4](./src/main/scala/ScalaBasic/ApplyMethodDemo4.scala)
+		- [Apply method demo 5](./src/main/scala/ScalaBasic/ApplyMethodDemo5.scala)
 		- via `apply` method in the object, one don't need to use `object.apply(sth)` for calling the method, but can use `object(sth)` directly 
 		- if we have 1 object : `Object(param1, param2...)` then we will get the `Companion class` object return via the `Apply` method
 	- [anonymousClass_java](./src/main/scala/ScalaBasic/anonymousClass_java.java), [anonymousClass](./src/main/scala/ScalaBasic/anonymousClass.scala)- *** Override/implement abstract `attribution/method..` in java & scala
