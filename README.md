@@ -95,6 +95,12 @@
 	- [SuperConstruct](./src/main/scala/ScalaBasic/SuperConstruct.scala), [SuperConstruct1 java](./src/main/scala/ScalaBasic/SuperConstruct1_java.java), [SuperConstruct2](./src/main/scala/ScalaBasic/SuperConstruct_2.scala), [SuperConstruct3](./src/main/scala/ScalaBasic/SuperConstruct_3.scala)- Scala/Java Super constructor examples
 
 5. Scala class, trait, abstract class..
+	- Class
+		- Method create `class instance` in Scala
+			- 1. `new className`
+			- 2. `apply`
+			- 3. dynamic mixing
+			- 4. "anonymous sub class" 
 	- Trait
 		- [Trait](./src/main/scala/ScalaBasic/TraitDemo.scala)
 		- [TraitAbstract](./src/main/scala/ScalaBasic/TraitAbstract.scala)
@@ -102,6 +108,7 @@
 		- [TraitDemo3](./src/main/scala/ScalaBasic/TraitDemo3.scala)
 		- [TraitDemo4](./src/main/scala/ScalaBasic/TraitDemo4.scala)
 		- [TraitDemo5](./src/main/scala/ScalaBasic/TraitDemo5.scala)
+		- [TraitDemo6](./src/main/scala/ScalaBasic/TraitDemo6.scala)
 		- [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala)
 		- Scala trait : a "supplement" of scala Inheritance (scala only allows "single Inheritance", e.g. a class can only have `one parent class`), so trait offers more flexibility
 		- Scala trait can do sth like "java interface"
