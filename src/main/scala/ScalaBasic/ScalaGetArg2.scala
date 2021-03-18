@@ -4,7 +4,7 @@ import scala.io.StdIn
 
 // https://www.youtube.com/watch?v=L5guBZlFsU8&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=31
 
-object ScalaReadCLIArgs_Demo1 extends App{
+object ScalaGetArg2 extends App{
 
     println ("ScalaReadCLIArgs_Demo1 run ...")
 

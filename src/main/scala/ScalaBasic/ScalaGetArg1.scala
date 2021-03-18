@@ -1,6 +1,6 @@
 package ScalaBasic
 
-object ScalaGetArgDemo_1 extends App{
+object ScalaGetArg1 extends App{
 
   println("*** ScalaGetArgDemo_1 run ...")
 
