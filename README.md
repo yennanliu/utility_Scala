@@ -206,13 +206,16 @@
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
 	- [Show run time elapse](./src/main/scala/ScalaBasic/runTimeElapse_demo1.scala) - show how long the code running in Scala
 	- Scala CLI args
-		- [ScalaReadCLIArgs_Demo1](src/main/scala/ScalaBasic/ScalaGetArg2.scala)
-		- [Scala get args demo1](src/main/scala/ScalaBasic/ScalaGetArg1.scala)
+		- [ScalaGetArg1](src/main/scala/ScalaBasic/ScalaGetArg1.scala)
+		- [ScalaGetArg2](src/main/scala/ScalaBasic/ScalaGetArg2.scala)
+		- [ScalaGetArg3](src/main/scala/ScalaBasic/ScalaGetArg3.scala)
 		- Scala load arguments from CLI
 
 8. Scala exception, error handling
-	- [ScalaGetArg1](./src/main/scala/ScalaBasic/ScalaGetArg1.scala) - there is NO `compile exception` in Scala (only java has), all exceptions in Scala happen during `runtime`. All exceptions inherit from the "throwable" class, which is the class with "nothing" type that is acceptable to `all class/method...`
-	- [ScalaGetArg2](./src/main/scala/ScalaBasic/ScalaGetArg2.scala) - format : `try - catch - finally`
+	- [ExceptionDemo1](./src/main/scala/ScalaBasic/ExceptionDemo1.scala) 
+	- [ExceptionDemo2](./src/main/scala/ScalaBasic/ExceptionDemo2.scala) - format : `try - catch - finally`
+	- - there is NO `compile exception` in Scala (only java has), all exceptions in Scala happen during `runtime`. All exceptions inherit from the "throwable" class, which is the class with "nothing" type that is acceptable to `all class/method...`
+
 9. Others
 
 10. Spark basic
