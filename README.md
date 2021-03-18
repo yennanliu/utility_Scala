@@ -205,13 +205,15 @@
 	- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
 	- [Show run time elapse](./src/main/scala/ScalaBasic/runTimeElapse_demo1.scala) - show how long the code running in Scala
-	- [ScalaReadCLIArgs_Demo1](./src/main/scala/ScalaBasic/ScalaReadCLIArgs_Demo1.scala) - Scala load arguments from CLI
+	- Scala CLI args
+		- [ScalaReadCLIArgs_Demo1](./src/main/scala/ScalaBasic/ScalaReadCLIArgs_Demo1.scala)
+		- [Scala get args demo1](./src/main/scala/ScalaBasic/ScalaGetArgDemo_1.scala)
+		- Scala load arguments from CLI
 
 8. Scala exception, error handling
 	- [ExceptionDemo1](./src/main/scala/ScalaBasic/ExceptionDemo1.scala) - there is NO `compile exception` in Scala (only java has), all exceptions in Scala happen during `runtime`. All exceptions inherit from the "throwable" class, which is the class with "nothing" type that is acceptable to `all class/method...`
 	- [ExceptionDemo2](./src/main/scala/ScalaBasic/ExceptionDemo2.scala) - format : `try - catch - finally`
 9. Others
-	-[Scala get args demo1](./src/main/scala/ScalaBasic/ScalaGetArgDemo_1.scala)
 
 10. Spark basic
 	- [Spark_basic_demo_1](./src/main/scala/SparkBasic/spark_basic_demo_1.scala) - Spark `function `basic demo
