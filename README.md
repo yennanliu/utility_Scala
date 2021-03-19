@@ -43,6 +43,7 @@
 		- [ForLoop1](./src/main/scala/ScalaBasic/ForLoop1.scala)
 		- [ForLoop2](./src/main/scala/ScalaBasic/ForLoop2.scala)
 		- [ForLoop3](./src/main/scala/ScalaBasic/ForLoop3.scala)
+		- [ForLoop4](./src/main/scala/ScalaBasic/ForLoop4.scala)
 
 4. Scala basic  -  function, class, case class, constructor...
 	- [Class](./src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
@@ -213,6 +214,7 @@
 		- [ScalaGetArg1](src/main/scala/ScalaBasic/ScalaGetArg1.scala)
 		- [ScalaGetArg2](src/main/scala/ScalaBasic/ScalaGetArg2.scala)
 		- [ScalaGetArg3](src/main/scala/ScalaBasic/ScalaGetArg3.scala)
+		- [ScalaGetArg4](src/main/scala/ScalaBasic/ScalaGetArg4.scala)
 		- Scala load arguments from CLI
 
 8. Scala exception, error handling
