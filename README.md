@@ -39,6 +39,10 @@
 		- [EitherLeftRight2](./src/main/scala/ScalaBasic/EitherLeftRight2.scala)
 		- [EitherLeftRight3](./src/main/scala/ScalaBasic/EitherLeftRight3.scala)
 		- [EitherLeftRight4](./src/main/scala/ScalaBasic/EitherLeftRight4.scala)
+	- Loop
+		- [ForLoop1](./src/main/scala/ScalaBasic/ForLoop1.scala)
+		- [ForLoop2](./src/main/scala/ScalaBasic/ForLoop2.scala)
+		- [ForLoop3](./src/main/scala/ScalaBasic/ForLoop3.scala)
 
 4. Scala basic  -  function, class, case class, constructor...
 	- [Class](./src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
