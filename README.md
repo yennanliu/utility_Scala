@@ -58,7 +58,13 @@
 	- [ScalaLazyDemo](./src/main/scala/ScalaBasic/LazyDemo.scala) - Scala lazy value demo
 	- [ScalaUnitDemo](./src/main/scala/ScalaBasic/UnitDemo.scala) - Scala function with `no return value` called as `procedure`, with return type `Unit`
 	- [OverrideDemo](./src/main/scala/ScalaBasic/OverrideDemo.scala), [OverrideDemo2](./src/main/scala/ScalaBasic/OverrideDemo2.scala), [OverrideDemo3](./src/main/scala/ScalaBasic/OverrideDemo3.scala), [OverrideDemo4](./src/main/scala/ScalaBasic/OverrideDemo4.scala), [OverrideDemo5](./src/main/scala/ScalaBasic/OverrideDemo5.scala) - Scala `Override` basic op, properties
-	- [HigherOrderfuncDemo](./src/main/scala/ScalaBasic/HigherOrderfuncDemo.scala), [HigherOrderFuncDemo_2](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_2.scala), [HigherOrderFuncDemo_3](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_3.scala), [HigherOrderFuncDemo_4](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_4.scala), [HigherOrderFuncDemo_5](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_5.scala)- `Higher Order Functions` are functions that take functions as arguments and/or return functions.
+	- Higher Order function
+		- [HigherOrderfuncDemo](./src/main/scala/ScalaBasic/HigherOrderfuncDemo.scala)
+		- [HigherOrderFuncDemo_2](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_2.scala)
+		- [HigherOrderFuncDemo_3](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_3.scala)
+		- [HigherOrderFuncDemo_4](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_4.scala)
+		- [HigherOrderFuncDemo_5](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_5.scala)
+		- `Higher Order Functions` are functions that take functions as arguments and/or return functions.
 	- [RecursionDemo](./src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties
 	- Constructor
 		- Constructor can define value to its attribution when create the object
@@ -76,7 +82,12 @@
 		}
 		```
 		- [java ref](https://github.com/yennanliu/JavaHelloWorld)
-		- [ConstructorDemo1](./src/main/scala/ScalaBasic/ConstructorDemo1.scala), [ConstructorDemo2](./src/main/scala/ScalaBasic/ConstructorDemo2.scala), [ConstructorDemo3](./src/main/scala/ScalaBasic/ConstructorDemo3.scala), [ConstructorDemo4](./src/main/scala/ScalaBasic/ConstructorDemo4.scala), [ConstructorDemo5](./src/main/scala/ScalaBasic/ConstructorDemo5.scala)
+		- Constructor
+			- [ConstructorDemo1](./src/main/scala/ScalaBasic/ConstructorDemo1.scala)
+			- [ConstructorDemo2](./src/main/scala/ScalaBasic/ConstructorDemo2.scala)
+			- [ConstructorDemo3](./src/main/scala/ScalaBasic/ConstructorDemo3.scala)
+			- [ConstructorDemo4](./src/main/scala/ScalaBasic/ConstructorDemo4.scala)
+			- [ConstructorDemo5](./src/main/scala/ScalaBasic/ConstructorDemo5.scala)
 	- [PatternmatchDemo](./src/main/scala/ScalaBasic/PatternmatchDemo.scala), [PatternmatchDemo2](./src/main/scala/ScalaBasic/PatternmatchDemo2.scala), [PatternmatchDemo3](./src/main/scala/ScalaBasic/PatternmatchDemo3.scala), [PatternmatchValueCompare](./src/main/scala/ScalaBasic/PatternmatchValueCompare.scala) - Scala `Pattern match` basic op, properties
 	- [thisDemo](./src/main/scala/ScalaBasic/thisDemo.scala), - [thisDemo2](./src/main/scala/ScalaBasic/thisDemo2.scala) - Scala `this` basic op, properties
 	- [SomeDemo](./src/main/scala/ScalaBasic/SomeDemo.scala) - Scala `Some` basic op, properties
@@ -115,6 +126,8 @@
 		- [TraitDemo5](./src/main/scala/ScalaBasic/TraitDemo5.scala)
 		- [TraitDemo6](./src/main/scala/ScalaBasic/TraitDemo6.scala)
 		- [TraitDemo7](./src/main/scala/ScalaBasic/TraitDemo7.scala)
+		- [TraitDemo8](./src/main/scala/ScalaBasic/TraitDemo8.scala)
+		- [TraitDemo9](./src/main/scala/ScalaBasic/TraitDemo9.scala)
 		- [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala)
 		- Scala trait : a "supplement" of scala Inheritance (scala only allows "single Inheritance", e.g. a class can only have `one parent class`), so trait offers more flexibility
 		- Scala trait can do sth like "java interface"
