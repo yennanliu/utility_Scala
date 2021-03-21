@@ -128,6 +128,10 @@
 		- [TraitDemo7](./src/main/scala/ScalaBasic/TraitDemo7.scala)
 		- [TraitDemo8](./src/main/scala/ScalaBasic/TraitDemo8.scala)
 		- [TraitDemo9](./src/main/scala/ScalaBasic/TraitDemo9.scala)
+		- [TraitDemo10](./src/main/scala/ScalaBasic/TraitDemo10.scala)
+			- Compare the ordering with trait construct ways
+				- way 1) create class instance -> class hasn't been created yet when mixing trait
+				- way 2) create "anonymous" sub class -> class already been created when mixing trait
 		- [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala)
 		- Scala trait : a "supplement" of scala Inheritance (scala only allows "single Inheritance", e.g. a class can only have `one parent class`), so trait offers more flexibility
 		- Scala trait can do sth like "java interface"
