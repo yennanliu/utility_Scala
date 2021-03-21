@@ -57,7 +57,13 @@
 	- [ScalaFileIODemo](./src/main/scala/ScalaBasic/ScalaFileIODemo.scala), [ScalaFileIODemo2](./src/main/scala/ScalaBasic/ScalaFileIODemo2.scala),  [ScalaFileIODemo3](./src/main/scala/ScalaBasic/ScalaFileIODemo3.scala) - Scala file IO basic
 	- [ScalaLazyDemo](./src/main/scala/ScalaBasic/LazyDemo.scala) - Scala lazy value demo
 	- [ScalaUnitDemo](./src/main/scala/ScalaBasic/UnitDemo.scala) - Scala function with `no return value` called as `procedure`, with return type `Unit`
-	- [OverrideDemo](./src/main/scala/ScalaBasic/OverrideDemo.scala), [OverrideDemo2](./src/main/scala/ScalaBasic/OverrideDemo2.scala), [OverrideDemo3](./src/main/scala/ScalaBasic/OverrideDemo3.scala), [OverrideDemo4](./src/main/scala/ScalaBasic/OverrideDemo4.scala), [OverrideDemo5](./src/main/scala/ScalaBasic/OverrideDemo5.scala) - Scala `Override` basic op, properties
+	- Override
+		- [OverrideDemo](./src/main/scala/ScalaBasic/OverrideDemo.scala)
+		- [OverrideDemo2](./src/main/scala/ScalaBasic/OverrideDemo2.scala)
+		- [OverrideDemo3](./src/main/scala/ScalaBasic/OverrideDemo3.scala)
+		- [OverrideDemo4](./src/main/scala/ScalaBasic/OverrideDemo4.scala)
+		- [OverrideDemo5](./src/main/scala/ScalaBasic/OverrideDemo5.scala) 
+		- Scala `Override` basic op, properties
 	- Higher Order function
 		- [HigherOrderfuncDemo](./src/main/scala/ScalaBasic/HigherOrderfuncDemo.scala)
 		- [HigherOrderFuncDemo_2](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_2.scala)
@@ -132,6 +138,7 @@
 			- Compare the ordering with trait construct ways
 				- way 1) create class instance -> class hasn't been created yet when mixing trait
 				- way 2) create "anonymous" sub class -> class already been created when mixing trait
+		- [TraitDemo11](./src/main/scala/ScalaBasic/TraitDemo11.scala)
 		- [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala)
 		- Scala trait : a "supplement" of scala Inheritance (scala only allows "single Inheritance", e.g. a class can only have `one parent class`), so trait offers more flexibility
 		- Scala trait can do sth like "java interface"
