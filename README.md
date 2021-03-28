@@ -184,6 +184,7 @@
 	- [anonymousClass_java](./src/main/scala/ScalaBasic/anonymousClass_java.java), [anonymousClass](./src/main/scala/ScalaBasic/anonymousClass.scala)- *** Override/implement abstract `attribution/method..` in java & scala
 	- Nest class
 		-[NestedClass1](./src/main/scala/ScalaBasic/NestedClass1.scala)
+		-[NestedClass2](./src/main/scala/ScalaBasic/NestedClass2.scala)
 		- is similar as `inner class` in java.
 		- definition : if one completed class is inside the other class => nest class
 		```java
