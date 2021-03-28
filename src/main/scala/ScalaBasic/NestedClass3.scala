@@ -19,7 +19,7 @@ object NestedClass3 extends App {
 }
 
 class ScalaOuterClass3 { // outer class
-  // *** make a new "Alias" update here
+  // *** make a new alias "myOut" here
   myOut =>
   class ScalaInnerClass3 { // inner class
     def info(): Unit = {

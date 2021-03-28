@@ -26,12 +26,21 @@
 
 3. Scala basic  -  variable, data structure
 	- [Scala_basic_demo_3](./src/main/scala/ScalaBasic/scala_basic_demo_3.scala) - Scala basic data structrue : `array, list, tuple`, apply `function, lambda` with them basic. And `map, exception` demo
-	- [Array](./src/main/scala/ScalaBasic/ScalaArrayDemo.scala) - Scala `Array` basic op, properties
-	- [ListDemo_1](./src/main/scala/ScalaBasic/ListDemo_1.scala), [Scala_yield_to_List](./src/main/scala/ScalaBasic/Scala_yield_to_List.scala) - Scala Lists are quite similar to arrays, which means all the elements of a list have the same type - but there are two important differences.
+	- Array
+		- [ArrScalaArrayDemoay](./src/main/scala/ScalaBasic/ScalaArrayDemo.scala)
+		- [ArrayDemo1](./src/main/scala/ScalaBasic/ArrayDemo1.scala)
+		- Scala `Array` basic op, properties
+	- List
+		- [ListDemo_1](./src/main/scala/ScalaBasic/ListDemo_1.scala)
+		- [Scala_yield_to_List](./src/main/scala/ScalaBasic/Scala_yield_to_List.scala) 
+		- Scala Lists are quite similar to arrays, which means all the elements of a list have the same type - but there are two important differences.
 		- First, lists are immutable, which means elements of a list cannot be changed by assignment. 
 		- Second, lists represent a `linked list` whereas arrays are flat. The `type of a list` that has elements of `type T` is written as List[T].
-	- [HashMap](./src/main/scala/ScalaBasic/ScalaHashMap.scala) - Scala `Hash Map` basic op, properties
-	- [MapDemo_1](./src/main/scala/ScalaBasic/MapDemo_1.scala) - Scala `Map` basic op, properties
+	- HashMap
+		- [HashMap](./src/main/scala/ScalaBasic/ScalaHashMap.scala) 
+		- Scala `Hash Map` basic op, properties
+		- [MapDemo_1](./src/main/scala/ScalaBasic/MapDemo_1.scala) 
+		- Scala `Map` basic op, properties
 	- [Enumeration](./src/main/scala/ScalaBasic/EnumerationDemo.scala) - Scala `Enumeration` basic op, properties
 	- [Nothing_demo1](./src/main/scala/ScalaBasic/Nothing_demo1.scala), [Nothing_demo2](./src/main/scala/ScalaBasic/Nothing_demo2.scala) - `Nothing` can still pass information when the program failed. null can be passed to AnyRef, but NOT AnyValue (AnyValue : Int, Float, Char, Boolean, Long, Double, Byte, short...)
 	- Either, Left, Right
