@@ -111,8 +111,8 @@
 	```scala
 	 // *** declare a Employer_03 instance, but transform it to Person_03 class
 	 val emp:Person_03 = new Employer_03
-     // *** transform emp to Employer_03 class (asInstanceOf)
-     emp.asInstanceOf[Employer_03].sayHello() // downward transform
+	 // *** transform emp to Employer_03 class (asInstanceOf)
+	 emp.asInstanceOf[Employer_03].sayHello() // downward transform
 	```
 	- [SuperConstruct](./src/main/scala/ScalaBasic/SuperConstruct.scala), [SuperConstruct1 java](./src/main/scala/ScalaBasic/SuperConstruct1_java.java), [SuperConstruct2](./src/main/scala/ScalaBasic/SuperConstruct_2.scala), [SuperConstruct3](./src/main/scala/ScalaBasic/SuperConstruct_3.scala)- Scala/Java Super constructor examples
 
@@ -153,7 +153,7 @@
 		```scala
 		// if no parent class
 		class className extends trait1 with trait2 with trait3 ...
-        //
+		//
 		// if there is parent class
 		class className extends parentclassName with trait1 with trait2 with trait3 ...
 		```
@@ -170,7 +170,7 @@
 		- [AbstractDemo](./src/main/scala/ScalaBasic/AbstractDemo.scala) 
 		- Scala also has a concept of an abstract class that is similar to Java’s abstract class. But because traits are so powerful, you rarely need to use an abstract class. In fact, you only need to use an abstract class when:
 		- You want to create a base class that requires constructor arguments
-	    - Your Scala code will be called from Java code
+		- Your Scala code will be called from Java code
 	- [Class VS Object 1](./src/main/scala/ScalaBasic/Class_VS_Object_1.scala), [Class VS Object 2](./src/main/scala/ScalaBasic/Class_VS_Object_2.scala) - Compare Class, object difference, feature in Scala
 	- [Type Parameterlization Demo1](./src/main/scala/ScalaBasic/TypeParameterlizationDemo_1.scala) - Type Parameterlization in Scala
 	- Apply
@@ -182,6 +182,20 @@
 		- via `apply` method in the object, one don't need to use `object.apply(sth)` for calling the method, but can use `object(sth)` directly 
 		- if we have 1 object : `Object(param1, param2...)` then we will get the `Companion class` object return via the `Apply` method
 	- [anonymousClass_java](./src/main/scala/ScalaBasic/anonymousClass_java.java), [anonymousClass](./src/main/scala/ScalaBasic/anonymousClass.scala)- *** Override/implement abstract `attribution/method..` in java & scala
+	- Nest class
+		-[NestedClass1](./src/main/scala/ScalaBasic/NestedClass1.scala)
+		- is similar as `inner class` in java.
+		- definition : if one completed class is inside the other class => nest class
+		```java
+		class Outer{  // outer class
+			class inner{  // inner class
+		// some code
+			}
+		}
+		class Other{ // outer other class
+		// some code
+		}
+		```
 
 6. Scala object
 	- [LoadPackageDemo1](./src/main/scala/ScalaBasic/LoadPackageDemo1.scala), [LoadPackageDemo2](./src/main/scala/ScalaBasic/LoadPackageDemo2.scala), [LoadPackageDemo3](./src/main/scala/ScalaBasic/LoadPackageDemo3.scala), [LoadPackageDemo4](./src/main/scala/ScalaBasic/LoadPackageDemo4.scala) - Scala load package examples
