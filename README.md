@@ -139,6 +139,7 @@
 				- way 1) create class instance -> class hasn't been created yet when mixing trait
 				- way 2) create "anonymous" sub class -> class already been created when mixing trait
 		- [TraitDemo11](./src/main/scala/ScalaBasic/TraitDemo11.scala)
+		- [TraitDemo12](./src/main/scala/ScalaBasic/TraitDemo12.scala)
 		- [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala)
 		- Scala trait : a "supplement" of scala Inheritance (scala only allows "single Inheritance", e.g. a class can only have `one parent class`), so trait offers more flexibility
 		- Scala trait can do sth like "java interface"
