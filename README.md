@@ -187,13 +187,27 @@
 		- is similar as `inner class` in java.
 		- definition : if one completed class is inside the other class => nest class
 		```java
+		// java example 1
 		class Outer{  // outer class
 			class inner{  // inner class
-		// some code
+		// code
 			}
 		}
 		class Other{ // outer other class
-		// some code
+		// code
+		}
+		```
+		```java
+		// java example 2
+		class OuterClass{  // outer class
+			class InnerClass{ // inner class
+				publice void test (InnerClass ic){
+					System.out.Prlintln(ic);
+				}
+			}
+			static class StaticInnerClass {  // static inner class
+				// code
+			}
 		}
 		```
 
