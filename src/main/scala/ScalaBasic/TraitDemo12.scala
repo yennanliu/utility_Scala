@@ -25,3 +25,13 @@ class UnhappyException extends loggedException_2 {
     "UnhappyException 's error msg"
   }
 }
+
+// but, we can't do sth like below, since class z is NOT the "child" class of Exception
+//class z(){
+//}
+//
+//class UnhappyException2 extends z with loggedException_2 {
+//  override def getMessage(): String = {
+//    "UnhappyException 's error msg"
+//  }
+//}
