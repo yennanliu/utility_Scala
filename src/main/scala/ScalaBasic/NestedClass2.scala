@@ -26,7 +26,6 @@ class ScalaOuterClass2 { // outer class
        *    1) call attr in outer class :  outerClass.this.attr
        *    2) outerClass.this can be referred as "instance" of outerClass
        *    3) then we gat the attr via above instance (outerClass.this)
-       *    4) or you can use this style outerClass.class.attr
        */
       println("name = " + ScalaOuterClass2.this.name
         + " age = " + ScalaOuterClass2.this.age)
