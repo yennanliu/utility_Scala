@@ -253,6 +253,10 @@
 5. Scala implicit
 	- implicit is the way that you dont need to pass parameters explicitly in functions in Scala, but Scala will be able to find them from the implitict scope once you defined them. Use implicit can make your function more general and easy to import/deal with different cases per pattern
 	- [Implicit_Demo1](./src/main/scala/ScalaBasic/Implicit_Demo1.scala), [Implicit_Demo2](./src/main/scala/ScalaBasic/Implicit_Demo2.scala), [Implicit_Demo3](./src/main/scala/ScalaBasic/Implicit_Demo3.scala), [Implicit_Demo4](./src/main/scala/ScalaBasic/Implicit_Demo4.scala),  [Implicit_Demo5](./src/main/scala/ScalaBasic/Implicit_Demo5.scala), [Implicit_Demo6](./src/main/scala/ScalaBasic/Implicit_Demo6.scala), [Implicit_Demo7](./src/main/scala/ScalaBasic/Implicit_Demo7.scala), [Implicit_Demo8](./src/main/scala/ScalaBasic/Implicit_Demo8.scala), [Implicit_Demo9](./src/main/scala/ScalaBasic/Implicit_Demo9.scala) - Some implict examples
+	- [Implicit_1](./src/main/scala/ScalaBasic/Implicit_1.scala) 
+		- More implieict demos from utube tutorial
+		- implicit func ONLY ACCEPTS ONE ARGUMENT
+   		- the implicit func will BE USED AUTOMATICALLY WHEN THERE IS SUCH CASE
 	- [implicit_transformation_demo_1](./src/main/scala/ScalaBasic/implicit_transformation_demo_1.scala), [implicit_transformation_demo_2](./src/main/scala/ScalaBasic/implicit_transformation_demo_2.scala) - implicit transformation can automatically transform "high accuracy" val to "low accuracy". e.g. : Byte -> Short, Short -> Int, Int -> Long, Long -> Float, Char -> Int ..
 	- [ImplicitParameters](./src/main/scala/ScalaBasic/ImplicitParameters.scala), [ImplicitFunc](./src/main/scala/ScalaBasic/ImplicitFunc.scala), [ImplicitClass](./src/main/scala/ScalaBasic/ImplicitClass.scala) - Scala `implicit` in Parameters, func, class
 
