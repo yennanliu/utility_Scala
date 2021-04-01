@@ -11,7 +11,7 @@ object Implicit_3 extends App {
    *   1) addDel is a implicit func
    *   2) mysql: MySQL : need to transform dtype
    *   3) DB : the expected output (transformed) dtype
-   *   4) in low level :
+   *   4) in low level (underlying) :
    *        -> addDel(mysql : MySQL) DB will be generated
    */
   implicit def addDel(mysql: MySQL): DB = {
