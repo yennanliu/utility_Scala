@@ -184,6 +184,7 @@
 				- way 2) create "anonymous" sub class -> class already been created when mixing trait
 		- [TraitDemo11](./src/main/scala/ScalaBasic/TraitDemo11.scala)
 		- [TraitDemo12](./src/main/scala/ScalaBasic/TraitDemo12.scala)
+		- [TraitDemo13](./src/main/scala/ScalaBasic/TraitDemo13.scala)
 		- [TraitAsInterface](./src/main/scala/ScalaBasic/TraitAsInterface.scala)
 		- [TraitAbstractOverwrite1](./src/main/scala/ScalaBasic/TraitAbstractOverwrite1.scala)
 		- Scala trait : a "supplement" of scala Inheritance (scala only allows "single Inheritance", e.g. a class can only have `one parent class`), so trait offers more flexibility
