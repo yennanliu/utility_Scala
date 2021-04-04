@@ -40,7 +40,7 @@
 			- example : `scala.collection.Immutable`
 			- Scala has some Immutable class that java already has
 				- e.g. : Set, Map
-			- however, Scala has its own unique Immutable
+			- however, Scala has its own unique Immutable class
 				- e.g. Seq
 			- immutable.Seq.LinearSeq uses a lot : Queue, Stack ...
 			- `string` belongs to immutable.Seq.IndexedSeq
@@ -52,6 +52,7 @@
 	- Array
 		- [ArrScalaArrayDemoay](./src/main/scala/ScalaBasic/ScalaArrayDemo.scala)
 		- [ArrayDemo1](./src/main/scala/ScalaBasic/ArrayDemo1.scala)
+		- [ArrayDemo2](./src/main/scala/ScalaBasic/ArrayDemo2.scala)
 		- Scala `Array` basic op, properties
 	- List
 		- [ListDemo_1](./src/main/scala/ScalaBasic/ListDemo_1.scala)
@@ -245,6 +246,8 @@
 			}
 		}
 		```
+
+	- [generic classes](https://docs.scala-lang.org/tour/generic-classes.html)
 
 6. Scala object
 	- [LoadPackageDemo1](./src/main/scala/ScalaBasic/LoadPackageDemo1.scala), [LoadPackageDemo2](./src/main/scala/ScalaBasic/LoadPackageDemo2.scala), [LoadPackageDemo3](./src/main/scala/ScalaBasic/LoadPackageDemo3.scala), [LoadPackageDemo4](./src/main/scala/ScalaBasic/LoadPackageDemo4.scala) - Scala load package examples
