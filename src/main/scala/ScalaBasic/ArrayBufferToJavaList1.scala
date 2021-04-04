@@ -6,9 +6,9 @@ import scala.collection.mutable.ArrayBuffer
 
 object ArrayBufferToJavaList1 extends App {
 
-  /************************
+  /*******************************
    * Scala ArrayBuffer -> Java List
-   ************************/
+   *******************************/
 
   // make a scala ArrayBuffer
   val arr = ArrayBuffer("1", "2", "3")
@@ -26,8 +26,15 @@ object ArrayBufferToJavaList1 extends App {
   println("arrList = " + arrList)
   //println("arrList's dtype  = " arrList.getClass)
 
-  /************************
-  * Java List -> Scala ArrayBuffer
-  ************************/
+  println("=================")
 
+  /*******************************
+  * Java List -> Scala ArrayBuffer
+  *******************************/
+
+  import scala.collection.JavaConversions.asScalaBuffer
+  import scala.collection.mutable
+  // java.utils.List ==> Buffer
+  val ScalaArr: mutable.Buffer[String] = arrList
+  println(ScalaArr)
 }
