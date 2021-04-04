@@ -80,6 +80,12 @@
 		- Scala Lists are quite similar to arrays, which means all the elements of a list have the same type - but there are two important differences.
 		- list are immutable, which means elements of a list cannot be changed by assignment.
 		- By default, Scala List is `immutable` (unchanged)
+		- list is ordering (order matters)
+		- list adding element :
+		```scala
+		val list_1 = List(1,2,4,"xxx")
+		val list_2 = list_1 :+ 4
+		```
 		- list represents a `linked list` whereas arrays are flat. The `type of a list` that has elements of `type T` is written as List[T].
 	- HashMap
 		- [HashMap](./src/main/scala/ScalaBasic/ScalaHashMap.scala) 
