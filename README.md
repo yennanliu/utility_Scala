@@ -50,10 +50,15 @@
 		- Scala uses "immutable" by default
 		- For most of the data structure, Scala offers both `immutable` and `mutable` versions
 	- Array
+		- - `immutable` array
 		- [ArrScalaArrayDemoay](./src/main/scala/ScalaBasic/ScalaArrayDemo.scala)
 		- [ArrayDemo1](./src/main/scala/ScalaBasic/ArrayDemo1.scala)
 		- [ArrayDemo2](./src/main/scala/ScalaBasic/ArrayDemo2.scala)
 		- Scala `Array` basic op, properties
+	- ArrayBuffer
+		- `mutable` array
+		- [ArrayBufferDemo1](./src/main/scala/ScalaBasic/ArrayBufferDemo1.scala)
+
 	- List
 		- [ListDemo_1](./src/main/scala/ScalaBasic/ListDemo_1.scala)
 		- [Scala_yield_to_List](./src/main/scala/ScalaBasic/Scala_yield_to_List.scala) 
