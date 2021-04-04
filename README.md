@@ -60,11 +60,11 @@
 		- [ArrayBufferDemo1](./src/main/scala/ScalaBasic/ArrayBufferDemo1.scala)
 	- Array <--> ArrayBuffer
 		- [ArrayToArrayBufferDemo1](./src/main/scala/ScalaBasic/ArrayToArrayBufferDemo1.scala)
-
+	- ArrayBuffer <--> Java List
+		- [ArrayBufferToJavaList1](./src/main/scala/ScalaBasic/ArrayBufferToJavaList1.scala)
 	- Dimension Array
 		- Array with N-dimension
 		- [DimensionArray1](./src/main/scala/ScalaBasic/DimensionArray1.scala)
-
 	- List
 		- [ListDemo_1](./src/main/scala/ScalaBasic/ListDemo_1.scala)
 		- [Scala_yield_to_List](./src/main/scala/ScalaBasic/Scala_yield_to_List.scala) 
