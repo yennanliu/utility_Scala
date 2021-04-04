@@ -4,10 +4,19 @@
 - [Scala cheatsheets](https://docs.scala-lang.org/cheatsheets/)
 - [Scala learn material](https://github.com/yennanliu/utility_Scala/#scala-learn-material)
 - [Scala/Spark Ref](https://github.com/yennanliu/utility_Scala/#Ref)
+- [Scala mutable/immutable collection map](https://docs.scala-lang.org/tutorials/FAQ/collections.html)
 
+
+### General dtype
 <p align="center"><img src ="./doc/pic/scala_data_type.svg" width="1000" height="500"></p>
 
-<p align="center"><img src ="./doc/pic/scala_class_hierarchy.jpg"></p>
+
+### Immutable
+<p align="center"><img src ="./doc/pic/scala-immutable.svg"></p>
+
+
+### mutable
+<p align="center"><img src ="./doc/pic/scala-mutable.svg"></p>
 
 
 ## Scala Projects
