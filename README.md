@@ -74,9 +74,13 @@
 		- [ListDemo_1](./src/main/scala/ScalaBasic/ListDemo_1.scala)
 		- [ListDemo_2](./src/main/scala/ScalaBasic/ListDemo_2.scala)
 		- [Scala_yield_to_List](./src/main/scala/ScalaBasic/Scala_yield_to_List.scala) 
+		- Scala list `can storage data` directly (a object); while in Java, list is an interface, the implementation is `ArrayList`
+		- scala list can save `any` type of elements 
+		- if want to get a `null list` -> use `Nil` (e.g. `val list2 = Nil`)
 		- Scala Lists are quite similar to arrays, which means all the elements of a list have the same type - but there are two important differences.
-		- First, lists are immutable, which means elements of a list cannot be changed by assignment. 
-		- Second, lists represent a `linked list` whereas arrays are flat. The `type of a list` that has elements of `type T` is written as List[T].
+		- list are immutable, which means elements of a list cannot be changed by assignment.
+		- By default, Scala List is `immutable` (unchanged)
+		- list represents a `linked list` whereas arrays are flat. The `type of a list` that has elements of `type T` is written as List[T].
 	- HashMap
 		- [HashMap](./src/main/scala/ScalaBasic/ScalaHashMap.scala) 
 		- Scala `Hash Map` basic op, properties
