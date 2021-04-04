@@ -26,6 +26,13 @@
 
 3. Scala basic  -  variable, data structure
 	- [Scala_basic_demo_3](./src/main/scala/ScalaBasic/scala_basic_demo_3.scala) - Scala basic data structrue : `array, list, tuple`, apply `function, lambda` with them basic. And `map, exception` demo
+	- Immutable & mutable
+		- UNCHANGED : Immutable
+			- example : `scala.collection.Immutable`
+		- CAN CHANGED : mutable
+			- example : `scala.collection.mutable`
+		- Scala uses "immutable" by default
+		- For most of the data structure, Scala offers both `immutable` and `mutable` versions
 	- Array
 		- [ArrScalaArrayDemoay](./src/main/scala/ScalaBasic/ScalaArrayDemo.scala)
 		- [ArrayDemo1](./src/main/scala/ScalaBasic/ArrayDemo1.scala)
