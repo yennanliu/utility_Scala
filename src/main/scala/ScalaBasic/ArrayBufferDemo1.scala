@@ -22,11 +22,9 @@ object ArrayBufferDemo1 extends App {
   /** ArrayBuffer support append */
   arrb_1.append(0, 90, 113.12323423)
   println("arrb_1(0) = " + arrb_1(0))
-  println("arrb_1.hash = " + arrb_1.hashCode())
+  println("arrb_1.hash = " + arrb_1.hashCode()) // in every append, scala will update the underlying space, so its hashcode changed
 
   /** ArrayBuffer support modify */
   arrb_1(0) = 777
   println("arrb_1(0) = " + arrb_1(0))
-
-
 }
