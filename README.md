@@ -261,6 +261,8 @@
    		- the implicit func will BE USED AUTOMATICALLY WHEN THERE IS SUCH CASE
    		- the NAME of implicit func IS NOT MATTER; `INPUT AND OUTPUT DTYPE` IS THE (IMPORTANT) THING
    		- there can be multiple implicit func, but have to make sure THERE IS ONLY ONE implicit func CAN BE REFERRED IN CURRENT STATE
+   		- Note : implicit CAN'T IN "NEST" FORMAT (e.g. one implicit in the other implicit)
+   		- AVOID the case : "FAILED TO FIND IMPLICIT IN CURRENT FIELD, THEN SEARCH ALL POSSIBILITIES (same type) IN THE SPACE"
 	- [implicit_transformation_demo_1](./src/main/scala/ScalaBasic/implicit_transformation_demo_1.scala), [implicit_transformation_demo_2](./src/main/scala/ScalaBasic/implicit_transformation_demo_2.scala) - implicit transformation can automatically transform "high accuracy" val to "low accuracy". e.g. : Byte -> Short, Short -> Int, Int -> Long, Long -> Float, Char -> Int ..
 	- [ImplicitParameters](./src/main/scala/ScalaBasic/ImplicitParameters.scala), [ImplicitFunc](./src/main/scala/ScalaBasic/ImplicitFunc.scala), [ImplicitClass](./src/main/scala/ScalaBasic/ImplicitClass.scala) - Scala `implicit` in Parameters, func, class
 
