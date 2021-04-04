@@ -38,6 +38,13 @@
 	- Immutable & mutable
 		- UNCHANGED : Immutable
 			- example : `scala.collection.Immutable`
+			- Scala has some Immutable class that java already has
+				- e.g. : Set, Map
+			- however, Scala has its own unique Immutable
+				- e.g. Seq
+			- immutable.Seq.LinearSeq uses a lot : Queue, Stack ...
+			- `string` belongs to immutable.Seq.IndexedSeq
+			- there is a SortedMap under Map offering "ordering" feature
 		- CAN CHANGED : mutable
 			- example : `scala.collection.mutable`
 		- Scala uses "immutable" by default
