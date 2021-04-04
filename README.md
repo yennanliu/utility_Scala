@@ -71,6 +71,12 @@
 		- Scala Lists are quite similar to arrays, which means all the elements of a list have the same type - but there are two important differences.
 		- First, lists are immutable, which means elements of a list cannot be changed by assignment. 
 		- Second, lists represent a `linked list` whereas arrays are flat. The `type of a list` that has elements of `type T` is written as List[T].
+
+	- Tuple
+		- [TupleDemo1](./src/main/scala/ScalaBasic/TupleDemo1.scala)
+		- can be recognized as a "container"
+		- can save various elements with `different/same type`
+		- tuple can only save `22 elements as MAX`
 	- HashMap
 		- [HashMap](./src/main/scala/ScalaBasic/ScalaHashMap.scala) 
 		- Scala `Hash Map` basic op, properties
