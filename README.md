@@ -74,6 +74,7 @@
 		- [ListDemo_1](./src/main/scala/ScalaBasic/ListDemo_1.scala)
 		- [ListDemo_2](./src/main/scala/ScalaBasic/ListDemo_2.scala)
 		- [ListDemo_3](./src/main/scala/ScalaBasic/ListDemo_3.scala)
+		- [ListDemo_4](./src/main/scala/ScalaBasic/ListDemo_4.scala)
 		- [Scala_yield_to_List](./src/main/scala/ScalaBasic/Scala_yield_to_List.scala) 
 		- Scala list `can storage data` directly (a object); while in Java, list is an interface, the implementation is `ArrayList`
 		- scala list can save `any` type of elements 
