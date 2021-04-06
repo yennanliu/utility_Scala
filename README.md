@@ -95,6 +95,8 @@
 			- `:::` means add `EVERY` element in list to a `null` list
 			- we must put the list on the `right and left` of `:::`. (i.e. list_1 ::: list_2 ::: list_3)
 		- list represents a `linked list` whereas arrays are flat. The `type of a list` that has elements of `type T` is written as List[T].
+	- Queue
+		- [QueueDemo1](./src/main/scala/ScalaBasic/QueueDemo1.scala)
 	- HashMap
 		- [HashMap](./src/main/scala/ScalaBasic/ScalaHashMap.scala) 
 		- Scala `Hash Map` basic op, properties
