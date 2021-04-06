@@ -88,6 +88,12 @@
 		val list_1 = List(1,2,4,"xxx")
 		val list_2 = list_1 :+ 4
 		```
+		- list adding element via "::", ":::":
+			- `::` means adding new element to a list
+			- we must put the list on the `right` of `::`. (i.e. 4 :: list_1)
+			- computing ordering : `from right to list`
+			- `:::` means add `EVERY` element in list to a `null` list
+			- we must put the list on the `right and left` of `:::`. (i.e. list_1 ::: list_2 ::: list_3)
 		- list represents a `linked list` whereas arrays are flat. The `type of a list` that has elements of `type T` is written as List[T].
 	- HashMap
 		- [HashMap](./src/main/scala/ScalaBasic/ScalaHashMap.scala) 
