@@ -74,7 +74,6 @@
 		- [ListDemo_1](./src/main/scala/ScalaBasic/ListDemo_1.scala)
 		- [ListDemo_2](./src/main/scala/ScalaBasic/ListDemo_2.scala)
 		- [ListDemo_3](./src/main/scala/ScalaBasic/ListDemo_3.scala)
-		- [ListDemo_4](./src/main/scala/ScalaBasic/ListDemo_4.scala)
 		- [Scala_yield_to_List](./src/main/scala/ScalaBasic/Scala_yield_to_List.scala) 
 		- Scala list `can storage data` directly (a object); while in Java, list is an interface, the implementation is `ArrayList`
 		- scala list can save `any` type of elements 
@@ -88,7 +87,8 @@
 		val list_1 = List(1,2,4,"xxx")
 		val list_2 = list_1 :+ 4
 		```
-		- list adding element via "::", ":::":
+		- [ListDemo_4](./src/main/scala/ScalaBasic/ListDemo_4.scala)
+		- list adding element via `::`, `:::`:
 			- `::` means adding new element to a list
 			- we must put the list on the `right` of `::`. (i.e. 4 :: list_1)
 			- computing ordering : `from right to list`
