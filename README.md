@@ -97,6 +97,7 @@
 		- list represents a `linked list` whereas arrays are flat. The `type of a list` that has elements of `type T` is written as List[T].
 	- Queue
 		- [QueueDemo1](./src/main/scala/ScalaBasic/QueueDemo1.scala)
+		- [QueueDemo2](./src/main/scala/ScalaBasic/QueueDemo2.scala)
 	- HashMap
 		- [HashMap](./src/main/scala/ScalaBasic/ScalaHashMap.scala) 
 		- Scala `Hash Map` basic op, properties
