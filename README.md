@@ -102,9 +102,10 @@
 		- Map
 			- [MapDemo_1](./src/main/scala/ScalaBasic/MapDemo_1.scala)
 			- [MapDemo_2](./src/main/scala/ScalaBasic/MapDemo_2.scala)
-			- [MapDemo_3](./src/main/scala/ScalaBasic/MapDemo_3.scala) 
-			- [MapDemo_4](./src/main/scala/ScalaBasic/MapDemo_4.scala) 
-			- [MapDemo_5](./src/main/scala/ScalaBasic/MapDemo_5.scala)  
+			- [MapDemo_3](./src/main/scala/ScalaBasic/MapDemo_3.scala)
+			- [MapDemo_4](./src/main/scala/ScalaBasic/MapDemo_4.scala)
+			- [MapDemo_5](./src/main/scala/ScalaBasic/MapDemo_5.scala)
+			- [MapDemo_6](./src/main/scala/ScalaBasic/MapDemo_6.scala) : map get values demo
 			- [JavaMap1](./src/main/scala/ScalaBasic/JavaMap1.java) : java Map demo
 			- Scala `Map` basic op, properties
 		- HashMap
