@@ -98,11 +98,14 @@
 	- Queue
 		- [QueueDemo1](./src/main/scala/ScalaBasic/QueueDemo1.scala)
 		- [QueueDemo2](./src/main/scala/ScalaBasic/QueueDemo2.scala)
-	- HashMap
-		- [HashMap](./src/main/scala/ScalaBasic/ScalaHashMap.scala) 
-		- Scala `Hash Map` basic op, properties
-		- [MapDemo_1](./src/main/scala/ScalaBasic/MapDemo_1.scala) 
-		- Scala `Map` basic op, properties
+	- Map
+		- Map
+			- [MapDemo_1](./src/main/scala/ScalaBasic/MapDemo_1.scala) 
+			- [JavaMap1](./src/main/scala/ScalaBasic/JavaMap1.scala) : java Map demo
+			- Scala `Map` basic op, properties
+		- HashMap
+			- [HashMap](./src/main/scala/ScalaBasic/ScalaHashMap.scala) 
+			- Scala `Hash Map` basic op, properties
 	- [Enumeration](./src/main/scala/ScalaBasic/EnumerationDemo.scala) - Scala `Enumeration` basic op, properties
 	- [Nothing_demo1](./src/main/scala/ScalaBasic/Nothing_demo1.scala), [Nothing_demo2](./src/main/scala/ScalaBasic/Nothing_demo2.scala) - `Nothing` can still pass information when the program failed. null can be passed to AnyRef, but NOT AnyValue (AnyValue : Int, Float, Char, Boolean, Long, Double, Byte, short...)
 	- Either, Left, Right
