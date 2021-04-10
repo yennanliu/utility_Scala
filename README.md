@@ -100,8 +100,9 @@
 		- [QueueDemo2](./src/main/scala/ScalaBasic/QueueDemo2.scala)
 	- Map
 		- Map
-			- [MapDemo_1](./src/main/scala/ScalaBasic/MapDemo_1.scala) 
-			- [JavaMap1](./src/main/scala/ScalaBasic/JavaMap1.scala) : java Map demo
+			- [MapDemo_1](./src/main/scala/ScalaBasic/MapDemo_1.scala)
+			- [MapDemo_2](./src/main/scala/ScalaBasic/MapDemo_2.scala) 
+			- [JavaMap1](./src/main/scala/ScalaBasic/JavaMap1.java) : java Map demo
 			- Scala `Map` basic op, properties
 		- HashMap
 			- [HashMap](./src/main/scala/ScalaBasic/ScalaHashMap.scala) 
