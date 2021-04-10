@@ -27,4 +27,14 @@ object MapDemo_6 extends App {
   // METHOD 3) via map.get
   println(map6.get("A")) // Some(1), is a collection as well
   println(map6.get("Z")) // None
+
+  println("==============")
+
+  // METHOD 4) getOrElse
+  /*
+   *  if key exists -> return its value
+   *  if key NOT exists -> return default value
+   */
+  println(map6.getOrElse("A", "default"))
+  println(map6.getOrElse("Z", "default"))
 }
