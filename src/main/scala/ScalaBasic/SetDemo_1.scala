@@ -1,6 +1,10 @@
 package ScalaBasic
 
+// https://www.youtube.com/watch?v=F30wh_8Nw1g&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=132
+
 import scala.collection.mutable
+
+/** Set mutable, immutable demo */
 
 object SetDemo_1 extends App {
   // 1) default is immutable set
