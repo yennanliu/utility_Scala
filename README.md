@@ -88,6 +88,7 @@
 		val list_2 = list_1 :+ 4
 		```
 		- [ListDemo_4](./src/main/scala/ScalaBasic/ListDemo_4.scala)
+		- [ListDemo_5](./src/main/scala/ScalaBasic/ListDemo_5.scala)
 		- list adding element via `::`, `:::`:
 			- `::` means adding new element to a list
 			- we must put the list on the `right` of `::`. (i.e. 4 :: list_1)
