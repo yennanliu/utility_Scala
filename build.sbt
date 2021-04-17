@@ -24,6 +24,9 @@ libraryDependencies ++= Seq(
   // "org.apache.spark" %% "spark-hive" % "2.3.0" % "provided",
   // "mysql" % "mysql-connector-java" % "8.0.17",
 
+  // time
+  "joda-time" % "joda-time" % "2.9.9",
+
   // click (DB library)
   "com.typesafe.slick" %% "slick" % "3.0.0",
   "org.slf4j" % "slf4j-nop" % "1.6.4",
