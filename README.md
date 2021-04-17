@@ -112,6 +112,9 @@
 		- HashMap
 			- [HashMap](./src/main/scala/ScalaBasic/ScalaHashMap.scala) 
 			- Scala `Hash Map` basic op, properties
+	- FlatMap
+		- flatMap will go to `every sub group` in a group and map the operation on each of them then return the result
+		- [FlatMapDemo_1](./src/main/scala/ScalaBasic/FlatMapDemo_1.scala)
 	- Set
 		- `collection of unique elements`, no ordering, default is hashmap's implementation
 		- Set is `immuatable` default in Scala, if want mutable, need import `scala.collection.mutable.set`
