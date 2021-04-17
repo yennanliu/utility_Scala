@@ -33,9 +33,18 @@ object ListDemo_5 extends App {
   val list1_r3 = list1.map(_ * 2)
   println("list1_r3 = " + list1_r3)
 
-  // 4) extra  : high order function (can get other func as input)
-  // 4-1) f : input, a function (accept Double type and return Double type)
-  // 4-2) n1 : a regular input
+  // method 4) higher order func
+  // pass the mul method as func into map
+  // map is the "higher order func"
+  def mul(x: Int): Int = {
+    x * 2
+  }
+  val list1_r4 = list1.map(mul)
+  println("list1_r4 = " + list1_r4)
+
+  // Extra  : higher order function (can get other func as input)
+  // f : input, a function (accept Double type and return Double type)
+  //  n1 : a regular input
   def test(f: Double => Double, n1: Double) = {
     f(n1)
   }
@@ -44,6 +53,6 @@ object ListDemo_5 extends App {
     d1 * 2
   }
 
-  val list1_r4 = test(Mysum, 2.0)
-  println("list1_r4 = " + list1_r4)
+  val result = test(Mysum, 2.0)
+  println("result = " + result)
 }
