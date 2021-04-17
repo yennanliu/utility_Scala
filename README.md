@@ -111,6 +111,11 @@
 		- HashMap
 			- [HashMap](./src/main/scala/ScalaBasic/ScalaHashMap.scala) 
 			- Scala `Hash Map` basic op, properties
+	- Set
+		- `collection of unique elements`, no ordering, default is hashmap's implementation
+		- Set is `immuatable` default in Scala, if want mutable, need import `scala.collection.mutable.set`
+		- [SetDemo_1](./src/main/scala/ScalaBasic/SetDemo_1.scala)
+		- [JavaSetDemo_1](./src/main/scala/ScalaBasic/JavaSetDemo_1.java)
 	- [Enumeration](./src/main/scala/ScalaBasic/EnumerationDemo.scala) - Scala `Enumeration` basic op, properties
 	- [Nothing_demo1](./src/main/scala/ScalaBasic/Nothing_demo1.scala), [Nothing_demo2](./src/main/scala/ScalaBasic/Nothing_demo2.scala) - `Nothing` can still pass information when the program failed. null can be passed to AnyRef, but NOT AnyValue (AnyValue : Int, Float, Char, Boolean, Long, Double, Byte, short...)
 	- Either, Left, Right
