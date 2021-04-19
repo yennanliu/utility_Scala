@@ -124,6 +124,8 @@
 		- [FlatMapDemo_1](./src/main/scala/ScalaBasic/FlatMapDemo_1.scala)
 	- Filter
 		- [Filter_demo1](./src/main/scala/ScalaBasic/Filter_demo1.scala)
+	- Reduce
+		- [Reduce_demo1](./src/main/scala/ScalaBasic/Reduce_demo1.scala)
 	- [Enumeration](./src/main/scala/ScalaBasic/EnumerationDemo.scala) - Scala `Enumeration` basic op, properties
 	- [Nothing_demo1](./src/main/scala/ScalaBasic/Nothing_demo1.scala), [Nothing_demo2](./src/main/scala/ScalaBasic/Nothing_demo2.scala) - `Nothing` can still pass information when the program failed. null can be passed to AnyRef, but NOT AnyValue (AnyValue : Int, Float, Char, Boolean, Long, Double, Byte, short...)
 	- Either, Left, Right
