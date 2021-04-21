@@ -387,6 +387,7 @@
 	- [ExceptionDemo1](./src/main/scala/ScalaBasic/ExceptionDemo1.scala) 
 	- [ExceptionDemo2](./src/main/scala/ScalaBasic/ExceptionDemo2.scala) - format : `try - catch - finally`
 	- - there is NO `compile exception` in Scala (only java has), all exceptions in Scala happen during `runtime`. All exceptions inherit from the "throwable" class, which is the class with "nothing" type that is acceptable to `all class/method...`
+	- [ExceptionDemo3](./src/main/scala/ScalaBasic/ExceptionDemo3.scala)
 
 9. Others
 
