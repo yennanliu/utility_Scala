@@ -119,6 +119,9 @@
 		- [SetDemo_2](./src/main/scala/ScalaBasic/SetDemo_2.scala)
 		- [SetDemo_3](./src/main/scala/ScalaBasic/SetDemo_3.scala)
 		- [JavaSetDemo_1](./src/main/scala/ScalaBasic/JavaSetDemo_1.java)
+	- Stream
+		- stream is one kind of the collection that can storgae `unlimit` elements, but the unlimit elements are not showed up at once, but with dynamice space, the last element in stream follow the `lazy` style (only computed when called)
+		- [StreamDemo_1](./src/main/scala/ScalaBasic/StreamDemo_1.scala)
 	- FlatMap
 		- flatMap will go to `every sub group` in a group and map the operation on each of them then return the result
 		- [FlatMapDemo_1](./src/main/scala/ScalaBasic/FlatMapDemo_1.scala)
