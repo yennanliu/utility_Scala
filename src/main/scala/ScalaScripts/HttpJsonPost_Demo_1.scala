@@ -21,6 +21,8 @@ object HttpJsonPost_Demo_1 extends App {
   val spock = new Person("Leonard", "Nimoy", 82)
   val spockAsJson = new Gson().toJson(spock)
 
+  println("spockAsJson = " + spockAsJson.toString)
+
   // add name value pairs to a post object
   //val post = new HttpPost("http://localhost:9999/posttest")
   val post = new HttpPost("http://localhost:9999")
@@ -33,4 +35,5 @@ object HttpJsonPost_Demo_1 extends App {
   val response = client.execute(post)
   println("--- HEADERS ---")
   response.getAllHeaders.foreach(arg => println(arg))
+
 }
