@@ -13,11 +13,21 @@ final class Pair[T,S](val t: T, val s: S){
 
 object Generic_Demo_1 extends App {
   // run
+  // example 1
+  // declare generic type explicitly
   val pair = new Pair[String, Int]("tim", 888)
   println("pair.t = " + pair.t + " pair.s = " + pair.s)
 
   val pair2 = pair.swap()
-  println(pair2)
   println("pair2.t = " + pair2.t + " pair2.s = " + pair2.s)
 
+  println("================")
+
+  // example 2
+  // or, you can not to declare generic type explicitly
+  val pairx = new Pair("tim", 888)
+  println("pairx.t = " + pairx.t + " pairx.s = " + pairx.s)
+
+  val pairx2 = pair.swap()
+  println("pairx2.t = " + pairx2.t + " pairx2.s = " + pairx2.s)
 }
