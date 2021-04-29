@@ -198,8 +198,6 @@
 	- [thisDemo](./src/main/scala/ScalaBasic/thisDemo.scala), - [thisDemo2](./src/main/scala/ScalaBasic/thisDemo2.scala) - Scala `this` basic op, properties
 	- [SomeDemo](./src/main/scala/ScalaBasic/SomeDemo.scala) - Scala `Some` basic op, properties
 	- [CaseHeadTailNil](./src/main/scala/ScalaBasic/CaseHeadTailNil.scala) - Scala `Case on List Head Tail Nil` basic op, properties
-	- [GenericTypeParam](./src/main/scala/ScalaBasic/GenericTypeParam.scala) - Scala `Generic Type` basic op, properties,
-	e.g. : ``` def exec[T](f: () => T): T = {f()}```
 	- [TryGetOrElse](./src/main/scala/ScalaBasic/TryGetOrElse.scala), [TryGetOrElse2](./src/main/scala/ScalaBasic/TryGetOrElse2.scala) - Scala `try GetOrElse(else)` example
 	- [UpperCass](./src/main/scala/ScalaBasic/UpperCass.scala) - Scala `UpperCass ( <: )` basic op, properties
 	- [Find](./src/main/scala/ScalaBasic/Find.scala) - Scala `Find`, `exists`,  `contains`, and `isDefined` examples
@@ -319,8 +317,6 @@
 		}
 		```
 
-	- [generic classes](https://docs.scala-lang.org/tour/generic-classes.html)
-
 6. Scala object
 	- [LoadPackageDemo1](./src/main/scala/ScalaBasic/LoadPackageDemo1.scala), [LoadPackageDemo2](./src/main/scala/ScalaBasic/LoadPackageDemo2.scala), [LoadPackageDemo3](./src/main/scala/ScalaBasic/LoadPackageDemo3.scala), [LoadPackageDemo4](./src/main/scala/ScalaBasic/LoadPackageDemo4.scala) - Scala load package examples
 	- [pkgObject](./src/main/scala/ScalaBasic/pkgObject.scala) - `package` can have class, object, and trait... but it CAN'T HAVE `function`, `var`... In order to solve it, scala offers the `package object` concept
@@ -380,8 +376,14 @@
 	- [OOP hw 1](./src/main/scala/ScalaHomework) 
 
 7. Scala advance
-	- [parallel_Demo_1](./src/main/scala/ScalaAdvance/parallel_Demo_1.scala)
-	- Scala offers the `parallel` collections that can be processed in `parallel` with machines have multi-core CPU
+	- Parallel
+		- [parallel_Demo_1](./src/main/scala/ScalaAdvance/parallel_Demo_1.scala)
+		- Scala offers the `parallel` collections that can be processed in `parallel` with machines have multi-core CPU
+	- Generic
+		- [Generic_Demo_1](./src/main/scala/ScalaAdvance/Generic_Demo_1.scala)
+		- [GenericTypeParam](./src/main/scala/ScalaBasic/GenericTypeParam.scala) - Scala `Generic Type` basic op, properties, e.g. : ``` def exec[T](f: () => T): T = {f()}```
+		- [generic classes](https://docs.scala-lang.org/tour/generic-classes.html)
+		- `Generic classes` are classes which take a type as a parameter. They are particularly useful for collection classes.
 
 8. Scala Script example
 	- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
