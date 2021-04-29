@@ -382,6 +382,9 @@
 	- Generic
 		- [Generic_Demo_1](./src/main/scala/ScalaAdvance/Generic_Demo_1.scala)
 		- [Generic_Demo_2](./src/main/scala/ScalaAdvance/Generic_Demo_2.scala)
+		- [Generic_Demo_3](./src/main/scala/ScalaAdvance/Generic_Demo_3.scala)
+		- [Generic_Demo_4](./src/main/scala/ScalaAdvance/Generic_Demo_4.scala)
+		- [Generic_Demo_5](./src/main/scala/ScalaAdvance/Generic_Demo_5.scala)
 		- [GenericTypeParam](./src/main/scala/ScalaBasic/GenericTypeParam.scala) - Scala `Generic Type` basic op, properties, e.g. : ``` def exec[T](f: () => T): T = {f()}```
 		- Scala has `Generic` in `class, func, method`
 		- [generic classes](https://docs.scala-lang.org/tour/generic-classes.html)
