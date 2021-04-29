@@ -11,7 +11,9 @@ class Pair_05[T,S](val t: T, val s: S){
 
 object Generic_Demo_5 extends App {
   // run
-  val pair1 = new Pair_05[String, Int]("jim", 100)
-  //val pair2 = pair1.swap
+  // note : only works if T and S are in the same type (implicit env: S =:= T)
+  val pair1 = new Pair_05[String, String]("jim", "oooooooooo")
+  val pair2 = pair1.swap
 
+  println("pair2.t = " + pair2.t + " pair2.s = " + pair2.s)
 }
