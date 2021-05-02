@@ -198,8 +198,23 @@
 		- [PatternmatchDemo](./src/main/scala/ScalaBasic/PatternmatchDemo.scala)
 		- [PatternmatchDemo2](./src/main/scala/ScalaBasic/PatternmatchDemo2.scala)
 		- [PatternmatchDemo3](./src/main/scala/ScalaBasic/PatternmatchDemo3.scala)
-		- [PatternmatchDemo4](./src/main/scala/ScalaBasic/PatternmatchDemo4.scala)
-		- [PatternmatchValueCompare](./src/main/scala/ScalaBasic/PatternmatchValueCompare.scala) - Scala `Pattern match` basic op, properties
+		- [PatternmatchDemo4](./src/main/scala/ScalaBasic/PatternmatchDemo4.scala) - Pattern guards demo
+		- [PatternmatchValueCompare](./src/main/scala/ScalaBasic/PatternmatchValueCompare.scala)
+		- [Pattern guards ref](https://docs.scala-lang.org/tour/pattern-matching.html)
+			- Pattern guards are simply boolean expressions which are used to make cases more specific. Just add if `<boolean expression>` after the pattern.
+	    - if `compare in a range` -> use `pattern guards`			
+		```scala
+		def showImportantNotification(notification: Notification, importantPeopleInfo: Seq[String]): String = {
+		  notification match {
+		    case Email(sender, _, _) if importantPeopleInfo.contains(sender) =>
+		      "You got an email from special someone!"
+		    case SMS(number, _) if importantPeopleInfo.contains(number) =>
+		      "You got an SMS from special someone!"
+		    case other =>
+		      showNotification(other) // nothing special, delegate to our original showNotification function
+		  }
+		}
+		```
 	- This
 		- [thisDemo](./src/main/scala/ScalaBasic/thisDemo.scala)
 		- [thisDemo2](./src/main/scala/ScalaBasic/thisDemo2.scala)
