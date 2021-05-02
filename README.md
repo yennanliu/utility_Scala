@@ -198,6 +198,7 @@
 		- [PatternmatchDemo](./src/main/scala/ScalaBasic/PatternmatchDemo.scala)
 		- [PatternmatchDemo2](./src/main/scala/ScalaBasic/PatternmatchDemo2.scala)
 		- [PatternmatchDemo3](./src/main/scala/ScalaBasic/PatternmatchDemo3.scala)
+		- [PatternmatchDemo4](./src/main/scala/ScalaBasic/PatternmatchDemo4.scala)
 		- [PatternmatchValueCompare](./src/main/scala/ScalaBasic/PatternmatchValueCompare.scala) - Scala `Pattern match` basic op, properties
 	- This
 		- [thisDemo](./src/main/scala/ScalaBasic/thisDemo.scala)
