@@ -199,6 +199,7 @@
 		- [PatternmatchDemo2](./src/main/scala/ScalaBasic/PatternmatchDemo2.scala)
 		- [PatternmatchDemo3](./src/main/scala/ScalaBasic/PatternmatchDemo3.scala)
 		- [PatternmatchDemo4](./src/main/scala/ScalaBasic/PatternmatchDemo4.scala) - Pattern guards demo
+		- [PatternmatchDemo5](./src/main/scala/ScalaBasic/PatternmatchDemo5.scala) -  pattern match variable
 		- [PatternmatchValueCompare](./src/main/scala/ScalaBasic/PatternmatchValueCompare.scala)
 		- [Pattern guards ref](https://docs.scala-lang.org/tour/pattern-matching.html)
 			- Pattern guards are simply boolean expressions which are used to make cases more specific. Just add if `<boolean expression>` after the pattern.
@@ -215,6 +216,7 @@
 		  }
 		}
 		```
+		- pattern match variable : can get variable in pattern match -> can be used in next steps op
 	- This
 		- [thisDemo](./src/main/scala/ScalaBasic/thisDemo.scala)
 		- [thisDemo2](./src/main/scala/ScalaBasic/thisDemo2.scala)
