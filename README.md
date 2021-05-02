@@ -194,9 +194,18 @@
 			- [ConstructorDemo3](./src/main/scala/ScalaBasic/ConstructorDemo3.scala)
 			- [ConstructorDemo4](./src/main/scala/ScalaBasic/ConstructorDemo4.scala)
 			- [ConstructorDemo5](./src/main/scala/ScalaBasic/ConstructorDemo5.scala)
-	- [PatternmatchDemo](./src/main/scala/ScalaBasic/PatternmatchDemo.scala), [PatternmatchDemo2](./src/main/scala/ScalaBasic/PatternmatchDemo2.scala), [PatternmatchDemo3](./src/main/scala/ScalaBasic/PatternmatchDemo3.scala), [PatternmatchValueCompare](./src/main/scala/ScalaBasic/PatternmatchValueCompare.scala) - Scala `Pattern match` basic op, properties
-	- [thisDemo](./src/main/scala/ScalaBasic/thisDemo.scala), - [thisDemo2](./src/main/scala/ScalaBasic/thisDemo2.scala) - Scala `this` basic op, properties
-	- [SomeDemo](./src/main/scala/ScalaBasic/SomeDemo.scala) - Scala `Some` basic op, properties
+	- Patternmatch
+		- [PatternmatchDemo](./src/main/scala/ScalaBasic/PatternmatchDemo.scala)
+		- [PatternmatchDemo2](./src/main/scala/ScalaBasic/PatternmatchDemo2.scala)
+		- [PatternmatchDemo3](./src/main/scala/ScalaBasic/PatternmatchDemo3.scala)
+		- [PatternmatchValueCompare](./src/main/scala/ScalaBasic/PatternmatchValueCompare.scala) - Scala `Pattern match` basic op, properties
+	- This
+		- [thisDemo](./src/main/scala/ScalaBasic/thisDemo.scala)
+		- [thisDemo2](./src/main/scala/ScalaBasic/thisDemo2.scala)
+		- Scala `this` basic op, properties
+	- Some
+		- [SomeDemo](./src/main/scala/ScalaBasic/SomeDemo.scala) 
+		- Scala `Some` basic op, properties
 	- [CaseHeadTailNil](./src/main/scala/ScalaBasic/CaseHeadTailNil.scala) - Scala `Case on List Head Tail Nil` basic op, properties
 	- [TryGetOrElse](./src/main/scala/ScalaBasic/TryGetOrElse.scala), [TryGetOrElse2](./src/main/scala/ScalaBasic/TryGetOrElse2.scala) - Scala `try GetOrElse(else)` example
 	- [UpperCass](./src/main/scala/ScalaBasic/UpperCass.scala) - Scala `UpperCass ( <: )` basic op, properties
