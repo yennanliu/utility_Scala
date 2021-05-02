@@ -201,6 +201,7 @@
 		- [PatternmatchDemo4](./src/main/scala/ScalaBasic/PatternmatchDemo4.scala) - Pattern guards demo
 		- [PatternmatchDemo5](./src/main/scala/ScalaBasic/PatternmatchDemo5.scala) -  pattern match variable
 		- [PatternmatchDemo6](./src/main/scala/ScalaBasic/PatternmatchDemo6.scala) - match type, can compare `type` in pattern match
+		- [PatternmatchDemo7](./src/main/scala/ScalaBasic/PatternmatchDemo7.scala) - `case _` within match
 		- [PatternmatchValueCompare](./src/main/scala/ScalaBasic/PatternmatchValueCompare.scala)
 		- [Pattern guards ref](https://docs.scala-lang.org/tour/pattern-matching.html)
 			- Pattern guards are simply boolean expressions which are used to make cases more specific. Just add if `<boolean expression>` after the pattern.
@@ -218,6 +219,15 @@
 		}
 		```
 		- pattern match variable : can get variable in pattern match -> can be used in next steps op
+		- Note : if there is a `case _` exists in the middle of match -> meaning the pattern match will NOT to compare the value, but still do the type compare. (this case is `NOT` `match any case`)
+		- example:
+		```scala
+		val result = obj match{
+			case a: Int => a
+			// NOTICE here
+			case _ => Int.MaxValue
+		}
+		```
 	- This
 		- [thisDemo](./src/main/scala/ScalaBasic/thisDemo.scala)
 		- [thisDemo2](./src/main/scala/ScalaBasic/thisDemo2.scala)
