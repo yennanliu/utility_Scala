@@ -24,7 +24,6 @@ object PatternmatchDemo7 extends App {
     case f: BigInt => Int.MaxValue
     case _ => "nothing"
   }
-
   println("obj = " + obj.toString)
   println("result = " + result)
   }

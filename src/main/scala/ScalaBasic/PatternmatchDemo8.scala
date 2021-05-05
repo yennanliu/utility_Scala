@@ -14,8 +14,6 @@ object PatternmatchDemo8 extends App {
       case Array(0, _*) => "Array start from 0" // compare array start from 0,  element counts can be any value
       case _ => "not a collection"
     }
-
     println(s"arr = ${arr.toList}  |  result = $result")
   }
-
 }

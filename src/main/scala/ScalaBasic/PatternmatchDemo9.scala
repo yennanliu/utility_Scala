@@ -11,7 +11,6 @@ object PatternmatchDemo9 extends App {
       case x :: Nil => x :: Nil // compare array with ONLY 1 element, and also return the original list (x :: Nil)
       case _ => "something else"
     }
-
     println(s"list = $list  |  result = $result")
   }
 
