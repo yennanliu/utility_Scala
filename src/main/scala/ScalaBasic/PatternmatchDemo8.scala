@@ -11,7 +11,7 @@ object PatternmatchDemo8 extends App {
     val result = arr match  {
       case Array(0) => "0"  // compare Array(0)
       case Array(x, y) => s"x = $x, y = $y" // compare array with 2 elements, and set 1st element as x, 2nd element as y
-      case Array(0, _*) => "Array start from 0" // compare array start from 0, length can be anything
+      case Array(0, _*) => "Array start from 0" // compare array start from 0,  element counts can be any value
       case _ => "not a collection"
     }
 
