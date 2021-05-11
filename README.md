@@ -207,6 +207,7 @@
 		- [PatternmatchDemo10](./src/main/scala/ScalaBasic/PatternmatchDemo10.scala) - Pattern match : tuple
 		- [PatternmatchObject](./src/main/scala/ScalaBasic/PatternmatchObject.scala) - Pattern match on `apply, unapply` -> return the object argument that passing into object
 		- [PatternmatchObject2](./src/main/scala/ScalaBasic/PatternmatchObject2.scala)
+			- note : if case objectCollector ( `Names(first, second, third)`) has multiple arguments -> will call `unapplySeq` by default
 		- [PatternmatchValueCompare](./src/main/scala/ScalaBasic/PatternmatchValueCompare.scala)
 		- [Pattern guards ref](https://docs.scala-lang.org/tour/pattern-matching.html)
 			- Pattern guards are simply boolean expressions which are used to make cases more specific. Just add if `<boolean expression>` after the pattern.

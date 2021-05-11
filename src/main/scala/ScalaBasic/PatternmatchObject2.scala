@@ -11,6 +11,7 @@ object PatternmatchObject2 extends App {
     // in here, Names(first, second, third)  will call Names' unapply method
     //  -> if return some (pattern match success), will give result to first, second, third
     //  -> if return none -> pattern match failed
+    // note : if case objectCollector ( Names(first, second, third)) has multiple arguments -> will call unapplySeq by default
     case Names(first, second, third) => {
       println("the string contains 3 names, pattern match OK! ")
       println(s"$first, $second, $third")
