@@ -122,6 +122,10 @@
 	- Stream
 		- stream is one kind of the collection that can storgae `unlimit` elements. However, the unlimit elements are not showed up at once, but with dynamic space, the last element in stream following the `lazy` style (only computed when called)
 		- [StreamDemo_1](./src/main/scala/ScalaBasic/StreamDemo_1.scala)
+
+4. Scala basic  -  operation
+	- map (op)
+		- - [mapOPDemo_1](./src/main/scala/ScalaBasic/mapOPDemo_1.scala)
 	- FlatMap
 		- flatMap will go to `every sub group` in a group and map the operation on each of them then return the result
 		- [FlatMapDemo_1](./src/main/scala/ScalaBasic/FlatMapDemo_1.scala)
@@ -144,7 +148,7 @@
 		- [ForLoop3](./src/main/scala/ScalaBasic/ForLoop3.scala)
 		- [ForLoop4](./src/main/scala/ScalaBasic/ForLoop4.scala)
 
-4. Scala basic  -  function, class, case class, constructor...
+5. Scala basic  -  function, class, case class, constructor...
 	- [Class](./src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
 	- [Case Class](./src/main/scala/ScalaBasic/CaseClass.scala), [Case Class2](./src/main/scala/ScalaBasic/CaseClass2.scala) - Scala `class` basic op, properties
 	- [ClassPolymorphismDemo1](./src/main/scala/ScalaBasic/ClassPolymorphismDemo1.scala) - Scala class `Polymorphism` Demo
@@ -262,7 +266,7 @@
 		- [Operator_demo1](./src/main/scala/ScalaBasic/Operator_demo1.scala)
 
 
-5. Scala class, trait, abstract class..
+6. Scala class, trait, abstract class..
 	- Class
 		- Method create `class instance` in Scala
 			- `New className`
@@ -361,7 +365,7 @@
 		}
 		```
 
-6. Scala object
+7. Scala object
 	- [LoadPackageDemo1](./src/main/scala/ScalaBasic/LoadPackageDemo1.scala), [LoadPackageDemo2](./src/main/scala/ScalaBasic/LoadPackageDemo2.scala), [LoadPackageDemo3](./src/main/scala/ScalaBasic/LoadPackageDemo3.scala), [LoadPackageDemo4](./src/main/scala/ScalaBasic/LoadPackageDemo4.scala) - Scala load package examples
 	- [pkgObject](./src/main/scala/ScalaBasic/pkgObject.scala) - `package` can have class, object, and trait... but it CAN'T HAVE `function`, `var`... In order to solve it, scala offers the `package object` concept
 	- Singleton pattern
@@ -388,7 +392,7 @@
 	- [VisibilityDemo1](./src/main/scala/ScalaBasic/VisibilityDemo1.scala) - extend package visibility. e.g. : `private[ScalaBasic] val name = "jackkkk"`
 	- [ImportPackage1](./src/main/scala/ScalaBasic/ImportPackage1.scala) - Scala import package demo
 
-5. Scala implicit
+8. Scala implicit
 	- implicit is the way that you dont need to pass parameters explicitly in functions in Scala, but Scala will be able to find them from the implitict scope once you defined them. Use implicit can make your function more general and easy to import/deal with different cases per pattern
 	- [Implicit_Demo1](./src/main/scala/ScalaBasic/Implicit_Demo1.scala), [Implicit_Demo2](./src/main/scala/ScalaBasic/Implicit_Demo2.scala), [Implicit_Demo3](./src/main/scala/ScalaBasic/Implicit_Demo3.scala), [Implicit_Demo4](./src/main/scala/ScalaBasic/Implicit_Demo4.scala),  [Implicit_Demo5](./src/main/scala/ScalaBasic/Implicit_Demo5.scala), [Implicit_Demo6](./src/main/scala/ScalaBasic/Implicit_Demo6.scala), [Implicit_Demo7](./src/main/scala/ScalaBasic/Implicit_Demo7.scala), [Implicit_Demo8](./src/main/scala/ScalaBasic/Implicit_Demo8.scala), [Implicit_Demo9](./src/main/scala/ScalaBasic/Implicit_Demo9.scala) - Some implict examples
 	- [Implicit_1](./src/main/scala/ScalaBasic/Implicit_1.scala)
@@ -404,7 +408,7 @@
 	- [implicit_transformation_demo_1](./src/main/scala/ScalaBasic/implicit_transformation_demo_1.scala), [implicit_transformation_demo_2](./src/main/scala/ScalaBasic/implicit_transformation_demo_2.scala) - implicit transformation can automatically transform "high accuracy" val to "low accuracy". e.g. : Byte -> Short, Short -> Int, Int -> Long, Long -> Float, Char -> Int ..
 	- [ImplicitParameters](./src/main/scala/ScalaBasic/ImplicitParameters.scala), [ImplicitFunc](./src/main/scala/ScalaBasic/ImplicitFunc.scala), [ImplicitClass](./src/main/scala/ScalaBasic/ImplicitClass.scala) - Scala `implicit` in Parameters, func, class
 
-6. Scala OOP
+9. Scala OOP
 	- Features : `Encapsulation`, `Inheritance`, `Polymorphism`
 		- [ref](https://medium.com/@totoroLiu/%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91-object-oriented-programming-%E6%A6%82%E5%BF%B5-5f205d437fd6)
 	- [AbstractDemo1](./src/main/scala/ScalaBasic/AbstractDemo1.scala)
@@ -419,7 +423,7 @@
 
 	- [OOP hw 1](./src/main/scala/ScalaHomework) 
 
-7. Scala advance
+10. Scala advance
 	- Parallel
 		- [parallel_Demo_1](./src/main/scala/ScalaAdvance/parallel_Demo_1.scala)
 		- Scala offers the `parallel` collections that can be processed in `parallel` with machines have multi-core CPU
