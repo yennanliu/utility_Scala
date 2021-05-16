@@ -158,8 +158,18 @@
 			- `Anonymous sub class` 
 	- Case class
 		- [Case Class](./src/main/scala/ScalaBasic/CaseClass.scala)
-		[Case Class2](./src/main/scala/ScalaBasic/CaseClass2.scala) - Scala `class` basic op, properties
-
+		- [Case Class2](./src/main/scala/ScalaBasic/CaseClass2.scala)
+		- [Case Class3](./src/main/scala/ScalaBasic/CaseClass3.scala)
+		- case class is still class
+		- decorate class via case
+		- for `pattern match` purpose
+		- it offers `apply` method so we don't need to `new` case class (instantiate), but can use it directly
+		- it offers `unapply` method so `pattern match` can work
+		- will implement some methods by default : e.g. apply, unapply, toString, copy, hashCode....
+		- Difference between `class` and `case class`
+			- => `case class` can initiate `attr, value, structure` when instantiated
+		- it's not necessary that case class to inherent from other class
+		- apart from above, case class is as same as class, we can extend, rewrite it
 	- [ClassPolymorphismDemo1](./src/main/scala/ScalaBasic/ClassPolymorphismDemo1.scala) - Scala class `Polymorphism` Demo
 	- [ScalaDefaultValueDemo1](./src/main/scala/ScalaBasic/ScalaDefaultValueDemo1.scala) - Scala Scala Default Value
 	- [ScalaIfElseMatchForloop](./src/main/scala/ScalaBasic/ScalaIfElseMatchForloop.scala) - Scala `if, else, while, match` basic 
