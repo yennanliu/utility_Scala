@@ -159,7 +159,8 @@
 	- Case class
 		- [Case Class](./src/main/scala/ScalaBasic/CaseClass.scala)
 		- [Case Class2](./src/main/scala/ScalaBasic/CaseClass2.scala)
-		- [Case Class3](./src/main/scala/ScalaBasic/CaseClass3.scala)
+		- [Case Class3](./src/main/scala/ScalaBasic/CaseClass3.scala) - pattern match example
+		- [Case Class4](./src/main/scala/ScalaBasic/CaseClass4.scala) - copy method demo
 		- case class is still class
 		- decorate class via case
 		- for `pattern match` purpose
