@@ -149,13 +149,23 @@
 		- [ForLoop4](./src/main/scala/ScalaBasic/ForLoop4.scala)
 
 5. Scala basic  -  function, class, case class, constructor...
-	- [Class](./src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
-	- [Case Class](./src/main/scala/ScalaBasic/CaseClass.scala), [Case Class2](./src/main/scala/ScalaBasic/CaseClass2.scala) - Scala `class` basic op, properties
+	- Class
+		- [Class](./src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
+		- Method create `class instance` in Scala
+			- `New className`
+			- `Apply` : [example](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ApplyMethodDemo1.scala)
+			- Dynamic mixing : [example](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TraitDemo6.scala)
+			- `Anonymous sub class` 
+	- Case class
+		- [Case Class](./src/main/scala/ScalaBasic/CaseClass.scala)
+		[Case Class2](./src/main/scala/ScalaBasic/CaseClass2.scala) - Scala `class` basic op, properties
+
 	- [ClassPolymorphismDemo1](./src/main/scala/ScalaBasic/ClassPolymorphismDemo1.scala) - Scala class `Polymorphism` Demo
 	- [ScalaDefaultValueDemo1](./src/main/scala/ScalaBasic/ScalaDefaultValueDemo1.scala) - Scala Scala Default Value
 	- [ScalaIfElseMatchForloop](./src/main/scala/ScalaBasic/ScalaIfElseMatchForloop.scala) - Scala `if, else, while, match` basic 
-	- [ScalaFunction_1](./src/main/scala/ScalaBasic/ScalaFunction_1.scala) - Scala `function, lambda` basic
-	- [ScalaFunction_2](./src/main/scala/ScalaBasic/ScalaFunction_2.scala) - Scala `function with dynamic var length` 
+	- Function
+		- [ScalaFunction_1](./src/main/scala/ScalaBasic/ScalaFunction_1.scala) - Scala `function, lambda` basic
+		- [ScalaFunction_2](./src/main/scala/ScalaBasic/ScalaFunction_2.scala) - Scala `function with dynamic var length` 
 	- [Scala_basic_demo_4](./src/main/scala/ScalaBasic/scala_basic_demo_4.scala) - Scala `try, exception`, `error handling` demo
 	- [ScalaFileIODemo](./src/main/scala/ScalaBasic/ScalaFileIODemo.scala), [ScalaFileIODemo2](./src/main/scala/ScalaBasic/ScalaFileIODemo2.scala),  [ScalaFileIODemo3](./src/main/scala/ScalaBasic/ScalaFileIODemo3.scala) - Scala file IO basic
 	- [ScalaLazyDemo](./src/main/scala/ScalaBasic/LazyDemo.scala) - Scala lazy value demo
@@ -267,13 +277,7 @@
 		- [Operator_demo1](./src/main/scala/ScalaBasic/Operator_demo1.scala)
 
 
-6. Scala class, trait, abstract class..
-	- Class
-		- Method create `class instance` in Scala
-			- `New className`
-			- `Apply` : [example](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ApplyMethodDemo1.scala)
-			- Dynamic mixing : [example](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/TraitDemo6.scala)
-			- `Anonymous sub class` 
+6. Scala trait, abstract class..
 	- Trait
 		- [Trait](./src/main/scala/ScalaBasic/TraitDemo.scala)
 		- [TraitAbstract](./src/main/scala/ScalaBasic/TraitAbstract.scala)
