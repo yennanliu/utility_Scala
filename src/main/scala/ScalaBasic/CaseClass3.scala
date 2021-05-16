@@ -4,6 +4,19 @@ package ScalaBasic
 
 object CaseClass3 extends App {
   // example
+  for (amt <- Array( Dollar(100.0), Currency(1000.0, "USD"), NoAmount) ) {
+    val result = amt match {
+      /**
+       *  1) pattern match : use Dollar's "unapply" method under the hood
+       *  2) will pass amt to unapply, and return a Some or None
+       *  3) give returned value to v
+       */
+      case Dollar(v) => "$" + v
+      case Currency(v, u) => v + " " + u
+      case NoAmount => "nothing"
+    }
+    println(amt + " : " + result)
+  }
 }
 
 abstract class Amount
@@ -18,6 +31,6 @@ case class Currency(value: Double, unit: String) extends Amount
 case object NoAmount extends Amount
 
 // it's not necessary that case class to inherent from other class
-case object AAA
+case object AAA2
 
-case object BBB
+case object BBB2
