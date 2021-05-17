@@ -231,6 +231,7 @@
 		- [PatternmatchDemo9](./src/main/scala/ScalaBasic/PatternmatchDemo9.scala) - Pattern match : List
 		- [PatternmatchDemo10](./src/main/scala/ScalaBasic/PatternmatchDemo10.scala) - Pattern match : tuple
 		- [PatternmatchDemo11](./src/main/scala/ScalaBasic/PatternmatchDemo11.scala) - Pattern match : with for loop
+		- [PatternmatchDemo12](./src/main/scala/ScalaBasic/PatternmatchDemo12.scala) - Pattern match with "Infix notation" (e.g. : `element1 :: element2`)
 		- [PatternmatchObject](./src/main/scala/ScalaBasic/PatternmatchObject.scala) - Pattern match on `apply, unapply` -> return the object argument that passing into object
 		- [PatternmatchObject2](./src/main/scala/ScalaBasic/PatternmatchObject2.scala)
 			- note : if case objectCollector ( `Names(first, second, third)`) has multiple arguments -> will call `unapplySeq` by default
