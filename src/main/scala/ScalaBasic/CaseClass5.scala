@@ -17,7 +17,6 @@ object CaseClass5 extends App {
     Bundle("literature", 70, Book("wsj", 90), Book("herry poter", 100))
   )
 
-
   // Question 1 : only extract "comics" price ?
   // if we don't want pattern match collect some values -> use "_" to neglect them
   //  -> _* means everything after that element
@@ -42,8 +41,23 @@ object CaseClass5 extends App {
   }
 
   println("r2 = " + r2)
-  println("art = " + r2._1)
+  println("art = " + r2._1 + ", description : " + r2._1.description + ", price : " + r2._1.price)
   println("rest = " + r2._2)
+
+  println("=======================")
+
+  // Question 3
+  /**
+   * without *, wrap rest elements to variable
+   *  (via rest @ _)
+   */
+  val r3 = sales1 match {
+    // wrap Book(_, _) to art
+    // wrap _* to rest
+    case Bundle(_, _, art @ Book(_, _), rest @ _) => (art, rest)
+  }
+
+  println("rest = " + r3._2)
 }
 
 // abstract class
