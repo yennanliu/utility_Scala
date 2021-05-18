@@ -1,6 +1,7 @@
 package ScalaBasic
 
 // https://www.youtube.com/watch?v=5jDIC75v0uM&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=159
+// https://www.youtube.com/watch?v=Um6YD79OIfU&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=160
 
 /**
  *  Pattern match - nested structure
@@ -17,7 +18,7 @@ object CaseClass5 extends App {
   )
 
 
-  // Question 1 : only extract "comics" price
+  // Question 1 : only extract "comics" price ?
   // if we don't want pattern match collect some values -> use "_" to neglect them
   //  -> _* means everything after that element
   val r = sales1 match {
@@ -27,8 +28,22 @@ object CaseClass5 extends App {
   println("r = " + r)
   println("price = " + r._2)
 
+  println("=======================")
 
+  // Question 2 : return "comics" and "Bundle" (all items in bundle) via @ notation ?
+  /**
+   *  @ notation  -> wrap values in case class to variable
+   *              -> wrap rest of the items (_*) to rest
+   */
+  val r2 = sales1 match {
+    // wrap Book(_, _) to art
+    // wrap _* to rest
+    case Bundle(_, _, art @ Book(_, _), rest @ _*) => (art, rest)
+  }
 
+  println("r2 = " + r2)
+  println("art = " + r2._1)
+  println("rest = " + r2._2)
 }
 
 // abstract class
