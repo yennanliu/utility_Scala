@@ -162,7 +162,7 @@
 		- [Case Class3](./src/main/scala/ScalaBasic/CaseClass3.scala) - pattern match example
 		- [Case Class4](./src/main/scala/ScalaBasic/CaseClass4.scala) - copy method demo
 		- [Case Class5](./src/main/scala/ScalaBasic/CaseClass5.scala) - Pattern match : case class nested structure, `@` notation (wrap values in case class to variable)
-		- [Case Class6](./src/main/scala/ScalaBasic/CaseClass6.scala) - Pattern match : case class nested structure
+		- [Case Class6](./src/main/scala/ScalaBasic/CaseClass6.scala) - Pattern match : case class nested structure 2
 		- case class is still class
 		- decorate class via case
 		- for `pattern match` purpose
