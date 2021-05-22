@@ -278,10 +278,15 @@
 	- [TryGetOrElse](./src/main/scala/ScalaBasic/TryGetOrElse.scala), [TryGetOrElse2](./src/main/scala/ScalaBasic/TryGetOrElse2.scala) - Scala `try GetOrElse(else)` example
 	- [UpperCass](./src/main/scala/ScalaBasic/UpperCass.scala) - Scala `UpperCass ( <: )` basic op, properties
 	- [Find](./src/main/scala/ScalaBasic/Find.scala) - Scala `Find`, `exists`,  `contains`, and `isDefined` examples
-	- [Partial applied functions demo 1](./src/main/scala/ScalaBasic/PartialAppliedFuncDemo_1.scala) - Scala Partial applied functions examples
-	- [Partial functions demo 1](./src/main/scala/ScalaBasic/partial_functions_demo_1.scala) - Scala Partial functions examples
-	- [Bean Property](./src/main/scala/ScalaBasic/BeanPropertyDemo1.scala) - `@BeanProperty` example
-	- [TypeConvert1](./src/main/scala/ScalaBasic/TypeConvert1.scala), [TypeConvert2](./src/main/scala/ScalaBasic/TypeConvert2.scala)- Scala type convert : `upper transform, lower transform` : asInstanceOf, check if object's class type : classOf, getClass.getName
+	- Partial Function
+		- [Partial Func demo 1](./src/main/scala/ScalaBasic/PartialFunc_1)
+		- [Partial applied functions demo 1](./src/main/scala/ScalaBasic/PartialAppliedFuncDemo_1.scala) - Scala Partial applied functions examples
+		- [Partial functions demo 1](./src/main/scala/ScalaBasic/partial_functions_demo_1.scala) - Scala Partial functions examples
+	- Bean
+		- [Bean Property](./src/main/scala/ScalaBasic/BeanPropertyDemo1.scala) - `@BeanProperty` example
+	- Type Convert
+		- [TypeConvert1](./src/main/scala/ScalaBasic/TypeConvert1.scala)
+		- [TypeConvert2](./src/main/scala/ScalaBasic/TypeConvert2.scala)- Scala type convert : `upper transform, lower transform` : asInstanceOf, check if object's class type : classOf, getClass.getName
 	- example
 	```scala
 	 // *** declare a Employer_03 instance, but transform it to Person_03 class
