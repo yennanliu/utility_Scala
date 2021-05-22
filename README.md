@@ -282,6 +282,20 @@
 		- [Partial Func demo 1](./src/main/scala/ScalaBasic/PartialFunc_1)
 		- [Partial applied functions demo 1](./src/main/scala/ScalaBasic/PartialAppliedFuncDemo_1.scala) - Scala Partial applied functions examples
 		- [Partial functions demo 1](./src/main/scala/ScalaBasic/partial_functions_demo_1.scala) - Scala Partial functions examples
+		- can match some conditions, but not do logic operation for every conditions
+		- example:
+		```scala
+		   val addOne_2 = new PartialFunction[Any, Int] {
+		     override def isDefinedAt(any: Any): Boolean = {
+		       if (any.isInstanceOf[Int]) true else false
+		     }
+		     override def apply(any: Any) = {
+		       any.asInstanceOf[Int] + 1
+		     }
+		   }
+		```
+   		- can only do op in specific cases or defined variable type
+   		- In scala, Partial func is the subclass of trait : PartialFunction
 	- Bean
 		- [Bean Property](./src/main/scala/ScalaBasic/BeanPropertyDemo1.scala) - `@BeanProperty` example
 	- Type Convert
