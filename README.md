@@ -173,6 +173,9 @@
 			- => `case class` can initiate `attr, value, structure` when instantiated
 		- it's not necessary that case class to inherent from other class
 		- apart from above, case class is as same as class, we can extend, rewrite it
+	- Sealed class
+		- [Seal demo 1](./src/main/scala/ScalaBasic/Seal_1)
+		- sealed class can only be extended in the `same class/object`
 	- [ClassPolymorphismDemo1](./src/main/scala/ScalaBasic/ClassPolymorphismDemo1.scala) - Scala class `Polymorphism` Demo
 	- [ScalaDefaultValueDemo1](./src/main/scala/ScalaBasic/ScalaDefaultValueDemo1.scala) - Scala Scala Default Value
 	- [ScalaIfElseMatchForloop](./src/main/scala/ScalaBasic/ScalaIfElseMatchForloop.scala) - Scala `if, else, while, match` basic 
