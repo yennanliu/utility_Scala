@@ -280,8 +280,8 @@
 	- [Find](./src/main/scala/ScalaBasic/Find.scala) - Scala `Find`, `exists`,  `contains`, and `isDefined` examples
 	- Partial Function
 		- [Partial Func demo 1](./src/main/scala/ScalaBasic/PartialFunc_1)
-		- [Partial applied functions demo 1](./src/main/scala/ScalaBasic/PartialAppliedFuncDemo_1.scala) - Scala Partial applied functions examples
-		- [Partial functions demo 1](./src/main/scala/ScalaBasic/partial_functions_demo_1.scala) - Scala Partial functions examples
+		- [Partial applied functions demo 1](./src/main/scala/ScalaBasic/PartialAppliedFuncDemo_1.scala)
+		- [Partial functions demo 1](./src/main/scala/ScalaBasic/partial_functions_demo_1.scala)
 		- can match some conditions, but not do logic operation for every conditions
 		- example:
 		```scala

@@ -13,7 +13,7 @@ object Test extends App {
 
   val l1 = List(1,2,3,4, "abc")
 
-  // Approach 1 : via map
+  // Approach 1 : via map (not working)
   // it's not working (return List(2, 3, 4, 5, ()))
   // since map needs to for loop every element in list
   // we need to have cases that can pattern match every possible case -> impossible
@@ -25,7 +25,7 @@ object Test extends App {
   val a1 = l1.map(addOne) //l1.map(x => addOne(x))
   println(a1) //List(2, 3, 4, 5, ())
 
-  // Approach 2 : partial func
+  // Approach 2 : partial func (working)
   /**
    * Partial func
    *  1) can match some conditions, but not do logic operation for every conditions
@@ -41,7 +41,7 @@ object Test extends App {
     *    -> accept input as Any type
     *    -> return output as Int type
     * 4) method isDefinedAt(any: Any) accept input with any type
-    *    -> if isDefinedAt(any: Any) is true -> IT WILL CALL apply METHOD (to make an instance and retunr)
+    *    -> if isDefinedAt(any: Any) is true -> IT WILL CALL apply METHOD (to make an instance and return apply's result)
     *    -> if isDefinedAt(any: Any) is false -> WILL NOT CALL apply (neglect the given input)
     */
    val addOne_2 = new PartialFunction[Any, Int] {
