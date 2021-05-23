@@ -279,12 +279,16 @@
 	- [UpperCass](./src/main/scala/ScalaBasic/UpperCass.scala) - Scala `UpperCass ( <: )` basic op, properties
 	- [Find](./src/main/scala/ScalaBasic/Find.scala) - Scala `Find`, `exists`,  `contains`, and `isDefined` examples
 	- Partial Function
-		- [Partial Func demo 1](./src/main/scala/ScalaBasic/PartialFunc_1)
+		- [PartialFunc_1](./src/main/scala/ScalaBasic/PartialFunc_1)
+		- [PartialFunc_2](./src/main/scala/ScalaBasic/PartialFunc_2)
 		- [Partial applied functions demo 1](./src/main/scala/ScalaBasic/PartialAppliedFuncDemo_1.scala)
 		- [Partial functions demo 1](./src/main/scala/ScalaBasic/partial_functions_demo_1.scala)
 		- can match some conditions, but not do logic operation for every conditions
 		- example:
 		```scala
+		   // V1
+		   // Any : input type  (in this example)
+		   // Int : output type (in this example)
 		   val addOne_2 = new PartialFunction[Any, Int] {
 		     override def isDefinedAt(any: Any): Boolean = {
 		       if (any.isInstanceOf[Int]) true else false
@@ -293,6 +297,14 @@
 		       any.asInstanceOf[Int] + 1
 		     }
 		   }
+		   val ans1 = List(1,2,3,4,"ABC").collect(addOne_2)
+		   // V2
+		   def f2:PartialFunction[Any, Int]{ // NOTE : we need this : PartialFunction
+		   	case i:Int => i + 1  // case can transform to partial func automatically
+		   }
+		   val ans2 = List(1,2,3,4,"ABC").collect(f2)
+		   // V3
+		   val ans3 = List(1,2,3,4,"ABC").collect{case i:Int = > i + 1}
 		```
    		- can only do op in specific cases or defined variable type
    		- In scala, Partial func is the subclass of trait : PartialFunction
