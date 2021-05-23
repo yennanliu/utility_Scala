@@ -308,6 +308,11 @@
 		```
    		- can only do op in specific cases or defined variable type
    		- In scala, Partial func is the subclass of trait : PartialFunction
+   	- Anomaly Func
+		- [anomaly_func1](./src/main/scala/ScalaBasic/anomaly_func1)
+		- output type : can only use "type inference"
+         	- https://en.wikipedia.org/wiki/Type_inference
+   		- use "{}" if code body has multiple lines
 	- Bean
 		- [Bean Property](./src/main/scala/ScalaBasic/BeanPropertyDemo1.scala) - `@BeanProperty` example
 	- Type Convert
@@ -387,7 +392,9 @@
 		- [Apply method demo 5](./src/main/scala/ScalaBasic/ApplyMethodDemo5.scala)
 		- via `apply` method in the object, one don't need to use `object.apply(sth)` for calling the method, but can use `object(sth)` directly 
 		- if we have 1 object : `Object(param1, param2...)` then we will get the `Companion class` object return via the `Apply` method
-	- [anonymousClass_java](./src/main/scala/ScalaBasic/anonymousClass_java.java), [anonymousClass](./src/main/scala/ScalaBasic/anonymousClass.scala)- *** Override/implement abstract `attribution/method..` in java & scala
+	- anonymousClass
+		- [anonymousClass_java](./src/main/scala/ScalaBasic/anonymousClass_java.java)
+		- [anonymousClass](./src/main/scala/ScalaBasic/anonymousClass.scala)- *** Override/implement abstract `attribution/method..` in java & scala
 	- Nest class
 		- [NestedClass1](./src/main/scala/ScalaBasic/NestedClass1.scala)
 		- [NestedClass2](./src/main/scala/ScalaBasic/NestedClass2.scala)
