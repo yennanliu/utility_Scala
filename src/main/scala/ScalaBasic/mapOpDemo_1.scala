@@ -2,7 +2,7 @@ package ScalaBasic
 
 // https://www.bilibili.com/video/BV12N411R726?p=224
 
-object mapOPDemo_1 extends App {
+object mapOpDemo_1 extends App {
   // evolution of map op style
   val list = List(1,2,3,4)
 

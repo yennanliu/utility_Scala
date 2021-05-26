@@ -125,7 +125,8 @@
 
 4. Scala basic  -  operation
 	- map (op)
-		- - [mapOPDemo_1](./src/main/scala/ScalaBasic/mapOPDemo_1.scala)
+		- [mapOPDemo_1](src/main/scala/ScalaBasic/mapOpDemo_1.scala)
+		- [mapOpDemo_2](src/main/scala/ScalaBasic/mapOpDemo_2.scala)
 	- FlatMap
 		- flatMap will go to `every sub group` in a group and map the operation on each of them then return the result
 		- [FlatMapDemo_1](./src/main/scala/ScalaBasic/FlatMapDemo_1.scala)
