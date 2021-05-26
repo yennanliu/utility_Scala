@@ -54,15 +54,38 @@ object mapOpDemo_2 extends App {
 
   val users = List(user1, user2, user3)
 
+  // V1 : map + pattern match
   val users_filter = users.map(x => x match {
     case _ if x.age > 10 => x
     case _ =>
   })
 
+  // V2 : partial function
   users_filter.filter(x => x != "").foreach(println(_))
 
   println("====================")
 
   val users_filter2 = users.collect{case x:User if x.age > 10 => x}
   users_filter2.foreach(println(_))
+
+
+  println("====================")
+
+  // example 6 : map with complex case class
+  case class Record(
+    id: String,
+    msg: Array[String]
+  )
+
+  val record1 = Record("001", Array("aaa", "bbb", "ccc"))
+  val record2 = Record("002", Array("hello", "world", "!!!"))
+  val record3 = Record("003", Array("aaa", "kkk", "aaa", "zzz"))
+
+  val records = List(record1, record2, record3)
+
+  val records_filter = records.collect{
+    case x:Record  if x.msg(0) == "aaa" => (x.id, x.msg.toList)
+  }
+
+  records_filter.foreach(println(_))
 }
