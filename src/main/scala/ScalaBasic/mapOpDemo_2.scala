@@ -31,22 +31,23 @@ object mapOpDemo_2 extends App {
   // example 4 : Map & reduce
   // https://www.geeksforgeeks.org/scala-reduce-function/
   val l4 = List("a", "b", "c", "d", "a", "b")
-  val r5 = l4.map( x => {
+  val r4 = l4.map( x => {
     val tmp = (x,1)
     tmp
   }).reduce( (x,y) => {
     (y._1, x._2)
   })
 
-  println("r5 = " + r5)
+  println("r4 = " + r4)
 
   println("====================")
 
   // example 5 : map with case class
   case class User(
-                 id: String,
-                 age: Int
+                   id: String,
+                   age: Int
                  )
+
   val user1 = User("001", 20)
   val user2 = User("002", 70)
   val user3 = User("003", 10)
@@ -58,5 +59,10 @@ object mapOpDemo_2 extends App {
     case _ =>
   })
 
-  users_filter.foreach(println(_))
+  users_filter.filter(x => x != "").foreach(println(_))
+
+  println("====================")
+
+  val users_filter2 = users.collect{case x:User if x.age > 10 => x}
+  users_filter2.foreach(println(_))
 }
