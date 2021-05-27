@@ -34,9 +34,11 @@ object mapOpDemo_2 extends App {
   val r4 = l4.map( x => {
     val tmp = (x,1)
     tmp
-  }).reduce( (x,y) => {
-    (y._1, x._2)
-  })
+  }).groupBy(_._1)
+    //.reduce((x,y) => {x._1 + y._2})
+    //.flatMap(x => {x._1})
+    .toList
+
 
   println("r4 = " + r4)
 
