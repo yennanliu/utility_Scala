@@ -202,6 +202,7 @@
 		- [HigherOrderFuncDemo_4](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_4.scala)
 		- [HigherOrderFuncDemo_5](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_5.scala)
 		- [HigherOrderFuncDemo_6](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_6.scala)
+		- [HigherOrderFuncDemo_7](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_7.scala)
 		- `Higher Order Functions` are functions that take functions as arguments and/or return functions.
 	- [RecursionDemo](./src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties
 	- Constructor
