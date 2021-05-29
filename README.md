@@ -204,6 +204,17 @@
 		- [HigherOrderFuncDemo_6](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_6.scala)
 		- [HigherOrderFuncDemo_7](./src/main/scala/ScalaBasic/HigherOrderFuncDemo_7.scala)
 		- `Higher Order Functions` are functions that take functions as arguments and/or return functions.
+	- Closure
+		- [closure_demo1](./src/main/scala/ScalaBasic/closure_demo1.scala)
+		- Closure is a combination of a func and its relative references
+		- Benefit : can reuse the argument in method, so we don't need to re import same arguments everytime when a run the method
+		- pattern
+		```scala
+		// pattern
+		  def minusxy(x: Int) = {
+		    (y: Int) => x - y // anonymous func
+		  }
+		```
 	- [RecursionDemo](./src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties
 	- Constructor
 		- Constructor can define value to its attribution when create the object
