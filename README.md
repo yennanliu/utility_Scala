@@ -215,6 +215,9 @@
 		    (y: Int) => x - y // anonymous func
 		  }
 		```
+	- Curry
+		- [Curry_demo1](./src/main/scala/ScalaBasic/Curry_demo1.scala)
+		- [Curry_demo2](./src/main/scala/ScalaBasic/Curry_demo2.scala)
 	- [RecursionDemo](./src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties
 	- Constructor
 		- Constructor can define value to its attribution when create the object
@@ -468,10 +471,20 @@
 
 8. Scala implicit
 	- implicit is the way that you dont need to pass parameters explicitly in functions in Scala, but Scala will be able to find them from the implitict scope once you defined them. Use implicit can make your function more general and easy to import/deal with different cases per pattern
-	- [Implicit_Demo1](./src/main/scala/ScalaBasic/Implicit_Demo1.scala), [Implicit_Demo2](./src/main/scala/ScalaBasic/Implicit_Demo2.scala), [Implicit_Demo3](./src/main/scala/ScalaBasic/Implicit_Demo3.scala), [Implicit_Demo4](./src/main/scala/ScalaBasic/Implicit_Demo4.scala),  [Implicit_Demo5](./src/main/scala/ScalaBasic/Implicit_Demo5.scala), [Implicit_Demo6](./src/main/scala/ScalaBasic/Implicit_Demo6.scala), [Implicit_Demo7](./src/main/scala/ScalaBasic/Implicit_Demo7.scala), [Implicit_Demo8](./src/main/scala/ScalaBasic/Implicit_Demo8.scala), [Implicit_Demo9](./src/main/scala/ScalaBasic/Implicit_Demo9.scala) - Some implict examples
+	- [Implicit_Demo1](./src/main/scala/ScalaBasic/Implicit_Demo1.scala)
+	- [Implicit_Demo2](./src/main/scala/ScalaBasic/Implicit_Demo2.scala)
+	- [Implicit_Demo3](./src/main/scala/ScalaBasic/Implicit_Demo3.scala)
+	- [Implicit_Demo4](./src/main/scala/ScalaBasic/Implicit_Demo4.scala)
+	- [Implicit_Demo5](./src/main/scala/ScalaBasic/Implicit_Demo5.scala)
+	- [Implicit_Demo6](./src/main/scala/ScalaBasic/Implicit_Demo6.scala)
+	- [Implicit_Demo7](./src/main/scala/ScalaBasic/Implicit_Demo7.scala)
+	- [Implicit_Demo8](./src/main/scala/ScalaBasic/Implicit_Demo8.scala)
+	- [Implicit_Demo9](./src/main/scala/ScalaBasic/Implicit_Demo9.scala) 
+	- `more implicit demos`
 	- [Implicit_1](./src/main/scala/ScalaBasic/Implicit_1.scala)
 	- [Implicit_2](./src/main/scala/ScalaBasic/Implicit_2.scala)
-	- [Implicit_3](./src/main/scala/ScalaBasic/Implicit_3.scala) 
+	- [Implicit_3](./src/main/scala/ScalaBasic/Implicit_3.scala)
+	- [Implicit_4](./src/main/scala/ScalaBasic/Implicit_4.scala) - `implicit class` demo
 		- More implicit demos from utube tutorial
 		- implicit func ONLY ACCEPTS ONE ARGUMENT
    		- the implicit func will BE USED AUTOMATICALLY WHEN THERE IS SUCH CASE
