@@ -650,6 +650,26 @@ scala>
 </details>
 
 <details>
+<summary> Quick start via java -cp </summary>
+
+```bash
+sbt assembly
+
+export env=dev
+
+# example 1
+java -cp \
+./target/scala-2.11/utilityscala_2.11-1.0.jar \
+--class LoadConfigsFromEnv.runWithEnv1  \
+-Dconfig.resource=application.${env}.conf 
+
+# exampl 2
+java -cp target/scala-2.11/utilityscala_2.11-1.0.jar  ScalaBasic.CaseClass6
+```
+
+</details>
+
+<details>
 <summary> Quick start via Docker</summary>
 
 ```bash
@@ -706,6 +726,7 @@ $ spark-submit \
 ls -al
 rm .idea
 ```
+
 
 ## scala-learn-material
 
