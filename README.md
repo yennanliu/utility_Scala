@@ -659,9 +659,9 @@ export env=dev
 
 # example 1
 java -cp \
-./target/scala-2.11/utilityscala_2.11-1.0.jar \
---class LoadConfigsFromEnv.runWithEnv1  \
--Dconfig.resource=application.${env}.conf 
+./target/scala-2.11/utilityscala_2-0.0.1.jar \
+LoadConfigsFromEnv.runWithEnv1 \
+-Dconfig.resource=application.${env}.conf
 
 # exampl 2
 java -cp target/scala-2.11/utilityscala_2.11-1.0.jar  ScalaBasic.CaseClass6
