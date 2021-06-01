@@ -152,6 +152,7 @@
 5. Scala basic  -  function, class, case class, constructor...
 	- Class
 		- [Class](./src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
+		- [ClassDemo1](./src/main/scala/ScalaBasic/ClassDemo1.scala)
 		- Method create `class instance` in Scala
 			- `New className`
 			- `Apply` : [example](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ApplyMethodDemo1.scala)
