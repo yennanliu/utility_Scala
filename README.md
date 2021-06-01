@@ -166,6 +166,7 @@
 		- [Case Class5](./src/main/scala/ScalaBasic/CaseClass5.scala) - Pattern match : case class nested structure, `@` notation (wrap values in case class to variable)
 		- [Case Class6](./src/main/scala/ScalaBasic/CaseClass6.scala) - Pattern match : case class nested structure 2
 		- [Case Class7](./src/main/scala/ScalaBasic/CaseClass7.scala) - case class enumeration
+		- [Case Class8](./src/main/scala/ScalaBasic/CaseClass8.scala) - case class enumeration
 		- case class is still class
 		- decorate class via case
 		- for `pattern match` purpose
