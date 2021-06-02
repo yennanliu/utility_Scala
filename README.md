@@ -332,6 +332,12 @@
 		- output type : can only use "type inference"
          	- https://en.wikipedia.org/wiki/Type_inference
    		- use "{}" if code body has multiple lines
+
+   	- Type Inference
+   		- [typeInference_1](./src/main/scala/ScalaBasic/typeInference_1.scala)
+   		- argument type can be neglected if type is inferenced
+   		- when there is only one argument, we can neglect the `()`
+   		- if the argument only shows once after `=>`, we can use `_` as argument
 	- Bean
 		- [Bean Property](./src/main/scala/ScalaBasic/BeanPropertyDemo1.scala) - `@BeanProperty` example
 	- Type Convert
