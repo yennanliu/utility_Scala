@@ -222,8 +222,8 @@
 		- [Curry_demo2](./src/main/scala/ScalaBasic/Curry_demo2.scala)
 		- be able to read it is enough, no need to spend too much time
 	- Control Abstract
-		- [controlAbstract1](./src/main/scala/ScalaBasic/controlAbstract1.scala)
-		
+		- [controlAbstract1](./src/main/scala/ScalaBasic/controlAbstract1)
+
 	- [RecursionDemo](./src/main/scala/ScalaBasic/RecursionDemo.scala) - Scala `Recursion` basic op, properties
 	- Constructor
 		- Constructor can define value to its attribution when create the object
