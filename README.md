@@ -153,7 +153,7 @@
 	- Class
 		- [Class](./src/main/scala/ScalaBasic/ScalaClassDemo.scala) - Scala `class` basic op, properties
 		- [ClassDemo1](./src/main/scala/ScalaBasic/ClassDemo1.scala)
-		- [ClassDemo2](./src/main/scala/ScalaBasic/ClassDemo2.scala)
+		- [ClassDemo2](./src/main/scala/ScalaBasic/ClassDemo2)
 		- Method create `class instance` in Scala
 			- `New className`
 			- `Apply` : [example](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ApplyMethodDemo1.scala)
