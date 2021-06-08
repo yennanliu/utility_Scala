@@ -1,6 +1,7 @@
 package ScalaBasic.CustomerCRM.bean
 
 // https://www.youtube.com/watch?v=WUPrKqXyI30&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=177
+// https://www.youtube.com/watch?v=DzxOcqC0gVs&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=179
 
 class Customer {
   // attr

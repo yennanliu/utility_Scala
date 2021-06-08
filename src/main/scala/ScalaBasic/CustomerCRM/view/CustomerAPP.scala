@@ -1,10 +1,11 @@
 package ScalaBasic.CustomerCRM.view
 
-import ScalaBasic.CustomerCRM.service.CustomerService
-
 import scala.io.StdIn
 
+import ScalaBasic.CustomerCRM.service.CustomerService
+
 // https://www.youtube.com/watch?v=VERB8mC76L0&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=177
+// https://www.youtube.com/watch?v=DzxOcqC0gVs&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=179
 
 /** app for running CustomerView, will call CustomerView */
 object CustomerAPP extends App {
