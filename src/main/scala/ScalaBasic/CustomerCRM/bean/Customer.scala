@@ -11,10 +11,10 @@ class Customer {
   var gender: Char = _
   var age: Short = _
   var tel: String = _
-  var email : String = _
+  var email: String = _
 
   // constructor
-  def this(id: Int, name: String, gender: Char, age: Short, tel: String, email: String){
+  def this(id: Int, name: String, gender: Char, age: Short, tel: String, email: String) {
     this // this is necessary
     this.id = id
     this.name = name
@@ -25,7 +25,7 @@ class Customer {
   }
 
   // constructor (without id)
-  def this(name: String, gender: Char, age: Short, tel: String, email: String){
+  def this(name: String, gender: Char, age: Short, tel: String, email: String) {
     this
     this.name = name
     this.gender = gender

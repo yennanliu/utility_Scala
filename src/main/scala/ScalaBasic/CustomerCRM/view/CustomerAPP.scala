@@ -2,6 +2,8 @@ package ScalaBasic.CustomerCRM.view
 
 import scala.io.StdIn
 
+import scala.util.control.Breaks._
+
 import ScalaBasic.CustomerCRM.service.CustomerService
 import ScalaBasic.CustomerCRM.bean.Customer
 
@@ -16,9 +18,9 @@ object CustomerAPP extends App {
 
 /**
  * CustomerView : for user interface, and user input
- *  1) show control panel (user interface)
- *  2) accept user input/request
- *  3) call other utils, layers for relative operations
+ * 1) show control panel (user interface)
+ * 2) accept user input/request
+ * 3) call other utils, layers for relative operations
  */
 class CustomerView {
   var key = ' '
@@ -44,10 +46,10 @@ class CustomerView {
       println()
       // accept user input
       key = StdIn.readChar()
-      key match {  // pattern match key
+      key match { // pattern match key
         case '1' => this.add()
         case '2' => println("2. Modify Customer")
-        case '3' => println("3. Delete Customer")
+        case '3' => this.del()
         case '4' => this.list()
         case '5' => this.loop = false
       }
@@ -61,7 +63,7 @@ class CustomerView {
     println("------------------ Customer List ------------------")
     println("Id\t\tName\t\tGender\t\tAge\t\tTel\t\tEmail")
     val customers = customerService.list()
-    for (customer <- customers){
+    for (customer <- customers) {
       // rewrite Customer's toString method
       println(customer)
     }
@@ -92,6 +94,39 @@ class CustomerView {
     } else {
       println("------------------ Add customer Failed ------------------")
     }
+  }
+
+  // method that delete customer (CustomerApp)
+  def del(): Unit = {
+    println()
+    println("------------------ Delete Customer ------------------")
+    println("Which customer id want to delete (exit : -1)")
+    val id = StdIn.readInt()
+    if (id == -1) {
+      println("------------------ Abort ------------------")
+      return
+    }
+    // need to verify if user really want to delete customer (press Y or N)
+    var choice = ' '
+    breakable {
+      do {
+        println("Confirm to delete ? (Y/N)")
+        choice = StdIn.readChar().toLower
+        if (choice == 'y' || choice == 'n') {
+          // quit
+          break()
+        }
+      } while (true)
+    }
+    // verify if user really want to delete
+    if (choice == 'y') {
+      if (this.customerService.del(id)) {
+        println("------------------ Delete customer Success ! ------------------")
+      } else {
+        println("------------------ Delete customer Failed !  (id not exists) ------------------")
+      }
+    }
+
   }
 
 }
