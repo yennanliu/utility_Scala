@@ -3,6 +3,7 @@ package ScalaBasic.CustomerCRM.view
 import scala.io.StdIn
 
 import ScalaBasic.CustomerCRM.service.CustomerService
+import ScalaBasic.CustomerCRM.bean.Customer
 
 // https://www.youtube.com/watch?v=VERB8mC76L0&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=177
 // https://www.youtube.com/watch?v=DzxOcqC0gVs&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=179
@@ -44,7 +45,7 @@ class CustomerView {
       // accept user input
       key = StdIn.readChar()
       key match {  // pattern match key
-        case '1' => println("1. Add Customer")
+        case '1' => this.add()
         case '2' => println("2. Modify Customer")
         case '3' => println("3. Delete Customer")
         case '4' => this.list()
@@ -65,6 +66,32 @@ class CustomerView {
       println(customer)
     }
     println()
+  }
+
+  // method add new customer (CustomerAPP)
+  def add(): Unit = {
+    println()
+    println("------------------ Add Customer ------------------")
+    println("Name: ")
+    val name = StdIn.readLine()
+    println("Gender: ")
+    val gender = StdIn.readChar()
+    println("Age: ")
+    val age = StdIn.readShort()
+    println("Tel: ")
+    val tel = StdIn.readLine()
+    println("Email: ")
+    val email = StdIn.readLine()
+
+    // make Customer instance
+    val customer = new Customer(name, gender, age, tel, email)
+
+    // add customer
+    if (this.customerService.add(customer)) {
+      println("------------------ Add customer OK ------------------")
+    } else {
+      println("------------------ Add customer Failed ------------------")
+    }
   }
 
 }

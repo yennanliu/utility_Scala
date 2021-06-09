@@ -2,6 +2,7 @@ package ScalaBasic.CustomerCRM.bean
 
 // https://www.youtube.com/watch?v=WUPrKqXyI30&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=177
 // https://www.youtube.com/watch?v=DzxOcqC0gVs&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=179
+// https://www.youtube.com/watch?v=Cqb77HzousA&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=181
 
 class Customer {
   // attr
@@ -16,6 +17,16 @@ class Customer {
   def this(id: Int, name: String, gender: Char, age: Short, tel: String, email: String){
     this // this is necessary
     this.id = id
+    this.name = name
+    this.gender = gender
+    this.age = age
+    this.tel = tel
+    this.email = email
+  }
+
+  // constructor (without id)
+  def this(name: String, gender: Char, age: Short, tel: String, email: String){
+    this
     this.name = name
     this.gender = gender
     this.age = age
