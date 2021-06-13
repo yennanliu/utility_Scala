@@ -49,10 +49,10 @@ class CustomerView {
       key = StdIn.readChar()
       key match { // pattern match key
         case '1' => this.add()
-        case '2' => println("2. Modify Customer")
+        case '2' => this.modify()
         case '3' => this.del()
         case '4' => this.list()
-        case '5' => this.exit() //this.loop = false
+        case '5' => this.exit()
       }
     } while (this.loop)
     println("exit the Customer CRM system")
@@ -151,4 +151,35 @@ class CustomerView {
         this.loop = true
       }
     }
+
+  // method that modify existing customer inform. (CustomerApp)
+  def modify(): Unit = {
+    println()
+    println("------------------ Modify Customer ------------------")
+    println("Which customer id want to modify (exit : -1)")
+    val id = StdIn.readInt()
+    if (id == -1){
+      println("------------------ Abort ------------------")
+      return
+    }
+    println("Name: ")
+    val name = StdIn.readLine()
+    println("Gender: ")
+    val gender = StdIn.readChar()
+    println("Age: ")
+    val age = StdIn.readShort()
+    println("Tel: ")
+    val tel = StdIn.readLine()
+    println("Email: ")
+    val email = StdIn.readLine()
+
+    val customer = new Customer(name, gender, age, tel, email)
+
+    // modify customer
+    if (this.customerService.modify(id:Int, customer:Customer)) {
+      println("------------------ modify customer OK ------------------")
+    } else {
+      println("------------------ modify customer Failed ------------------")
+    }
+  }
 }

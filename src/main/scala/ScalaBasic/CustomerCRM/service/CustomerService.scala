@@ -2,12 +2,13 @@ package ScalaBasic.CustomerCRM.service
 
 // https://www.youtube.com/watch?v=DzxOcqC0gVs&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=179
 // https://www.youtube.com/watch?v=Cqb77HzousA&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=181
+// https://www.youtube.com/watch?v=0FbulIZuiFs&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=182
 
 import scala.collection.mutable.ArrayBuffer
-
 import scala.util.control.Breaks._
-
 import ScalaBasic.CustomerCRM.bean.Customer
+
+import scala.io.StdIn
 
 /**
  * 1) For Customer list add/delete/modify
@@ -18,7 +19,9 @@ import ScalaBasic.CustomerCRM.bean.Customer
 class CustomerService {
   // for testing, we initialize a customer
   // NOTICE this : 'm' (since gender is Char type)
-  val customers = ArrayBuffer[Customer](new Customer(1, "jim", 'm', 29, "12345", "jim@google.com"))
+  val c1 = new Customer(1, "jim", 'm', 29, "12345", "jim@google.com")
+  val c2 = new Customer(2, "Lynn", 'f', 17, "98745", "lynn@fb.com")
+  val customers = ArrayBuffer[Customer](c1, c2)
 
   // attr
   // record total customer amount
@@ -58,6 +61,17 @@ class CustomerService {
     val index = findIndex(id)
     if (index != -1) {
       customers.remove(index)
+      true
+    } else {
+      false
+    }
+  }
+
+  // method that modify existing customer inform. (CustomerService)
+  def modify(id: Int, customer: Customer): Boolean = {
+    val index = findIndex(id)
+    if (index != 1){
+      customers(index) = customer
       true
     } else {
       false
