@@ -70,7 +70,7 @@ class CustomerService {
   // method that modify existing customer inform. (CustomerService)
   def modify(id: Int, customer: Customer): Boolean = {
     val index = findIndex(id)
-    if (index != 1){
+    if (index != -1 || index < customers.length){
       customers(index) = customer
       true
     } else {
