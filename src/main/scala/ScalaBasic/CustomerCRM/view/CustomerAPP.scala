@@ -9,6 +9,7 @@ import ScalaBasic.CustomerCRM.bean.Customer
 
 // https://www.youtube.com/watch?v=VERB8mC76L0&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=177
 // https://www.youtube.com/watch?v=DzxOcqC0gVs&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=179
+// https://www.youtube.com/watch?v=0FbulIZuiFs&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=182
 
 /** app for running CustomerView, will call CustomerView */
 object CustomerAPP extends App {
@@ -51,7 +52,7 @@ class CustomerView {
         case '2' => println("2. Modify Customer")
         case '3' => this.del()
         case '4' => this.list()
-        case '5' => this.loop = false
+        case '5' => this.exit() //this.loop = false
       }
     } while (this.loop)
     println("exit the Customer CRM system")
@@ -129,4 +130,25 @@ class CustomerView {
 
   }
 
+  // check if exit the CRM system
+  def exit(): Unit = {
+    var choice = ' '
+    breakable {
+      do {
+        println("Confirm to exit ? (Y/N)")
+        choice = StdIn.readChar().toLower
+        if (choice == 'y' || choice == 'n') {
+          break()
+        }
+      } while (true)
+    }
+
+    if (choice == 'y'){
+        println("------------------ Exit OK  ! ------------------")
+        this.loop = false
+    } else {
+        println("------------------ Not Exit ! ------------------")
+        this.loop = true
+      }
+    }
 }
