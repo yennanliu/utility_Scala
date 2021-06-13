@@ -4,6 +4,8 @@ package ScalaBasic.CustomerCRM.bean
 // https://www.youtube.com/watch?v=DzxOcqC0gVs&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=179
 // https://www.youtube.com/watch?v=Cqb77HzousA&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=181
 
+// https://github.com/yennanliu/JavaHelloWorld/tree/main/src/main/java/Basics/CustomerCRM
+
 class Customer {
   // attr
   var id: Int = _

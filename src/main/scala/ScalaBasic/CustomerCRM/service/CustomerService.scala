@@ -4,6 +4,8 @@ package ScalaBasic.CustomerCRM.service
 // https://www.youtube.com/watch?v=Cqb77HzousA&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=181
 // https://www.youtube.com/watch?v=0FbulIZuiFs&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=182
 
+// https://github.com/yennanliu/JavaHelloWorld/tree/main/src/main/java/Basics/CustomerCRM
+
 import scala.collection.mutable.ArrayBuffer
 import scala.util.control.Breaks._
 import ScalaBasic.CustomerCRM.bean.Customer

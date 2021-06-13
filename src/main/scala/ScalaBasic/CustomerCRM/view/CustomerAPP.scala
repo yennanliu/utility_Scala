@@ -11,6 +11,8 @@ import ScalaBasic.CustomerCRM.bean.Customer
 // https://www.youtube.com/watch?v=DzxOcqC0gVs&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=179
 // https://www.youtube.com/watch?v=0FbulIZuiFs&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=182
 
+// https://github.com/yennanliu/JavaHelloWorld/tree/main/src/main/java/Basics/CustomerCRM
+
 /** app for running CustomerView, will call CustomerView */
 object CustomerAPP extends App {
   // run the menu
@@ -162,6 +164,7 @@ class CustomerView {
       println("------------------ Abort ------------------")
       return
     }
+    // TODO : use original value as default if no STDin
     println("Name: ")
     val name = StdIn.readLine()
     println("Gender: ")
