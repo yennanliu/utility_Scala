@@ -563,6 +563,7 @@
 		- Akka is a framework for concurrent and distributed applications on the JVM.
 		- Akka supports multiple programming models for concurrency
 		- Akka offers Scala, Java API
+		- All we need to implement is : `Actor`. Akka framework will take care rest of them
 	- Main component
 		- Actor
 			- In Akka, everything is an Actor (like OOP, everything is an object)
@@ -570,20 +571,27 @@
 			- Actor - Actor communication can only via "Mailbox"
 			- messages are storaged in the `message queue`, and will be post into the `Mailbox`
 			- Actor can do `sync` or `async` operation
+			- Actor receives message via `receive` method
 		- ActorSystem
 			- manage/create Actor
 			- ActorSystem is [singleton](https://docs.scala-lang.org/tour/singleton-objects.html)
 			- one JVM can only has `one` `ActorSystem`, but it can has `multiuple` Actor
+		- ActorRef
+			- Actor representation or reference
+			- message are sent via ActorRef (not Actor)
+		- Dispatcher message
+			- message pool
+			- Follow `FIFO` (first in, first out)
 		- Mailbox
 			- managed by Akka, not exposed to developer/user
 			- implement `runnable` JVM object
 	- Mechanism
 	```
 	// Actor 1 -> Actor 2
-	Actor 1 -> ref -> Mailbox -> receive -> Actor 2
+	Actor 1 -> ActorRef 1 -> Dispatcher message -> Mailbox -> receive (Actor 2) -> Actor 2
 
 	// Actor 2 -> Actor 1
-	Actor 2 -> ref -> Mailbox -> receive -> Actor 1
+	Actor 2 -> ActorRef 2 -> Dispatcher message -> Mailbox -> receive (Actor 1) -> Actor 1
 	```
 	- Ref
 		- [Akka official doc](https://doc.akka.io/docs/akka/current/typed/actors.html#:~:text=com%2Fakka%2Fakka-,Akka%20Actors,correct%20concurrent%20and%20parallel%20systems.)
