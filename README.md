@@ -562,7 +562,9 @@
 	- Akka is a framework for the construction of concurrent and distributed applications on the JVM.
 	- Akka supports multiple programming models for concurrency
 	- Akka offers Scala, Java API
-	- [Akka official doc](https://doc.akka.io/docs/akka/current/typed/actors.html#:~:text=com%2Fakka%2Fakka-,Akka%20Actors,correct%20concurrent%20and%20parallel%20systems.)
+	- Ref
+		- [Akka official doc](https://doc.akka.io/docs/akka/current/typed/actors.html#:~:text=com%2Fakka%2Fakka-,Akka%20Actors,correct%20concurrent%20and%20parallel%20systems.)
+		- [Working With Akka Actors](https://dzone.com/articles/working-with-akka-actors)
 
 <img src ="./doc/pic/akka_actor.png"></p>
 
