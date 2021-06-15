@@ -559,9 +559,32 @@
 	- [ExceptionDemo3](./src/main/scala/ScalaBasic/ExceptionDemo3.scala)
 
 10. Backend framework - Akka
-	- Akka is a framework for the construction of concurrent and distributed applications on the JVM.
-	- Akka supports multiple programming models for concurrency
-	- Akka offers Scala, Java API
+	- High level
+		- Akka is a framework for concurrent and distributed applications on the JVM.
+		- Akka supports multiple programming models for concurrency
+		- Akka offers Scala, Java API
+	- Main component
+		- Actor
+			- In Akka, everything is an Actor (like OOP, everything is an object)
+			- Actor is for concurrent
+			- Actor - Actor communication can only via "Mailbox"
+			- messages are storaged in the `message queue`, and will be post into the `Mailbox`
+			- Actor can do `sync` or `async` operation
+		- ActorSystem
+			- manage/create Actor
+			- ActorSystem is [singleton](https://docs.scala-lang.org/tour/singleton-objects.html)
+			- one JVM can only has `one` `ActorSystem`, but it can has `multiuple` Actor
+		- Mailbox
+			- managed by Akka, not exposed to developer/user
+			- implement `runnable` JVM object
+	- Mechanism
+	```
+	// Actor 1 -> Actor 2
+	Actor 1 -> ref -> Mailbox -> receive -> Actor 2
+
+	// Actor 2 -> Actor 1
+	Actor 2 -> ref -> Mailbox -> receive -> Actor 1
+	```
 	- Ref
 		- [Akka official doc](https://doc.akka.io/docs/akka/current/typed/actors.html#:~:text=com%2Fakka%2Fakka-,Akka%20Actors,correct%20concurrent%20and%20parallel%20systems.)
 		- [Working With Akka Actors](https://dzone.com/articles/working-with-akka-actors)
