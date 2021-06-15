@@ -558,9 +558,17 @@
 	- - there is NO `compile exception` in Scala (only java has), all exceptions in Scala happen during `runtime`. All exceptions inherit from the "throwable" class, which is the class with "nothing" type that is acceptable to `all class/method...`
 	- [ExceptionDemo3](./src/main/scala/ScalaBasic/ExceptionDemo3.scala)
 
-10. Others
+10. Backend framework - Akka
+	- Akka is a framework for the construction of concurrent and distributed applications on the JVM.
+	- Akka supports multiple programming models for concurrency
+	- Akka offers Scala, Java API
+	- [Akka official doc](https://doc.akka.io/docs/akka/current/typed/actors.html#:~:text=com%2Fakka%2Fakka-,Akka%20Actors,correct%20concurrent%20and%20parallel%20systems.)
 
-11. Spark basic
+<img src ="./doc/pic/akka_actor.png"></p>
+
+11. Others
+
+12. Spark basic
 	- [Spark_basic_demo_1](./src/main/scala/SparkBasic/spark_basic_demo_1.scala) - Spark `function `basic demo
 	- [Spark_basic_demo_2](./src/main/scala/SparkBasic/spark_basic_demo_2.scala) - Spark `RDD basic op` demo : count avg friends by age
 		- [Spark_basic_demo_2 extra](./src/main/scala/SparkBasic/spark_basic_demo_2_extra.scala) - Extra : count avg friend by first name
