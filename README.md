@@ -455,6 +455,7 @@
 		```
 	- General Class
 		- [GeneralClass1](./src/main/scala/ScalaBasic/GeneralClass1.scala)
+		- [GeneralClass2](./src/main/scala/ScalaBasic/GeneralClass2.scala)
 		- Ref
 			- [ref1](https://docs.scala-lang.org/tour/generic-classes.html)
 
