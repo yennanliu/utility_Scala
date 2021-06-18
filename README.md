@@ -453,11 +453,6 @@
 			}
 		}
 		```
-	- General Class
-		- [GeneralClass1](./src/main/scala/ScalaBasic/GeneralClass1.scala)
-		- [GeneralClass2](./src/main/scala/ScalaBasic/GeneralClass2.scala)
-		- Ref
-			- [ref1](https://docs.scala-lang.org/tour/generic-classes.html)
 
 7. Scala object
 	- [LoadPackageDemo1](./src/main/scala/ScalaBasic/LoadPackageDemo1.scala), [LoadPackageDemo2](./src/main/scala/ScalaBasic/LoadPackageDemo2.scala), [LoadPackageDemo3](./src/main/scala/ScalaBasic/LoadPackageDemo3.scala), [LoadPackageDemo4](./src/main/scala/ScalaBasic/LoadPackageDemo4.scala) - Scala load package examples
@@ -531,18 +526,22 @@
 	- Parallel
 		- [parallel_Demo_1](./src/main/scala/ScalaAdvance/parallel_Demo_1.scala)
 		- Scala offers the `parallel` collections that can be processed in `parallel` with machines have multi-core CPU
-	- Generic
+	- Generic / General Class
 		- [Generic_Demo_1](./src/main/scala/ScalaAdvance/Generic_Demo_1.scala)
 		- [Generic_Demo_2](./src/main/scala/ScalaAdvance/Generic_Demo_2.scala)
 		- [Generic_Demo_3](./src/main/scala/ScalaAdvance/Generic_Demo_3.scala)
 		- [Generic_Demo_4](./src/main/scala/ScalaAdvance/Generic_Demo_4.scala)
 		- [Generic_Demo_5](./src/main/scala/ScalaAdvance/Generic_Demo_5.scala)
 		- [GenericTypeParam](./src/main/scala/ScalaBasic/GenericTypeParam.scala) - Scala `Generic Type` basic op, properties, e.g. : ``` def exec[T](f: () => T): T = {f()}```
+		- [GeneralClass1](./src/main/scala/ScalaBasic/GeneralClass1.scala)
+		- [GeneralClass2](./src/main/scala/ScalaBasic/GeneralClass2.scala)
 		- Scala has `Generic` in `class, func, method`
 		- [generic classes](https://docs.scala-lang.org/tour/generic-classes.html)
 		- `Generic classes` are classes which take a type as a parameter. They are particularly useful for collection classes.
 		- `<:` means the type of generic must be "some type" or "some type's" child class
 		- `:>` means the type of generic must be "some type" or "some type's" parent class
+		- Ref
+			- [ref1](https://docs.scala-lang.org/tour/generic-classes.html)
 			- [ref](https://blog.csdn.net/jameshadoop/article/details/56290302)
 
 8. Scala Script example
