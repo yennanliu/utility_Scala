@@ -359,7 +359,6 @@
 	- Operator
 		- [Operator_demo1](./src/main/scala/ScalaBasic/Operator_demo1.scala)
 
-
 6. Scala trait, abstract class..
 	- Trait
 		- [Trait](./src/main/scala/ScalaBasic/TraitDemo.scala)
@@ -454,6 +453,10 @@
 			}
 		}
 		```
+	- General Class
+		- [GeneralClass1](./src/main/scala/ScalaBasic/GeneralClass1.scala)
+		- Ref
+			- [ref1](https://docs.scala-lang.org/tour/generic-classes.html)
 
 7. Scala object
 	- [LoadPackageDemo1](./src/main/scala/ScalaBasic/LoadPackageDemo1.scala), [LoadPackageDemo2](./src/main/scala/ScalaBasic/LoadPackageDemo2.scala), [LoadPackageDemo3](./src/main/scala/ScalaBasic/LoadPackageDemo3.scala), [LoadPackageDemo4](./src/main/scala/ScalaBasic/LoadPackageDemo4.scala) - Scala load package examples
