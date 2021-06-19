@@ -26,7 +26,9 @@ libraryDependencies ++= Seq(
   // google
   "com.google.code.gson" % "gson" % "2.8.5",
   // Akka
-  "com.typesafe.akka" %% "akka-actor" % "2.5.28"
+  "com.typesafe.akka" %% "akka-actor" % "2.5.28",
+  "com.typesafe.akka" %% "akka-remote" % "2.5.28"
+
 )
 
 conflictManager := ConflictManager.latestRevision
