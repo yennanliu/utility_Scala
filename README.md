@@ -562,7 +562,7 @@
 	- [ExceptionDemo3](./src/main/scala/ScalaBasic/ExceptionDemo3.scala)
 
 10. Backend framework - Akka
-	- [AkkaDemo1](./src/main/scala/ScalaBasic/AkkaDemo1) 
+	- [AkkaDemo1](./src/main/scala/AkkaDemo1) 
 	- High level
 		- Akka is a framework for concurrent and distributed applications on the JVM.
 		- Akka supports multiple programming models for concurrency
