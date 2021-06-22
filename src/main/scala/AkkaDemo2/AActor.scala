@@ -21,7 +21,8 @@ class AActor(actorRef: ActorRef) extends Actor{
       // send msg to BActor
       // here we need to have BActor's ref, so we can send msg to it
       val msg = "AActor (Kyo) つおお....くらいやがれぇぇ!"
-      bActorRef ! s"$msg fight"
+      println(msg)
+      bActorRef ! "fight"
     }
   }
 }

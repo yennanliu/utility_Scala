@@ -15,9 +15,9 @@ object app extends App {
   val bActorRef:ActorRef =  actorFactory.actorOf(Props[BActor], "bActor")
 
   // create AActor's reference
-  val aActorRef:ActorRef =  actorFactory.actorOf(Props(new AActor(bActorRef)), "aActor")
+  private val aActorRef:ActorRef =  actorFactory.actorOf(Props(new AActor(bActorRef)), "aActor")
 
   // AActor run
-  aActorRef ! "start"
+  aActorRef ! "fight"
 
 }
