@@ -10,8 +10,8 @@ case class defaultConfig(
 object defaultConfig {
   def load(config: Config): defaultConfig = {
     defaultConfig(
-      user = config.getString("user"),
-      env = config.getString("env")
+      user = config.getString("default.user"),
+      env = config.getString("default.env")
     )
   }
 
