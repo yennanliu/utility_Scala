@@ -589,6 +589,10 @@
 		- Mailbox
 			- managed by Akka, not exposed to developer/user
 			- implement `runnable` JVM object
+	- Summary
+		- Akka will created an Actor Mailbox instance, it's a queue, can get msg from Dispatcher message
+		- Mailbox implement Runnable trait, it's a thread, will keep running and use Actor's receive method, so when Dispatcher send msg to Mailbox, Actor can get it via its receive method
+		- `ActorRef | "HELLO"` means send hello msg to A Actor's Mailbox 
 	- Mechanism
 	```
 	// Actor 1 -> Actor 2
