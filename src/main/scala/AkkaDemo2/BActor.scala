@@ -12,6 +12,7 @@ class BActor extends Actor {
       println("BActor (IorI) see this !!! どおしたぁ！")
       // via sender(), can get the ActorRef which send msg to us
       // final def sender(): ActorRef (sender is ActorRef type)
+      Thread.sleep(1000)
       sender() ! "fight"
     }
   }

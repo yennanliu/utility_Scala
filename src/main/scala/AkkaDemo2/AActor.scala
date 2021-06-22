@@ -22,6 +22,7 @@ class AActor(actorRef: ActorRef) extends Actor{
       // here we need to have BActor's ref, so we can send msg to it
       val msg = "AActor (Kyo) つおお....くらいやがれぇぇ!"
       println(msg)
+      Thread.sleep(1000)
       bActorRef ! "fight"
     }
   }

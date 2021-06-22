@@ -18,6 +18,5 @@ object app extends App {
   private val aActorRef:ActorRef =  actorFactory.actorOf(Props(new AActor(bActorRef)), "aActor")
 
   // AActor run
-  aActorRef ! "fight"
-
+  aActorRef ! "start"
 }
