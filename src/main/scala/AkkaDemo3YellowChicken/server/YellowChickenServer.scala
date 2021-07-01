@@ -27,6 +27,8 @@ object YellowChickenServer extends App {
   //val serverActorSystem = ActorSystem("server")   //<-- for local
   val serverActorSystem = ActorSystem("server", config)     //<-- for runs on internet (server)
 
+  // will have server address : akka.tcp://server@127.0.0.1:9999
+
   // create YellowChickenServer 's actor and return actorRef
   // Props[YellowChickenServer] : Reflection : https://www.sczyh30.com/posts/Java/java-reflection-1/
   // actor system name : YellowChickenServer
