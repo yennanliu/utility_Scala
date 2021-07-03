@@ -1,9 +1,13 @@
 package AkkaDemo3YellowChicken.cilent
 
+import AkkaDemo3YellowChicken.common.ClientMessage
 import akka.actor.{Actor, ActorSelection, ActorSystem, Props}
 import com.typesafe.config.ConfigFactory
 
+import scala.io.StdIn
+
 // https://www.bilibili.com/video/BV12N411R726?p=243&spm_id_from=pageDriver
+//https://www.bilibili.com/video/BV12N411R726?p=244&spm_id_from=pageDriver
 
 // entry point (main program)
 object CustomerActor extends App {
@@ -27,6 +31,14 @@ object CustomerActor extends App {
 
   // run customerActorRef ( run the Actor)
   customerActorRef ! "start"
+
+  // send more msg to server
+  while (true){
+    println("plz input your question ?")
+    val mes = StdIn.readLine()
+    customerActorRef ! mes
+  }
+
 }
 
 class CustomerActor(serverHost: String, serverPort: Int) extends Actor {
@@ -52,6 +64,10 @@ class CustomerActor(serverHost: String, serverPort: Int) extends Actor {
 
   override def receive: Receive = {
     case "start" => println("client start !!! ready to serve")
+    case mes:String => {
+      // send to server (YellowChickenServer)
+      serverActorRef ! ClientMessage(mes)  // use ClientMessage's (case class) apply method. Case class implements apply method by default
+    }
   }
 }
 

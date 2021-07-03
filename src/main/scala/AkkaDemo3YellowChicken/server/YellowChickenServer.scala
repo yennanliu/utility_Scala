@@ -1,5 +1,6 @@
 package AkkaDemo3YellowChicken.server
 
+import AkkaDemo3YellowChicken.common.{ClientMessage, ServerMessage}
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 import com.typesafe.config.ConfigFactory
 
@@ -41,5 +42,12 @@ object YellowChickenServer extends App {
 class YellowChickenServer extends Actor {
   override def receive: Receive = {
     case "start" => println("YellowChickenServer start ...")
+    // if receive msg from client
+    case ClientMessage(mss) => {
+      // use match-case for pattern match
+      case "learn SPARK" => sender() ! ServerMessage("999 USD") // use ServerMessage's (case class) apply method. Case class implements apply method by default
+
+    }
+
   }
 }
