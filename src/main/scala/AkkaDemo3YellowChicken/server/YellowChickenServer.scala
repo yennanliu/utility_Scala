@@ -46,11 +46,11 @@ class YellowChickenServer extends Actor {
     case ClientMessage(mes) => {
       mes.toLowerCase() match {
         // use match-case for pattern match
-        case "learn cs" => sender() ! ServerMessage("999 USD") // use ServerMessage's (case class) apply method. Case class implements apply method by default
-        case "address" => sender() ! ServerMessage("Massachusetts Institute of Technology\n77 Massachusetts Avenue\nCambridge, MA 02139, USA")
-        case "school" => sender() ! ServerMessage("MIT")
-        case "courses" => sender() ! ServerMessage("Scala\nJava\nPython\nPHP\nAlgorithm")
-        case _ => sender() ! ServerMessage("plz ask again ~")
+        case "learn cs" => sender() ! ServerMessage("\n999 USD") // use ServerMessage's (case class) apply method. Case class implements apply method by default
+        case "address" => sender() ! ServerMessage("\nMassachusetts Institute of Technology\n77 Massachusetts Avenue\nCambridge, MA 02139, USA")
+        case "school" => sender() ! ServerMessage("\nMIT")
+        case "courses" => sender() ! ServerMessage("\nScala\nJava\nPython\nPHP\nAlgorithm")
+        case _ => sender() ! ServerMessage("\nplz ask again ~")
       }
     }
   }

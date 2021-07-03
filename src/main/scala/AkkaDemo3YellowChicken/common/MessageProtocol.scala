@@ -21,6 +21,6 @@ case class ServerMessage(
                           mes: String
                         )
 
-//class MessageProtocol {
-//
-//}
+class MessageProtocol {
+
+}
