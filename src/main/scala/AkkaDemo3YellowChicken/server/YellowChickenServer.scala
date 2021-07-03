@@ -7,6 +7,13 @@ import com.typesafe.config.ConfigFactory
 // https://www.bilibili.com/video/BV12N411R726?p=242
 // https://github.com/yennanliu/utility_Scala/blob/master/doc/pic/AkkaDemo3.png
 
+/**
+ *  YellowChickenServer
+ *
+ *  1) server side main program
+ *  2) YellowChickenServer
+ */
+
 // entry point (main program)
 object YellowChickenServer extends App {
 

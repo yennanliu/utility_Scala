@@ -7,7 +7,14 @@ import com.typesafe.config.ConfigFactory
 import scala.io.StdIn
 
 // https://www.bilibili.com/video/BV12N411R726?p=243&spm_id_from=pageDriver
-//https://www.bilibili.com/video/BV12N411R726?p=244&spm_id_from=pageDriver
+// https://www.bilibili.com/video/BV12N411R726?p=244&spm_id_from=pageDriver
+
+/**
+ *  CustomerActor
+ *
+ *  1) client side main program
+ *  2) CustomerActor
+ */
 
 // entry point (main program)
 object CustomerActor extends App {
