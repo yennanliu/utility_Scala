@@ -18,9 +18,9 @@ case class ClientMessage(
                         )
 // server -> client msg
 case class ServerMessage(
-                        mss: String
+                          mes: String
                         )
 
-class MessageProtocol {
-
-}
+//class MessageProtocol {
+//
+//}

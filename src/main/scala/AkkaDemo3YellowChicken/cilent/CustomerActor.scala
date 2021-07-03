@@ -1,6 +1,6 @@
 package AkkaDemo3YellowChicken.cilent
 
-import AkkaDemo3YellowChicken.common.ClientMessage
+import AkkaDemo3YellowChicken.common.{ClientMessage, ServerMessage}
 import akka.actor.{Actor, ActorSelection, ActorSystem, Props}
 import com.typesafe.config.ConfigFactory
 
@@ -67,6 +67,10 @@ class CustomerActor(serverHost: String, serverPort: Int) extends Actor {
     case mes:String => {
       // send to server (YellowChickenServer)
       serverActorRef ! ClientMessage(mes)  // use ClientMessage's (case class) apply method. Case class implements apply method by default
+    }
+      // if receive reply from server
+    case ServerMessage(mes) => {
+        println(s"msg acknowledged! (from YellowChickenServer) :  $mes")
     }
   }
 }

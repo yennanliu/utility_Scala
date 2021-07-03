@@ -178,7 +178,7 @@
 			- => `case class` can initiate `attr, value, structure` when instantiated
 		- it's not necessary that case class to inherent from other class
 		- apart from above, case class is as same as class, we can extend, rewrite it
-		- implements ``serialization` by default
+		- implements `serialization` by default
 		- implements `apply` method by default
 	- Sealed class
 		- [Seal demo 1](./src/main/scala/ScalaBasic/Seal_1)

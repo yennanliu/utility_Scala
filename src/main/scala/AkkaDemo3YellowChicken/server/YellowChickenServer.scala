@@ -43,11 +43,15 @@ class YellowChickenServer extends Actor {
   override def receive: Receive = {
     case "start" => println("YellowChickenServer start ...")
     // if receive msg from client
-    case ClientMessage(mss) => {
-      // use match-case for pattern match
-      case "learn SPARK" => sender() ! ServerMessage("999 USD") // use ServerMessage's (case class) apply method. Case class implements apply method by default
-
+    case ClientMessage(mes) => {
+      mes.toLowerCase() match {
+        // use match-case for pattern match
+        case "learn cs" => sender() ! ServerMessage("999 USD") // use ServerMessage's (case class) apply method. Case class implements apply method by default
+        case "address" => sender() ! ServerMessage("Massachusetts Institute of Technology\n77 Massachusetts Avenue\nCambridge, MA 02139, USA")
+        case "school" => sender() ! ServerMessage("MIT")
+        case "courses" => sender() ! ServerMessage("Scala\nJava\nPython\nPHP\nAlgorithm")
+        case _ => sender() ! ServerMessage("plz ask again ~")
+      }
     }
-
   }
 }
