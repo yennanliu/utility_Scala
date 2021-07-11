@@ -50,10 +50,10 @@ object SparkMaster {
 
     val sparkMasterSystem =  ActorSystem("SparkMaster", config)
 
-    // create actor ref
+    // create SparkMaster actor ref
     val sparkMasterRef =  sparkMasterSystem.actorOf(Props[SparkMaster], "SparkMaster01")
 
-    // lunch SparkMaster
+    // lunch SparkMaster actor
     sparkMasterRef ! "start"
   }
 }

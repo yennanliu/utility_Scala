@@ -18,7 +18,8 @@ class SparkWorker(masterHost:String, masterPort:Int) extends Actor {
 
   // init master actor ref (masterProxy)
   override def preStart(): Unit = {
-    masterProxy = context.actorSelection(s"akka.tcp://SparkMaster@${masterHost}:${masterPort}/user/SparkMaster01")
+    println("preStart run ...")
+    masterProxy = context.actorSelection(s"akka.tcp://SparkMaster@127.0.0.1:10005/user/SparkMaster01")
     println("masterProxy = " + masterProxy)
   }
 
@@ -27,8 +28,8 @@ class SparkWorker(masterHost:String, masterPort:Int) extends Actor {
       println("SparkWorker is running ...")
       // send a register msg
       masterProxy ! RegisterWorkerInfo(id, 16, 16 * 1024)
+      println("RegisterWorkerInfo sent ...")
     }
-
     case RegisterWorkerInfo => {
       println("workerid = " + id + " register success !")
     }
@@ -50,8 +51,8 @@ object SparkWorker {
     val config = ConfigFactory.parseString(
       s"""
          | akka.actor.provider="akka.remote.RemoteActorRefProvider"
-         | akka.remote.netty.tcp.hostname=$workerHost
-         | akka.remote.netty.tcp.port=$workerPort
+         | akka.remote.netty.tcp.hostname=127.0.0.1
+         | akka.remote.netty.tcp.port=10002
          |""".stripMargin
     )
 
