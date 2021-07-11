@@ -1,7 +1,11 @@
 package AkkaDemo4SparkMasterWorker.worker
 
+import java.util.UUID
+
 import akka.actor.{Actor, ActorSelection, ActorSystem, Props}
 import com.typesafe.config.ConfigFactory
+
+import AkkaDemo4SparkMasterWorker.common.RegisterWorkerInfo
 
 // https://www.bilibili.com/video/BV12N411R726?p=246&spm_id_from=pageDriver
 
@@ -10,14 +14,23 @@ class SparkWorker(masterHost:String, masterPort:Int) extends Actor {
   // masterProxy is "Master Actor's ref"
   var masterProxy : ActorSelection = _
 
+  val id = UUID.randomUUID().toString
+
   // init master actor ref (masterProxy)
   override def preStart(): Unit = {
     masterProxy = context.actorSelection(s"akka.tcp://SparkMaster@${masterHost}:${masterPort}/user/SparkMaster01")
+    println("masterProxy = " + masterProxy)
   }
 
   override def receive: Receive = {
     case "start" => {
       println("SparkWorker is running ...")
+      // send a register msg
+      masterProxy ! RegisterWorkerInfo(id, 16, 16 * 1024)
+    }
+
+    case RegisterWorkerInfo => {
+      println("workerid = " + id + " register success !")
     }
 
   }

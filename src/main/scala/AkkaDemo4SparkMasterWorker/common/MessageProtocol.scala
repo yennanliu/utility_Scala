@@ -1,0 +1,19 @@
+package AkkaDemo4SparkMasterWorker.common
+
+// https://www.bilibili.com/video/BV12N411R726?p=246&spm_id_from=pageDriver
+
+class MessageProtocol {
+
+}
+
+// msg that worker sends to master when register (register to master)
+case class RegisterWorkerInfo(id: String, cpu: Int, ram: Int)
+
+// worker info, will be saved into the hashmap in sparkMaster ( for worker management)
+// this is class will be extended (e.g. : adding last heartbeat time)
+// we don't need case for WorkerInfo, since this one will not be sent as msg
+class WorkerInfo(val id: String, val cpu: Int, val ram: Int)
+
+// for when worker register success in master
+// -> master will reply a RegisterWorkerInfo
+case object RegisterWorkerInfo

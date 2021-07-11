@@ -3,11 +3,32 @@ package AkkaDemo4SparkMasterWorker.master
 import akka.actor.{Actor, ActorSystem, Props}
 import com.typesafe.config.ConfigFactory
 
+import AkkaDemo4SparkMasterWorker.common.{RegisterWorkerInfo, WorkerInfo}
+
+import scala.collection.mutable
+
 // https://www.bilibili.com/video/BV12N411R726?p=246&spm_id_from=pageDriver
 
 class SparkMaster extends Actor {
+  // define a hashmap for worker management
+  val workers = mutable.Map[String, WorkerInfo]()
+
   override def receive: Receive = {
+
     case "start" => println("Spark master is running ...")
+
+    case RegisterWorkerInfo(id, cpu, ram) => {
+      // receive worker (client)'s register msg
+      if (workers.contains(id)){
+        // create WorkInfo instance
+        val workerInfo = new WorkerInfo(id, cpu, ram)
+        // put into hashmap (RegisterWorkerInfo)
+        workers += ((id, workerInfo))  // NOTE the format : ((id, workerInfo))
+        println("Number of registered worker : " + workers)
+        // reply worker
+        sender() ! RegisterWorkerInfo
+      }
+    }
   }
 }
 
@@ -34,6 +55,5 @@ object SparkMaster {
 
     // lunch SparkMaster
     sparkMasterRef ! "start"
-
   }
 }
