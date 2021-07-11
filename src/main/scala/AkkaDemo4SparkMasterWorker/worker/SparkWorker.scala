@@ -24,12 +24,14 @@ class SparkWorker(masterHost:String, masterPort:Int) extends Actor {
   }
 
   override def receive: Receive = {
+
     case "start" => {
       println("SparkWorker is running ...")
       // send a register msg
       masterProxy ! RegisterWorkerInfo(id, 16, 16 * 1024)
       println("RegisterWorkerInfo sent ...")
     }
+
     case RegisterWorkerInfo => {
       println("workerid = " + id + " register success !")
     }

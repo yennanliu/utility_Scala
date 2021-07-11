@@ -27,7 +27,8 @@ class SparkMaster extends Actor {
 
         // put into hashmap (RegisterWorkerInfo)
         workers += ((id, workerInfo))  // NOTE the format : ((id, workerInfo))
-        println("Number of registered worker : " + workers)
+        println("Registered worker : " + workers)
+        println("# of Registered worker : " + workers.toList.length)
 
         // reply worker
         sender() ! RegisterWorkerInfo
