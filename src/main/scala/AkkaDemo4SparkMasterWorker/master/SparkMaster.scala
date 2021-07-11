@@ -18,13 +18,17 @@ class SparkMaster extends Actor {
     case "start" => println("Spark master is running ...")
 
     case RegisterWorkerInfo(id, cpu, ram) => {
+
       // receive worker (client)'s register msg
-      if (workers.contains(id)){
+      if (! workers.contains(id)){ // if there is NO is saved in the hashmap, NOTE : "! workers.contains(id)" condition
+
         // create WorkInfo instance
         val workerInfo = new WorkerInfo(id, cpu, ram)
+
         // put into hashmap (RegisterWorkerInfo)
         workers += ((id, workerInfo))  // NOTE the format : ((id, workerInfo))
         println("Number of registered worker : " + workers)
+
         // reply worker
         sender() ! RegisterWorkerInfo
       }
