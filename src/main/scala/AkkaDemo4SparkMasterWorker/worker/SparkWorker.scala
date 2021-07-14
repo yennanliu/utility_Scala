@@ -11,6 +11,11 @@ import scala.concurrent.duration._
 // https://www.bilibili.com/video/BV12N411R726?p=246&spm_id_from=pageDriver
 // https://www.bilibili.com/video/BV12N411R726?p=247
 
+/**
+ *   Spark Worker
+ *   - code for worker node
+ */
+
 class SparkWorker(masterHost:String, masterPort:Int) extends Actor {
 
   // masterProxy is "Master Actor's ref"
