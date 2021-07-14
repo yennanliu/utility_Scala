@@ -35,6 +35,11 @@ class SparkMaster extends Actor {
     }
     // if master receiver heart beat
     case HeartBeat(id) => {
+      // update worker's heart beat time
+      // 1. get workerInfo from workers (hashmap)
+      val workerInfo: WorkerInfo = workers(id)
+      workerInfo.lastHeartBeat = System.currentTimeMillis()
+      println("master updates worker = " + id + " hear beat !")
 
     }
   }

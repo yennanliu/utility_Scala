@@ -44,7 +44,7 @@ class SparkWorker(masterHost:String, masterPort:Int) extends Actor {
       // 3000 millis : runs every 3 sec
       // self : send to itself
       // sendHeartBeat : sent content
-      context.system.scheduler.schedule(0 millis, 300 millis, self, SendHeartBeat) // remember to import scala.concurrent.duration._
+      context.system.scheduler.schedule(0 millis, 3000 millis, self, SendHeartBeat) // remember to import scala.concurrent.duration._
     }
 
     case SendHeartBeat => {
