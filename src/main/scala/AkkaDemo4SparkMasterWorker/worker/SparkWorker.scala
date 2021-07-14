@@ -4,10 +4,12 @@ import java.util.UUID
 
 import akka.actor.{Actor, ActorSelection, ActorSystem, Props}
 import com.typesafe.config.ConfigFactory
+import AkkaDemo4SparkMasterWorker.common.{HeartBeat, RegisterWorkerInfo, SendHeartBeat}
 
-import AkkaDemo4SparkMasterWorker.common.RegisterWorkerInfo
+import scala.concurrent.duration._
 
 // https://www.bilibili.com/video/BV12N411R726?p=246&spm_id_from=pageDriver
+// https://www.bilibili.com/video/BV12N411R726?p=247
 
 class SparkWorker(masterHost:String, masterPort:Int) extends Actor {
 
@@ -34,8 +36,22 @@ class SparkWorker(masterHost:String, masterPort:Int) extends Actor {
 
     case RegisterWorkerInfo => {
       println("workerid = " + id + " register success !")
+
+      // define a TIMER after register success
+      // that send a msg during every few second
+      import context.dispatcher
+      // 0 millis : runs timer right now ( 1: delay 1 sec)
+      // 3000 millis : runs every 3 sec
+      // self : send to itself
+      // sendHeartBeat : sent content
+      context.system.scheduler.schedule(0 millis, 300 millis, self, SendHeartBeat) // remember to import scala.concurrent.duration._
     }
 
+    case SendHeartBeat => {
+      // if SendHeartBeat, then send heart beat to master
+      println("worker = " + id + " send hear beat to master !")
+      masterProxy ! HeartBeat(id)
+    }
   }
 }
 

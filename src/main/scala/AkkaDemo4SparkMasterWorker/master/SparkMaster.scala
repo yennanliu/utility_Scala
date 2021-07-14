@@ -2,8 +2,7 @@ package AkkaDemo4SparkMasterWorker.master
 
 import akka.actor.{Actor, ActorSystem, Props}
 import com.typesafe.config.ConfigFactory
-
-import AkkaDemo4SparkMasterWorker.common.{RegisterWorkerInfo, WorkerInfo}
+import AkkaDemo4SparkMasterWorker.common.{HeartBeat, RegisterWorkerInfo, WorkerInfo}
 
 import scala.collection.mutable
 
@@ -33,6 +32,10 @@ class SparkMaster extends Actor {
         // reply worker
         sender() ! RegisterWorkerInfo
       }
+    }
+    // if master receiver heart beat
+    case HeartBeat(id) => {
+
     }
   }
 }
