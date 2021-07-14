@@ -39,7 +39,7 @@ class SparkMaster extends Actor {
       // 1. get workerInfo from workers (hashmap)
       val workerInfo: WorkerInfo = workers(id)
       workerInfo.lastHeartBeat = System.currentTimeMillis()
-      println("master updates worker = " + id + " hear beat !")
+      println("master updates worker = " + id + " heartbeat !")
 
     }
   }

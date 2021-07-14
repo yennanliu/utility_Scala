@@ -48,8 +48,8 @@ class SparkWorker(masterHost:String, masterPort:Int) extends Actor {
     }
 
     case SendHeartBeat => {
-      // if SendHeartBeat, then send heart beat to master
-      println("worker = " + id + " send hear beat to master !")
+      // if SendHeartBeat, then send heartbeat to master
+      println("worker = " + id + " send heartbeat to master !")
       masterProxy ! HeartBeat(id)
     }
   }
