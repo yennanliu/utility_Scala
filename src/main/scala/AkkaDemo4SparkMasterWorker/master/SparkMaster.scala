@@ -68,11 +68,12 @@ class SparkMaster extends Actor {
       val nowTime = System.currentTimeMillis()
 
       // 2. filter out the timeout worker, and delete them
-      // workerInfos : all workers in hash map
+      // workerInfos : all workers values in hash map
       workerInfos.filter{
-        // workerInfo : the single worker in hash map
+        // workerInfo : the single worker value in hash map
         workerInfo => (nowTime - workerInfo.lastHeartBeat > 6000)
         // worker : the single worker in hash map
+        // workers : workers hash map
       }.foreach(worker => workers.remove(worker.id))
       println("there are " + workers.size + " worker alive !!!")
     }

@@ -2,6 +2,7 @@ package AkkaDemo4SparkMasterWorker.common
 
 // https://www.bilibili.com/video/BV12N411R726?p=246&spm_id_from=pageDriver
 // https://www.bilibili.com/video/BV12N411R726?p=247
+// https://www.bilibili.com/video/BV12N411R726?p=248
 
 /**
  *   Message Protocol
