@@ -8,7 +8,6 @@ package AkkaDemo4SparkMasterWorker.common
  *   - define mag format, case class, case object
  */
 
-
 class MessageProtocol {
 
 }
@@ -31,3 +30,8 @@ case object RegisterWorkerInfo
 case object SendHeartBeat
 // every few seconds, the timer will trigger worker send heart beat to master
 case class HeartBeat(id: String)
+
+// master sends msg to itself that trigger time-out worker check
+case object StartTimeOutWorker
+// master sends msg to itself that check which worker has time-out heartbeat
+case object RemoveTimeOutWorker
