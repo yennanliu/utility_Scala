@@ -10,13 +10,60 @@ import scala.concurrent.duration._
 
 // https://www.bilibili.com/video/BV12N411R726?p=246&spm_id_from=pageDriver
 // https://www.bilibili.com/video/BV12N411R726?p=247
+// https://www.bilibili.com/video/BV12N411R726?p=249
 
 /**
  *   Spark Worker
  *   - code for worker node
  */
 
-class SparkWorker(masterHost:String, masterPort:Int) extends Actor {
+object SparkWorker {
+
+  def main(args: Array[String]): Unit = {
+
+    //--------------------------
+    // parameterize the args
+    //    if (args.length != 6){
+    //      println("plz insert : workerHost, workerPort, workerName, masterHost, masterPort, masterName")
+    //      sys.exit()
+    //    }
+    //
+    //    val workerHost = args(0)
+    //    val workerPort = args(1)
+    //    val workerName = args(2)
+    //    val masterHost = args(3)
+    //    val masterPort = args(4)
+    //    val masterName = args(5)
+    //--------------------------
+
+    // create Actor system
+    val workerHost = "127.0.0.1" // serer ip
+    val workerPort = 10001
+    val workerName = "SparkWorker01"
+    val masterHost = "127.0.0.1"
+    val masterPort = 10005
+    val masterName = "SparkMaster01"
+
+    // create config, includes protocol, ip, and port
+    val config = ConfigFactory.parseString(
+      s"""
+         | akka.actor.provider="akka.remote.RemoteActorRefProvider"
+         | akka.remote.netty.tcp.hostname=$workerHost
+         | akka.remote.netty.tcp.port=$workerPort
+         |""".stripMargin
+    )
+
+    // create Actor System
+    val sparkWorkerSystem =  ActorSystem("SparkWorker", config)
+
+    // create SparkWorker actor ref
+    val sparkWorkerRef =  sparkWorkerSystem.actorOf(Props(new SparkWorker(masterHost, masterPort, masterName)), s"$workerName")
+
+    // launch SparkWorker
+    sparkWorkerRef ! "start"
+  }
+
+class SparkWorker(masterHost:String, masterPort:Int, masterName:String) extends Actor {
 
   // masterProxy is "Master Actor's ref"
   var masterProxy : ActorSelection = _
@@ -26,7 +73,7 @@ class SparkWorker(masterHost:String, masterPort:Int) extends Actor {
   // init master actor ref (masterProxy)
   override def preStart(): Unit = {
     println("preStart run ...")
-    masterProxy = context.actorSelection(s"akka.tcp://SparkMaster@127.0.0.1:10005/user/SparkMaster01")
+    masterProxy = context.actorSelection(s"akka.tcp://SparkMaster@127.0.0.1:10005/user/$masterName")
     println("masterProxy = " + masterProxy)
   }
 
@@ -56,36 +103,7 @@ class SparkWorker(masterHost:String, masterPort:Int) extends Actor {
       // if SendHeartBeat, then send heartbeat to master
       println("worker = " + id + " send heartbeat to master !")
       masterProxy ! HeartBeat(id)
+      }
     }
-  }
-}
-
-object SparkWorker {
-
-  def main(args: Array[String]): Unit = {
-
-    // create Actor system
-    val workerHost = "127.0.0.1" // serer ip
-    val workerPort = 10001
-    val masterHost = "127.0.0.1"
-    val masterPort = 10005
-
-    // create config, includes protocol, ip, and port
-    val config = ConfigFactory.parseString(
-      s"""
-         | akka.actor.provider="akka.remote.RemoteActorRefProvider"
-         | akka.remote.netty.tcp.hostname=127.0.0.1
-         | akka.remote.netty.tcp.port=10002
-         |""".stripMargin
-    )
-
-    // create Actor System
-    val sparkWorkerSystem =  ActorSystem("SparkWorker", config)
-
-    // create SparkWorker actor ref
-    val sparkWorkerRef =  sparkWorkerSystem.actorOf(Props(new SparkWorker(masterHost, masterPort)), "SparkWorker01")
-
-    // launch SparkWorker
-    sparkWorkerRef ! "start"
   }
 }

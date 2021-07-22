@@ -10,11 +10,50 @@ import scala.collection.mutable
 // https://www.bilibili.com/video/BV12N411R726?p=246&spm_id_from=pageDriver
 // https://www.bilibili.com/video/BV12N411R726?p=247
 // https://www.bilibili.com/video/BV12N411R726?p=248
+// https://www.bilibili.com/video/BV12N411R726?p=249
 
 /**
  *   Spark Master
  *   - code for master node
  */
+
+object SparkMaster {
+  def main(args: Array[String]): Unit = {
+
+    //--------------------------
+    // parameterize the args
+    //    if (args.length != 3){
+    //      println("plz insert : host, port, sparkMasterActor name")
+    //      sys.exit()
+    //    }
+    //
+    //    val host = args(0)
+    //    val port = args(1)
+    //    val name = args(2)
+    //--------------------------
+
+    // create Actor system
+    val host = "127.0.0.1" // serer ip
+    val port = 10005
+    val name = "SparkMaster01"
+
+    // create config, includes protocol, ip, and port
+    val config = ConfigFactory.parseString(
+      s"""
+         | akka.actor.provider="akka.remote.RemoteActorRefProvider"
+         | akka.remote.netty.tcp.hostname=$host
+         | akka.remote.netty.tcp.port=$port
+         |""".stripMargin
+    )
+
+    val sparkMasterSystem =  ActorSystem("SparkMaster", config)
+
+    // create SparkMaster actor ref
+    val sparkMasterRef =  sparkMasterSystem.actorOf(Props[SparkMaster], s"$name")
+
+    // lunch SparkMaster actor
+    sparkMasterRef ! "start"
+  }
 
 class SparkMaster extends Actor {
   // define a hashmap for worker management
@@ -76,32 +115,7 @@ class SparkMaster extends Actor {
         // workers : workers hash map
       }.foreach(worker => workers.remove(worker.id))
       println("there are " + workers.size + " worker alive !!!")
+      }
     }
-  }
-}
-
-object SparkMaster {
-  def main(args: Array[String]): Unit = {
-
-    // create Actor system
-    val host = "127.0.0.1" // serer ip
-    val port = 10005
-
-    // create config, includes protocol, ip, and port
-    val config = ConfigFactory.parseString(
-      s"""
-         | akka.actor.provider="akka.remote.RemoteActorRefProvider"
-         | akka.remote.netty.tcp.hostname=$host
-         | akka.remote.netty.tcp.port=$port
-         |""".stripMargin
-    )
-
-    val sparkMasterSystem =  ActorSystem("SparkMaster", config)
-
-    // create SparkMaster actor ref
-    val sparkMasterRef =  sparkMasterSystem.actorOf(Props[SparkMaster], "SparkMaster01")
-
-    // lunch SparkMaster actor
-    sparkMasterRef ! "start"
   }
 }
