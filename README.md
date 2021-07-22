@@ -546,7 +546,7 @@
 			- [ref1](https://docs.scala-lang.org/tour/generic-classes.html)
 			- [ref](https://blog.csdn.net/jameshadoop/article/details/56290302)
 	- MapReduce
-		- [GeneralClass1](./src/main/scala/ScalaBasic/wordCountScala1.scala)
+		- [wordCountScala1](./src/main/scala/ScalaBasic/wordCountScala1.scala)
 
 8. Scala Script example
 	- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
