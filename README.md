@@ -552,7 +552,8 @@
 	- Decorator
 		- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
 	- Factory
-		- [FactoryDemo1](./src/main/scala/ScalaBasic/FactoryDemo1.scala)
+		- Simple Factory
+			- [SimpleFactoryDemo1](./src/main/scala/ScalaBasic/SimpleFactoryDemo1)
 
 12. Scala Script example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
