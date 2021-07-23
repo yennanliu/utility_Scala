@@ -548,8 +548,12 @@
 	- MapReduce
 		- [wordCountScala1](./src/main/scala/ScalaBasic/wordCountScala1.scala)
 
-8. Scala Script example
-	- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
+11. Scala ``Design Pattern`
+	- Decorator
+		- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
+	- Factory
+		- [FactoryDemo1](./src/main/scala/ScalaBasic/FactoryDemo1.scala)
+12. Scala Script example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
 	- [Show run time elapse](./src/main/scala/ScalaBasic/runTimeElapse_demo1.scala) - show how long the code running in Scala
 	- Scala CLI args
@@ -559,13 +563,13 @@
 		- [ScalaGetArg4](src/main/scala/ScalaBasic/ScalaGetArg4.scala)
 		- Scala load arguments from CLI
 
-9. Scala exception, error handling
+13. Scala exception, error handling
 	- [ExceptionDemo1](./src/main/scala/ScalaBasic/ExceptionDemo1.scala) 
 	- [ExceptionDemo2](./src/main/scala/ScalaBasic/ExceptionDemo2.scala) - format : `try - catch - finally`
 	- - there is NO `compile exception` in Scala (only java has), all exceptions in Scala happen during `runtime`. All exceptions inherit from the "throwable" class, which is the class with "nothing" type that is acceptable to `all class/method...`
 	- [ExceptionDemo3](./src/main/scala/ScalaBasic/ExceptionDemo3.scala)
 
-10. Backend framework - Akka
+14. Backend framework - Akka
 	- [AkkaDemo1](./src/main/scala/AkkaDemo1) 
 	- High level
 		- Akka is a framework for concurrent and distributed applications on the JVM.
@@ -611,9 +615,9 @@
 
 <img src ="./doc/pic/akka_1.png"></p>
 
-11. Others
+15. Others
 
-12. Spark basic
+16. Spark basic
 	- [Spark_basic_demo_1](./src/main/scala/SparkBasic/spark_basic_demo_1.scala) - Spark `function `basic demo
 	- [Spark_basic_demo_2](./src/main/scala/SparkBasic/spark_basic_demo_2.scala) - Spark `RDD basic op` demo : count avg friends by age
 		- [Spark_basic_demo_2 extra](./src/main/scala/SparkBasic/spark_basic_demo_2_extra.scala) - Extra : count avg friend by first name
