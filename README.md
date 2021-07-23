@@ -548,11 +548,12 @@
 	- MapReduce
 		- [wordCountScala1](./src/main/scala/ScalaBasic/wordCountScala1.scala)
 
-11. Scala ``Design Pattern`
+11. Scala `Design Pattern`
 	- Decorator
 		- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
 	- Factory
 		- [FactoryDemo1](./src/main/scala/ScalaBasic/FactoryDemo1.scala)
+
 12. Scala Script example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
 	- [Show run time elapse](./src/main/scala/ScalaBasic/runTimeElapse_demo1.scala) - show how long the code running in Scala
@@ -616,23 +617,6 @@
 <img src ="./doc/pic/akka_1.png"></p>
 
 15. Others
-
-16. Spark basic
-	- [Spark_basic_demo_1](./src/main/scala/SparkBasic/spark_basic_demo_1.scala) - Spark `function `basic demo
-	- [Spark_basic_demo_2](./src/main/scala/SparkBasic/spark_basic_demo_2.scala) - Spark `RDD basic op` demo : count avg friends by age
-		- [Spark_basic_demo_2 extra](./src/main/scala/SparkBasic/spark_basic_demo_2_extra.scala) - Extra : count avg friend by first name
-	- [Spark_basic_demo_3](./src/main/scala/SparkBasic/spark_basic_demo_3.scala) - Spark `RDD filter` demo : min temp on each station (weather data)
-	- [Spark_basic_demo_4](./src/main/scala/SparkBasic/spark_basic_demo_4.scala) - Spark `RDD flatMap` demo : word count (book data)
-		- [Spark_basic_demo_4 extra](./src/main/scala/SparkBasic/spark_basic_demo_4_extra.scala) - Extra : word count with `regular expression` preprocess
-	- [PopularMoviesNicer](./src/main/scala/SparkBasic/PopularMoviesNicer.scala) - Spark `broadcast` demo :  movie-lens data (ml-100k)
-	- [MostPopularSuperhero](./src/main/scala/SparkBasic/MostPopularSuperhero.scala) - `Lookup` values from `RDD` and `map them to another RDD`, and options method in Spark
-	- [DegreesOfSeparation](./src/main/scala/SparkBasic/DegreesOfSeparation.scala) - Code `BFS (Breadth-first search)`from scratch via spark 
-	- [MovieSimilarities](./src/main/scala/SparkBasic/MovieSimilarities.scala) - Code the `Collaborative filtering (CF)` (item based) from scratch via Spark 
-	- [SparkSQL](./src/main/scala/SparkBasic/SparkSQL.scala) - Spark SQL basic
-	- [DataFrames](./src/main/scala/SparkBasic/DataFrames.scala) - Spark `Dataset`, a important feature when in Spark-2.0/SparkMlib/Spark-stream
-	- [PopularMoviesDataSets](./src/main/scala/SparkBasic/PopularMoviesDataSets.scala) - Do the popular movie computation again via the `Spark datasets` 
-		- [PopularMovies](./src/main/scala/SparkBasic/PopularMovies.scala) - Original popular movie approach via Spark RDD
-	- [GraphX](./src/main/scala/SparkBasic/GraphX.scala) - Spark `GraphX` demo : compute the social network degree for the marvel heros
 
 ## Quick Start
 
