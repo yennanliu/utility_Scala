@@ -13,8 +13,8 @@ import util.control.Breaks._
 abstract class OrderPizza {
 
   // attr
-  var orderType:String = _
-  var pizza: Pizza = _
+  var orderType:String = null
+  var pizza: Pizza = null
 
   breakable{
     do{
