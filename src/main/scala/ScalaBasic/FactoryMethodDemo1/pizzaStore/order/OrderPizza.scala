@@ -1,27 +1,26 @@
 package ScalaBasic.FactoryMethodDemo1.pizzaStore.order
 
-// https://www.bilibili.com/video/BV12N411R726?p=254&spm_id_from=pageDriver
+// https://www.bilibili.com/video/BV12N411R726?p=255&spm_id_from=pageDriver
 
 /** class for ordering */
 
-import ScalaBasic.FactoryMethodDemo1.pizzaStore.pizza.{GreekPizza, PepperPizza, Pizza}
+import ScalaBasic.FactoryMethodDemo1.pizzaStore.pizza.Pizza
 
 import scala.io.StdIn
 import util.control.Breaks._
 
-class OrderPizza {
+/** here we make OrderPizza as abstract class */
+abstract class OrderPizza {
+
   // attr
   var orderType:String = _
   var pizza: Pizza = _
 
   breakable{
     do{
-      println("plz insert pizza type (Simple Factory Mood)")
+      println("plz insert pizza type (Factory Mood)")
       orderType = StdIn.readLine()
-      // NOTE : since SimplePizzaFactory is a factory
-      // so we can use it directly (no need to instantiate)
-      pizza = SimplePizzaFactory.createPizza(orderType)
-      // if null input, then will break the program
+      pizza = createPizza(orderType)
       if (pizza == null){
         break()
       }
@@ -30,5 +29,11 @@ class OrderPizza {
       this.pizza.cut()
       this.pizza.box()
     } while (true)
+  }
+
+  // method
+  /** abstract method. subclass will implement it */
+  def createPizza(t:String):Pizza{
+
   }
 }
