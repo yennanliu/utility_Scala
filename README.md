@@ -554,7 +554,11 @@
 	- Factory
 		- Simple Factory
 			- [SimpleFactoryDemo1](./src/main/scala/ScalaBasic/SimpleFactoryDemo1)
-
+		- Factory Method
+			- [FactoryMethodDemo1](./src/main/scala/ScalaBasic/FactoryMethodDemo1)
+			- Make instantiate methods as abstract methods, and implement in subclass
+			- Define the abstract method for instantiating object, and let subclass decide with class need to instantiate
+			- ``Delay class instantiation to subclass` 
 12. Scala Script example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
 	- [Show run time elapse](./src/main/scala/ScalaBasic/runTimeElapse_demo1.scala) - show how long the code running in Scala
