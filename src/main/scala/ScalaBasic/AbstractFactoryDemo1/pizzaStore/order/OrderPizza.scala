@@ -12,17 +12,16 @@ import util.control.Breaks._
 /**
  * OrderPizza class
  *
- * With `abstract factory`, when we order a pizza
- * ->
- * 1) get the subclass instance, based on the requirement
- * to implement the subclass
- *
+ *  With `abstract factory`, when we order a pizza
+ *  ->
+ *   1) get the subclass instance, based on the requirement
+ *   to implement the subclass
  *
  *
  */
 class OrderPizza {
 
-  def this(absFactory: AbsFactory) {
+  def this(absFactory: AbsFactory) { // polymorphism
     this
     breakable {
       // attr

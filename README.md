@@ -549,9 +549,17 @@
 		- [wordCountScala1](./src/main/scala/ScalaBasic/wordCountScala1.scala)
 
 11. Scala `Design Pattern`
+
 	- Decorator
 		- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala) - Scala `Decorator Design Pattern` example
+
 	- Factory
+		- Abstract the implemented classes, and put them into a class for better code maintenance, and management.
+		- We `DON'T instantiate` the subclass directly, but we `instantiate` its `factory`.
+		- 3 types of factory
+			- simple factory
+			- factory method
+			- abstract factory
 		- Simple Factory
 			- [SimpleFactoryDemo1](./src/main/scala/ScalaBasic/SimpleFactoryDemo1)
 		- Factory Method
