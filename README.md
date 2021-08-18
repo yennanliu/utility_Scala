@@ -575,6 +575,12 @@
 			- Abstract the factory to `2 layers`
 				- `AbsFactory`
 				- `ActualImplementSubcass`
+		- Singleton
+			- [SingletonDesignPattern1](./src/main/scala/ScalaBasic/SingletonDesignPattern1)
+			- Make sure `THERE IS ONLY 1 INSTANCE` in the software system
+			- Use cases
+				- SessionFactory in Hibernate
+				- ActorSystem in Akka 
 
 12. Scala Script example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
