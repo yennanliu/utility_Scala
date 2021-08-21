@@ -580,7 +580,13 @@
 			- Make sure `THERE IS ONLY 1 INSTANCE` in the software system
 			- Use cases
 				- SessionFactory in Hibernate
-				- ActorSystem in Akka 
+				- ActorSystem in Akka
+		- Decorator
+			- [Decorator1](./src/main/scala/ScalaBasic/Decorator1) 
+			- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala)
+			- Dynamically extend the features to new instances
+			- Implement the `Open-Closed Principle (OCP)`
+
 
 12. Scala Script example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
