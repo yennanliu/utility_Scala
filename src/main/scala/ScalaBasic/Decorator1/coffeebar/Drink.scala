@@ -1,10 +1,9 @@
-package ScalaBasic.Decorator1.coffeebar.myDecorator
+package ScalaBasic.Decorator1.coffeebar
 
 // https://www.bilibili.com/video/BV12N411R726?p=261
 
 /**
  *  1. Drink is an abstract class
- *
  */
 abstract class Drink {
   // attr

@@ -1,8 +1,6 @@
-package ScalaBasic.Decorator1.coffeebar.myDecorator
+package ScalaBasic.Decorator1.coffeebar
 
 import ScalaBasic.Decorator1.coffeebar.myCoffee.{DeCaf, LongBlack}
-
-// https://www.bilibili.com/video/BV12N411R726?p=261
 
 object CoffeeBar {
 

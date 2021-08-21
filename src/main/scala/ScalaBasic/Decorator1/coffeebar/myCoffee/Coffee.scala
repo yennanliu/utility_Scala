@@ -1,6 +1,6 @@
 package ScalaBasic.Decorator1.coffeebar.myCoffee
 
-import ScalaBasic.Decorator1.coffeebar.myDecorator.Drink
+import ScalaBasic.Decorator1.coffeebar.Drink
 
 // https://www.bilibili.com/video/BV12N411R726?p=261
 
