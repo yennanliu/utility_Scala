@@ -5,7 +5,7 @@ package ScalaBasic.Oversever1.localObserver
 /**
  *  this class offering weather data, maintained by Bureau of Meteorology
  */
-class weatherData {
+class WeatherData {
 
   // attr
   private var mTemperature: Float = _
