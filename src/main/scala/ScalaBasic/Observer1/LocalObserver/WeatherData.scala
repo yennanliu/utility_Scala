@@ -1,4 +1,4 @@
-package ScalaBasic.Oversever1.localObserver
+package ScalaBasic.Observer1.LocalObserver
 
 // https://www.bilibili.com/video/BV12N411R726?p=262
 

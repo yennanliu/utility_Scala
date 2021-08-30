@@ -586,8 +586,8 @@
 			- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala)
 			- Dynamically extend the features to new instances
 			- Implement the `Open-Closed Principle (OCP)`
-		- Oversever
-			- [Oversever1](./src/main/scala/ScalaBasic/Oversever1) 
+		- Observer
+			- [Observer1](./src/main/scala/ScalaBasic/Observer1) 
 
 
 12. Scala Script example
