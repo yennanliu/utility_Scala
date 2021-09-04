@@ -46,7 +46,6 @@ class WeatherDataSt extends Subject {
   override def registerObserver(o: Observer): Unit = {
     // add to mObservers
     mObservers.append(o)
-
   }
 
   // remove
