@@ -2,10 +2,7 @@ package ScalaBasic.OverseverPattern1
 
 // https://www.bilibili.com/video/BV12N411R726?p=263
 
-/**
- *  Bureau of Meteorology's bulletin board
- */
-class CurrentConditions extends Observer {
+class myCurrentConditions1 extends Observer {
 
   // attr
   private var mTemperature: Float = _
@@ -14,9 +11,9 @@ class CurrentConditions extends Observer {
 
   // method
   def display() = {
-    println("*** Today's mTemperature = " + mTemperature )
-    println("*** Today's mPressure = " + mPressure )
-    println("*** Today's mHumidity = " + mHumidity )
+    println("*** myCurrentCondition : Today's mTemperature = " + mTemperature )
+    println("*** myCurrentCondition: Today's mPressure = " + mPressure )
+    println("*** myCurrentCondition: Today's mHumidity = " + mHumidity )
   }
 
   override def update(mTemperature: Float, wPressure: Float, mHumidity: Float) = {

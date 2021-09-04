@@ -582,7 +582,8 @@
 				- SessionFactory in Hibernate
 				- ActorSystem in Akka
 		- Decorator
-			- [Decorator1](./src/main/scala/ScalaBasic/Decorator1) 
+			- [Decorator1](./src/main/scala/ScalaBasic/Decorator1)
+			- [OverseverPattern1](./src/main/scala/ScalaBasic/OverseverPattern1) 
 			- [DecoratorDesignPattern](./src/main/scala/ScalaBasic/DecoratorDesignPattern.scala)
 			- Dynamically extend the features to new instances
 			- Implement the `Open-Closed Principle (OCP)`
