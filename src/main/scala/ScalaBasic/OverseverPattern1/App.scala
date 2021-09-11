@@ -30,6 +30,6 @@ object App extends App {
   // create myCurrentConditions1 weather bulletin
   val myCurrentConditions1 = new myCurrentConditions1
   WeatherDataSt.registerObserver(myCurrentConditions1)
-  
+
   WeatherDataSt.setData(200,99,77)
 }

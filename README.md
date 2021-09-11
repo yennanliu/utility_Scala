@@ -588,7 +588,9 @@
 			- Dynamically extend the features to new instances
 			- Implement the `Open-Closed Principle (OCP)`
 		- Observer
-			- [Observer1](./src/main/scala/ScalaBasic/Observer1) 
+			- [Observer1](./src/main/scala/ScalaBasic/Observer1)
+		- Proxy
+			- [ProxyDesignPattern1](./src/main/scala/ScalaBasic/ProxyDesignPattern1)
 
 
 12. Scala Script example
