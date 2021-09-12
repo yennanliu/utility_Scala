@@ -1,24 +1,38 @@
 package ScalaBasic.ProxyDesignPattern2.rmi
 
 import java.rmi.Naming
-import java.rmi.registry.LocateRegistry
+import java.rmi.registry.{LocateRegistry, Registry}
 import java.rmi.server.UnicastRemoteObject
 
 // https://www.bilibili.com/video/BV12N411R726?p=267&spm_id_from=pageDriver
 
+// implement MyRemote trait
 class MyRemoteImplement extends UnicastRemoteObject with MyRemote {
   override def sayHello(): String = {
     "hello world :p :p :p"
   }
 }
 
+// register our service (sayHello)
 object MyRemoteImplement{
   def main(args: Array[String]): Unit = {
+
     val service:MyRemote = new MyRemoteImplement()
+
+    /**
+     *  Register method 0
+     *    - https://blog.csdn.net/ZT7524/article/details/103424260
+     */
     // binding the service with port 9999
+    val registry: Registry = LocateRegistry.createRegistry(9999)
+    registry.rebind("RemoteHello", service)
+
+    /** Register method 1 */
     //LocateRegistry.createRegistry(9999)
     //Naming.rebind("RemoteHello", service)
-    Naming.rebind("rmi://127.0.0.1:9999/RemoteHello", service)
-    println("remote service launch, at 127.0.0.1 with port 9999")
+
+    /** Register method 2 */
+    //Naming.rebind("rmi://127.0.0.1:9999/RemoteHello", service)
+    //println("remote service launch, at 127.0.0.1 with port 9999")
   }
 }
