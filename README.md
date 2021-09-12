@@ -591,7 +591,9 @@
 			- [Observer1](./src/main/scala/ScalaBasic/Observer1)
 		- Proxy
 			- [ProxyDesignPattern1](./src/main/scala/ScalaBasic/ProxyDesignPattern1)
-			- [ProxyDesignPattern2](./src/main/scala/ScalaBasic/ProxyDesignPattern2) : Remote Proxy -- RMI demo
+			- [ProxyDesignPattern2](./src/main/scala/ScalaBasic/ProxyDesignPattern2) : Remote Proxy -- RMI demo (remote method invocation)
+				- [remote-method-invocation-in-java](https://www.geeksforgeeks.org/remote-method-invocation-in-java/)
+				- RMI : via OOP, doing remote call (method)
 
 12. Scala Script example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example

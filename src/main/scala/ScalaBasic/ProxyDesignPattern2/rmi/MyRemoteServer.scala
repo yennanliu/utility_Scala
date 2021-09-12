@@ -7,17 +7,17 @@ import java.rmi.server.UnicastRemoteObject
 // https://www.bilibili.com/video/BV12N411R726?p=267&spm_id_from=pageDriver
 
 // implement MyRemote trait
-class MyRemoteImplement extends UnicastRemoteObject with MyRemote {
+class MyRemoteServer extends UnicastRemoteObject with MyRemote {
   override def sayHello(): String = {
     "hello world :p :p :p"
   }
 }
 
 // register our service (sayHello)
-object MyRemoteImplement{
+object MyRemoteServer{
   def main(args: Array[String]): Unit = {
 
-    val service:MyRemote = new MyRemoteImplement()
+    val service:MyRemote = new MyRemoteServer()
 
     /**
      *  Register method 0

@@ -6,7 +6,7 @@ import java.rmi.Naming
 
 /**
  * Note :
- * plz run the server first (MyRemoteImplement), so the client can get result from service via RMI call
+ * plz run the server first (MyRemoteServer), so the client can get result from service via RMI call
  */
 
 class MyRemoteClient{
@@ -20,6 +20,12 @@ class MyRemoteClient{
 // entry point
 object MyRemoteClient {
   def main(args: Array[String]): Unit = {
+
     new MyRemoteClient().go()
+
+//    for (i <- 1 to 5){
+//      new MyRemoteClient().go()
+//    }
+    
   }
 }
