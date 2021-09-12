@@ -591,7 +591,7 @@
 			- [Observer1](./src/main/scala/ScalaBasic/Observer1)
 		- Proxy
 			- [ProxyDesignPattern1](./src/main/scala/ScalaBasic/ProxyDesignPattern1)
-
+			- [ProxyDesignPattern2](./src/main/scala/ScalaBasic/ProxyDesignPattern2) : RMI demo
 
 12. Scala Script example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
