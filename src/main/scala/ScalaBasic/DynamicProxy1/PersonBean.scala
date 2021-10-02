@@ -6,13 +6,13 @@ package ScalaBasic.DynamicProxy1
 trait PersonBean {
 
   // getter, setter
-  def gatName():String
+  def getName():String
 
-  def gatGender():String
+  def getGender():String
 
-  def gatInterests:String
+  def getInterests():String
 
-  def gatScore():Int
+  def getScore():Int
 
   def setName(name:String)
 

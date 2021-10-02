@@ -12,14 +12,16 @@ class MatchService {
   // get our own proxy (represents the tom instance)
   val OwnerProxy = getOwnerProxy(tom)
 
-  println("Name = " + OwnerProxy.gatName()) // tom
-  //println("Interests = " + OwnerProxy.gatInterests()) // cook
+  println("Name = " + OwnerProxy.getName()) // tom
+  println("Interests = " + OwnerProxy.getInterests()) // cook
+
+  println("Gender = " + OwnerProxy.getGender())
 
   OwnerProxy.setInterests("hiking")
- //println("Interests = " + OwnerProxy.gatInterests()) // hiking
+  println("Interests = " + OwnerProxy.getInterests()) // hiking
 
   OwnerProxy.setScore(100)
-  //println("Score = " + OwnerProxy.gatScore()) // still 0
+  println("Score = " + OwnerProxy.getScore()) // still 0
 
   // method
 
@@ -28,7 +30,7 @@ class MatchService {
     person.setName(name)
     person.setGender(gender)
     person.setInterests(interests)
-
+    
     person
   }
 

@@ -12,20 +12,20 @@ class PersonBeanImplement extends PersonBean {
   var score:Int = _
 
   // method
-  override def gatName(): String = {
+  override def getName(): String = {
     name
   }
 
-  override def gatGender(): String = {
+  override def getGender(): String = {
     gender
   }
 
   // can be used by ourselves, but CAN'T be used by OTHER users
-  override def gatInterests: String = {
+  override def getInterests(): String = {
     interests
   }
 
-  override def gatScore(): Int = {
+  override def getScore(): Int = {
     score
   }
 
