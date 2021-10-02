@@ -33,7 +33,7 @@ class OwnerInvocationHandler extends InvocationHandler{
       return new IllegalAccessException()
 
     // if `set` method, then we invoke directly
-    } else if (method.getName().equals("set")){
+    } else if (method.getName().startsWith("set")){
       return method.invoke(person, args(0).toString)
     }
     null
