@@ -26,6 +26,6 @@ object MyRemoteClient {
 //    for (i <- 1 to 5){
 //      new MyRemoteClient().go()
 //    }
-    
+
   }
 }
