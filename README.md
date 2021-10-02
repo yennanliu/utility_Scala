@@ -595,7 +595,14 @@
 				- [remote-method-invocation-in-java](https://www.geeksforgeeks.org/remote-method-invocation-in-java/)
 				- RMI : via OOP, doing remote call (method)
 			- [DynamicProxy1](./src/main/scala/ScalaBasic/DynamicProxy1)
-				- [ref]("./doc/pic/dynamic_proxy.png")
+				- [dynamic_proxy pic](https://github.com/yennanliu/utility_Scala/blob/master/doc/pic/dynamic_proxy.png)
+				- why `dynamic proxy` ?
+					- we don't want app access realObject instance directly, so we use dynamic proxy
+				- proxy + InvocationHandler as proxy role
+				- dynamic proxy can be multiple combinations per case
+				- summary : 
+					- 1. a proxy instance represents real obj instance
+					- 2. control above via "relection mechanisms"
 
 12. Scala Script example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
