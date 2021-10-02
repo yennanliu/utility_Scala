@@ -595,6 +595,7 @@
 				- [remote-method-invocation-in-java](https://www.geeksforgeeks.org/remote-method-invocation-in-java/)
 				- RMI : via OOP, doing remote call (method)
 			- [DynamicProxy1](./src/main/scala/ScalaBasic/DynamicProxy1)
+				- [ref]("./doc/pic/dynamic_proxy.png")
 
 12. Scala Script example
 	- [DirectoryOP](./src/main/scala/ScalaBasic/DirectoryOP.scala) - Scala `Directory OP` example
