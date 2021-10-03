@@ -537,6 +537,7 @@
 		- [GenericTypeParam](./src/main/scala/ScalaBasic/GenericTypeParam.scala) - Scala `Generic Type` basic op, properties, e.g. : ``` def exec[T](f: () => T): T = {f()}```
 		- [GeneralClass1](./src/main/scala/ScalaBasic/GeneralClass1.scala)
 		- [GeneralClass2](./src/main/scala/ScalaBasic/GeneralClass2.scala)
+		- [Generic1](./src/main/scala/ScalaAdvance/Generic1)
 		- Scala has `Generic` in `class, func, method`
 		- [generic classes](https://docs.scala-lang.org/tour/generic-classes.html)
 		- `Generic classes` are classes which take a type as a parameter. They are particularly useful for collection classes.
