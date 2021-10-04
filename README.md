@@ -148,6 +148,7 @@
 		- [ForLoop2](./src/main/scala/ScalaBasic/ForLoop2.scala)
 		- [ForLoop3](./src/main/scala/ScalaBasic/ForLoop3.scala)
 		- [ForLoop4](./src/main/scala/ScalaBasic/ForLoop4.scala)
+		- [ForLoop5](./src/main/scala/ScalaBasic/ForLoop5.scala)
 
 5. Scala basic  -  function, class, case class, constructor...
 	- Class
