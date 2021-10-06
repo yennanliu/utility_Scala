@@ -37,7 +37,7 @@ object CaseClass9 extends App {
   // map
   val my_data_set2 = my_data_set.map{
     x => {
-      (x.a :+100,x.b+1, x.c)
+      myClass_9(x.a :+100,x.b+1, x.c)  // put transformed values into myClass_9 case class
     }
   }
 
@@ -46,6 +46,7 @@ object CaseClass9 extends App {
 
 // user defined class
 class myConsumerRecord{
+  // attr
   var x:String = _
   var y:Int = _
 
