@@ -5,9 +5,7 @@ import scala.collection.mutable.ListBuffer
 
 object CaseClass9 extends App {
 
-  /** demo 1 */
-  // run
-  // init
+  /** demo 1 : init data with case class */
   val my_data = myClass_9(ListBuffer(1,2,3), "123", new myConsumerRecord("hi!!", 123))
 
   println(my_data)
@@ -17,9 +15,13 @@ object CaseClass9 extends App {
 
   println(1.toString)
 
-  println("==============")
+  val val1 = new myConsumerRecord(x="hi!!", y=123)
+  println(val1.x)
+  println(val1.y)
 
-  /** demo 2 */
+  println("=================================")
+
+  /** demo 2 : put data into ListBuffer */
   // loop
   val my_data_set = ListBuffer(
     myClass_9(ListBuffer(1,2,3), "123", new myConsumerRecord("hi!!", 123)),
@@ -29,15 +31,34 @@ object CaseClass9 extends App {
 
   println("my_data_set = " +  my_data_set)
 
-  println("==============")
+  println("=================================")
 
-  /** demo 3 */
+  /** demo 3 : implement map on ListBuffer */
   // map
+  val my_data_set2 = my_data_set.map{
+    x => {
+      (x.a :+100,x.b+1, x.c)
+    }
+  }
 
+  println("my_data_set2 =  " + my_data_set2)
 }
 
-class myConsumerRecord(x:String, y:Int)
+// user defined class
+class myConsumerRecord{
+  var x:String = _
+  var y:Int = _
 
+  // constructor
+  // https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ClassDemo2/User.scala
+  def this(x:String, y:Int){
+    this
+    this.x = x
+    this.y = y
+  }
+}
+
+// user defined case class
 case class myClass_9 (
                    a:ListBuffer[Int],
                    b:String,
