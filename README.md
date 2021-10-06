@@ -169,6 +169,7 @@
 		- [Case Class6](./src/main/scala/ScalaBasic/CaseClass6.scala) - Pattern match : case class nested structure 2
 		- [Case Class7](./src/main/scala/ScalaBasic/CaseClass7.scala) - case class enumeration
 		- [Case Class8](./src/main/scala/ScalaBasic/CaseClass8.scala) - case class enumeration
+		- [Case Class9](./src/main/scala/ScalaBasic/CaseClass9.scala) - case class with user defined class
 		- case class is still class
 		- decorate class via case
 		- for `pattern match` purpose
