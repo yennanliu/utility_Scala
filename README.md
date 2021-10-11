@@ -549,7 +549,7 @@
 			- [ref1](https://docs.scala-lang.org/tour/generic-classes.html)
 			- [ref](https://blog.csdn.net/jameshadoop/article/details/56290302)
 	- Upper bounds / Lower bounds
-		- [UpperLowerBounds1](./src/main/scala/ScalaAdvance/UpperLowerBounds1)
+		- [UpperLowerBounds1](src/main/scala/ScalaAdvance/UpperBounds1)
 	- MapReduce
 		- [wordCountScala1](./src/main/scala/ScalaBasic/wordCountScala1.scala)
 

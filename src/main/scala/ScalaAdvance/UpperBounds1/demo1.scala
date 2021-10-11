@@ -1,4 +1,4 @@
-package ScalaAdvance.UpperLowerBounds1
+package ScalaAdvance.UpperBounds1
 
 // https://www.bilibili.com/video/BV12N411R726?p=274
 
@@ -12,29 +12,29 @@ package ScalaAdvance.UpperLowerBounds1
  *      (or _ <: A) (general form)
  */
 
-object upperBoundsDemo1 extends App {
+object demo1 extends App {
   // run
 
-  /** demo 1 */
+  /** demo 1 : traditional way */
   val r1 = new CompareInt(10, 20)
   println("greater Int = " + r1.greater)
 
   println("========================")
 
-  /** demo 2 */
+  /** demo 2 : Upper bounds with Int */
   //val r2 = new CompareCommon(10,20) // NOT work, since Int class is NOT implement comparable method
   val r2 = new CompareCommon(Integer.valueOf(10), Integer.valueOf(20)) // this one works, since Integer class already implemented comparable method (Integer.valueOf is a java class)
   println("greater Int =  " + r2.greater)
 
   println("========================")
 
-  /** demo 3 */
+  /** demo 3 : Upper bounds with Float */
   val r3 = new CompareCommon(java.lang.Float.valueOf(10.1f), java.lang.Float.valueOf(20.1f)) // this one works, since Integer class already implemented comparable method
   println("greater Int =  " + r3.greater)
 
   println("========================")
 
-  /** demo 4 : via generic type and implicit transform (scala float -> java float) */
+  /** demo 4 : Upper bounds via generic type and implicit transform (scala float -> java float) */
   val r4 = new CompareCommon[java.lang.Float](10.1f, 20.1f) // this one works, since Integer class already implemented comparable method
   println("greater Int =  " + r4.greater)
 
