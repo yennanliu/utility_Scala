@@ -18,7 +18,7 @@ package ScalaAdvance.LowerBounds1
  *  3) consider ` T >: A`, if T is not "A family" (e.g. not parent/child class of A)
  *     -> scala will treat ALL OF T as `Object` class
  *
- *  2) Lower bounds in java
+ *  4) Lower bounds in java
  *    - T super A
  *    ( or ? super A) (general form)
  *     -> T is A's parent class
