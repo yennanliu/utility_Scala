@@ -551,7 +551,9 @@
 	- Upper bounds
 		- [UpperLowerBounds1](src/main/scala/ScalaAdvance/UpperBounds1)
 	- Lower bounds
-		- [LowerBounds1](src/main/scala/ScalaAdvance/LowerBounds1)	
+		- [LowerBounds1](src/main/scala/ScalaAdvance/LowerBounds1)
+	- View bounds
+		- [ViewBounds1](src/main/scala/ScalaAdvance/ViewBounds1)
 	- MapReduce
 		- [wordCountScala1](./src/main/scala/ScalaBasic/wordCountScala1.scala)
 
