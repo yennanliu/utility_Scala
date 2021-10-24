@@ -39,6 +39,8 @@ class Person(val name:String, val age:Int) extends Ordered[Person]{
  *  1) T <% Ordered[T] : T is Ordered's sub type, it implements java.lang.Comparable interface
  *
  *  2) compareTo in getter2 is T object's method
+ *
+ *  3) java.lang.Comparable ref : https://www.youtube.com/watch?v=n3xOIVricqQ&list=PLmOn9nNkQxJH0qBIrtV6otI0Ep4o2q67A&index=489
  */
 class CompareComm2[T <% Ordered[T]](obj1:T, obj2:T){
 
