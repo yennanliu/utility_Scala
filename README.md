@@ -554,6 +554,7 @@
 		- [LowerBounds1](src/main/scala/ScalaAdvance/LowerBounds1)
 	- View bounds
 		- [ViewBounds1](src/main/scala/ScalaAdvance/ViewBounds1)
+			- 3 view bounds examples
 	- MapReduce
 		- [wordCountScala1](./src/main/scala/ScalaBasic/wordCountScala1.scala)
 

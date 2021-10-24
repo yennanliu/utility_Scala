@@ -2,6 +2,8 @@ package ScalaAdvance.ViewBounds1
 
 // https://www.bilibili.com/video/BV12N411R726?p=278&spm_id_from=pageDriver
 
+/** View bounds demo 2 : extend Ordered */
+
 // entry point
 object demo2 extends App {
 

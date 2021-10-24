@@ -2,6 +2,8 @@ package ScalaAdvance.ViewBounds1
 
 // https://www.bilibili.com/video/BV12N411R726?p=277
 
+/** View bounds demo 1 : basics */
+
 /**
  *  View Bounds
  *
