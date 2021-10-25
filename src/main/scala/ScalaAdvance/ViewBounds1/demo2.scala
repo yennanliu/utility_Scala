@@ -40,7 +40,10 @@ class Person(val name:String, val age:Int) extends Ordered[Person]{
  *
  *  2) compareTo in getter2 is T object's method
  *
- *  3) java.lang.Comparable ref : https://www.youtube.com/watch?v=n3xOIVricqQ&list=PLmOn9nNkQxJH0qBIrtV6otI0Ep4o2q67A&index=489
+ *  3) java ref
+ *       - java.lang.Comparable ref : https://www.youtube.com/watch?v=n3xOIVricqQ&list=PLmOn9nNkQxJH0qBIrtV6otI0Ep4o2q67A&index=489
+ *       - java.lang.Comparator ref : https://www.youtube.com/watch?v=PArFjm04xkg&list=PLmOn9nNkQxJH0qBIrtV6otI0Ep4o2q67A&index=491
+ *
  */
 class CompareComm2[T <% Ordered[T]](obj1:T, obj2:T){
 
