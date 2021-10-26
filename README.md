@@ -7,15 +7,15 @@
 - [Scala mutable/immutable collection map](https://docs.scala-lang.org/tutorials/FAQ/collections.html)
 
 
-### General dtype
-<p align="center"><img src ="./doc/pic/scala_data_type.svg" width="1000" height="500"></p>
+### General Type
+<p align="center"><img src ="./doc/pic/scala_data_type_2.svg" width="1000" height="500"></p>
 
 
 ### Immutable
 <p align="center"><img src ="./doc/pic/scala-immutable.svg"></p>
 
 
-### mutable
+### Mutable
 <p align="center"><img src ="./doc/pic/scala-mutable.svg"></p>
 
 
