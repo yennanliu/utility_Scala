@@ -15,7 +15,7 @@ object demo3 extends App {
 
   val compareComm3 = new CompareComm3(p1, p2)
 
-  println(compareComm3.getter)
+  println(compareComm3.greater)
 }
 
 
@@ -32,11 +32,11 @@ class Person3(val name:String, val age:Int){
 
 class CompareComm3[T <% Ordered[T]](obj1:T, obj2:T){
 
-  def getter = {
+  def greater = {
     if (obj1 > obj2) obj1 else obj2
   }
 
-  def getter2 = {
+  def greater2 = {
     if (obj1.compareTo(obj2) > 0) obj1 else obj2
   }
 }

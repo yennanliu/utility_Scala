@@ -8,7 +8,7 @@ package ScalaAdvance.ContextBound1
  *     1) similar as view bounds, context bounds is also a `language sugar` of implicit parameters
  *
  *
- *  Note : Difference between `Ordered` and `Ordering`:
+ *     Note : Difference between `Ordered` and `Ordering`:
  *
  *        -> Ordered : inherits from java's Comparable interface,
  *                     Comparable is an "internal" comparator, override CompareTo method
@@ -36,9 +36,18 @@ object demo1 {
     // -------------------
     val p1 = new Person("JAY",19)
     val p2 = new Person("lynn",20)
+    // note : we have implicit parameter (personComparator), so generic is NOT NEEDED here
     val compareComm4 = new CompareComm4(p1, p2)
-    println(compareComm4.getter)
-    
+    println(compareComm4.greater)
+
+
+    println("--------------------------")
+
+    // -------------------
+    // demo 2
+    // -------------------
+
+
   }
 }
 
@@ -59,9 +68,23 @@ class Person(val name:String, val age:Int) {
  *          -> if there is any obj with type Ordering[T] in code, then such obj will be sent to this class automatically
  */
 class CompareComm4[T:Ordering](obj1:T, obj2:T)(implicit comparator:Ordering[T]){
-  def getter = {
+  def greater = {
     if (comparator.compare(obj1, obj2) > 0 ){
       obj1
     }else obj2
+  }
+}
+
+
+/**
+ *   Approach 2) : put implicit parameter into method
+ *
+ */
+class CompareComm5[T:Ordering](o1:T, o2:T){
+  def greater ={
+    def f1(implicit cmptor:Ordering[T]) = {
+      cmptor.compare(o1,o2)
+    }
+    if (f1 > 0) o1 else o2
   }
 }

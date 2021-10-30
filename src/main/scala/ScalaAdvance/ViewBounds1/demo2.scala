@@ -12,14 +12,14 @@ object demo2 extends App {
 
   val compareComm2 = new CompareComm2(p1, p2)
 
-  println(compareComm2.getter) // jim 30
+  println(compareComm2.greater) // jim 30
 
   println("====================")
 
   val cat1 = new Cat("jerry")
   val cat2 = new Cat("tom")
 
-  println(new CompareComm2(cat1,cat2).getter.name) // jerry
+  println(new CompareComm2(cat1,cat2).greater.name) // jerry
 }
 
 class Person(val name:String, val age:Int) extends Ordered[Person]{
@@ -47,11 +47,11 @@ class Person(val name:String, val age:Int) extends Ordered[Person]{
  */
 class CompareComm2[T <% Ordered[T]](obj1:T, obj2:T){
 
-  def getter = {
+  def greater = {
     if (obj1 > obj2) obj1 else obj2
   }
 
-  def getter2 = {
+  def greater2 = {
     if (obj1.compareTo(obj2) > 0) obj1 else obj2
   }
 }
