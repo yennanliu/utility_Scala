@@ -46,8 +46,19 @@ object demo1 {
     // -------------------
     // demo 2
     // -------------------
+    val compareComm5 = new CompareComm5(p1, p2)
+    println(compareComm5.greater)
 
+    println("--------------------------")
 
+    // -------------------
+    // demo 3
+    // -------------------
+
+    println("(main func) personComparator hashcode = " + personComparator.hashCode())
+
+    val compareComm6 = new CompareComm6(p1, p2)
+    println(compareComm6.greater)
   }
 }
 
@@ -78,13 +89,36 @@ class CompareComm4[T:Ordering](obj1:T, obj2:T)(implicit comparator:Ordering[T]){
 
 /**
  *   Approach 2) : put implicit parameter into method
- *
  */
 class CompareComm5[T:Ordering](o1:T, o2:T){
   def greater ={
+    // f1 will return an integer
+    // (0 : o1 == o2, 1 : o1> > o2, -1: o1 < o2)
     def f1(implicit cmptor:Ordering[T]) = {
       cmptor.compare(o1,o2)
     }
     if (f1 > 0) o1 else o2
+  }
+
+  // extra
+  def lower ={
+    def f1(implicit cmptor:Ordering[T]) = {
+      cmptor.compare(o1,o2)
+    }
+    if (f1 > 0) o2 else o1
+  }
+}
+
+/**
+ *   Approach 3) : use implicitly language sugar, simplest (recommend to use!)
+ */
+class CompareComm6[T:Ordering](o1:T, o2:T){
+  def greater = {
+    val comparator = implicitly[Ordering[T]]
+    // below code will make an implicit transformation,
+    // get the implicit value (personComparator)
+    // above process (binding value) is operated by compiler under the hood (during compile)
+    println("(CompareComm6) CompareComm6 comparator = " +  comparator.hashCode())
+    if (comparator.compare(o1, o2) > 0) o1 else o2
   }
 }

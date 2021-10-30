@@ -555,6 +555,9 @@
 	- View bounds
 		- [ViewBounds1](src/main/scala/ScalaAdvance/ViewBounds1)
 			- 3 view bounds examples
+	- Context bounds
+		- [ContextBound1](src/main/scala/ScalaAdvance/ContextBound1)
+			- Context bound examples			
 	- MapReduce
 		- [wordCountScala1](./src/main/scala/ScalaBasic/wordCountScala1.scala)
 
