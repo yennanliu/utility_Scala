@@ -490,7 +490,7 @@
 	- [Implicit_Demo1](./src/main/scala/ScalaBasic/Implicit_Demo1.scala)
 	- [Implicit_Demo2](./src/main/scala/ScalaBasic/Implicit_Demo2.scala)
 	- [Implicit_Demo3](./src/main/scala/ScalaBasic/Implicit_Demo3.scala)
-	- [Implicit_Demo4](./src/main/scala/ScalaBasic/Implicit_Demo4.scala)
+	- [Implicit_Demo4](./src/main/scala/ScalaBasic/Implicit_Demo4.scala) : implicit parameter
 	- [Implicit_Demo5](./src/main/scala/ScalaBasic/Implicit_Demo5.scala)
 	- [Implicit_Demo6](./src/main/scala/ScalaBasic/Implicit_Demo6.scala)
 	- [Implicit_Demo7](./src/main/scala/ScalaBasic/Implicit_Demo7.scala)

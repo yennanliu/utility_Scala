@@ -2,6 +2,13 @@ package ScalaBasic
 
 // https://www.youtube.com/watch?v=smtulYDn7OU&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=172
 
+/**
+ *  Implicit Demo 4 :
+ *
+ *  1) implicit parameter
+ */
+
+
 object Implicit_4 extends App {
   // run
   val db1 = new DB1(new MySql1)
@@ -14,7 +21,6 @@ object Implicit_4 extends App {
    *
    *  1) will make a .class implicitClass$DB1$2 under the hood
    *  2) and also make a method : DB1$1 // via implicitClass$DB1$2 constructor, return implicit class instance
-   *
    */
   // implicit class
   implicit class DB1(val m: MySql1) {
