@@ -557,7 +557,10 @@
 			- 3 view bounds examples
 	- Context bounds
 		- [ContextBound1](src/main/scala/ScalaAdvance/ContextBound1)
-			- Context bound examples			
+			- Context bound examples
+	- Covariant Contravariant Invariant
+		- [CovariantContravariantInvariant](src/main/scala/ScalaAdvance/CovariantContravariantInvariant)
+			- Covariant Contravariant Invariant demo		
 	- MapReduce
 		- [wordCountScala1](./src/main/scala/ScalaBasic/wordCountScala1.scala)
 
@@ -860,6 +863,8 @@ rm .idea
 	- https://www.tutorialspoint.com/scala/
 	- http://www.runoob.com/scala/scala-basic-syntax.html
 	- https://ithelp.ithome.com.tw/users/20107343/ironman/1301?page=1
+	- https://www.baeldung.com/scala/category/scala-basics
+		- code : https://github.com/Baeldung/scala-tutorials
 
 - Tour on Scala
 	- https://docs.scala-lang.org/tour/tour-of-scala.html
