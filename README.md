@@ -528,6 +528,8 @@
 	- [OOP hw 1](./src/main/scala/ScalaHomework) 
 
 10. Scala advance
+	- Package object
+		- [demo](./src/main/scala/ScalaAdvance/PackageDemo)
 	- Parallel
 		- [parallel_Demo_1](./src/main/scala/ScalaAdvance/parallel_Demo_1.scala)
 		- Scala offers the `parallel` collections that can be processed in `parallel` with machines have multi-core CPU
